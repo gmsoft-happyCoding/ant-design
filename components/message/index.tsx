@@ -3,7 +3,7 @@ import * as React from 'react';
 import Notification from 'rc-notification';
 import Icon from '../icon';
 
-let defaultDuration = 3;
+let defaultDuration = 4;
 let defaultTop: number;
 let messageInstance: any;
 let key = 1;

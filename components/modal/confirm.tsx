@@ -104,7 +104,6 @@ const ConfirmDialog = (props: ConfirmDialogProps) => {
           <div className={`${contentPrefixCls}-content`}>{props.content}</div>
         </div>
         <div className={`${contentPrefixCls}-btns`}>
-          {cancelButton}
           <ActionButton
             type={okType}
             actionFn={onOk}
@@ -114,6 +113,7 @@ const ConfirmDialog = (props: ConfirmDialogProps) => {
           >
             {okText}
           </ActionButton>
+          {cancelButton}
         </div>
       </div>
     </Dialog>

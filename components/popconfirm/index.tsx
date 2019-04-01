@@ -118,11 +118,11 @@ class Popconfirm extends React.Component<PopconfirmProps, PopconfirmState> {
             <div className={`${prefixCls}-message-title`}>{title}</div>
           </div>
           <div className={`${prefixCls}-buttons`}>
-            <Button onClick={this.onCancel} size="small" {...cancelButtonProps}>
-              {cancelText || popconfirmLocale.cancelText}
-            </Button>
             <Button onClick={this.onConfirm} type={okType} size="small" {...okButtonProps}>
               {okText || popconfirmLocale.okText}
+            </Button>
+            <Button onClick={this.onCancel} size="small" {...cancelButtonProps}>
+              {cancelText || popconfirmLocale.cancelText}
             </Button>
           </div>
         </div>

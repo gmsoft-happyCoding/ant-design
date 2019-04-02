@@ -3,6 +3,7 @@ import * as PropTypes from 'prop-types';
 import classNames from 'classnames';
 import { polyfill } from 'react-lifecycles-compat';
 import Group from './button-group';
+import { CustomButton } from './button-custom';
 import omit from 'omit.js';
 import Icon from '../icon';
 import { ConfigConsumer, ConfigConsumerProps } from '../config-provider';
@@ -84,6 +85,15 @@ interface ButtonState {
 
 class Button extends React.Component<ButtonProps, ButtonState> {
   static Group: typeof Group;
+  static Save: CustomButton;
+  static Submit: CustomButton;
+  static Cancel: CustomButton;
+  static Delete: CustomButton;
+  static Upload: CustomButton;
+  static Download: CustomButton;
+  static Edit: CustomButton;
+  static Search: CustomButton;
+  static View: CustomButton;
   static __ANT_BUTTON = true;
 
   static defaultProps = {

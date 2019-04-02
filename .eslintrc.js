@@ -15,6 +15,7 @@ const eslintrc = {
     'react/forbid-prop-types': 0,
     'react/jsx-indent': 0,
     'react/jsx-wrap-multilines': ['error', { declaration: false, assignment: false }],
+    'import/named': 0,
     'import/no-extraneous-dependencies': [
       'error',
       {
@@ -29,7 +30,7 @@ const eslintrc = {
         ],
       },
     ],
-    'react/jsx-filename-extension': [1, { extensions: ['.js', '.jsx', '.md'] }],
+    'react/jsx-filename-extension': [1, { extensions: ['.js', '.jsx', '.ts', '.tsx', '.md'] }],
     'jsx-a11y/no-static-element-interactions': 0,
     'jsx-a11y/anchor-has-content': 0,
     'jsx-a11y/click-events-have-key-events': 0,

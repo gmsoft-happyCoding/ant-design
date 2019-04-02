@@ -48,14 +48,10 @@ You can subscribe to this feed for new version notifications: https://github.com
 
 ### Using npm or yarn
 
-**We recommend using npm or yarn to install**, it not only makes development easier, but also allow you to take advantage of the rich ecosystem of Javascript packages and tooling.
+**We recommend using yarn to install**, it not only makes development easier, but also allow you to take advantage of the rich ecosystem of Javascript packages and tooling.
 
 ```bash
-$ npm install antd
-```
-
-```bash
-$ yarn add antd
+$ yarn add antd --registry http://192.168.2.11:4873
 ```
 
 If you are in a bad network environment, you can try other registries and tools like [cnpm](https://github.com/cnpm/cnpm).

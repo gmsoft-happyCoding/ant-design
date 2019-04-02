@@ -49,7 +49,7 @@ $ yarn start
 现在从 yarn 或 npm 安装并引入 antd。
 
 ```bash
-$ yarn add antd
+$ yarn add antd --registry http://192.168.2.11:4873
 ```
 
 修改 `src/App.js`，引入 antd 的按钮组件。

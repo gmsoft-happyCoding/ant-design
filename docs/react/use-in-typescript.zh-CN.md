@@ -35,7 +35,7 @@ $ yarn start
 ## 引入 antd
 
 ```bash
-$ yarn add antd
+$ yarn add antd --registry http://192.168.2.11:4873
 ```
 
 修改 `src/App.tsx`，引入 antd 的按钮组件。

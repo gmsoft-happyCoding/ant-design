@@ -35,7 +35,7 @@ Open browser at http://localhost:3000/, it renders a header saying "Welcome to R
 ## Import antd
 
 ```bash
-$ yarn add antd
+$ yarn add antd --registry http://192.168.2.11:4873
 ```
 
 Modify `src/App.tsx`, import Button component from `antd`.

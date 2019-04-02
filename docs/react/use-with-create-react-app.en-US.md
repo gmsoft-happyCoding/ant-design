@@ -50,7 +50,7 @@ Below is the default directory structure.
 Now we install `antd` from yarn or npm.
 
 ```bash
-$ yarn add antd
+$ yarn add antd --registry http://192.168.2.11:4873
 ```
 
 Modify `src/App.js`, import Button component from `antd`.

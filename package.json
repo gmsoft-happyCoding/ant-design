@@ -1,6 +1,6 @@
 {
   "name": "antd",
-  "version": "3.16.1-custom.1",
+  "version": "3.16.2-custom.0",
   "title": "Ant Design",
   "description": "An enterprise-class UI design language and React-based implementation",
   "homepage": "http://192.168.2.11:9528",
@@ -18,6 +18,9 @@
   "contributors": [
     "ant"
   ],
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/gmsoft-happyCoding/ant-design"
@@ -94,7 +97,7 @@
   },
   "devDependencies": {
     "@ant-design/colors": "^2.0.0",
-    "@sentry/browser": "^4.5.2",
+    "@sentry/browser": "^5.0.3",
     "@types/classnames": "^2.2.6",
     "@types/prop-types": "^15.5.6",
     "@types/react": "~16.8.1",
@@ -104,7 +107,7 @@
     "@yesmeck/offline-plugin": "^5.0.5",
     "ansi-styles": "^3.2.1",
     "antd-theme-generator": "^1.1.4",
-    "antd-tools": "^7.1.2",
+    "antd-tools": "^7.3.0",
     "babel-eslint": "^10.0.1",
     "babel-plugin-add-react-displayname": "^0.0.5",
     "bisheng": "^1.1.0",
@@ -127,6 +130,7 @@
     "eslint-config-prettier": "^4.0.0",
     "eslint-plugin-babel": "^5.2.1",
     "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jest": "^22.4.1",
     "eslint-plugin-jsx-a11y": "^6.1.2",
     "eslint-plugin-markdown": "~1.0.0-beta.6",
     "eslint-plugin-react": "^7.11.1",

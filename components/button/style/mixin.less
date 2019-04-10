@@ -1,6 +1,7 @@
 // mixins for button
 // ------------------------
-.button-size(@height; @padding; @font-size; @border-radius) {
+.button-size(@height; @padding; @font-size; @border-radius; @min-width: auto) {
+  min-width: @min-width;
   height: @height;
   padding: @padding;
   font-size: @font-size;
@@ -135,12 +136,12 @@
   // size
   &-lg > .@{btnClassName},
   &-lg > span > .@{btnClassName} {
-    .button-size(@btn-height-lg; @btn-padding-lg; @btn-font-size-lg; 0);
+    .button-size(@btn-height-lg; @btn-padding-lg; @btn-font-size-lg; 0; 100px);
     line-height: @btn-height-lg - 2px;
   }
   &-sm > .@{btnClassName},
   &-sm > span > .@{btnClassName} {
-    .button-size(@btn-height-sm; @btn-padding-sm; @font-size-base; 0);
+    .button-size(@btn-height-sm; @btn-padding-sm; @font-size-base; 0; 60px);
     line-height: @btn-height-sm - 2px;
     > .@{iconfont-css-prefix} {
       font-size: @font-size-base;
@@ -162,7 +163,7 @@
   transition: all 0.3s @ease-in-out;
   user-select: none;
   touch-action: manipulation;
-  .button-size(@btn-height-base; @btn-padding-base; @font-size-base; @btn-border-radius-base);
+  .button-size(@btn-height-base; @btn-padding-base; @font-size-base; @btn-border-radius-base; 80px);
   > .@{iconfont-css-prefix} {
     line-height: 1;
   }
@@ -186,10 +187,12 @@
     }
   }
   &-lg {
-    .button-size(@btn-height-lg; @btn-padding-lg; @btn-font-size-lg; @btn-border-radius-base);
+    .button-size(
+      @btn-height-lg; @btn-padding-lg; @btn-font-size-lg; @btn-border-radius-base; 100px
+    );
   }
   &-sm {
-    .button-size(@btn-height-sm; @btn-padding-sm; @btn-font-size-sm; @btn-border-radius-sm);
+    .button-size(@btn-height-sm; @btn-padding-sm; @btn-font-size-sm; @btn-border-radius-sm; 60px);
   }
 }
 // primary button style
@@ -222,7 +225,7 @@
 }
 // round button
 .btn-round(@btnClassName: btn) {
-  .button-size(@btn-circle-size; 0 @btn-circle-size / 2; @font-size-base + 2px; @btn-circle-size);
+  .button-size(@btn-circle-size; 0 @btn-circle-size / 2; @font-size-base + 2px; @btn-circle-size;);
   &.@{btnClassName}-lg {
     .button-size(
       @btn-circle-size-lg; 0 @btn-circle-size-lg / 2; @btn-font-size-lg + 2px; @btn-circle-size-lg
@@ -237,7 +240,7 @@
 // circle button: the content only contains icon
 .btn-circle(@btnClassName: btn) {
   .square(@btn-circle-size);
-  .button-size(@btn-circle-size; 0; @font-size-base + 2px; 50%);
+  .button-size(@btn-circle-size; 0; @font-size-base + 2px; 50%;);
   &.@{btnClassName}-lg {
     .square(@btn-circle-size-lg);
     .button-size(@btn-circle-size-lg; 0; @btn-font-size-lg + 2px; 50%);

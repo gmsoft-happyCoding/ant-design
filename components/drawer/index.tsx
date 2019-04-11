@@ -7,6 +7,7 @@ import classNames from 'classnames';
 import Icon from '../icon';
 import { withConfigConsumer, ConfigConsumerProps } from '../config-provider';
 import { tuple } from '../_util/type';
+import Footer from './footer';
 
 const DrawerContext: Context<Drawer | null> = createReactContext(null);
 
@@ -271,6 +272,11 @@ class Drawer extends React.Component<DrawerProps & ConfigConsumerProps, IDrawerS
   }
 }
 
-export default withConfigConsumer<DrawerProps>({
+const withConfigConsumerDrawer = withConfigConsumer<DrawerProps>({
   prefixCls: 'drawer',
 })(Drawer);
+
+// @ts-ignore
+withConfigConsumerDrawer.Footer = Footer;
+
+export default withConfigConsumerDrawer;

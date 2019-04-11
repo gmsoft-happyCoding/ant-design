@@ -19,6 +19,9 @@ import {
 } from 'antd';
 
 const { Option } = Select;
+const { Footer } = Drawer;
+
+console.log('Footer', Footer);
 
 class DrawerForm extends React.Component {
   state = { visible: false };
@@ -139,25 +142,14 @@ class DrawerForm extends React.Component {
               </Col>
             </Row>
           </Form>
-          <div
-            style={{
-              position: 'absolute',
-              left: 0,
-              bottom: 0,
-              width: '100%',
-              borderTop: '1px solid #e9e9e9',
-              padding: '10px 16px',
-              background: '#fff',
-              textAlign: 'right',
-            }}
-          >
+          <Footer>
             <Button onClick={this.onClose} style={{ marginRight: 8 }}>
               Cancel
             </Button>
             <Button onClick={this.onClose} type="primary">
               Submit
             </Button>
-          </div>
+          </Footer>
         </Drawer>
       </div>
     );

@@ -16,6 +16,8 @@ Open a new drawer on top of an existing drawer to handle multi branch tasks
 ```jsx
 import { Drawer, Button } from 'antd';
 
+const { Footer } = Drawer;
+
 class App extends React.Component {
   state = { visible: false, childrenDrawer: false };
 
@@ -68,19 +70,7 @@ class App extends React.Component {
           >
             This is two-level drawer
           </Drawer>
-          <div
-            style={{
-              position: 'absolute',
-              bottom: 0,
-              width: '100%',
-              borderTop: '1px solid #e8e8e8',
-              padding: '10px 16px',
-              textAlign: 'right',
-              left: 0,
-              background: '#fff',
-              borderRadius: '0 0 4px 4px',
-            }}
-          >
+          <Footer>
             <Button
               style={{
                 marginRight: 8,
@@ -92,7 +82,7 @@ class App extends React.Component {
             <Button onClick={this.onClose} type="primary">
               Submit
             </Button>
-          </div>
+          </Footer>
         </Drawer>
       </div>
     );

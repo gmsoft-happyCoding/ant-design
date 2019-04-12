@@ -17,44 +17,55 @@ cols: 1
 
 ### Typography.Text
 
-| 参数 | 说明 | 类型 | 默认值 |
-| --- | --- | --- | --- |
-| copyable | 是否可拷贝，为对象时可设置复制文本以回调函数 | boolean \| { text: string, onCopy: Function } | false |
-| delete | 添加删除线样式 | boolean | false |
-| disabled | 禁用文本 | boolean | false |
-| editable | 是否可编辑，为对象时可对编辑进行控制 | boolean \| { editing: boolean, onStart: Function, onChange: Function(string) } | false |
-| ellipsis | 设置自动溢出省略 | boolean | false |
-| mark | 添加标记样式 | boolean | false |
-| underline | 添加下划线样式 | boolean | false |
-| strong | 是否加粗 | boolean | false |
-| type | 文本类型 | `secondary`, `warning`, `danger` | - |
+| 参数      | 说明                                         | 类型                                                                           | 默认值 |
+| --------- | -------------------------------------------- | ------------------------------------------------------------------------------ | ------ |
+| copyable  | 是否可拷贝，为对象时可设置复制文本以回调函数 | boolean \| { text: string, onCopy: Function }                                  | false  |
+| delete    | 添加删除线样式                               | boolean                                                                        | false  |
+| disabled  | 禁用文本                                     | boolean                                                                        | false  |
+| editable  | 是否可编辑，为对象时可对编辑进行控制         | boolean \| { editing: boolean, onStart: Function, onChange: Function(string) } | false  |
+| ellipsis  | 设置自动溢出省略                             | boolean                                                                        | false  |
+| mark      | 添加标记样式                                 | boolean                                                                        | false  |
+| underline | 添加下划线样式                               | boolean                                                                        | false  |
+| strong    | 是否加粗                                     | boolean                                                                        | false  |
+| type      | 文本类型                                     | `secondary`, `warning`, `danger`                                               | -      |
 
 ### Typography.Title
 
-| 参数 | 说明 | 类型 | 默认值 |
-| --- | --- | --- | --- |
-| copyable | 是否可拷贝，为对象时可设置复制文本以回调函数 | boolean \| { text: string, onCopy: Function } | false |
-| delete | 添加删除线样式 | boolean | false |
-| disabled | 禁用文本 | boolean | false |
-| editable | 是否可编辑，为对象时可对编辑进行控制 | boolean \| { editing: boolean, onStart: Function, onChange: Function(string) } | false |
-| ellipsis | 自动溢出省略，为对象时可设置省略行数与是否可展开等 | boolean \| { rows: number, expandable: boolean, onExpand: Function } | false |
-| level | 重要程度，相当于 `h1`、`h2`、`h3`、`h4` | number: `1`, `2`, `3`, `4` | 1 |
-| mark | 添加标记样式 | boolean | false |
-| underline | 添加下划线样式 | boolean | false |
-| onChange | 当用户提交编辑内容时触发 | Function(string) | - |
-| type | 文本类型 | `secondary`, `warning`, `danger` | - |
+| 参数      | 说明                                               | 类型                                                                           | 默认值 |
+| --------- | -------------------------------------------------- | ------------------------------------------------------------------------------ | ------ |
+| copyable  | 是否可拷贝，为对象时可设置复制文本以回调函数       | boolean \| { text: string, onCopy: Function }                                  | false  |
+| delete    | 添加删除线样式                                     | boolean                                                                        | false  |
+| disabled  | 禁用文本                                           | boolean                                                                        | false  |
+| editable  | 是否可编辑，为对象时可对编辑进行控制               | boolean \| { editing: boolean, onStart: Function, onChange: Function(string) } | false  |
+| ellipsis  | 自动溢出省略，为对象时可设置省略行数与是否可展开等 | boolean \| { rows: number, expandable: boolean, onExpand: Function }           | false  |
+| level     | 重要程度，相当于 `h1`、`h2`、`h3`、`h4`            | number: `1`, `2`, `3`, `4`                                                     | 1      |
+| mark      | 添加标记样式                                       | boolean                                                                        | false  |
+| underline | 添加下划线样式                                     | boolean                                                                        | false  |
+| onChange  | 当用户提交编辑内容时触发                           | Function(string)                                                               | -      |
+| type      | 文本类型                                           | `secondary`, `warning`, `danger`                                               | -      |
+
+### Typography.GMTitle 基于 `Typography.Title` 扩展
+
+#### 忽略 `level`, 通过 `size` 控制大小
+
+| 参数         | 说明                                            | 类型    | 默认值                                   |
+| ------------ | ----------------------------------------------- | ------- | ---------------------------------------- |
+| size         | 设置标题大小，可选值为 `small` `large` 或者不设 | string  | `default`                                |
+| divider      | 是否有分割线                                    | boolean | `small` `large` : false, `default`: true |
+| marginTop    | 上外边距                                        | number  | 0                                        |
+| marginBottom | 下外边距                                        | number  | `small`: 8 ,`default`: 16, `large`: 24   |
 
 ### Typography.Paragraph
 
-| 参数 | 说明 | 类型 | 默认值 |
-| --- | --- | --- | --- |
-| copyable | 是否可拷贝，为对象时可设置复制文本以回调函数 | boolean \| { text: string, onCopy: Function } | false |
-| delete | 添加删除线样式 | boolean | false |
-| disabled | 禁用文本 | boolean | false |
-| editable | 是否可编辑，为对象时可对编辑进行控制 | boolean \| { editing: boolean, onStart: Function, onChange: Function(string) } | false |
-| ellipsis | 自动溢出省略，为对象时可设置省略行数与是否可展开等 | boolean \| { rows: number, expandable: boolean, onExpand: Function } | false |
-| mark | 添加标记样式 | boolean | false |
-| underline | 添加下划线样式 | boolean | false |
-| onChange | 当用户提交编辑内容时触发 | Function(string) | - |
-| strong | 是否加粗 | boolean | false |
-| type | 文本类型 | `secondary`, `warning`, `danger` | - |
+| 参数      | 说明                                               | 类型                                                                           | 默认值 |
+| --------- | -------------------------------------------------- | ------------------------------------------------------------------------------ | ------ |
+| copyable  | 是否可拷贝，为对象时可设置复制文本以回调函数       | boolean \| { text: string, onCopy: Function }                                  | false  |
+| delete    | 添加删除线样式                                     | boolean                                                                        | false  |
+| disabled  | 禁用文本                                           | boolean                                                                        | false  |
+| editable  | 是否可编辑，为对象时可对编辑进行控制               | boolean \| { editing: boolean, onStart: Function, onChange: Function(string) } | false  |
+| ellipsis  | 自动溢出省略，为对象时可设置省略行数与是否可展开等 | boolean \| { rows: number, expandable: boolean, onExpand: Function }           | false  |
+| mark      | 添加标记样式                                       | boolean                                                                        | false  |
+| underline | 添加下划线样式                                     | boolean                                                                        | false  |
+| onChange  | 当用户提交编辑内容时触发                           | Function(string)                                                               | -      |
+| strong    | 是否加粗                                           | boolean                                                                        | false  |
+| type      | 文本类型                                           | `secondary`, `warning`, `danger`                                               | -      |

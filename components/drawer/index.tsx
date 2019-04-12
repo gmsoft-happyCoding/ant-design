@@ -272,11 +272,12 @@ class Drawer extends React.Component<DrawerProps & ConfigConsumerProps, IDrawerS
   }
 }
 
-const withConfigConsumerDrawer = withConfigConsumer<DrawerProps>({
+const withConfigConsumerDrawer: React.FunctionComponent<DrawerProps> & {
+  Footer: typeof Footer;
+} = withConfigConsumer<DrawerProps>({
   prefixCls: 'drawer',
 })(Drawer);
 
-// @ts-ignore
 withConfigConsumerDrawer.Footer = Footer;
 
 export default withConfigConsumerDrawer;

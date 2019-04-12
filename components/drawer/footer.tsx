@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Footer = ({ children }: { children: React.ReactChild }) => (
+const Footer = ({ children }: { children: React.ReactNode }) => (
   <div
     style={{
       position: 'absolute',

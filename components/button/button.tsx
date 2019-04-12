@@ -94,6 +94,7 @@ class Button extends React.Component<ButtonProps, ButtonState> {
   static Edit: CustomButton;
   static Search: CustomButton;
   static View: CustomButton;
+  static Add: CustomButton;
   static __ANT_BUTTON = true;
 
   static defaultProps = {

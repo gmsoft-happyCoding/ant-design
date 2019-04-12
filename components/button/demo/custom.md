@@ -16,7 +16,7 @@ Predefined buttons have some commonly used buttons.
 ````jsx
 import { Button } from 'antd';
 
-const { Save, Submit, Cancel, Delete, Upload, Download, Edit, Search, View } = Button;
+const { Save, Submit, Cancel, Delete, Upload, Download, Edit, Search, View, Add } = Button;
 
 ReactDOM.render(
   <div>
@@ -29,6 +29,7 @@ ReactDOM.render(
     <Edit />
     <Search />
     <View />
+    <Add />
   </div>,
   mountNode
 );

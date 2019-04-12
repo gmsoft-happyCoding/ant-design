@@ -10,6 +10,7 @@ import {
   Edit,
   Search,
   View,
+  Add,
 } from './button-custom';
 
 export { ButtonProps, ButtonShape, ButtonSize, ButtonType } from './button';
@@ -27,5 +28,6 @@ Button.Download = Download;
 Button.Edit = Edit;
 Button.Search = Search;
 Button.View = View;
+Button.Add = Add;
 
 export default Button;

@@ -61,4 +61,10 @@ const View: CustomButton = props => (
   </Button>
 );
 
-export { Save, Submit, Cancel, Delete, Upload, Download, Edit, Search, View };
+const Add: CustomButton = props => (
+  <Button icon="plus-circle" type="primary" {...props}>
+    {props.children || '新增'}
+  </Button>
+);
+
+export { Save, Submit, Cancel, Delete, Upload, Download, Edit, Search, View, Add };

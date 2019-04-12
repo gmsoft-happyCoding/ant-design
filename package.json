@@ -1,6 +1,6 @@
 {
   "name": "antd",
-  "version": "3.16.2-custom.1",
+  "version": "3.16.2-custom.2",
   "title": "Ant Design",
   "description": "An enterprise-class UI design language and React-based implementation",
   "homepage": "http://192.168.2.11:9528",
@@ -229,7 +229,6 @@
     "lint-staged:es": "eslint ./.*.js ./webpack.config.js",
     "lint-staged:demo": "cross-env RUN_ENV=DEMO eslint --ext '.md'",
     "prettier": "node ./scripts/prettier.js"
-   
   },
   "pre-commit": [
     "lint-staged"

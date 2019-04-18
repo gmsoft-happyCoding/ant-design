@@ -4,7 +4,9 @@
 @table-padding-horizontal-sm: @table-padding-horizontal / 2;
 
 .@{table-prefix-cls}-middle {
-  > .@{table-prefix-cls}-title,
+  > .@{table-prefix-cls}-title {
+    padding: 0 0 @table-padding-vertical 0;
+  }
   > .@{table-prefix-cls}-footer {
     // padding: @table-padding-vertical-md @table-padding-horizontal-md;
     padding: @table-padding-vertical-md 0;
@@ -120,6 +122,7 @@
     border-right: 0;
 
     .@{table-prefix-cls}-title {
+      padding: @table-padding-vertical-sm @table-padding-horizontal-sm;
       border: 0;
       border-right: @border-width-base @border-style-base @border-color-split;
       border-bottom: @border-width-base @border-style-base @border-color-split;
@@ -130,6 +133,7 @@
     }
 
     .@{table-prefix-cls}-footer {
+      padding: @table-padding-vertical-sm @table-padding-horizontal-sm;
       border: 0;
       border-top: @border-width-base @border-style-base @border-color-split;
       border-right: @border-width-base @border-style-base @border-color-split;

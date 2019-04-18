@@ -250,19 +250,22 @@
   }
 
   &.@{table-prefix-cls}-bordered &-footer {
+    padding: @table-padding-vertical @table-padding-horizontal;
     border: @border-width-base @border-style-base @border-color-split;
   }
 
   &-title {
     position: relative;
     top: 1px;
-    padding: @table-padding-vertical 0;
+    // padding: @table-padding-vertical 0;
+    padding: 0 0 @table-padding-vertical 0;
     border-radius: @table-border-radius-base @table-border-radius-base 0 0;
   }
 
   &.@{table-prefix-cls}-bordered &-title {
-    padding-right: @table-padding-horizontal;
-    padding-left: @table-padding-horizontal;
+    // padding-right: @table-padding-horizontal;
+    // padding-left: @table-padding-horizontal;
+    padding: @table-padding-vertical @table-padding-horizontal;
     border: @border-width-base @border-style-base @border-color-split;
   }
 

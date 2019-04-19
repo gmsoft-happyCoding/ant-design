@@ -22,7 +22,7 @@ ReactDOM.render(
   <div>
     <GMTitle size="large">large. Gmsoft</GMTitle>
     <GMTitle>default. Gmsoft</GMTitle>
-    <GMTitle size="small">default. Gmsoft</GMTitle>
+    <GMTitle size="small">small. Gmsoft</GMTitle>
   </div>,
   mountNode
 );

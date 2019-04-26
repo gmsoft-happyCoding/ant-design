@@ -18,6 +18,7 @@
     &:active,
     &.active {
       .button-color(@btn-disable-color; @btn-disable-bg; @btn-disable-border);
+
       text-shadow: none;
       box-shadow: none;
     }
@@ -26,6 +27,7 @@
 
 .button-variant-primary(@color; @background) {
   .button-color(@color; @background; @background);
+
   text-shadow: @btn-text-shadow;
   box-shadow: @btn-primary-shadow;
 
@@ -136,12 +138,12 @@
   // size
   &-lg > .@{btnClassName},
   &-lg > span > .@{btnClassName} {
-    .button-size(@btn-height-lg; @btn-padding-lg; @btn-font-size-lg; 0; 100px);
+    .button-size(@btn-height-lg; @btn-padding-lg; @btn-font-size-lg; 0);
     line-height: @btn-height-lg - 2px;
   }
   &-sm > .@{btnClassName},
   &-sm > span > .@{btnClassName} {
-    .button-size(@btn-height-sm; @btn-padding-sm; @font-size-base; 0; 60px);
+    .button-size(@btn-height-sm; @btn-padding-sm; @font-size-base; 0);
     line-height: @btn-height-sm - 2px;
     > .@{iconfont-css-prefix} {
       font-size: @font-size-base;

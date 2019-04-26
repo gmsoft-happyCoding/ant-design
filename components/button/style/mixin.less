@@ -138,12 +138,12 @@
   // size
   &-lg > .@{btnClassName},
   &-lg > span > .@{btnClassName} {
-    .button-size(@btn-height-lg; @btn-padding-lg; @btn-font-size-lg; 0);
+    .button-size(@btn-height-lg; @btn-padding-lg; @btn-font-size-lg; 0; 100px);
     line-height: @btn-height-lg - 2px;
   }
   &-sm > .@{btnClassName},
   &-sm > span > .@{btnClassName} {
-    .button-size(@btn-height-sm; @btn-padding-sm; @font-size-base; 0);
+    .button-size(@btn-height-sm; @btn-padding-sm; @font-size-base; 0; 60px);
     line-height: @btn-height-sm - 2px;
     > .@{iconfont-css-prefix} {
       font-size: @font-size-base;

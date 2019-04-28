@@ -3,7 +3,7 @@ import { polyfill } from 'react-lifecycles-compat';
 import TimePickerPanel from 'rc-time-picker/lib/Panel';
 import classNames from 'classnames';
 import * as moment from 'moment';
-import enUS from './locale/en_US';
+import zhCN from './locale/zh_CN';
 import interopDefault from '../_util/interopDefault';
 import LocaleReceiver from '../locale-provider/LocaleReceiver';
 import { generateShowHourMinuteSecond } from '../time-picker';
@@ -136,7 +136,7 @@ export default function wrapPicker(Picker: React.ComponentClass<any>, pickerType
 
     getDefaultLocale = () => {
       const result = {
-        ...enUS,
+        ...zhCN,
         ...this.props.locale,
       };
       result.lang = {

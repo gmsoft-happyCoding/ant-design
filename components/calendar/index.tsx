@@ -2,12 +2,12 @@ import * as React from 'react';
 import * as PropTypes from 'prop-types';
 import * as moment from 'moment';
 import FullCalendar from 'rc-calendar/lib/FullCalendar';
+import { polyfill } from 'react-lifecycles-compat';
 import Header from './Header';
-import enUS from './locale/en_US';
+import zhCN from './locale/zh_CN';
 import LocaleReceiver from '../locale-provider/LocaleReceiver';
 import { ConfigConsumer, ConfigConsumerProps } from '../config-provider';
 import interopDefault from '../_util/interopDefault';
-import { polyfill } from 'react-lifecycles-compat';
 
 export { HeaderProps } from './Header';
 
@@ -184,7 +184,7 @@ class Calendar extends React.Component<CalendarProps, CalendarState> {
 
   getDefaultLocale = () => {
     const result = {
-      ...enUS,
+      ...zhCN,
       ...this.props.locale,
     };
     result.lang = {
@@ -211,7 +211,7 @@ class Calendar extends React.Component<CalendarProps, CalendarState> {
     const monthCellRender = monthFullCellRender || this.monthCellRender;
     const dateCellRender = dateFullCellRender || this.dateCellRender;
 
-    let disabledDate = props.disabledDate;
+    let { disabledDate } = props;
 
     if (props.validRange) {
       disabledDate = this.getDateRange(props.validRange, disabledDate);

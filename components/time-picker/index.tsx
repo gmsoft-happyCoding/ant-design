@@ -7,7 +7,7 @@ import classNames from 'classnames';
 import warning from '../_util/warning';
 import LocaleReceiver from '../locale-provider/LocaleReceiver';
 import { ConfigConsumer, ConfigConsumerProps } from '../config-provider';
-import enUS from './locale/en_US';
+import zhCN from './locale/zh_CN';
 import interopDefault from '../_util/interopDefault';
 import Icon from '../icon';
 
@@ -138,7 +138,8 @@ class TimePicker extends React.Component<TimePickerProps, any> {
     const { format, use12Hours } = this.props;
     if (format) {
       return format;
-    } else if (use12Hours) {
+    }
+    if (use12Hours) {
       return 'h:mm:ss a';
     }
     return 'HH:mm:ss';
@@ -179,7 +180,7 @@ class TimePicker extends React.Component<TimePickerProps, any> {
 
   getDefaultLocale = () => {
     const defaultLocale = {
-      ...enUS,
+      ...zhCN,
       ...this.props.locale,
     };
     return defaultLocale;

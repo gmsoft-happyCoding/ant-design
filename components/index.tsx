@@ -61,6 +61,8 @@ export { default as Drawer } from './drawer';
 
 export { default as Empty } from './empty';
 
+export { default as Ellipsis } from './ellipsis';
+
 export { default as Form } from './form';
 
 export { default as Icon } from './icon';

@@ -1,0 +1,32 @@
+@import '../../style/themes/default';
+@import '../../style/mixins/index';
+
+@ellipsis-prefix-cls: ~'@{ant-prefix}-ellipsis';
+@lines-prefix-cls: ~'@{ellipsis-prefix-cls}-lines';
+@lineClamp: ~'@{ellipsis-prefix-cls}-lineClamp';
+
+.@{ellipsis-prefix-cls} {
+  display: inline-block;
+  width: 100%;
+  overflow: hidden;
+  word-break: break-all;
+}
+
+.@{lines-prefix-cls} {
+  position: relative;
+
+  .@{lines-prefix-cls}-shadow {
+    position: absolute;
+    z-index: -999;
+    display: block;
+    color: transparent;
+    opacity: 0;
+  }
+}
+
+.@{lineClamp} {
+  position: relative;
+  display: -webkit-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

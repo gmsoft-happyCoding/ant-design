@@ -277,6 +277,33 @@ exports[`renders ./components/typography/demo/ellipsis-debug.md correctly 1`] = 
 </div>
 `;
 
+exports[`renders ./components/typography/demo/gm-title.md correctly 1`] = `
+<div>
+  <h3
+    class="ant-typography"
+    style="margin-top:0;margin-bottom:24px"
+  >
+    large. Gmsoft
+  </h3>
+  <h4
+    class="ant-typography"
+    style="margin-top:0;margin-bottom:8px"
+  >
+    default. Gmsoft
+  </h4>
+  <div
+    class="ant-divider ant-divider-horizontal"
+    style="margin-top:0;margin-bottom:16px"
+  />
+  <h1
+    class="ant-typography"
+    style="margin-top:0;margin-bottom:8px;font-size:16px;color:rgba(0,0,0,0.45)"
+  >
+    small. Gmsoft
+  </h1>
+</div>
+`;
+
 exports[`renders ./components/typography/demo/interactive.md correctly 1`] = `
 <div>
   <div
@@ -284,14 +311,14 @@ exports[`renders ./components/typography/demo/interactive.md correctly 1`] = `
   >
     This is an editable text.
     <div
-      aria-label="edit"
+      aria-label="编辑"
       class="ant-typography-edit"
       role="button"
       style="border:0;background:transparent;padding:0;line-height:inherit;display:inline-block"
       tabindex="0"
     >
       <i
-        aria-label="icon: edit"
+        aria-label="图标: edit"
         class="anticon anticon-edit"
         role="button"
       >
@@ -317,14 +344,14 @@ exports[`renders ./components/typography/demo/interactive.md correctly 1`] = `
   >
     This is a copyable text.
     <div
-      aria-label="copy"
+      aria-label="复制"
       class="ant-typography-copy"
       role="button"
       style="border:0;background:transparent;padding:0;line-height:inherit;display:inline-block"
       tabindex="0"
     >
       <i
-        aria-label="icon: copy"
+        aria-label="图标: copy"
         class="anticon anticon-copy"
         role="button"
       >
@@ -350,14 +377,14 @@ exports[`renders ./components/typography/demo/interactive.md correctly 1`] = `
   >
     Replace copy text.
     <div
-      aria-label="copy"
+      aria-label="复制"
       class="ant-typography-copy"
       role="button"
       style="border:0;background:transparent;padding:0;line-height:inherit;display:inline-block"
       tabindex="0"
     >
       <i
-        aria-label="icon: copy"
+        aria-label="图标: copy"
         class="anticon anticon-copy"
         role="button"
       >

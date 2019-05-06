@@ -583,7 +583,7 @@ exports[`renders ./components/card/demo/loading.md correctly 1`] = `
       >
         <span>
           <i
-            aria-label="icon: setting"
+            aria-label="图标: setting"
             class="anticon anticon-setting"
           >
             <svg
@@ -608,7 +608,7 @@ exports[`renders ./components/card/demo/loading.md correctly 1`] = `
       >
         <span>
           <i
-            aria-label="icon: edit"
+            aria-label="图标: edit"
             class="anticon anticon-edit"
           >
             <svg
@@ -633,7 +633,7 @@ exports[`renders ./components/card/demo/loading.md correctly 1`] = `
       >
         <span>
           <i
-            aria-label="icon: ellipsis"
+            aria-label="图标: ellipsis"
             class="anticon anticon-ellipsis"
           >
             <svg
@@ -712,7 +712,7 @@ exports[`renders ./components/card/demo/meta.md correctly 1`] = `
     >
       <span>
         <i
-          aria-label="icon: setting"
+          aria-label="图标: setting"
           class="anticon anticon-setting"
         >
           <svg
@@ -737,7 +737,7 @@ exports[`renders ./components/card/demo/meta.md correctly 1`] = `
     >
       <span>
         <i
-          aria-label="icon: edit"
+          aria-label="图标: edit"
           class="anticon anticon-edit"
         >
           <svg
@@ -762,7 +762,7 @@ exports[`renders ./components/card/demo/meta.md correctly 1`] = `
     >
       <span>
         <i
-          aria-label="icon: ellipsis"
+          aria-label="图标: ellipsis"
           class="anticon anticon-ellipsis"
         >
           <svg
@@ -853,7 +853,7 @@ exports[`renders ./components/card/demo/tabs.md correctly 1`] = `
                 class="ant-tabs-tab-prev-icon"
               >
                 <i
-                  aria-label="icon: left"
+                  aria-label="图标: left"
                   class="anticon anticon-left ant-tabs-tab-prev-icon-target"
                 >
                   <svg
@@ -881,7 +881,7 @@ exports[`renders ./components/card/demo/tabs.md correctly 1`] = `
                 class="ant-tabs-tab-next-icon"
               >
                 <i
-                  aria-label="icon: right"
+                  aria-label="图标: right"
                   class="anticon anticon-right ant-tabs-tab-next-icon-target"
                 >
                   <svg
@@ -1013,7 +1013,7 @@ exports[`renders ./components/card/demo/tabs.md correctly 1`] = `
                 class="ant-tabs-tab-prev-icon"
               >
                 <i
-                  aria-label="icon: left"
+                  aria-label="图标: left"
                   class="anticon anticon-left ant-tabs-tab-prev-icon-target"
                 >
                   <svg
@@ -1041,7 +1041,7 @@ exports[`renders ./components/card/demo/tabs.md correctly 1`] = `
                 class="ant-tabs-tab-next-icon"
               >
                 <i
-                  aria-label="icon: right"
+                  aria-label="图标: right"
                   class="anticon anticon-right ant-tabs-tab-next-icon-target"
                 >
                   <svg

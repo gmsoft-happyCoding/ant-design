@@ -14,7 +14,7 @@ exports[`Collapse should render extra node of panel 1`] = `
       tabindex="0"
     >
       <i
-        aria-label="icon: right"
+        aria-label="图标: right"
         class="anticon anticon-right ant-collapse-arrow"
       >
         <svg
@@ -54,7 +54,7 @@ exports[`Collapse should render extra node of panel 1`] = `
       tabindex="0"
     >
       <i
-        aria-label="icon: right"
+        aria-label="图标: right"
         class="anticon anticon-right ant-collapse-arrow"
       >
         <svg

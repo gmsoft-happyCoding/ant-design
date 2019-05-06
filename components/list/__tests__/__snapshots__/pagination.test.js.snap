@@ -32,13 +32,13 @@ exports[`List.pagination renders pagination correctly 1`] = `
       <li
         aria-disabled="true"
         class="ant-pagination-disabled ant-pagination-prev"
-        title="Previous Page"
+        title="上一页"
       >
         <a
           class="ant-pagination-item-link"
         >
           <i
-            aria-label="icon: left"
+            aria-label="图标: left"
             class="anticon anticon-left"
           >
             <svg
@@ -80,13 +80,13 @@ exports[`List.pagination renders pagination correctly 1`] = `
         aria-disabled="false"
         class=" ant-pagination-next"
         tabindex="0"
-        title="Next Page"
+        title="下一页"
       >
         <a
           class="ant-pagination-item-link"
         >
           <i
-            aria-label="icon: right"
+            aria-label="图标: right"
             class="anticon anticon-right"
           >
             <svg
@@ -119,13 +119,13 @@ exports[`List.pagination should change page size work 1`] = `
   <li
     aria-disabled="true"
     class="ant-pagination-disabled ant-pagination-prev"
-    title="Previous Page"
+    title="上一页"
   >
     <a
       class="ant-pagination-item-link"
     >
       <i
-        aria-label="icon: left"
+        aria-label="图标: left"
         class="anticon anticon-left"
       >
         <svg
@@ -157,13 +157,13 @@ exports[`List.pagination should change page size work 1`] = `
   <li
     aria-disabled="true"
     class="ant-pagination-disabled ant-pagination-next"
-    title="Next Page"
+    title="下一页"
   >
     <a
       class="ant-pagination-item-link"
     >
       <i
-        aria-label="icon: right"
+        aria-label="图标: right"
         class="anticon anticon-right"
       >
         <svg
@@ -205,9 +205,9 @@ exports[`List.pagination should change page size work 1`] = `
           <div
             class="ant-select-selection-selected-value"
             style="display: block; opacity: 1;"
-            title="10 / page"
+            title="10 条/页"
           >
-            10 / page
+            10 条/页
           </div>
         </div>
         <span
@@ -216,7 +216,7 @@ exports[`List.pagination should change page size work 1`] = `
           unselectable="on"
         >
           <i
-            aria-label="icon: down"
+            aria-label="图标: down"
             class="anticon anticon-down ant-select-arrow-icon"
           >
             <svg
@@ -249,13 +249,13 @@ exports[`List.pagination should change page size work 2`] = `
   <li
     aria-disabled="true"
     class="ant-pagination-disabled ant-pagination-prev"
-    title="Previous Page"
+    title="上一页"
   >
     <a
       class="ant-pagination-item-link"
     >
       <i
-        aria-label="icon: left"
+        aria-label="图标: left"
         class="anticon anticon-left"
       >
         <svg
@@ -287,13 +287,13 @@ exports[`List.pagination should change page size work 2`] = `
   <li
     aria-disabled="true"
     class="ant-pagination-disabled ant-pagination-next"
-    title="Next Page"
+    title="下一页"
   >
     <a
       class="ant-pagination-item-link"
     >
       <i
-        aria-label="icon: right"
+        aria-label="图标: right"
         class="anticon anticon-right"
       >
         <svg
@@ -336,9 +336,9 @@ exports[`List.pagination should change page size work 2`] = `
           <div
             class="ant-select-selection-selected-value"
             style="display: block; opacity: 1;"
-            title="30 / page"
+            title="30 条/页"
           >
-            30 / page
+            30 条/页
           </div>
         </div>
         <span
@@ -347,7 +347,7 @@ exports[`List.pagination should change page size work 2`] = `
           unselectable="on"
         >
           <i
-            aria-label="icon: down"
+            aria-label="图标: down"
             class="anticon anticon-down ant-select-arrow-icon"
           >
             <svg
@@ -389,7 +389,7 @@ exports[`List.pagination should change page size work 2`] = `
               style="user-select: none;"
               unselectable="on"
             >
-              10 / page
+              10 条/页
             </li>
             <li
               aria-selected="false"
@@ -398,7 +398,7 @@ exports[`List.pagination should change page size work 2`] = `
               style="user-select: none;"
               unselectable="on"
             >
-              20 / page
+              20 条/页
             </li>
             <li
               aria-selected="true"
@@ -407,7 +407,7 @@ exports[`List.pagination should change page size work 2`] = `
               style="user-select: none;"
               unselectable="on"
             >
-              30 / page
+              30 条/页
             </li>
             <li
               aria-selected="false"
@@ -416,7 +416,7 @@ exports[`List.pagination should change page size work 2`] = `
               style="user-select: none;"
               unselectable="on"
             >
-              40 / page
+              40 条/页
             </li>
           </ul>
         </div>
@@ -435,13 +435,13 @@ exports[`List.pagination should default work 1`] = `
     aria-disabled="false"
     class=" ant-pagination-prev"
     tabindex="0"
-    title="Previous Page"
+    title="上一页"
   >
     <a
       class="ant-pagination-item-link"
     >
       <i
-        aria-label="icon: left"
+        aria-label="图标: left"
         class="anticon anticon-left"
       >
         <svg
@@ -482,13 +482,13 @@ exports[`List.pagination should default work 1`] = `
   <li
     aria-disabled="true"
     class="ant-pagination-disabled ant-pagination-next"
-    title="Next Page"
+    title="下一页"
   >
     <a
       class="ant-pagination-item-link"
     >
       <i
-        aria-label="icon: right"
+        aria-label="图标: right"
         class="anticon anticon-right"
       >
         <svg
@@ -530,9 +530,9 @@ exports[`List.pagination should default work 1`] = `
           <div
             class="ant-select-selection-selected-value"
             style="display: block; opacity: 1;"
-            title="3 / page"
+            title="3 条/页"
           >
-            3 / page
+            3 条/页
           </div>
         </div>
         <span
@@ -541,7 +541,7 @@ exports[`List.pagination should default work 1`] = `
           unselectable="on"
         >
           <i
-            aria-label="icon: down"
+            aria-label="图标: down"
             class="anticon anticon-down ant-select-arrow-icon"
           >
             <svg

@@ -7,7 +7,7 @@ exports[`TimePicker not render clean icon when allowClear is false 1`] = `
   <input
     class="ant-time-picker-input"
     id=""
-    placeholder="Select time"
+    placeholder="请选择时间"
     type="text"
     value="00:00:00"
   />
@@ -15,7 +15,7 @@ exports[`TimePicker not render clean icon when allowClear is false 1`] = `
     class="ant-time-picker-icon"
   >
     <i
-      aria-label="icon: clock-circle"
+      aria-label="图标: clock-circle"
       class="anticon anticon-clock-circle ant-time-picker-clock-icon"
     >
       <svg
@@ -56,7 +56,7 @@ exports[`TimePicker prop locale should works 1`] = `
     class="ant-time-picker-icon"
   >
     <i
-      aria-label="icon: clock-circle"
+      aria-label="图标: clock-circle"
       class="anticon anticon-clock-circle ant-time-picker-clock-icon"
     >
       <svg

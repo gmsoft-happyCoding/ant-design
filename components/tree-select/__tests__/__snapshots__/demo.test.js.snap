@@ -25,7 +25,7 @@ exports[`renders ./components/tree-select/demo/basic.md correctly 1`] = `
       style="outline:none"
     >
       <i
-        aria-label="icon: down"
+        aria-label="图标: down"
         class="anticon anticon-down ant-select-arrow-icon"
       >
         <svg
@@ -73,7 +73,7 @@ exports[`renders ./components/tree-select/demo/checkable.md correctly 1`] = `
           class="ant-select-selection__choice__remove"
         >
           <i
-            aria-label="icon: close"
+            aria-label="图标: close"
             class="anticon anticon-close ant-select-remove-icon"
           >
             <svg
@@ -201,7 +201,7 @@ exports[`renders ./components/tree-select/demo/suffix.md correctly 1`] = `
       style="outline:none"
     >
       <i
-        aria-label="icon: smile"
+        aria-label="图标: smile"
         class="anticon anticon-smile"
       >
         <svg
@@ -249,7 +249,7 @@ exports[`renders ./components/tree-select/demo/treeData.md correctly 1`] = `
       style="outline:none"
     >
       <i
-        aria-label="icon: down"
+        aria-label="图标: down"
         class="anticon anticon-down ant-select-arrow-icon"
       >
         <svg

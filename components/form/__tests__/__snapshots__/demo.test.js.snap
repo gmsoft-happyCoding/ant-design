@@ -449,7 +449,7 @@ exports[`renders ./components/form/demo/advanced-search.md correctly 1`] = `
         >
           Collapse 
           <i
-            aria-label="icon: down"
+            aria-label="图标: down"
             class="anticon anticon-down"
           >
             <svg
@@ -574,7 +574,7 @@ exports[`renders ./components/form/demo/coordinated.md correctly 1`] = `
                 unselectable="on"
               >
                 <i
-                  aria-label="icon: down"
+                  aria-label="图标: down"
                   class="anticon anticon-down ant-select-arrow-icon"
                 >
                   <svg
@@ -691,7 +691,7 @@ exports[`renders ./components/form/demo/customized-form-controls.md correctly 1`
                   unselectable="on"
                 >
                   <i
-                    aria-label="icon: down"
+                    aria-label="图标: down"
                     class="anticon anticon-down ant-select-arrow-icon"
                   >
                     <svg
@@ -766,7 +766,7 @@ exports[`renders ./components/form/demo/dynamic-form-item.md correctly 1`] = `
             type="button"
           >
             <i
-              aria-label="icon: plus"
+              aria-label="图标: plus"
               class="anticon anticon-plus"
             >
               <svg
@@ -1046,7 +1046,7 @@ exports[`renders ./components/form/demo/horizontal-login.md correctly 1`] = `
               class="ant-input-prefix"
             >
               <i
-                aria-label="icon: user"
+                aria-label="图标: user"
                 class="anticon anticon-user"
                 style="color:rgba(0,0,0,.25)"
               >
@@ -1099,7 +1099,7 @@ exports[`renders ./components/form/demo/horizontal-login.md correctly 1`] = `
               class="ant-input-prefix"
             >
               <i
-                aria-label="icon: lock"
+                aria-label="图标: lock"
                 class="anticon anticon-lock"
                 style="color:rgba(0,0,0,.25)"
               >
@@ -1368,7 +1368,7 @@ exports[`renders ./components/form/demo/normal-login.md correctly 1`] = `
               class="ant-input-prefix"
             >
               <i
-                aria-label="icon: user"
+                aria-label="图标: user"
                 class="anticon anticon-user"
                 style="color:rgba(0,0,0,.25)"
               >
@@ -1421,7 +1421,7 @@ exports[`renders ./components/form/demo/normal-login.md correctly 1`] = `
               class="ant-input-prefix"
             >
               <i
-                aria-label="icon: lock"
+                aria-label="图标: lock"
                 class="anticon anticon-lock"
                 style="color:rgba(0,0,0,.25)"
               >
@@ -1639,7 +1639,7 @@ exports[`renders ./components/form/demo/register.md correctly 1`] = `
         <span>
           Nickname 
           <i
-            aria-label="icon: question-circle-o"
+            aria-label="图标: question-circle-o"
             class="anticon anticon-question-circle-o"
           >
             <svg
@@ -1728,7 +1728,7 @@ exports[`renders ./components/form/demo/register.md correctly 1`] = `
               value=""
             />
             <i
-              aria-label="icon: close-circle"
+              aria-label="图标: close-circle"
               class="anticon anticon-close-circle ant-cascader-picker-clear"
               tabindex="-1"
             >
@@ -1748,7 +1748,7 @@ exports[`renders ./components/form/demo/register.md correctly 1`] = `
               </svg>
             </i>
             <i
-              aria-label="icon: down"
+              aria-label="图标: down"
               class="anticon anticon-down ant-cascader-picker-arrow"
             >
               <svg
@@ -1838,7 +1838,7 @@ exports[`renders ./components/form/demo/register.md correctly 1`] = `
                       unselectable="on"
                     >
                       <i
-                        aria-label="icon: down"
+                        aria-label="图标: down"
                         class="anticon anticon-down ant-select-arrow-icon"
                       >
                         <svg
@@ -1949,7 +1949,7 @@ exports[`renders ./components/form/demo/register.md correctly 1`] = `
                 unselectable="on"
               >
                 <i
-                  aria-label="icon: down"
+                  aria-label="图标: down"
                   class="anticon anticon-down ant-select-arrow-icon"
                 >
                   <svg
@@ -2207,7 +2207,7 @@ exports[`renders ./components/form/demo/style-check-debug.md correctly 1`] = `
                       unselectable="on"
                     >
                       <i
-                        aria-label="icon: down"
+                        aria-label="图标: down"
                         class="anticon anticon-down ant-select-arrow-icon"
                       >
                         <svg
@@ -2273,7 +2273,7 @@ exports[`renders ./components/form/demo/style-check-debug.md correctly 1`] = `
                       unselectable="unselectable"
                     >
                       <i
-                        aria-label="icon: up"
+                        aria-label="图标: up"
                         class="anticon anticon-up ant-input-number-handler-up-inner"
                       >
                         <svg
@@ -2300,7 +2300,7 @@ exports[`renders ./components/form/demo/style-check-debug.md correctly 1`] = `
                       unselectable="unselectable"
                     >
                       <i
-                        aria-label="icon: down"
+                        aria-label="图标: down"
                         class="anticon anticon-down ant-input-number-handler-down-inner"
                       >
                         <svg
@@ -2371,12 +2371,12 @@ exports[`renders ./components/form/demo/style-check-debug.md correctly 1`] = `
                   <div>
                     <input
                       class="ant-calendar-picker-input ant-input"
-                      placeholder="Select date"
+                      placeholder="请选择日期"
                       readonly=""
                       value=""
                     />
                     <i
-                      aria-label="icon: calendar"
+                      aria-label="图标: calendar"
                       class="anticon anticon-calendar ant-calendar-picker-icon"
                     >
                       <svg
@@ -2513,12 +2513,12 @@ exports[`renders ./components/form/demo/time-related-controls.md correctly 1`] =
             <div>
               <input
                 class="ant-calendar-picker-input ant-input"
-                placeholder="Select date"
+                placeholder="请选择日期"
                 readonly=""
                 value=""
               />
               <i
-                aria-label="icon: calendar"
+                aria-label="图标: calendar"
                 class="anticon anticon-calendar ant-calendar-picker-icon"
               >
                 <svg
@@ -2573,12 +2573,12 @@ exports[`renders ./components/form/demo/time-related-controls.md correctly 1`] =
             <div>
               <input
                 class="ant-calendar-picker-input ant-input"
-                placeholder="Select date"
+                placeholder="请选择日期"
                 readonly=""
                 value=""
               />
               <i
-                aria-label="icon: calendar"
+                aria-label="图标: calendar"
                 class="anticon anticon-calendar ant-calendar-picker-icon"
               >
                 <svg
@@ -2632,12 +2632,12 @@ exports[`renders ./components/form/demo/time-related-controls.md correctly 1`] =
             <div>
               <input
                 class="ant-calendar-picker-input ant-input"
-                placeholder="Select date"
+                placeholder="请选择日期"
                 readonly=""
                 value=""
               />
               <i
-                aria-label="icon: calendar"
+                aria-label="图标: calendar"
                 class="anticon anticon-calendar ant-calendar-picker-icon"
               >
                 <svg
@@ -2694,7 +2694,7 @@ exports[`renders ./components/form/demo/time-related-controls.md correctly 1`] =
             >
               <input
                 class="ant-calendar-range-picker-input"
-                placeholder="Start date"
+                placeholder="开始日期"
                 readonly=""
                 tabindex="-1"
                 value=""
@@ -2706,13 +2706,13 @@ exports[`renders ./components/form/demo/time-related-controls.md correctly 1`] =
               </span>
               <input
                 class="ant-calendar-range-picker-input"
-                placeholder="End date"
+                placeholder="结束日期"
                 readonly=""
                 tabindex="-1"
                 value=""
               />
               <i
-                aria-label="icon: calendar"
+                aria-label="图标: calendar"
                 class="anticon anticon-calendar ant-calendar-picker-icon"
               >
                 <svg
@@ -2770,7 +2770,7 @@ exports[`renders ./components/form/demo/time-related-controls.md correctly 1`] =
             >
               <input
                 class="ant-calendar-range-picker-input"
-                placeholder="Start date"
+                placeholder="开始日期"
                 readonly=""
                 tabindex="-1"
                 value=""
@@ -2782,13 +2782,13 @@ exports[`renders ./components/form/demo/time-related-controls.md correctly 1`] =
               </span>
               <input
                 class="ant-calendar-range-picker-input"
-                placeholder="End date"
+                placeholder="结束日期"
                 readonly=""
                 tabindex="-1"
                 value=""
               />
               <i
-                aria-label="icon: calendar"
+                aria-label="图标: calendar"
                 class="anticon anticon-calendar ant-calendar-picker-icon"
               >
                 <svg
@@ -2841,7 +2841,7 @@ exports[`renders ./components/form/demo/time-related-controls.md correctly 1`] =
             <input
               class="ant-time-picker-input"
               id="time_related_controls_time-picker"
-              placeholder="Select time"
+              placeholder="请选择时间"
               type="text"
               value=""
             />
@@ -2849,7 +2849,7 @@ exports[`renders ./components/form/demo/time-related-controls.md correctly 1`] =
               class="ant-time-picker-icon"
             >
               <i
-                aria-label="icon: clock-circle"
+                aria-label="图标: clock-circle"
                 class="anticon anticon-clock-circle ant-time-picker-clock-icon"
               >
                 <svg
@@ -2994,7 +2994,7 @@ exports[`renders ./components/form/demo/validate-other.md correctly 1`] = `
                 unselectable="on"
               >
                 <i
-                  aria-label="icon: down"
+                  aria-label="图标: down"
                   class="anticon anticon-down ant-select-arrow-icon"
                 >
                   <svg
@@ -3132,7 +3132,7 @@ exports[`renders ./components/form/demo/validate-other.md correctly 1`] = `
                 unselectable="unselectable"
               >
                 <i
-                  aria-label="icon: up"
+                  aria-label="图标: up"
                   class="anticon anticon-up ant-input-number-handler-up-inner"
                 >
                   <svg
@@ -3159,7 +3159,7 @@ exports[`renders ./components/form/demo/validate-other.md correctly 1`] = `
                 unselectable="unselectable"
               >
                 <i
-                  aria-label="icon: down"
+                  aria-label="图标: down"
                   class="anticon anticon-down ant-input-number-handler-down-inner"
                 >
                   <svg
@@ -3741,7 +3741,7 @@ exports[`renders ./components/form/demo/validate-other.md correctly 1`] = `
                   class="ant-rate-star-first"
                 >
                   <i
-                    aria-label="icon: star"
+                    aria-label="图标: star"
                     class="anticon anticon-star"
                   >
                     <svg
@@ -3764,7 +3764,7 @@ exports[`renders ./components/form/demo/validate-other.md correctly 1`] = `
                   class="ant-rate-star-second"
                 >
                   <i
-                    aria-label="icon: star"
+                    aria-label="图标: star"
                     class="anticon anticon-star"
                   >
                     <svg
@@ -3799,7 +3799,7 @@ exports[`renders ./components/form/demo/validate-other.md correctly 1`] = `
                   class="ant-rate-star-first"
                 >
                   <i
-                    aria-label="icon: star"
+                    aria-label="图标: star"
                     class="anticon anticon-star"
                   >
                     <svg
@@ -3822,7 +3822,7 @@ exports[`renders ./components/form/demo/validate-other.md correctly 1`] = `
                   class="ant-rate-star-second"
                 >
                   <i
-                    aria-label="icon: star"
+                    aria-label="图标: star"
                     class="anticon anticon-star"
                   >
                     <svg
@@ -3857,7 +3857,7 @@ exports[`renders ./components/form/demo/validate-other.md correctly 1`] = `
                   class="ant-rate-star-first"
                 >
                   <i
-                    aria-label="icon: star"
+                    aria-label="图标: star"
                     class="anticon anticon-star"
                   >
                     <svg
@@ -3880,7 +3880,7 @@ exports[`renders ./components/form/demo/validate-other.md correctly 1`] = `
                   class="ant-rate-star-second"
                 >
                   <i
-                    aria-label="icon: star"
+                    aria-label="图标: star"
                     class="anticon anticon-star"
                   >
                     <svg
@@ -3915,7 +3915,7 @@ exports[`renders ./components/form/demo/validate-other.md correctly 1`] = `
                   class="ant-rate-star-first"
                 >
                   <i
-                    aria-label="icon: star"
+                    aria-label="图标: star"
                     class="anticon anticon-star"
                   >
                     <svg
@@ -3938,7 +3938,7 @@ exports[`renders ./components/form/demo/validate-other.md correctly 1`] = `
                   class="ant-rate-star-second"
                 >
                   <i
-                    aria-label="icon: star"
+                    aria-label="图标: star"
                     class="anticon anticon-star"
                   >
                     <svg
@@ -3973,7 +3973,7 @@ exports[`renders ./components/form/demo/validate-other.md correctly 1`] = `
                   class="ant-rate-star-first"
                 >
                   <i
-                    aria-label="icon: star"
+                    aria-label="图标: star"
                     class="anticon anticon-star"
                   >
                     <svg
@@ -3996,7 +3996,7 @@ exports[`renders ./components/form/demo/validate-other.md correctly 1`] = `
                   class="ant-rate-star-second"
                 >
                   <i
-                    aria-label="icon: star"
+                    aria-label="图标: star"
                     class="anticon anticon-star"
                   >
                     <svg
@@ -4240,7 +4240,7 @@ exports[`renders ./components/form/demo/validate-static.md correctly 1`] = `
             class="ant-form-item-children-icon"
           >
             <i
-              aria-label="icon: loading"
+              aria-label="图标: loading"
               class="anticon anticon-loading"
             >
               <svg
@@ -4301,7 +4301,7 @@ exports[`renders ./components/form/demo/validate-static.md correctly 1`] = `
             class="ant-form-item-children-icon"
           >
             <i
-              aria-label="icon: check-circle"
+              aria-label="图标: check-circle"
               class="anticon anticon-check-circle"
             >
               <svg
@@ -4357,7 +4357,7 @@ exports[`renders ./components/form/demo/validate-static.md correctly 1`] = `
             class="ant-form-item-children-icon"
           >
             <i
-              aria-label="icon: exclamation-circle"
+              aria-label="图标: exclamation-circle"
               class="anticon anticon-exclamation-circle"
             >
               <svg
@@ -4413,7 +4413,7 @@ exports[`renders ./components/form/demo/validate-static.md correctly 1`] = `
             class="ant-form-item-children-icon"
           >
             <i
-              aria-label="icon: close-circle"
+              aria-label="图标: close-circle"
               class="anticon anticon-close-circle"
             >
               <svg
@@ -4470,12 +4470,12 @@ exports[`renders ./components/form/demo/validate-static.md correctly 1`] = `
             <div>
               <input
                 class="ant-calendar-picker-input ant-input"
-                placeholder="Select date"
+                placeholder="请选择日期"
                 readonly=""
                 value=""
               />
               <i
-                aria-label="icon: calendar"
+                aria-label="图标: calendar"
                 class="anticon anticon-calendar ant-calendar-picker-icon"
               >
                 <svg
@@ -4499,7 +4499,7 @@ exports[`renders ./components/form/demo/validate-static.md correctly 1`] = `
             class="ant-form-item-children-icon"
           >
             <i
-              aria-label="icon: check-circle"
+              aria-label="图标: check-circle"
               class="anticon anticon-check-circle"
             >
               <svg
@@ -4551,7 +4551,7 @@ exports[`renders ./components/form/demo/validate-static.md correctly 1`] = `
             <input
               class="ant-time-picker-input"
               id=""
-              placeholder="Select time"
+              placeholder="请选择时间"
               type="text"
               value=""
             />
@@ -4559,7 +4559,7 @@ exports[`renders ./components/form/demo/validate-static.md correctly 1`] = `
               class="ant-time-picker-icon"
             >
               <i
-                aria-label="icon: clock-circle"
+                aria-label="图标: clock-circle"
                 class="anticon anticon-clock-circle ant-time-picker-clock-icon"
               >
                 <svg
@@ -4586,7 +4586,7 @@ exports[`renders ./components/form/demo/validate-static.md correctly 1`] = `
             class="ant-form-item-children-icon"
           >
             <i
-              aria-label="icon: exclamation-circle"
+              aria-label="图标: exclamation-circle"
               class="anticon anticon-exclamation-circle"
             >
               <svg
@@ -4661,7 +4661,7 @@ exports[`renders ./components/form/demo/validate-static.md correctly 1`] = `
                 unselectable="on"
               >
                 <i
-                  aria-label="icon: down"
+                  aria-label="图标: down"
                   class="anticon anticon-down ant-select-arrow-icon"
                 >
                   <svg
@@ -4686,7 +4686,7 @@ exports[`renders ./components/form/demo/validate-static.md correctly 1`] = `
             class="ant-form-item-children-icon"
           >
             <i
-              aria-label="icon: close-circle"
+              aria-label="图标: close-circle"
               class="anticon anticon-close-circle"
             >
               <svg
@@ -4747,7 +4747,7 @@ exports[`renders ./components/form/demo/validate-static.md correctly 1`] = `
               value=""
             />
             <i
-              aria-label="icon: close-circle"
+              aria-label="图标: close-circle"
               class="anticon anticon-close-circle ant-cascader-picker-clear"
               tabindex="-1"
             >
@@ -4767,7 +4767,7 @@ exports[`renders ./components/form/demo/validate-static.md correctly 1`] = `
               </svg>
             </i>
             <i
-              aria-label="icon: down"
+              aria-label="图标: down"
               class="anticon anticon-down ant-cascader-picker-arrow"
             >
               <svg
@@ -4790,7 +4790,7 @@ exports[`renders ./components/form/demo/validate-static.md correctly 1`] = `
             class="ant-form-item-children-icon"
           >
             <i
-              aria-label="icon: loading"
+              aria-label="图标: loading"
               class="anticon anticon-loading"
             >
               <svg
@@ -4860,12 +4860,12 @@ exports[`renders ./components/form/demo/validate-static.md correctly 1`] = `
                     <div>
                       <input
                         class="ant-calendar-picker-input ant-input"
-                        placeholder="Select date"
+                        placeholder="请选择日期"
                         readonly=""
                         value=""
                       />
                       <i
-                        aria-label="icon: calendar"
+                        aria-label="图标: calendar"
                         class="anticon anticon-calendar ant-calendar-picker-icon"
                       >
                         <svg
@@ -4918,12 +4918,12 @@ exports[`renders ./components/form/demo/validate-static.md correctly 1`] = `
                     <div>
                       <input
                         class="ant-calendar-picker-input ant-input"
-                        placeholder="Select date"
+                        placeholder="请选择日期"
                         readonly=""
                         value=""
                       />
                       <i
-                        aria-label="icon: calendar"
+                        aria-label="图标: calendar"
                         class="anticon anticon-calendar ant-calendar-picker-icon"
                       >
                         <svg
@@ -4988,7 +4988,7 @@ exports[`renders ./components/form/demo/validate-static.md correctly 1`] = `
                 unselectable="unselectable"
               >
                 <i
-                  aria-label="icon: up"
+                  aria-label="图标: up"
                   class="anticon anticon-up ant-input-number-handler-up-inner"
                 >
                   <svg
@@ -5015,7 +5015,7 @@ exports[`renders ./components/form/demo/validate-static.md correctly 1`] = `
                 unselectable="unselectable"
               >
                 <i
-                  aria-label="icon: down"
+                  aria-label="图标: down"
                   class="anticon anticon-down ant-input-number-handler-down-inner"
                 >
                   <svg
@@ -5053,7 +5053,7 @@ exports[`renders ./components/form/demo/validate-static.md correctly 1`] = `
             class="ant-form-item-children-icon"
           >
             <i
-              aria-label="icon: check-circle"
+              aria-label="图标: check-circle"
               class="anticon anticon-check-circle"
             >
               <svg
@@ -5119,7 +5119,7 @@ exports[`renders ./components/form/demo/without-form-create.md correctly 1`] = `
                 unselectable="unselectable"
               >
                 <i
-                  aria-label="icon: up"
+                  aria-label="图标: up"
                   class="anticon anticon-up ant-input-number-handler-up-inner"
                 >
                   <svg
@@ -5146,7 +5146,7 @@ exports[`renders ./components/form/demo/without-form-create.md correctly 1`] = `
                 unselectable="unselectable"
               >
                 <i
-                  aria-label="icon: down"
+                  aria-label="图标: down"
                   class="anticon anticon-down ant-input-number-handler-down-inner"
                 >
                   <svg

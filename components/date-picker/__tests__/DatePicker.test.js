@@ -1,6 +1,7 @@
 import React from 'react';
 import { mount } from 'enzyme';
 import moment from 'moment';
+import 'moment/locale/zh-cn';
 import MockDate from 'mockdate';
 import DatePicker from '..';
 import { selectDate, openPanel, clearInput, nextYear, nextMonth, hasSelected } from './utils';
@@ -12,6 +13,7 @@ describe('DatePicker', () => {
   focusTest(DatePicker);
 
   beforeEach(() => {
+    moment.locale('zh-cn');
     MockDate.set(moment('2016-11-22'));
   });
 
@@ -160,10 +162,10 @@ describe('DatePicker', () => {
   it('changes year/month when under control', () => {
     const wrapper = mount(<DatePicker value={moment('2018-07-01')} />);
     openPanel(wrapper);
-    expect(wrapper.find('.ant-calendar-my-select').text()).toBe('Jul2018');
+    expect(wrapper.find('.ant-calendar-ym-select').text()).toBe('2018年7月');
     wrapper.find('.ant-calendar-prev-year-btn').simulate('click');
     wrapper.find('.ant-calendar-prev-month-btn').simulate('click');
-    expect(wrapper.find('.ant-calendar-my-select').text()).toBe('Jun2017');
+    expect(wrapper.find('.ant-calendar-ym-select').text()).toBe('2017年6月');
   });
 
   it('disabled date', () => {

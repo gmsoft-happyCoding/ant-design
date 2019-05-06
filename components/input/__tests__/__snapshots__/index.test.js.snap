@@ -32,7 +32,7 @@ exports[`Input allowClear should change type when click 1`] = `
           componentName="Icon"
         >
           <i
-            aria-label="icon: close-circle"
+            aria-label="图标: close-circle"
             className="anticon anticon-close-circle ant-input-clear-icon"
             onClick={[Function]}
             role="button"
@@ -313,7 +313,7 @@ exports[`Input.Password should change type when click 1`] = `
             componentName="Icon"
           >
             <i
-              aria-label="icon: eye-invisible"
+              aria-label="图标: eye-invisible"
               className="anticon anticon-eye-invisible ant-input-password-icon"
               onClick={[Function]}
               onMouseDown={[Function]}
@@ -402,7 +402,7 @@ exports[`Input.Password should change type when click 2`] = `
             componentName="Icon"
           >
             <i
-              aria-label="icon: eye"
+              aria-label="图标: eye"
               className="anticon anticon-eye ant-input-password-icon"
               onClick={[Function]}
               onMouseDown={[Function]}
@@ -487,7 +487,7 @@ exports[`Input.Password should change type when click 3`] = `
             componentName="Icon"
           >
             <i
-              aria-label="icon: eye-invisible"
+              aria-label="图标: eye-invisible"
               className="anticon anticon-eye-invisible ant-input-password-icon"
               onClick={[Function]}
               onMouseDown={[Function]}
@@ -575,7 +575,7 @@ exports[`Input.Search should support suffix 1`] = `
             componentName="Icon"
           >
             <i
-              aria-label="icon: search"
+              aria-label="图标: search"
               className="anticon anticon-search ant-input-search-icon"
               onClick={[Function]}
               tabIndex={-1}

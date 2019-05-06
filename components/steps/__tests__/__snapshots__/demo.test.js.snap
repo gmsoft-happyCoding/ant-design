@@ -152,7 +152,7 @@ exports[`renders ./components/steps/demo/error.md correctly 1`] = `
         class="ant-steps-icon"
       >
         <i
-          aria-label="icon: check"
+          aria-label="图标: check"
           class="anticon anticon-check ant-steps-finish-icon"
         >
           <svg
@@ -200,7 +200,7 @@ exports[`renders ./components/steps/demo/error.md correctly 1`] = `
         class="ant-steps-icon"
       >
         <i
-          aria-label="icon: close"
+          aria-label="图标: close"
           class="anticon anticon-close ant-steps-error-icon"
         >
           <svg
@@ -285,7 +285,7 @@ exports[`renders ./components/steps/demo/icon.md correctly 1`] = `
         class="ant-steps-icon"
       >
         <i
-          aria-label="icon: user"
+          aria-label="图标: user"
           class="anticon anticon-user"
         >
           <svg
@@ -328,7 +328,7 @@ exports[`renders ./components/steps/demo/icon.md correctly 1`] = `
         class="ant-steps-icon"
       >
         <i
-          aria-label="icon: solution"
+          aria-label="图标: solution"
           class="anticon anticon-solution"
         >
           <svg
@@ -371,7 +371,7 @@ exports[`renders ./components/steps/demo/icon.md correctly 1`] = `
         class="ant-steps-icon"
       >
         <i
-          aria-label="icon: loading"
+          aria-label="图标: loading"
           class="anticon anticon-loading"
         >
           <svg
@@ -414,7 +414,7 @@ exports[`renders ./components/steps/demo/icon.md correctly 1`] = `
         class="ant-steps-icon"
       >
         <i
-          aria-label="icon: smile-o"
+          aria-label="图标: smile-o"
           class="anticon anticon-smile-o"
         >
           <svg
@@ -567,7 +567,7 @@ exports[`renders ./components/steps/demo/simple.md correctly 1`] = `
         class="ant-steps-icon"
       >
         <i
-          aria-label="icon: check"
+          aria-label="图标: check"
           class="anticon anticon-check ant-steps-finish-icon"
         >
           <svg
@@ -682,7 +682,7 @@ exports[`renders ./components/steps/demo/small-size.md correctly 1`] = `
         class="ant-steps-icon"
       >
         <i
-          aria-label="icon: check"
+          aria-label="图标: check"
           class="anticon anticon-check ant-steps-finish-icon"
         >
           <svg
@@ -883,7 +883,7 @@ exports[`renders ./components/steps/demo/vertical.md correctly 1`] = `
         class="ant-steps-icon"
       >
         <i
-          aria-label="icon: check"
+          aria-label="图标: check"
           class="anticon anticon-check ant-steps-finish-icon"
         >
           <svg
@@ -998,7 +998,7 @@ exports[`renders ./components/steps/demo/vertical-small.md correctly 1`] = `
         class="ant-steps-icon"
       >
         <i
-          aria-label="icon: check"
+          aria-label="图标: check"
           class="anticon anticon-check ant-steps-finish-icon"
         >
           <svg

@@ -214,7 +214,7 @@ describe('Transfer', () => {
       .at(0)
       .find('input')
       .simulate('change', { target: { value: 'content2' } });
-    expect(headerText(wrapper)).toEqual('1 items');
+    expect(headerText(wrapper)).toEqual('1 项');
   });
 
   it('should display the correct locale', () => {

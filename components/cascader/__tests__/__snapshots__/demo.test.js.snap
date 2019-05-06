@@ -18,7 +18,7 @@ exports[`renders ./components/cascader/demo/basic.md correctly 1`] = `
     value=""
   />
   <i
-    aria-label="icon: down"
+    aria-label="图标: down"
     class="anticon anticon-down ant-cascader-picker-arrow"
   >
     <svg
@@ -57,7 +57,7 @@ exports[`renders ./components/cascader/demo/change-on-select.md correctly 1`] = 
     value=""
   />
   <i
-    aria-label="icon: down"
+    aria-label="图标: down"
     class="anticon anticon-down ant-cascader-picker-arrow"
   >
     <svg
@@ -110,7 +110,7 @@ exports[`renders ./components/cascader/demo/custom-render.md correctly 1`] = `
     value=""
   />
   <i
-    aria-label="icon: close-circle"
+    aria-label="图标: close-circle"
     class="anticon anticon-close-circle ant-cascader-picker-clear"
     tabindex="-1"
   >
@@ -130,7 +130,7 @@ exports[`renders ./components/cascader/demo/custom-render.md correctly 1`] = `
     </svg>
   </i>
   <i
-    aria-label="icon: down"
+    aria-label="图标: down"
     class="anticon anticon-down ant-cascader-picker-arrow"
   >
     <svg
@@ -182,7 +182,7 @@ exports[`renders ./components/cascader/demo/default-value.md correctly 1`] = `
     value=""
   />
   <i
-    aria-label="icon: close-circle"
+    aria-label="图标: close-circle"
     class="anticon anticon-close-circle ant-cascader-picker-clear"
     tabindex="-1"
   >
@@ -202,7 +202,7 @@ exports[`renders ./components/cascader/demo/default-value.md correctly 1`] = `
     </svg>
   </i>
   <i
-    aria-label="icon: down"
+    aria-label="图标: down"
     class="anticon anticon-down ant-cascader-picker-arrow"
   >
     <svg
@@ -241,7 +241,7 @@ exports[`renders ./components/cascader/demo/disabled-option.md correctly 1`] = `
     value=""
   />
   <i
-    aria-label="icon: down"
+    aria-label="图标: down"
     class="anticon anticon-down ant-cascader-picker-arrow"
   >
     <svg
@@ -280,7 +280,7 @@ exports[`renders ./components/cascader/demo/fields-name.md correctly 1`] = `
     value=""
   />
   <i
-    aria-label="icon: down"
+    aria-label="图标: down"
     class="anticon anticon-down ant-cascader-picker-arrow"
   >
     <svg
@@ -319,7 +319,7 @@ exports[`renders ./components/cascader/demo/hover.md correctly 1`] = `
     value=""
   />
   <i
-    aria-label="icon: down"
+    aria-label="图标: down"
     class="anticon anticon-down ant-cascader-picker-arrow"
   >
     <svg
@@ -358,7 +358,7 @@ exports[`renders ./components/cascader/demo/lazy.md correctly 1`] = `
     value=""
   />
   <i
-    aria-label="icon: down"
+    aria-label="图标: down"
     class="anticon anticon-down ant-cascader-picker-arrow"
   >
     <svg
@@ -396,7 +396,7 @@ exports[`renders ./components/cascader/demo/search.md correctly 1`] = `
     value=""
   />
   <i
-    aria-label="icon: down"
+    aria-label="图标: down"
     class="anticon anticon-down ant-cascader-picker-arrow"
   >
     <svg
@@ -436,7 +436,7 @@ exports[`renders ./components/cascader/demo/size.md correctly 1`] = `
       value=""
     />
     <i
-      aria-label="icon: down"
+      aria-label="图标: down"
       class="anticon anticon-down ant-cascader-picker-arrow"
     >
       <svg
@@ -474,7 +474,7 @@ exports[`renders ./components/cascader/demo/size.md correctly 1`] = `
       value=""
     />
     <i
-      aria-label="icon: down"
+      aria-label="图标: down"
       class="anticon anticon-down ant-cascader-picker-arrow"
     >
       <svg
@@ -512,7 +512,7 @@ exports[`renders ./components/cascader/demo/size.md correctly 1`] = `
       value=""
     />
     <i
-      aria-label="icon: down"
+      aria-label="图标: down"
       class="anticon anticon-down ant-cascader-picker-arrow"
     >
       <svg
@@ -555,7 +555,7 @@ exports[`renders ./components/cascader/demo/suffix.md correctly 1`] = `
       value=""
     />
     <i
-      aria-label="icon: smile"
+      aria-label="图标: smile"
       class="anticon anticon-smile ant-cascader-picker-arrow"
     >
       <svg

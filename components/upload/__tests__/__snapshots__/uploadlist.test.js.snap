@@ -35,7 +35,7 @@ exports[`Upload List handle error 1`] = `
       >
         <span>
           <i
-            aria-label="icon: paper-clip"
+            aria-label="图标: paper-clip"
             class="anticon anticon-paper-clip"
           >
             <svg
@@ -62,10 +62,10 @@ exports[`Upload List handle error 1`] = `
         </span>
       </div>
       <i
-        aria-label="icon: close"
+        aria-label="图标: close"
         class="anticon anticon-close"
         tabindex="-1"
-        title="Remove file"
+        title="删除文件"
       >
         <svg
           aria-hidden="true"
@@ -144,7 +144,7 @@ exports[`Upload List should be uploading when upload a file 1`] = `
       >
         <span>
           <i
-            aria-label="icon: loading"
+            aria-label="图标: loading"
             class="anticon anticon-loading"
           >
             <svg
@@ -171,10 +171,10 @@ exports[`Upload List should be uploading when upload a file 1`] = `
         </span>
       </div>
       <i
-        aria-label="icon: close"
+        aria-label="图标: close"
         class="anticon anticon-close"
         tabindex="-1"
-        title="Remove file"
+        title="删除文件"
       >
         <svg
           aria-hidden="true"
@@ -253,7 +253,7 @@ exports[`Upload List should be uploading when upload a file 2`] = `
       >
         <span>
           <i
-            aria-label="icon: paper-clip"
+            aria-label="图标: paper-clip"
             class="anticon anticon-paper-clip"
           >
             <svg
@@ -280,10 +280,10 @@ exports[`Upload List should be uploading when upload a file 2`] = `
         </span>
       </div>
       <i
-        aria-label="icon: close"
+        aria-label="图标: close"
         class="anticon anticon-close"
         tabindex="-1"
-        title="Remove file"
+        title="删除文件"
       >
         <svg
           aria-hidden="true"
@@ -368,7 +368,7 @@ exports[`Upload List should non-image format file preview 1`] = `
             target="_blank"
           >
             <i
-              aria-label="icon: file"
+              aria-label="图标: file"
               class="anticon anticon-file ant-upload-list-item-icon"
             >
               <svg
@@ -404,10 +404,10 @@ exports[`Upload List should non-image format file preview 1`] = `
         </span>
       </div>
       <i
-        aria-label="icon: close"
+        aria-label="图标: close"
         class="anticon anticon-close"
         tabindex="-1"
-        title="Remove file"
+        title="删除文件"
       >
         <svg
           aria-hidden="true"
@@ -455,10 +455,10 @@ exports[`Upload List should non-image format file preview 1`] = `
         </span>
       </div>
       <i
-        aria-label="icon: close"
+        aria-label="图标: close"
         class="anticon anticon-close"
         tabindex="-1"
-        title="Remove file"
+        title="删除文件"
       >
         <svg
           aria-hidden="true"
@@ -490,7 +490,7 @@ exports[`Upload List should non-image format file preview 1`] = `
             target="_blank"
           >
             <i
-              aria-label="icon: file"
+              aria-label="图标: file"
               class="anticon anticon-file ant-upload-list-item-icon"
             >
               <svg
@@ -526,10 +526,10 @@ exports[`Upload List should non-image format file preview 1`] = `
         </span>
       </div>
       <i
-        aria-label="icon: close"
+        aria-label="图标: close"
         class="anticon anticon-close"
         tabindex="-1"
-        title="Remove file"
+        title="删除文件"
       >
         <svg
           aria-hidden="true"
@@ -561,7 +561,7 @@ exports[`Upload List should non-image format file preview 1`] = `
             target="_blank"
           >
             <i
-              aria-label="icon: file"
+              aria-label="图标: file"
               class="anticon anticon-file ant-upload-list-item-icon"
             >
               <svg
@@ -597,10 +597,10 @@ exports[`Upload List should non-image format file preview 1`] = `
         </span>
       </div>
       <i
-        aria-label="icon: close"
+        aria-label="图标: close"
         class="anticon anticon-close"
         tabindex="-1"
-        title="Remove file"
+        title="删除文件"
       >
         <svg
           aria-hidden="true"
@@ -648,10 +648,10 @@ exports[`Upload List should non-image format file preview 1`] = `
         </span>
       </div>
       <i
-        aria-label="icon: close"
+        aria-label="图标: close"
         class="anticon anticon-close"
         tabindex="-1"
-        title="Remove file"
+        title="删除文件"
       >
         <svg
           aria-hidden="true"
@@ -699,10 +699,10 @@ exports[`Upload List should non-image format file preview 1`] = `
         </span>
       </div>
       <i
-        aria-label="icon: close"
+        aria-label="图标: close"
         class="anticon anticon-close"
         tabindex="-1"
-        title="Remove file"
+        title="删除文件"
       >
         <svg
           aria-hidden="true"
@@ -750,10 +750,10 @@ exports[`Upload List should non-image format file preview 1`] = `
         </span>
       </div>
       <i
-        aria-label="icon: close"
+        aria-label="图标: close"
         class="anticon anticon-close"
         tabindex="-1"
-        title="Remove file"
+        title="删除文件"
       >
         <svg
           aria-hidden="true"
@@ -801,10 +801,10 @@ exports[`Upload List should non-image format file preview 1`] = `
         </span>
       </div>
       <i
-        aria-label="icon: close"
+        aria-label="图标: close"
         class="anticon anticon-close"
         tabindex="-1"
-        title="Remove file"
+        title="删除文件"
       >
         <svg
           aria-hidden="true"
@@ -852,10 +852,10 @@ exports[`Upload List should non-image format file preview 1`] = `
         </span>
       </div>
       <i
-        aria-label="icon: close"
+        aria-label="图标: close"
         class="anticon anticon-close"
         tabindex="-1"
-        title="Remove file"
+        title="删除文件"
       >
         <svg
           aria-hidden="true"
@@ -903,10 +903,10 @@ exports[`Upload List should non-image format file preview 1`] = `
         </span>
       </div>
       <i
-        aria-label="icon: close"
+        aria-label="图标: close"
         class="anticon anticon-close"
         tabindex="-1"
-        title="Remove file"
+        title="删除文件"
       >
         <svg
           aria-hidden="true"

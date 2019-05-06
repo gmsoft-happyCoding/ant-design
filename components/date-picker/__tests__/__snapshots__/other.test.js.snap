@@ -24,38 +24,38 @@ exports[`MonthPicker and WeekPicker render MonthPicker 1`] = `
               <a
                 class="ant-calendar-prev-year-btn"
                 role="button"
-                title="Last year (Control + left)"
+                title="上一年 (Control键加左方向键)"
               />
               <a
                 class="ant-calendar-prev-month-btn"
                 role="button"
-                title="Previous month (PageUp)"
+                title="上个月 (翻页上键)"
               />
               <span
-                class="ant-calendar-my-select"
+                class="ant-calendar-ym-select"
               >
-                <a
-                  class="ant-calendar-month-select"
-                  role="button"
-                  title="Choose a month"
-                >
-                  1月
-                </a>
                 <a
                   class="ant-calendar-year-select"
                   role="button"
-                  title="Choose a year"
+                  title="选择年份"
                 >
-                  2000
+                  2000年
+                </a>
+                <a
+                  class="ant-calendar-month-select"
+                  role="button"
+                  title="选择月份"
+                >
+                  1月
                 </a>
               </span>
               <a
                 class="ant-calendar-next-month-btn"
-                title="Next month (PageDown)"
+                title="下个月 (翻页下键)"
               />
               <a
                 class="ant-calendar-next-year-btn"
-                title="Next year (Control + right)"
+                title="下一年 (Control键加右方向键)"
               />
             </div>
             <div
@@ -68,12 +68,12 @@ exports[`MonthPicker and WeekPicker render MonthPicker 1`] = `
                   <a
                     class="ant-calendar-month-panel-prev-year-btn"
                     role="button"
-                    title="Last year (Control + left)"
+                    title="上一年 (Control键加左方向键)"
                   />
                   <a
                     class="ant-calendar-month-panel-year-select"
                     role="button"
-                    title="Choose a year"
+                    title="选择年份"
                   >
                     <span
                       class="ant-calendar-month-panel-year-select-content"
@@ -89,7 +89,7 @@ exports[`MonthPicker and WeekPicker render MonthPicker 1`] = `
                   <a
                     class="ant-calendar-month-panel-next-year-btn"
                     role="button"
-                    title="Next year (Control + right)"
+                    title="下一年 (Control键加右方向键)"
                   />
                 </div>
                 <div
@@ -289,38 +289,38 @@ exports[`MonthPicker and WeekPicker render WeekPicker 1`] = `
               <a
                 class="ant-calendar-prev-year-btn"
                 role="button"
-                title="Last year (Control + left)"
+                title="上一年 (Control键加左方向键)"
               />
               <a
                 class="ant-calendar-prev-month-btn"
                 role="button"
-                title="Previous month (PageUp)"
+                title="上个月 (翻页上键)"
               />
               <span
-                class="ant-calendar-my-select"
+                class="ant-calendar-ym-select"
               >
-                <a
-                  class="ant-calendar-month-select"
-                  role="button"
-                  title="Choose a month"
-                >
-                  1月
-                </a>
                 <a
                   class="ant-calendar-year-select"
                   role="button"
-                  title="Choose a year"
+                  title="选择年份"
                 >
-                  2000
+                  2000年
+                </a>
+                <a
+                  class="ant-calendar-month-select"
+                  role="button"
+                  title="选择月份"
+                >
+                  1月
                 </a>
               </span>
               <a
                 class="ant-calendar-next-month-btn"
-                title="Next month (PageDown)"
+                title="下个月 (翻页下键)"
               />
               <a
                 class="ant-calendar-next-year-btn"
-                title="Next year (Control + right)"
+                title="下一年 (Control键加右方向键)"
               />
             </div>
           </div>

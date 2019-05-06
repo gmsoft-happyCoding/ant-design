@@ -66,13 +66,13 @@ exports[`renders ./components/locale-provider/demo/all.md correctly 1`] = `
         <li
           aria-disabled="true"
           class="ant-pagination-disabled ant-pagination-prev"
-          title="Previous Page"
+          title="上一页"
         >
           <a
             class="ant-pagination-item-link"
           >
             <i
-              aria-label="icon: left"
+              aria-label="图标: left"
               class="anticon anticon-left"
             >
               <svg
@@ -141,13 +141,13 @@ exports[`renders ./components/locale-provider/demo/all.md correctly 1`] = `
           aria-disabled="false"
           class=" ant-pagination-next"
           tabindex="0"
-          title="Next Page"
+          title="下一页"
         >
           <a
             class="ant-pagination-item-link"
           >
             <i
-              aria-label="icon: right"
+              aria-label="图标: right"
               class="anticon anticon-right"
             >
               <svg
@@ -189,9 +189,9 @@ exports[`renders ./components/locale-provider/demo/all.md correctly 1`] = `
                 <div
                   class="ant-select-selection-selected-value"
                   style="display:block;opacity:1"
-                  title="10 / page"
+                  title="10 条/页"
                 >
-                  10 / page
+                  10 条/页
                 </div>
               </div>
               <span
@@ -200,7 +200,7 @@ exports[`renders ./components/locale-provider/demo/all.md correctly 1`] = `
                 unselectable="on"
               >
                 <i
-                  aria-label="icon: down"
+                  aria-label="图标: down"
                   class="anticon anticon-down ant-select-arrow-icon"
                 >
                   <svg
@@ -270,7 +270,7 @@ exports[`renders ./components/locale-provider/demo/all.md correctly 1`] = `
             unselectable="on"
           >
             <i
-              aria-label="icon: down"
+              aria-label="图标: down"
               class="anticon anticon-down ant-select-arrow-icon"
             >
               <svg
@@ -297,12 +297,12 @@ exports[`renders ./components/locale-provider/demo/all.md correctly 1`] = `
         <div>
           <input
             class="ant-calendar-picker-input ant-input"
-            placeholder="Select date"
+            placeholder="请选择日期"
             readonly=""
             value=""
           />
           <i
-            aria-label="icon: calendar"
+            aria-label="图标: calendar"
             class="anticon anticon-calendar ant-calendar-picker-icon"
           >
             <svg
@@ -328,7 +328,7 @@ exports[`renders ./components/locale-provider/demo/all.md correctly 1`] = `
         <input
           class="ant-time-picker-input"
           id=""
-          placeholder="Select time"
+          placeholder="请选择时间"
           type="text"
           value=""
         />
@@ -336,7 +336,7 @@ exports[`renders ./components/locale-provider/demo/all.md correctly 1`] = `
           class="ant-time-picker-icon"
         >
           <i
-            aria-label="icon: clock-circle"
+            aria-label="图标: clock-circle"
             class="anticon anticon-clock-circle ant-time-picker-clock-icon"
           >
             <svg
@@ -369,7 +369,7 @@ exports[`renders ./components/locale-provider/demo/all.md correctly 1`] = `
         >
           <input
             class="ant-calendar-range-picker-input"
-            placeholder="Start date"
+            placeholder="开始日期"
             readonly=""
             tabindex="-1"
             value=""
@@ -381,13 +381,13 @@ exports[`renders ./components/locale-provider/demo/all.md correctly 1`] = `
           </span>
           <input
             class="ant-calendar-range-picker-input"
-            placeholder="End date"
+            placeholder="结束日期"
             readonly=""
             tabindex="-1"
             value=""
           />
           <i
-            aria-label="icon: calendar"
+            aria-label="图标: calendar"
             class="anticon anticon-calendar ant-calendar-picker-icon"
           >
             <svg
@@ -472,7 +472,7 @@ exports[`renders ./components/locale-provider/demo/all.md correctly 1`] = `
               class="ant-transfer-list-header-selected"
             >
               <span>
-                0 item
+                0 项
               </span>
               <span
                 class="ant-transfer-list-header-title"
@@ -488,7 +488,7 @@ exports[`renders ./components/locale-provider/demo/all.md correctly 1`] = `
               <div>
                 <input
                   class="ant-input ant-transfer-list-search"
-                  placeholder="Search here"
+                  placeholder="请输入搜索内容"
                   type="text"
                   value=""
                 />
@@ -496,7 +496,7 @@ exports[`renders ./components/locale-provider/demo/all.md correctly 1`] = `
                   class="ant-transfer-list-search-action"
                 >
                   <i
-                    aria-label="icon: search"
+                    aria-label="图标: search"
                     class="anticon anticon-search"
                   >
                     <svg
@@ -527,14 +527,14 @@ exports[`renders ./components/locale-provider/demo/all.md correctly 1`] = `
                   class="ant-empty-image"
                 >
                   <img
-                    alt="No Data"
+                    alt="暂无数据"
                     src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjQiIGhlaWdodD0iNDEiIHZpZXdCb3g9IjAgMCA2NCA0MSIgIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CiAgPGcgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMCAxKSIgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIj4KICAgIDxlbGxpcHNlIGZpbGw9IiNGNUY1RjUiIGN4PSIzMiIgY3k9IjMzIiByeD0iMzIiIHJ5PSI3Ii8+CiAgICA8ZyBmaWxsLXJ1bGU9Im5vbnplcm8iIHN0cm9rZT0iI0Q5RDlEOSI+CiAgICAgIDxwYXRoIGQ9Ik01NSAxMi43Nkw0NC44NTQgMS4yNThDNDQuMzY3LjQ3NCA0My42NTYgMCA0Mi45MDcgMEgyMS4wOTNjLS43NDkgMC0xLjQ2LjQ3NC0xLjk0NyAxLjI1N0w5IDEyLjc2MVYyMmg0NnYtOS4yNHoiLz4KICAgICAgPHBhdGggZD0iTTQxLjYxMyAxNS45MzFjMC0xLjYwNS45OTQtMi45MyAyLjIyNy0yLjkzMUg1NXYxOC4xMzdDNTUgMzMuMjYgNTMuNjggMzUgNTIuMDUgMzVoLTQwLjFDMTAuMzIgMzUgOSAzMy4yNTkgOSAzMS4xMzdWMTNoMTEuMTZjMS4yMzMgMCAyLjIyNyAxLjMyMyAyLjIyNyAyLjkyOHYuMDIyYzAgMS42MDUgMS4wMDUgMi45MDEgMi4yMzcgMi45MDFoMTQuNzUyYzEuMjMyIDAgMi4yMzctMS4zMDggMi4yMzctMi45MTN2LS4wMDd6IiBmaWxsPSIjRkFGQUZBIi8+CiAgICA8L2c+CiAgPC9nPgo8L3N2Zz4K"
                   />
                 </div>
                 <p
                   class="ant-empty-description"
                 >
-                  No Data
+                  暂无数据
                 </p>
               </div>
             </div>
@@ -549,7 +549,7 @@ exports[`renders ./components/locale-provider/demo/all.md correctly 1`] = `
             type="button"
           >
             <i
-              aria-label="icon: right"
+              aria-label="图标: right"
               class="anticon anticon-right"
             >
               <svg
@@ -574,7 +574,7 @@ exports[`renders ./components/locale-provider/demo/all.md correctly 1`] = `
             type="button"
           >
             <i
-              aria-label="icon: left"
+              aria-label="图标: left"
               class="anticon anticon-left"
             >
               <svg
@@ -619,7 +619,7 @@ exports[`renders ./components/locale-provider/demo/all.md correctly 1`] = `
               class="ant-transfer-list-header-selected"
             >
               <span>
-                0 item
+                0 项
               </span>
               <span
                 class="ant-transfer-list-header-title"
@@ -635,7 +635,7 @@ exports[`renders ./components/locale-provider/demo/all.md correctly 1`] = `
               <div>
                 <input
                   class="ant-input ant-transfer-list-search"
-                  placeholder="Search here"
+                  placeholder="请输入搜索内容"
                   type="text"
                   value=""
                 />
@@ -643,7 +643,7 @@ exports[`renders ./components/locale-provider/demo/all.md correctly 1`] = `
                   class="ant-transfer-list-search-action"
                 >
                   <i
-                    aria-label="icon: search"
+                    aria-label="图标: search"
                     class="anticon anticon-search"
                   >
                     <svg
@@ -674,14 +674,14 @@ exports[`renders ./components/locale-provider/demo/all.md correctly 1`] = `
                   class="ant-empty-image"
                 >
                   <img
-                    alt="No Data"
+                    alt="暂无数据"
                     src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjQiIGhlaWdodD0iNDEiIHZpZXdCb3g9IjAgMCA2NCA0MSIgIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CiAgPGcgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMCAxKSIgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIj4KICAgIDxlbGxpcHNlIGZpbGw9IiNGNUY1RjUiIGN4PSIzMiIgY3k9IjMzIiByeD0iMzIiIHJ5PSI3Ii8+CiAgICA8ZyBmaWxsLXJ1bGU9Im5vbnplcm8iIHN0cm9rZT0iI0Q5RDlEOSI+CiAgICAgIDxwYXRoIGQ9Ik01NSAxMi43Nkw0NC44NTQgMS4yNThDNDQuMzY3LjQ3NCA0My42NTYgMCA0Mi45MDcgMEgyMS4wOTNjLS43NDkgMC0xLjQ2LjQ3NC0xLjk0NyAxLjI1N0w5IDEyLjc2MVYyMmg0NnYtOS4yNHoiLz4KICAgICAgPHBhdGggZD0iTTQxLjYxMyAxNS45MzFjMC0xLjYwNS45OTQtMi45MyAyLjIyNy0yLjkzMUg1NXYxOC4xMzdDNTUgMzMuMjYgNTMuNjggMzUgNTIuMDUgMzVoLTQwLjFDMTAuMzIgMzUgOSAzMy4yNTkgOSAzMS4xMzdWMTNoMTEuMTZjMS4yMzMgMCAyLjIyNyAxLjMyMyAyLjIyNyAyLjkyOHYuMDIyYzAgMS42MDUgMS4wMDUgMi45MDEgMi4yMzcgMi45MDFoMTQuNzUyYzEuMjMyIDAgMi4yMzctMS4zMDggMi4yMzctMi45MTN2LS4wMDd6IiBmaWxsPSIjRkFGQUZBIi8+CiAgICA8L2c+CiAgPC9nPgo8L3N2Zz4K"
                   />
                 </div>
                 <p
                   class="ant-empty-description"
                 >
-                  No Data
+                  暂无数据
                 </p>
               </div>
             </div>
@@ -717,9 +717,9 @@ exports[`renders ./components/locale-provider/demo/all.md correctly 1`] = `
                 <div
                   class="ant-select-selection-selected-value"
                   style="display:block;opacity:1"
-                  title="2016"
+                  title="2016年"
                 >
-                  2016
+                  2016年
                 </div>
               </div>
               <span
@@ -728,7 +728,7 @@ exports[`renders ./components/locale-provider/demo/all.md correctly 1`] = `
                 unselectable="on"
               >
                 <i
-                  aria-label="icon: down"
+                  aria-label="图标: down"
                   class="anticon anticon-down ant-select-arrow-icon"
                 >
                   <svg
@@ -768,9 +768,9 @@ exports[`renders ./components/locale-provider/demo/all.md correctly 1`] = `
                 <div
                   class="ant-select-selection-selected-value"
                   style="display:block;opacity:1"
-                  title="Nov"
+                  title="11月"
                 >
-                  Nov
+                  11月
                 </div>
               </div>
               <span
@@ -779,7 +779,7 @@ exports[`renders ./components/locale-provider/demo/all.md correctly 1`] = `
                 unselectable="on"
               >
                 <i
-                  aria-label="icon: down"
+                  aria-label="图标: down"
                   class="anticon anticon-down ant-select-arrow-icon"
                 >
                   <svg
@@ -820,7 +820,7 @@ exports[`renders ./components/locale-provider/demo/all.md correctly 1`] = `
                 />
               </span>
               <span>
-                Month
+                月
               </span>
             </label>
             <label
@@ -839,7 +839,7 @@ exports[`renders ./components/locale-provider/demo/all.md correctly 1`] = `
                 />
               </span>
               <span>
-                Year
+                年
               </span>
             </label>
           </div>
@@ -863,78 +863,78 @@ exports[`renders ./components/locale-provider/demo/all.md correctly 1`] = `
                   <th
                     class="ant-fullcalendar-column-header"
                     role="columnheader"
-                    title="Sun"
+                    title="周一"
                   >
                     <span
                       class="ant-fullcalendar-column-header-inner"
                     >
-                      Su
+                      一
                     </span>
                   </th>
                   <th
                     class="ant-fullcalendar-column-header"
                     role="columnheader"
-                    title="Mon"
+                    title="周二"
                   >
                     <span
                       class="ant-fullcalendar-column-header-inner"
                     >
-                      Mo
+                      二
                     </span>
                   </th>
                   <th
                     class="ant-fullcalendar-column-header"
                     role="columnheader"
-                    title="Tue"
+                    title="周三"
                   >
                     <span
                       class="ant-fullcalendar-column-header-inner"
                     >
-                      Tu
+                      三
                     </span>
                   </th>
                   <th
                     class="ant-fullcalendar-column-header"
                     role="columnheader"
-                    title="Wed"
+                    title="周四"
                   >
                     <span
                       class="ant-fullcalendar-column-header-inner"
                     >
-                      We
+                      四
                     </span>
                   </th>
                   <th
                     class="ant-fullcalendar-column-header"
                     role="columnheader"
-                    title="Thu"
+                    title="周五"
                   >
                     <span
                       class="ant-fullcalendar-column-header-inner"
                     >
-                      Th
+                      五
                     </span>
                   </th>
                   <th
                     class="ant-fullcalendar-column-header"
                     role="columnheader"
-                    title="Fri"
+                    title="周六"
                   >
                     <span
                       class="ant-fullcalendar-column-header-inner"
                     >
-                      Fr
+                      六
                     </span>
                   </th>
                   <th
                     class="ant-fullcalendar-column-header"
                     role="columnheader"
-                    title="Sat"
+                    title="周日"
                   >
                     <span
                       class="ant-fullcalendar-column-header-inner"
                     >
-                      Sa
+                      日
                     </span>
                   </th>
                 </tr>
@@ -947,27 +947,9 @@ exports[`renders ./components/locale-provider/demo/all.md correctly 1`] = `
                   role="row"
                 >
                   <td
-                    class="ant-fullcalendar-cell ant-fullcalendar-last-month-cell"
-                    role="gridcell"
-                    title="October 30, 2016"
-                  >
-                    <div
-                      class="ant-fullcalendar-date"
-                    >
-                      <div
-                        class="ant-fullcalendar-value"
-                      >
-                        30
-                      </div>
-                      <div
-                        class="ant-fullcalendar-content"
-                      />
-                    </div>
-                  </td>
-                  <td
                     class="ant-fullcalendar-cell ant-fullcalendar-last-month-cell ant-fullcalendar-last-day-of-month"
                     role="gridcell"
-                    title="October 31, 2016"
+                    title="2016年10月31日"
                   >
                     <div
                       class="ant-fullcalendar-date"
@@ -985,7 +967,7 @@ exports[`renders ./components/locale-provider/demo/all.md correctly 1`] = `
                   <td
                     class="ant-fullcalendar-cell"
                     role="gridcell"
-                    title="November 1, 2016"
+                    title="2016年11月1日"
                   >
                     <div
                       class="ant-fullcalendar-date"
@@ -1003,7 +985,7 @@ exports[`renders ./components/locale-provider/demo/all.md correctly 1`] = `
                   <td
                     class="ant-fullcalendar-cell"
                     role="gridcell"
-                    title="November 2, 2016"
+                    title="2016年11月2日"
                   >
                     <div
                       class="ant-fullcalendar-date"
@@ -1021,7 +1003,7 @@ exports[`renders ./components/locale-provider/demo/all.md correctly 1`] = `
                   <td
                     class="ant-fullcalendar-cell"
                     role="gridcell"
-                    title="November 3, 2016"
+                    title="2016年11月3日"
                   >
                     <div
                       class="ant-fullcalendar-date"
@@ -1039,7 +1021,7 @@ exports[`renders ./components/locale-provider/demo/all.md correctly 1`] = `
                   <td
                     class="ant-fullcalendar-cell"
                     role="gridcell"
-                    title="November 4, 2016"
+                    title="2016年11月4日"
                   >
                     <div
                       class="ant-fullcalendar-date"
@@ -1057,7 +1039,7 @@ exports[`renders ./components/locale-provider/demo/all.md correctly 1`] = `
                   <td
                     class="ant-fullcalendar-cell"
                     role="gridcell"
-                    title="November 5, 2016"
+                    title="2016年11月5日"
                   >
                     <div
                       class="ant-fullcalendar-date"
@@ -1072,15 +1054,10 @@ exports[`renders ./components/locale-provider/demo/all.md correctly 1`] = `
                       />
                     </div>
                   </td>
-                </tr>
-                <tr
-                  class=""
-                  role="row"
-                >
                   <td
                     class="ant-fullcalendar-cell"
                     role="gridcell"
-                    title="November 6, 2016"
+                    title="2016年11月6日"
                   >
                     <div
                       class="ant-fullcalendar-date"
@@ -1095,10 +1072,15 @@ exports[`renders ./components/locale-provider/demo/all.md correctly 1`] = `
                       />
                     </div>
                   </td>
+                </tr>
+                <tr
+                  class=""
+                  role="row"
+                >
                   <td
                     class="ant-fullcalendar-cell"
                     role="gridcell"
-                    title="November 7, 2016"
+                    title="2016年11月7日"
                   >
                     <div
                       class="ant-fullcalendar-date"
@@ -1116,7 +1098,7 @@ exports[`renders ./components/locale-provider/demo/all.md correctly 1`] = `
                   <td
                     class="ant-fullcalendar-cell"
                     role="gridcell"
-                    title="November 8, 2016"
+                    title="2016年11月8日"
                   >
                     <div
                       class="ant-fullcalendar-date"
@@ -1134,7 +1116,7 @@ exports[`renders ./components/locale-provider/demo/all.md correctly 1`] = `
                   <td
                     class="ant-fullcalendar-cell"
                     role="gridcell"
-                    title="November 9, 2016"
+                    title="2016年11月9日"
                   >
                     <div
                       class="ant-fullcalendar-date"
@@ -1152,7 +1134,7 @@ exports[`renders ./components/locale-provider/demo/all.md correctly 1`] = `
                   <td
                     class="ant-fullcalendar-cell"
                     role="gridcell"
-                    title="November 10, 2016"
+                    title="2016年11月10日"
                   >
                     <div
                       class="ant-fullcalendar-date"
@@ -1170,7 +1152,7 @@ exports[`renders ./components/locale-provider/demo/all.md correctly 1`] = `
                   <td
                     class="ant-fullcalendar-cell"
                     role="gridcell"
-                    title="November 11, 2016"
+                    title="2016年11月11日"
                   >
                     <div
                       class="ant-fullcalendar-date"
@@ -1188,7 +1170,7 @@ exports[`renders ./components/locale-provider/demo/all.md correctly 1`] = `
                   <td
                     class="ant-fullcalendar-cell"
                     role="gridcell"
-                    title="November 12, 2016"
+                    title="2016年11月12日"
                   >
                     <div
                       class="ant-fullcalendar-date"
@@ -1203,15 +1185,10 @@ exports[`renders ./components/locale-provider/demo/all.md correctly 1`] = `
                       />
                     </div>
                   </td>
-                </tr>
-                <tr
-                  class=""
-                  role="row"
-                >
                   <td
                     class="ant-fullcalendar-cell"
                     role="gridcell"
-                    title="November 13, 2016"
+                    title="2016年11月13日"
                   >
                     <div
                       class="ant-fullcalendar-date"
@@ -1226,10 +1203,15 @@ exports[`renders ./components/locale-provider/demo/all.md correctly 1`] = `
                       />
                     </div>
                   </td>
+                </tr>
+                <tr
+                  class=""
+                  role="row"
+                >
                   <td
                     class="ant-fullcalendar-cell"
                     role="gridcell"
-                    title="November 14, 2016"
+                    title="2016年11月14日"
                   >
                     <div
                       class="ant-fullcalendar-date"
@@ -1247,7 +1229,7 @@ exports[`renders ./components/locale-provider/demo/all.md correctly 1`] = `
                   <td
                     class="ant-fullcalendar-cell"
                     role="gridcell"
-                    title="November 15, 2016"
+                    title="2016年11月15日"
                   >
                     <div
                       class="ant-fullcalendar-date"
@@ -1265,7 +1247,7 @@ exports[`renders ./components/locale-provider/demo/all.md correctly 1`] = `
                   <td
                     class="ant-fullcalendar-cell"
                     role="gridcell"
-                    title="November 16, 2016"
+                    title="2016年11月16日"
                   >
                     <div
                       class="ant-fullcalendar-date"
@@ -1283,7 +1265,7 @@ exports[`renders ./components/locale-provider/demo/all.md correctly 1`] = `
                   <td
                     class="ant-fullcalendar-cell"
                     role="gridcell"
-                    title="November 17, 2016"
+                    title="2016年11月17日"
                   >
                     <div
                       class="ant-fullcalendar-date"
@@ -1301,7 +1283,7 @@ exports[`renders ./components/locale-provider/demo/all.md correctly 1`] = `
                   <td
                     class="ant-fullcalendar-cell"
                     role="gridcell"
-                    title="November 18, 2016"
+                    title="2016年11月18日"
                   >
                     <div
                       class="ant-fullcalendar-date"
@@ -1319,7 +1301,7 @@ exports[`renders ./components/locale-provider/demo/all.md correctly 1`] = `
                   <td
                     class="ant-fullcalendar-cell"
                     role="gridcell"
-                    title="November 19, 2016"
+                    title="2016年11月19日"
                   >
                     <div
                       class="ant-fullcalendar-date"
@@ -1334,15 +1316,10 @@ exports[`renders ./components/locale-provider/demo/all.md correctly 1`] = `
                       />
                     </div>
                   </td>
-                </tr>
-                <tr
-                  class="ant-fullcalendar-current-week ant-fullcalendar-active-week"
-                  role="row"
-                >
                   <td
                     class="ant-fullcalendar-cell"
                     role="gridcell"
-                    title="November 20, 2016"
+                    title="2016年11月20日"
                   >
                     <div
                       class="ant-fullcalendar-date"
@@ -1357,10 +1334,15 @@ exports[`renders ./components/locale-provider/demo/all.md correctly 1`] = `
                       />
                     </div>
                   </td>
+                </tr>
+                <tr
+                  class="ant-fullcalendar-current-week ant-fullcalendar-active-week"
+                  role="row"
+                >
                   <td
                     class="ant-fullcalendar-cell"
                     role="gridcell"
-                    title="November 21, 2016"
+                    title="2016年11月21日"
                   >
                     <div
                       class="ant-fullcalendar-date"
@@ -1378,7 +1360,7 @@ exports[`renders ./components/locale-provider/demo/all.md correctly 1`] = `
                   <td
                     class="ant-fullcalendar-cell ant-fullcalendar-today ant-fullcalendar-selected-day"
                     role="gridcell"
-                    title="November 22, 2016"
+                    title="2016年11月22日"
                   >
                     <div
                       class="ant-fullcalendar-date"
@@ -1396,7 +1378,7 @@ exports[`renders ./components/locale-provider/demo/all.md correctly 1`] = `
                   <td
                     class="ant-fullcalendar-cell"
                     role="gridcell"
-                    title="November 23, 2016"
+                    title="2016年11月23日"
                   >
                     <div
                       class="ant-fullcalendar-date"
@@ -1414,7 +1396,7 @@ exports[`renders ./components/locale-provider/demo/all.md correctly 1`] = `
                   <td
                     class="ant-fullcalendar-cell"
                     role="gridcell"
-                    title="November 24, 2016"
+                    title="2016年11月24日"
                   >
                     <div
                       class="ant-fullcalendar-date"
@@ -1432,7 +1414,7 @@ exports[`renders ./components/locale-provider/demo/all.md correctly 1`] = `
                   <td
                     class="ant-fullcalendar-cell"
                     role="gridcell"
-                    title="November 25, 2016"
+                    title="2016年11月25日"
                   >
                     <div
                       class="ant-fullcalendar-date"
@@ -1450,7 +1432,7 @@ exports[`renders ./components/locale-provider/demo/all.md correctly 1`] = `
                   <td
                     class="ant-fullcalendar-cell"
                     role="gridcell"
-                    title="November 26, 2016"
+                    title="2016年11月26日"
                   >
                     <div
                       class="ant-fullcalendar-date"
@@ -1465,15 +1447,10 @@ exports[`renders ./components/locale-provider/demo/all.md correctly 1`] = `
                       />
                     </div>
                   </td>
-                </tr>
-                <tr
-                  class=""
-                  role="row"
-                >
                   <td
                     class="ant-fullcalendar-cell"
                     role="gridcell"
-                    title="November 27, 2016"
+                    title="2016年11月27日"
                   >
                     <div
                       class="ant-fullcalendar-date"
@@ -1488,10 +1465,15 @@ exports[`renders ./components/locale-provider/demo/all.md correctly 1`] = `
                       />
                     </div>
                   </td>
+                </tr>
+                <tr
+                  class=""
+                  role="row"
+                >
                   <td
                     class="ant-fullcalendar-cell"
                     role="gridcell"
-                    title="November 28, 2016"
+                    title="2016年11月28日"
                   >
                     <div
                       class="ant-fullcalendar-date"
@@ -1509,7 +1491,7 @@ exports[`renders ./components/locale-provider/demo/all.md correctly 1`] = `
                   <td
                     class="ant-fullcalendar-cell"
                     role="gridcell"
-                    title="November 29, 2016"
+                    title="2016年11月29日"
                   >
                     <div
                       class="ant-fullcalendar-date"
@@ -1527,7 +1509,7 @@ exports[`renders ./components/locale-provider/demo/all.md correctly 1`] = `
                   <td
                     class="ant-fullcalendar-cell ant-fullcalendar-last-day-of-month"
                     role="gridcell"
-                    title="November 30, 2016"
+                    title="2016年11月30日"
                   >
                     <div
                       class="ant-fullcalendar-date"
@@ -1545,7 +1527,7 @@ exports[`renders ./components/locale-provider/demo/all.md correctly 1`] = `
                   <td
                     class="ant-fullcalendar-cell ant-fullcalendar-next-month-btn-day"
                     role="gridcell"
-                    title="December 1, 2016"
+                    title="2016年12月1日"
                   >
                     <div
                       class="ant-fullcalendar-date"
@@ -1563,7 +1545,7 @@ exports[`renders ./components/locale-provider/demo/all.md correctly 1`] = `
                   <td
                     class="ant-fullcalendar-cell ant-fullcalendar-next-month-btn-day"
                     role="gridcell"
-                    title="December 2, 2016"
+                    title="2016年12月2日"
                   >
                     <div
                       class="ant-fullcalendar-date"
@@ -1581,7 +1563,7 @@ exports[`renders ./components/locale-provider/demo/all.md correctly 1`] = `
                   <td
                     class="ant-fullcalendar-cell ant-fullcalendar-next-month-btn-day"
                     role="gridcell"
-                    title="December 3, 2016"
+                    title="2016年12月3日"
                   >
                     <div
                       class="ant-fullcalendar-date"
@@ -1596,15 +1578,10 @@ exports[`renders ./components/locale-provider/demo/all.md correctly 1`] = `
                       />
                     </div>
                   </td>
-                </tr>
-                <tr
-                  class=""
-                  role="row"
-                >
                   <td
                     class="ant-fullcalendar-cell ant-fullcalendar-next-month-btn-day"
                     role="gridcell"
-                    title="December 4, 2016"
+                    title="2016年12月4日"
                   >
                     <div
                       class="ant-fullcalendar-date"
@@ -1619,10 +1596,15 @@ exports[`renders ./components/locale-provider/demo/all.md correctly 1`] = `
                       />
                     </div>
                   </td>
+                </tr>
+                <tr
+                  class=""
+                  role="row"
+                >
                   <td
                     class="ant-fullcalendar-cell ant-fullcalendar-next-month-btn-day"
                     role="gridcell"
-                    title="December 5, 2016"
+                    title="2016年12月5日"
                   >
                     <div
                       class="ant-fullcalendar-date"
@@ -1640,7 +1622,7 @@ exports[`renders ./components/locale-provider/demo/all.md correctly 1`] = `
                   <td
                     class="ant-fullcalendar-cell ant-fullcalendar-next-month-btn-day"
                     role="gridcell"
-                    title="December 6, 2016"
+                    title="2016年12月6日"
                   >
                     <div
                       class="ant-fullcalendar-date"
@@ -1658,7 +1640,7 @@ exports[`renders ./components/locale-provider/demo/all.md correctly 1`] = `
                   <td
                     class="ant-fullcalendar-cell ant-fullcalendar-next-month-btn-day"
                     role="gridcell"
-                    title="December 7, 2016"
+                    title="2016年12月7日"
                   >
                     <div
                       class="ant-fullcalendar-date"
@@ -1676,7 +1658,7 @@ exports[`renders ./components/locale-provider/demo/all.md correctly 1`] = `
                   <td
                     class="ant-fullcalendar-cell ant-fullcalendar-next-month-btn-day"
                     role="gridcell"
-                    title="December 8, 2016"
+                    title="2016年12月8日"
                   >
                     <div
                       class="ant-fullcalendar-date"
@@ -1694,7 +1676,7 @@ exports[`renders ./components/locale-provider/demo/all.md correctly 1`] = `
                   <td
                     class="ant-fullcalendar-cell ant-fullcalendar-next-month-btn-day"
                     role="gridcell"
-                    title="December 9, 2016"
+                    title="2016年12月9日"
                   >
                     <div
                       class="ant-fullcalendar-date"
@@ -1712,7 +1694,7 @@ exports[`renders ./components/locale-provider/demo/all.md correctly 1`] = `
                   <td
                     class="ant-fullcalendar-cell ant-fullcalendar-next-month-btn-day"
                     role="gridcell"
-                    title="December 10, 2016"
+                    title="2016年12月10日"
                   >
                     <div
                       class="ant-fullcalendar-date"
@@ -1721,6 +1703,24 @@ exports[`renders ./components/locale-provider/demo/all.md correctly 1`] = `
                         class="ant-fullcalendar-value"
                       >
                         10
+                      </div>
+                      <div
+                        class="ant-fullcalendar-content"
+                      />
+                    </div>
+                  </td>
+                  <td
+                    class="ant-fullcalendar-cell ant-fullcalendar-next-month-btn-day"
+                    role="gridcell"
+                    title="2016年12月11日"
+                  >
+                    <div
+                      class="ant-fullcalendar-date"
+                    >
+                      <div
+                        class="ant-fullcalendar-value"
+                      >
+                        11
                       </div>
                       <div
                         class="ant-fullcalendar-content"
@@ -1784,10 +1784,10 @@ exports[`renders ./components/locale-provider/demo/all.md correctly 1`] = `
                             </div>
                           </span>
                           <i
-                            aria-label="icon: filter"
+                            aria-label="图标: filter"
                             class="anticon anticon-filter ant-dropdown-trigger"
                             tabindex="-1"
-                            title="Filter menu"
+                            title="筛选"
                           >
                             <svg
                               aria-hidden="true"
@@ -1840,14 +1840,14 @@ exports[`renders ./components/locale-provider/demo/all.md correctly 1`] = `
                       class="ant-empty-image"
                     >
                       <img
-                        alt="No Data"
+                        alt="暂无数据"
                         src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjQiIGhlaWdodD0iNDEiIHZpZXdCb3g9IjAgMCA2NCA0MSIgIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CiAgPGcgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMCAxKSIgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIj4KICAgIDxlbGxpcHNlIGZpbGw9IiNGNUY1RjUiIGN4PSIzMiIgY3k9IjMzIiByeD0iMzIiIHJ5PSI3Ii8+CiAgICA8ZyBmaWxsLXJ1bGU9Im5vbnplcm8iIHN0cm9rZT0iI0Q5RDlEOSI+CiAgICAgIDxwYXRoIGQ9Ik01NSAxMi43Nkw0NC44NTQgMS4yNThDNDQuMzY3LjQ3NCA0My42NTYgMCA0Mi45MDcgMEgyMS4wOTNjLS43NDkgMC0xLjQ2LjQ3NC0xLjk0NyAxLjI1N0w5IDEyLjc2MVYyMmg0NnYtOS4yNHoiLz4KICAgICAgPHBhdGggZD0iTTQxLjYxMyAxNS45MzFjMC0xLjYwNS45OTQtMi45MyAyLjIyNy0yLjkzMUg1NXYxOC4xMzdDNTUgMzMuMjYgNTMuNjggMzUgNTIuMDUgMzVoLTQwLjFDMTAuMzIgMzUgOSAzMy4yNTkgOSAzMS4xMzdWMTNoMTEuMTZjMS4yMzMgMCAyLjIyNyAxLjMyMyAyLjIyNyAyLjkyOHYuMDIyYzAgMS42MDUgMS4wMDUgMi45MDEgMi4yMzcgMi45MDFoMTQuNzUyYzEuMjMyIDAgMi4yMzctMS4zMDggMi4yMzctMi45MTN2LS4wMDd6IiBmaWxsPSIjRkFGQUZBIi8+CiAgICA8L2c+CiAgPC9nPgo8L3N2Zz4K"
                       />
                     </div>
                     <p
                       class="ant-empty-description"
                     >
-                      No Data
+                      暂无数据
                     </p>
                   </div>
                 </div>

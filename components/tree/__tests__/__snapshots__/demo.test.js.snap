@@ -14,7 +14,7 @@ exports[`renders ./components/tree/demo/basic.md correctly 1`] = `
       class="ant-tree-switcher ant-tree-switcher_open"
     >
       <i
-        aria-label="icon: caret-down"
+        aria-label="图标: caret-down"
         class="anticon anticon-caret-down ant-tree-switcher-icon"
       >
         <svg
@@ -63,7 +63,7 @@ exports[`renders ./components/tree/demo/basic.md correctly 1`] = `
           class="ant-tree-switcher ant-tree-switcher_open"
         >
           <i
-            aria-label="icon: caret-down"
+            aria-label="图标: caret-down"
             class="anticon anticon-caret-down ant-tree-switcher-icon"
           >
             <svg
@@ -164,7 +164,7 @@ exports[`renders ./components/tree/demo/basic.md correctly 1`] = `
           class="ant-tree-switcher ant-tree-switcher_open"
         >
           <i
-            aria-label="icon: caret-down"
+            aria-label="图标: caret-down"
             class="anticon anticon-caret-down ant-tree-switcher-icon"
           >
             <svg
@@ -255,7 +255,7 @@ exports[`renders ./components/tree/demo/basic-controlled.md correctly 1`] = `
       class="ant-tree-switcher ant-tree-switcher_open"
     >
       <i
-        aria-label="icon: caret-down"
+        aria-label="图标: caret-down"
         class="anticon anticon-caret-down ant-tree-switcher-icon"
       >
         <svg
@@ -304,7 +304,7 @@ exports[`renders ./components/tree/demo/basic-controlled.md correctly 1`] = `
           class="ant-tree-switcher ant-tree-switcher_open"
         >
           <i
-            aria-label="icon: caret-down"
+            aria-label="图标: caret-down"
             class="anticon anticon-caret-down ant-tree-switcher-icon"
           >
             <svg
@@ -430,7 +430,7 @@ exports[`renders ./components/tree/demo/basic-controlled.md correctly 1`] = `
           class="ant-tree-switcher ant-tree-switcher_open"
         >
           <i
-            aria-label="icon: caret-down"
+            aria-label="图标: caret-down"
             class="anticon anticon-caret-down ant-tree-switcher-icon"
           >
             <svg
@@ -583,7 +583,7 @@ exports[`renders ./components/tree/demo/basic-controlled.md correctly 1`] = `
       class="ant-tree-switcher ant-tree-switcher_close"
     >
       <i
-        aria-label="icon: caret-down"
+        aria-label="图标: caret-down"
         class="anticon anticon-caret-down ant-tree-switcher-icon"
       >
         <svg
@@ -662,7 +662,7 @@ exports[`renders ./components/tree/demo/customized-icon.md correctly 1`] = `
       class="ant-tree-switcher ant-tree-switcher_open"
     >
       <i
-        aria-label="icon: down"
+        aria-label="图标: down"
         class="anticon anticon-down ant-tree-switcher-icon"
       >
         <svg
@@ -689,7 +689,7 @@ exports[`renders ./components/tree/demo/customized-icon.md correctly 1`] = `
         class="ant-tree-iconEle ant-tree-icon__customize"
       >
         <i
-          aria-label="icon: smile-o"
+          aria-label="图标: smile-o"
           class="anticon anticon-smile-o"
         >
           <svg
@@ -734,7 +734,7 @@ exports[`renders ./components/tree/demo/customized-icon.md correctly 1`] = `
             class="ant-tree-iconEle ant-tree-icon__customize"
           >
             <i
-              aria-label="icon: meh-o"
+              aria-label="图标: meh-o"
               class="anticon anticon-meh-o"
             >
               <svg
@@ -775,7 +775,7 @@ exports[`renders ./components/tree/demo/customized-icon.md correctly 1`] = `
             class="ant-tree-iconEle ant-tree-icon__customize"
           >
             <i
-              aria-label="icon: frown-o"
+              aria-label="图标: frown-o"
               class="anticon anticon-frown-o"
             >
               <svg
@@ -820,7 +820,7 @@ exports[`renders ./components/tree/demo/directory.md correctly 1`] = `
       class="ant-tree-switcher ant-tree-switcher_open"
     >
       <i
-        aria-label="icon: caret-down"
+        aria-label="图标: caret-down"
         class="anticon anticon-caret-down ant-tree-switcher-icon"
       >
         <svg
@@ -847,7 +847,7 @@ exports[`renders ./components/tree/demo/directory.md correctly 1`] = `
         class="ant-tree-iconEle ant-tree-icon__customize"
       >
         <i
-          aria-label="icon: folder-open"
+          aria-label="图标: folder-open"
           class="anticon anticon-folder-open"
         >
           <svg
@@ -892,7 +892,7 @@ exports[`renders ./components/tree/demo/directory.md correctly 1`] = `
             class="ant-tree-iconEle ant-tree-icon__customize"
           >
             <i
-              aria-label="icon: file"
+              aria-label="图标: file"
               class="anticon anticon-file"
             >
               <svg
@@ -933,7 +933,7 @@ exports[`renders ./components/tree/demo/directory.md correctly 1`] = `
             class="ant-tree-iconEle ant-tree-icon__customize"
           >
             <i
-              aria-label="icon: file"
+              aria-label="图标: file"
               class="anticon anticon-file"
             >
               <svg
@@ -969,7 +969,7 @@ exports[`renders ./components/tree/demo/directory.md correctly 1`] = `
       class="ant-tree-switcher ant-tree-switcher_open"
     >
       <i
-        aria-label="icon: caret-down"
+        aria-label="图标: caret-down"
         class="anticon anticon-caret-down ant-tree-switcher-icon"
       >
         <svg
@@ -996,7 +996,7 @@ exports[`renders ./components/tree/demo/directory.md correctly 1`] = `
         class="ant-tree-iconEle ant-tree-icon__customize"
       >
         <i
-          aria-label="icon: folder-open"
+          aria-label="图标: folder-open"
           class="anticon anticon-folder-open"
         >
           <svg
@@ -1041,7 +1041,7 @@ exports[`renders ./components/tree/demo/directory.md correctly 1`] = `
             class="ant-tree-iconEle ant-tree-icon__customize"
           >
             <i
-              aria-label="icon: file"
+              aria-label="图标: file"
               class="anticon anticon-file"
             >
               <svg
@@ -1082,7 +1082,7 @@ exports[`renders ./components/tree/demo/directory.md correctly 1`] = `
             class="ant-tree-iconEle ant-tree-icon__customize"
           >
             <i
-              aria-label="icon: file"
+              aria-label="图标: file"
               class="anticon anticon-file"
             >
               <svg
@@ -1127,7 +1127,7 @@ exports[`renders ./components/tree/demo/draggable.md correctly 1`] = `
       class="ant-tree-switcher ant-tree-switcher_open"
     >
       <i
-        aria-label="icon: caret-down"
+        aria-label="图标: caret-down"
         class="anticon anticon-caret-down ant-tree-switcher-icon"
       >
         <svg
@@ -1171,7 +1171,7 @@ exports[`renders ./components/tree/demo/draggable.md correctly 1`] = `
           class="ant-tree-switcher ant-tree-switcher_open"
         >
           <i
-            aria-label="icon: caret-down"
+            aria-label="图标: caret-down"
             class="anticon anticon-caret-down ant-tree-switcher-icon"
           >
             <svg
@@ -1277,7 +1277,7 @@ exports[`renders ./components/tree/demo/draggable.md correctly 1`] = `
           class="ant-tree-switcher ant-tree-switcher_close"
         >
           <i
-            aria-label="icon: caret-down"
+            aria-label="图标: caret-down"
             class="anticon anticon-caret-down ant-tree-switcher-icon"
           >
             <svg
@@ -1339,7 +1339,7 @@ exports[`renders ./components/tree/demo/draggable.md correctly 1`] = `
       class="ant-tree-switcher ant-tree-switcher_close"
     >
       <i
-        aria-label="icon: caret-down"
+        aria-label="图标: caret-down"
         class="anticon anticon-caret-down ant-tree-switcher-icon"
       >
         <svg
@@ -1408,7 +1408,7 @@ exports[`renders ./components/tree/demo/dynamic.md correctly 1`] = `
       class="ant-tree-switcher ant-tree-switcher_close"
     >
       <i
-        aria-label="icon: caret-down"
+        aria-label="图标: caret-down"
         class="anticon anticon-caret-down ant-tree-switcher-icon"
       >
         <svg
@@ -1446,7 +1446,7 @@ exports[`renders ./components/tree/demo/dynamic.md correctly 1`] = `
       class="ant-tree-switcher ant-tree-switcher_close"
     >
       <i
-        aria-label="icon: caret-down"
+        aria-label="图标: caret-down"
         class="anticon anticon-caret-down ant-tree-switcher-icon"
       >
         <svg
@@ -1511,7 +1511,7 @@ exports[`renders ./components/tree/demo/line.md correctly 1`] = `
       class="ant-tree-switcher ant-tree-switcher_open"
     >
       <i
-        aria-label="icon: minus-square"
+        aria-label="图标: minus-square"
         class="anticon anticon-minus-square ant-tree-switcher-line-icon"
       >
         <svg
@@ -1556,7 +1556,7 @@ exports[`renders ./components/tree/demo/line.md correctly 1`] = `
           class="ant-tree-switcher ant-tree-switcher_open"
         >
           <i
-            aria-label="icon: minus-square"
+            aria-label="图标: minus-square"
             class="anticon anticon-minus-square ant-tree-switcher-line-icon"
           >
             <svg
@@ -1601,7 +1601,7 @@ exports[`renders ./components/tree/demo/line.md correctly 1`] = `
               class="ant-tree-switcher ant-tree-switcher-noop"
             >
               <i
-                aria-label="icon: file"
+                aria-label="图标: file"
                 class="anticon anticon-file ant-tree-switcher-line-icon"
               >
                 <svg
@@ -1639,7 +1639,7 @@ exports[`renders ./components/tree/demo/line.md correctly 1`] = `
               class="ant-tree-switcher ant-tree-switcher-noop"
             >
               <i
-                aria-label="icon: file"
+                aria-label="图标: file"
                 class="anticon anticon-file ant-tree-switcher-line-icon"
               >
                 <svg
@@ -1677,7 +1677,7 @@ exports[`renders ./components/tree/demo/line.md correctly 1`] = `
               class="ant-tree-switcher ant-tree-switcher-noop"
             >
               <i
-                aria-label="icon: file"
+                aria-label="图标: file"
                 class="anticon anticon-file ant-tree-switcher-line-icon"
               >
                 <svg
@@ -1717,7 +1717,7 @@ exports[`renders ./components/tree/demo/line.md correctly 1`] = `
           class="ant-tree-switcher ant-tree-switcher_close"
         >
           <i
-            aria-label="icon: plus-square"
+            aria-label="图标: plus-square"
             class="anticon anticon-plus-square ant-tree-switcher-line-icon"
           >
             <svg
@@ -1758,7 +1758,7 @@ exports[`renders ./components/tree/demo/line.md correctly 1`] = `
           class="ant-tree-switcher ant-tree-switcher_close"
         >
           <i
-            aria-label="icon: plus-square"
+            aria-label="图标: plus-square"
             class="anticon anticon-plus-square ant-tree-switcher-line-icon"
           >
             <svg
@@ -1812,7 +1812,7 @@ exports[`renders ./components/tree/demo/search.md correctly 1`] = `
       class="ant-input-suffix"
     >
       <i
-        aria-label="icon: search"
+        aria-label="图标: search"
         class="anticon anticon-search ant-input-search-icon"
         tabindex="-1"
       >
@@ -1846,7 +1846,7 @@ exports[`renders ./components/tree/demo/search.md correctly 1`] = `
         class="ant-tree-switcher ant-tree-switcher_close"
       >
         <i
-          aria-label="icon: caret-down"
+          aria-label="图标: caret-down"
           class="anticon anticon-caret-down ant-tree-switcher-icon"
         >
           <svg
@@ -1889,7 +1889,7 @@ exports[`renders ./components/tree/demo/search.md correctly 1`] = `
         class="ant-tree-switcher ant-tree-switcher_close"
       >
         <i
-          aria-label="icon: caret-down"
+          aria-label="图标: caret-down"
           class="anticon anticon-caret-down ant-tree-switcher-icon"
         >
           <svg

@@ -72,7 +72,7 @@ exports[`renders ./components/input/demo/addon.md correctly 1`] = `
                 unselectable="on"
               >
                 <i
-                  aria-label="icon: down"
+                  aria-label="图标: down"
                   class="anticon anticon-down ant-select-arrow-icon"
                 >
                   <svg
@@ -133,7 +133,7 @@ exports[`renders ./components/input/demo/addon.md correctly 1`] = `
                 unselectable="on"
               >
                 <i
-                  aria-label="icon: down"
+                  aria-label="图标: down"
                   class="anticon anticon-down ant-select-arrow-icon"
                 >
                   <svg
@@ -176,7 +176,7 @@ exports[`renders ./components/input/demo/addon.md correctly 1`] = `
           class="ant-input-group-addon"
         >
           <i
-            aria-label="icon: setting"
+            aria-label="图标: setting"
             class="anticon anticon-setting"
           >
             <svg
@@ -324,7 +324,7 @@ exports[`renders ./components/input/demo/group.md correctly 1`] = `
           unselectable="on"
         >
           <i
-            aria-label="icon: down"
+            aria-label="图标: down"
             class="anticon anticon-down ant-select-arrow-icon"
           >
             <svg
@@ -386,7 +386,7 @@ exports[`renders ./components/input/demo/group.md correctly 1`] = `
           unselectable="on"
         >
           <i
-            aria-label="icon: down"
+            aria-label="图标: down"
             class="anticon anticon-down ant-select-arrow-icon"
           >
             <svg
@@ -427,7 +427,7 @@ exports[`renders ./components/input/demo/group.md correctly 1`] = `
           unselectable="unselectable"
         >
           <i
-            aria-label="icon: up"
+            aria-label="图标: up"
             class="anticon anticon-up ant-input-number-handler-up-inner"
           >
             <svg
@@ -454,7 +454,7 @@ exports[`renders ./components/input/demo/group.md correctly 1`] = `
           unselectable="unselectable"
         >
           <i
-            aria-label="icon: down"
+            aria-label="图标: down"
             class="anticon anticon-down ant-input-number-handler-down-inner"
           >
             <svg
@@ -506,12 +506,12 @@ exports[`renders ./components/input/demo/group.md correctly 1`] = `
       <div>
         <input
           class="ant-calendar-picker-input ant-input"
-          placeholder="Select date"
+          placeholder="请选择日期"
           readonly=""
           value=""
         />
         <i
-          aria-label="icon: calendar"
+          aria-label="图标: calendar"
           class="anticon anticon-calendar ant-calendar-picker-icon"
         >
           <svg
@@ -566,7 +566,7 @@ exports[`renders ./components/input/demo/group.md correctly 1`] = `
           unselectable="on"
         >
           <i
-            aria-label="icon: down"
+            aria-label="图标: down"
             class="anticon anticon-down ant-select-arrow-icon"
           >
             <svg
@@ -617,7 +617,7 @@ exports[`renders ./components/input/demo/group.md correctly 1`] = `
           unselectable="on"
         >
           <i
-            aria-label="icon: down"
+            aria-label="图标: down"
             class="anticon anticon-down ant-select-arrow-icon"
           >
             <svg
@@ -673,7 +673,7 @@ exports[`renders ./components/input/demo/group.md correctly 1`] = `
           unselectable="on"
         >
           <i
-            aria-label="icon: down"
+            aria-label="图标: down"
             class="anticon anticon-down ant-select-arrow-icon"
           >
             <svg
@@ -751,7 +751,7 @@ exports[`renders ./components/input/demo/group.md correctly 1`] = `
           unselectable="on"
         >
           <i
-            aria-label="icon: down"
+            aria-label="图标: down"
             class="anticon anticon-down ant-select-arrow-icon"
           >
             <svg
@@ -822,7 +822,7 @@ exports[`renders ./components/input/demo/group.md correctly 1`] = `
           unselectable="on"
         >
           <i
-            aria-label="icon: down"
+            aria-label="图标: down"
             class="anticon anticon-down ant-select-arrow-icon"
           >
             <svg
@@ -879,7 +879,7 @@ exports[`renders ./components/input/demo/group.md correctly 1`] = `
           unselectable="on"
         >
           <i
-            aria-label="icon: down"
+            aria-label="图标: down"
             class="anticon anticon-down ant-select-arrow-icon"
           >
             <svg
@@ -918,7 +918,7 @@ exports[`renders ./components/input/demo/group.md correctly 1`] = `
         value=""
       />
       <i
-        aria-label="icon: down"
+        aria-label="图标: down"
         class="anticon anticon-down ant-cascader-picker-arrow"
       >
         <svg
@@ -956,7 +956,7 @@ exports[`renders ./components/input/demo/password-input.md correctly 1`] = `
     class="ant-input-suffix"
   >
     <i
-      aria-label="icon: eye-invisible"
+      aria-label="图标: eye-invisible"
       class="anticon anticon-eye-invisible ant-input-password-icon"
       tabindex="-1"
     >
@@ -990,7 +990,7 @@ exports[`renders ./components/input/demo/presuffix.md correctly 1`] = `
     class="ant-input-prefix"
   >
     <i
-      aria-label="icon: user"
+      aria-label="图标: user"
       class="anticon anticon-user"
       style="color:rgba(0,0,0,.25)"
     >
@@ -1020,7 +1020,7 @@ exports[`renders ./components/input/demo/presuffix.md correctly 1`] = `
     class="ant-input-suffix"
   >
     <i
-      aria-label="icon: info-circle"
+      aria-label="图标: info-circle"
       class="anticon anticon-info-circle"
       style="color:rgba(0,0,0,.45)"
     >
@@ -1062,7 +1062,7 @@ exports[`renders ./components/input/demo/search-input.md correctly 1`] = `
       class="ant-input-suffix"
     >
       <i
-        aria-label="icon: search"
+        aria-label="图标: search"
         class="anticon anticon-search ant-input-search-icon"
         tabindex="-1"
       >
@@ -1105,7 +1105,7 @@ exports[`renders ./components/input/demo/search-input.md correctly 1`] = `
           type="button"
         >
           <i
-            aria-label="icon: search"
+            aria-label="图标: search"
             class="anticon anticon-search"
           >
             <svg

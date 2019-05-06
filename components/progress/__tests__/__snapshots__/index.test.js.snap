@@ -137,7 +137,7 @@ exports[`Progress render out-of-range progress 1`] = `
       class="ant-progress-text"
     >
       <i
-        aria-label="icon: check-circle"
+        aria-label="图标: check-circle"
         class="anticon anticon-check-circle"
       >
         <svg
@@ -181,7 +181,7 @@ exports[`Progress render out-of-range progress with info 1`] = `
       class="ant-progress-text"
     >
       <i
-        aria-label="icon: check-circle"
+        aria-label="图标: check-circle"
         class="anticon anticon-check-circle"
       >
         <svg

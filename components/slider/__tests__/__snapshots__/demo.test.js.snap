@@ -154,7 +154,7 @@ exports[`renders ./components/slider/demo/icon-slider.md correctly 1`] = `
   class="icon-wrapper"
 >
   <i
-    aria-label="icon: frown-o"
+    aria-label="图标: frown-o"
     class="anticon anticon-frown-o"
     style="color:rgba(0, 0, 0, .45)"
   >
@@ -201,7 +201,7 @@ exports[`renders ./components/slider/demo/icon-slider.md correctly 1`] = `
     />
   </div>
   <i
-    aria-label="icon: smile-o"
+    aria-label="图标: smile-o"
     class="anticon anticon-smile-o"
     style="color:"
   >
@@ -277,7 +277,7 @@ exports[`renders ./components/slider/demo/input-number.md correctly 1`] = `
             unselectable="unselectable"
           >
             <i
-              aria-label="icon: up"
+              aria-label="图标: up"
               class="anticon anticon-up ant-input-number-handler-up-inner"
             >
               <svg
@@ -304,7 +304,7 @@ exports[`renders ./components/slider/demo/input-number.md correctly 1`] = `
             unselectable="unselectable"
           >
             <i
-              aria-label="icon: down"
+              aria-label="图标: down"
               class="anticon anticon-down ant-input-number-handler-down-inner"
             >
               <svg
@@ -395,7 +395,7 @@ exports[`renders ./components/slider/demo/input-number.md correctly 1`] = `
             unselectable="unselectable"
           >
             <i
-              aria-label="icon: up"
+              aria-label="图标: up"
               class="anticon anticon-up ant-input-number-handler-up-inner"
             >
               <svg
@@ -422,7 +422,7 @@ exports[`renders ./components/slider/demo/input-number.md correctly 1`] = `
             unselectable="unselectable"
           >
             <i
-              aria-label="icon: down"
+              aria-label="图标: down"
               class="anticon anticon-down ant-input-number-handler-down-inner"
             >
               <svg

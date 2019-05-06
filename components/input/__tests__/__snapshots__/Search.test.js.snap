@@ -19,7 +19,7 @@ exports[`Input.Search should support addonAfter 1`] = `
         class="ant-input-suffix"
       >
         <i
-          aria-label="icon: search"
+          aria-label="图标: search"
           class="anticon anticon-search ant-input-search-icon"
           tabindex="-1"
         >
@@ -71,7 +71,7 @@ exports[`Input.Search should support addonAfter 2`] = `
         type="button"
       >
         <i
-          aria-label="icon: search"
+          aria-label="图标: search"
           class="anticon anticon-search"
         >
           <svg

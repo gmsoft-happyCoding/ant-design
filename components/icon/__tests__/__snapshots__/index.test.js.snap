@@ -30,7 +30,7 @@ exports[`Icon should give warning and render <i>{null}</i> 1`] = `
 
 exports[`Icon should render to a <i class="xxx"><svg>...</svg></i> 1`] = `
 <i
-  aria-label="icon: message"
+  aria-label="图标: message"
   class="anticon anticon-message my-icon-classname"
 >
   <svg
@@ -53,7 +53,7 @@ exports[`Icon should render to a <i class="xxx"><svg>...</svg></i> 1`] = `
 exports[`Icon should support basic usage 1`] = `
 <div>
   <i
-    aria-label="icon: home"
+    aria-label="图标: home"
     class="anticon anticon-home"
   >
     <svg
@@ -72,7 +72,7 @@ exports[`Icon should support basic usage 1`] = `
     </svg>
   </i>
   <i
-    aria-label="icon: setting"
+    aria-label="图标: setting"
     class="anticon anticon-setting"
   >
     <svg
@@ -91,7 +91,7 @@ exports[`Icon should support basic usage 1`] = `
     </svg>
   </i>
   <i
-    aria-label="icon: smile"
+    aria-label="图标: smile"
     class="anticon anticon-smile"
   >
     <svg
@@ -110,7 +110,7 @@ exports[`Icon should support basic usage 1`] = `
     </svg>
   </i>
   <i
-    aria-label="icon: sync"
+    aria-label="图标: sync"
     class="anticon anticon-sync"
   >
     <svg
@@ -129,7 +129,7 @@ exports[`Icon should support basic usage 1`] = `
     </svg>
   </i>
   <i
-    aria-label="icon: loading"
+    aria-label="图标: loading"
     class="anticon anticon-loading"
   >
     <svg
@@ -152,7 +152,7 @@ exports[`Icon should support basic usage 1`] = `
 
 exports[`Icon should support config global two-tone primary color 1`] = `
 <i
-  aria-label="icon: check-circle"
+  aria-label="图标: check-circle"
   class="anticon anticon-check-circle"
 >
   <svg
@@ -184,7 +184,7 @@ exports[`Icon should support config global two-tone primary color 1`] = `
 exports[`Icon should support older usage 1`] = `
 <div>
   <i
-    aria-label="icon: home-o"
+    aria-label="图标: home-o"
     class="anticon anticon-home-o"
   >
     <svg
@@ -203,7 +203,7 @@ exports[`Icon should support older usage 1`] = `
     </svg>
   </i>
   <i
-    aria-label="icon: setting-fill"
+    aria-label="图标: setting-fill"
     class="anticon anticon-setting-fill"
   >
     <svg
@@ -222,7 +222,7 @@ exports[`Icon should support older usage 1`] = `
     </svg>
   </i>
   <i
-    aria-label="icon: smile-o"
+    aria-label="图标: smile-o"
     class="anticon anticon-smile-o"
   >
     <svg
@@ -241,7 +241,7 @@ exports[`Icon should support older usage 1`] = `
     </svg>
   </i>
   <i
-    aria-label="icon: check-circle-twotone"
+    aria-label="图标: check-circle-twotone"
     class="anticon anticon-check-circle-twotone"
   >
     <svg
@@ -312,7 +312,7 @@ exports[`Icon should support svg react component 1`] = `
 
 exports[`Icon should support two-tone icon 1`] = `
 <i
-  aria-label="icon: check-circle"
+  aria-label="图标: check-circle"
   class="anticon anticon-check-circle"
 >
   <svg

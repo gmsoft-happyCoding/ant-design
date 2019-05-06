@@ -90,7 +90,7 @@ describe('Popconfirm', () => {
     triggerNode.simulate('click');
     popconfirm
       .find('.ant-btn')
-      .at(0)
+      .at(1)
       .simulate('click');
     expect(cancel).toHaveBeenCalled();
     expect(onVisibleChange).toHaveBeenLastCalledWith(false, eventObject);

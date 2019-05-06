@@ -419,13 +419,13 @@ exports[`Table.rowSelection fix selection column on the left 1`] = `
         <li
           aria-disabled="true"
           class="ant-pagination-disabled ant-pagination-prev"
-          title="Previous Page"
+          title="上一页"
         >
           <a
             class="ant-pagination-item-link"
           >
             <i
-              aria-label="icon: left"
+              aria-label="图标: left"
               class="anticon anticon-left"
             >
               <svg
@@ -457,13 +457,13 @@ exports[`Table.rowSelection fix selection column on the left 1`] = `
         <li
           aria-disabled="true"
           class="ant-pagination-disabled ant-pagination-next"
-          title="Next Page"
+          title="下一页"
         >
           <a
             class="ant-pagination-item-link"
           >
             <i
-              aria-label="icon: right"
+              aria-label="图标: right"
               class="anticon anticon-right"
             >
               <svg
@@ -504,7 +504,7 @@ exports[`Table.rowSelection render with default selection correctly 1`] = `
         role="menuitem"
       >
         <div>
-          Select current page
+          全选当页
         </div>
       </li>
       <li
@@ -512,7 +512,7 @@ exports[`Table.rowSelection render with default selection correctly 1`] = `
         role="menuitem"
       >
         <div>
-          Invert current page
+          反选当页
         </div>
       </li>
     </ul>

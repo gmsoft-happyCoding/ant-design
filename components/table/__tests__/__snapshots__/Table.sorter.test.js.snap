@@ -24,10 +24,10 @@ exports[`Table.sorter renders sorter icon correctly 1`] = `
           >
             <div
               class="ant-table-column-sorter-inner ant-table-column-sorter-inner-full"
-              title="Sort"
+              title="排序"
             >
               <i
-                aria-label="icon: caret-up"
+                aria-label="图标: caret-up"
                 class="anticon anticon-caret-up ant-table-column-sorter-up off"
               >
                 <svg
@@ -46,7 +46,7 @@ exports[`Table.sorter renders sorter icon correctly 1`] = `
                 </svg>
               </i>
               <i
-                aria-label="icon: caret-down"
+                aria-label="图标: caret-down"
                 class="anticon anticon-caret-down ant-table-column-sorter-down off"
               >
                 <svg

@@ -48,7 +48,7 @@ exports[`renders ./components/switch/demo/loading.md correctly 1`] = `
     type="button"
   >
     <i
-      aria-label="icon: loading"
+      aria-label="图标: loading"
       class="anticon anticon-loading ant-switch-loading-icon"
     >
       <svg
@@ -79,7 +79,7 @@ exports[`renders ./components/switch/demo/loading.md correctly 1`] = `
     type="button"
   >
     <i
-      aria-label="icon: loading"
+      aria-label="图标: loading"
       class="anticon anticon-loading ant-switch-loading-icon"
     >
       <svg
@@ -168,7 +168,7 @@ exports[`renders ./components/switch/demo/text.md correctly 1`] = `
       class="ant-switch-inner"
     >
       <i
-        aria-label="icon: check"
+        aria-label="图标: check"
         class="anticon anticon-check"
       >
         <svg

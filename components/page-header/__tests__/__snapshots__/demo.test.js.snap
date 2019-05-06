@@ -8,14 +8,14 @@ exports[`renders ./components/page-header/demo/actions.md correctly 1`] = `
     class="ant-page-header-back"
   >
     <div
-      aria-label="back"
+      aria-label="返回"
       class="ant-page-header-back-button"
       role="button"
       style="border:0;background:transparent;padding:0;line-height:inherit;display:inline-block"
       tabindex="0"
     >
       <i
-        aria-label="icon: arrow-left"
+        aria-label="图标: arrow-left"
         class="anticon anticon-arrow-left"
       >
         <svg
@@ -285,7 +285,7 @@ exports[`renders ./components/page-header/demo/actions.md correctly 1`] = `
               class="ant-tabs-tab-prev-icon"
             >
               <i
-                aria-label="icon: left"
+                aria-label="图标: left"
                 class="anticon anticon-left ant-tabs-tab-prev-icon-target"
               >
                 <svg
@@ -313,7 +313,7 @@ exports[`renders ./components/page-header/demo/actions.md correctly 1`] = `
               class="ant-tabs-tab-next-icon"
             >
               <i
-                aria-label="icon: right"
+                aria-label="图标: right"
                 class="anticon anticon-right ant-tabs-tab-next-icon-target"
               >
                 <svg
@@ -417,14 +417,14 @@ exports[`renders ./components/page-header/demo/basic.md correctly 1`] = `
     class="ant-page-header-back"
   >
     <div
-      aria-label="back"
+      aria-label="返回"
       class="ant-page-header-back-button"
       role="button"
       style="border:0;background:transparent;padding:0;line-height:inherit;display:inline-block"
       tabindex="0"
     >
       <i
-        aria-label="icon: arrow-left"
+        aria-label="图标: arrow-left"
         class="anticon anticon-arrow-left"
       >
         <svg

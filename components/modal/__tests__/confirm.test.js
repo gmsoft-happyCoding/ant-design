@@ -36,8 +36,8 @@ describe('Modal.confirm triggers callbacks correctly', () => {
     });
     // first Modal
     $$('.ant-btn')[0].click();
-    expect(onCancel.mock.calls.length).toBe(1);
-    expect(onOk.mock.calls.length).toBe(0);
+    expect(onCancel.mock.calls.length).toBe(0);
+    expect(onOk.mock.calls.length).toBe(1);
   });
 
   it('trigger onOk once when click on ok button', () => {
@@ -82,14 +82,14 @@ describe('Modal.confirm triggers callbacks correctly', () => {
   it('ok only', () => {
     open({ okCancel: false });
     expect($$('.ant-btn')).toHaveLength(1);
-    expect($$('.ant-btn')[0].innerHTML).toContain('OK');
+    expect($$('.ant-btn')[0].innerHTML).toContain('<span>知道了</span>');
   });
 
   it('allows extra props on buttons', () => {
     open({ okButtonProps: { disabled: true }, cancelButtonProps: { 'data-test': 'baz' } });
     expect($$('.ant-btn')).toHaveLength(2);
-    expect($$('.ant-btn')[0].attributes['data-test'].value).toBe('baz');
-    expect($$('.ant-btn')[1].disabled).toBe(true);
+    expect($$('.ant-btn')[1].attributes['data-test'].value).toBe('baz');
+    expect($$('.ant-btn')[0].disabled).toBe(true);
   });
 
   it('should close modals when click confirm button', () => {

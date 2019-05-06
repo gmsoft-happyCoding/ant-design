@@ -8,7 +8,7 @@ exports[`renders ./components/time-picker/demo/12hours.md correctly 1`] = `
     <input
       class="ant-time-picker-input"
       id=""
-      placeholder="Select time"
+      placeholder="请选择时间"
       type="text"
       value=""
     />
@@ -16,7 +16,7 @@ exports[`renders ./components/time-picker/demo/12hours.md correctly 1`] = `
       class="ant-time-picker-icon"
     >
       <i
-        aria-label="icon: clock-circle"
+        aria-label="图标: clock-circle"
         class="anticon anticon-clock-circle ant-time-picker-clock-icon"
       >
         <svg
@@ -45,7 +45,7 @@ exports[`renders ./components/time-picker/demo/12hours.md correctly 1`] = `
     <input
       class="ant-time-picker-input"
       id=""
-      placeholder="Select time"
+      placeholder="请选择时间"
       type="text"
       value=""
     />
@@ -53,7 +53,7 @@ exports[`renders ./components/time-picker/demo/12hours.md correctly 1`] = `
       class="ant-time-picker-icon"
     >
       <i
-        aria-label="icon: clock-circle"
+        aria-label="图标: clock-circle"
         class="anticon anticon-clock-circle ant-time-picker-clock-icon"
       >
         <svg
@@ -82,7 +82,7 @@ exports[`renders ./components/time-picker/demo/12hours.md correctly 1`] = `
     <input
       class="ant-time-picker-input"
       id=""
-      placeholder="Select time"
+      placeholder="请选择时间"
       type="text"
       value=""
     />
@@ -90,7 +90,7 @@ exports[`renders ./components/time-picker/demo/12hours.md correctly 1`] = `
       class="ant-time-picker-icon"
     >
       <i
-        aria-label="icon: clock-circle"
+        aria-label="图标: clock-circle"
         class="anticon anticon-clock-circle ant-time-picker-clock-icon"
       >
         <svg
@@ -123,7 +123,7 @@ exports[`renders ./components/time-picker/demo/addon.md correctly 1`] = `
   <input
     class="ant-time-picker-input"
     id=""
-    placeholder="Select time"
+    placeholder="请选择时间"
     type="text"
     value=""
   />
@@ -131,7 +131,7 @@ exports[`renders ./components/time-picker/demo/addon.md correctly 1`] = `
     class="ant-time-picker-icon"
   >
     <i
-      aria-label="icon: clock-circle"
+      aria-label="图标: clock-circle"
       class="anticon anticon-clock-circle ant-time-picker-clock-icon"
     >
       <svg
@@ -163,7 +163,7 @@ exports[`renders ./components/time-picker/demo/basic.md correctly 1`] = `
   <input
     class="ant-time-picker-input"
     id=""
-    placeholder="Select time"
+    placeholder="请选择时间"
     type="text"
     value=""
   />
@@ -171,7 +171,7 @@ exports[`renders ./components/time-picker/demo/basic.md correctly 1`] = `
     class="ant-time-picker-icon"
   >
     <i
-      aria-label="icon: clock-circle"
+      aria-label="图标: clock-circle"
       class="anticon anticon-clock-circle ant-time-picker-clock-icon"
     >
       <svg
@@ -204,7 +204,7 @@ exports[`renders ./components/time-picker/demo/disabled.md correctly 1`] = `
     class="ant-time-picker-input"
     disabled=""
     id=""
-    placeholder="Select time"
+    placeholder="请选择时间"
     type="text"
     value="12:08:23"
   />
@@ -212,7 +212,7 @@ exports[`renders ./components/time-picker/demo/disabled.md correctly 1`] = `
     class="ant-time-picker-icon"
   >
     <i
-      aria-label="icon: clock-circle"
+      aria-label="图标: clock-circle"
       class="anticon anticon-clock-circle ant-time-picker-clock-icon"
     >
       <svg
@@ -244,7 +244,7 @@ exports[`renders ./components/time-picker/demo/hide-column.md correctly 1`] = `
   <input
     class="ant-time-picker-input"
     id=""
-    placeholder="Select time"
+    placeholder="请选择时间"
     type="text"
     value="12:08"
   />
@@ -252,7 +252,7 @@ exports[`renders ./components/time-picker/demo/hide-column.md correctly 1`] = `
     class="ant-time-picker-icon"
   >
     <i
-      aria-label="icon: clock-circle"
+      aria-label="图标: clock-circle"
       class="anticon anticon-clock-circle ant-time-picker-clock-icon"
     >
       <svg
@@ -275,7 +275,7 @@ exports[`renders ./components/time-picker/demo/hide-column.md correctly 1`] = `
     </i>
   </span>
   <i
-    aria-label="icon: close-circle"
+    aria-label="图标: close-circle"
     class="anticon anticon-close-circle ant-time-picker-clear"
     tabindex="-1"
   >
@@ -304,7 +304,7 @@ exports[`renders ./components/time-picker/demo/interval-options.md correctly 1`]
   <input
     class="ant-time-picker-input"
     id=""
-    placeholder="Select time"
+    placeholder="请选择时间"
     type="text"
     value=""
   />
@@ -312,7 +312,7 @@ exports[`renders ./components/time-picker/demo/interval-options.md correctly 1`]
     class="ant-time-picker-icon"
   >
     <i
-      aria-label="icon: clock-circle"
+      aria-label="图标: clock-circle"
       class="anticon anticon-clock-circle ant-time-picker-clock-icon"
     >
       <svg
@@ -345,7 +345,7 @@ exports[`renders ./components/time-picker/demo/size.md correctly 1`] = `
     <input
       class="ant-time-picker-input"
       id=""
-      placeholder="Select time"
+      placeholder="请选择时间"
       type="text"
       value="12:08:23"
     />
@@ -353,7 +353,7 @@ exports[`renders ./components/time-picker/demo/size.md correctly 1`] = `
       class="ant-time-picker-icon"
     >
       <i
-        aria-label="icon: clock-circle"
+        aria-label="图标: clock-circle"
         class="anticon anticon-clock-circle ant-time-picker-clock-icon"
       >
         <svg
@@ -376,7 +376,7 @@ exports[`renders ./components/time-picker/demo/size.md correctly 1`] = `
       </i>
     </span>
     <i
-      aria-label="icon: close-circle"
+      aria-label="图标: close-circle"
       class="anticon anticon-close-circle ant-time-picker-clear"
       tabindex="-1"
     >
@@ -402,7 +402,7 @@ exports[`renders ./components/time-picker/demo/size.md correctly 1`] = `
     <input
       class="ant-time-picker-input"
       id=""
-      placeholder="Select time"
+      placeholder="请选择时间"
       type="text"
       value="12:08:23"
     />
@@ -410,7 +410,7 @@ exports[`renders ./components/time-picker/demo/size.md correctly 1`] = `
       class="ant-time-picker-icon"
     >
       <i
-        aria-label="icon: clock-circle"
+        aria-label="图标: clock-circle"
         class="anticon anticon-clock-circle ant-time-picker-clock-icon"
       >
         <svg
@@ -433,7 +433,7 @@ exports[`renders ./components/time-picker/demo/size.md correctly 1`] = `
       </i>
     </span>
     <i
-      aria-label="icon: close-circle"
+      aria-label="图标: close-circle"
       class="anticon anticon-close-circle ant-time-picker-clear"
       tabindex="-1"
     >
@@ -459,7 +459,7 @@ exports[`renders ./components/time-picker/demo/size.md correctly 1`] = `
     <input
       class="ant-time-picker-input"
       id=""
-      placeholder="Select time"
+      placeholder="请选择时间"
       type="text"
       value="12:08:23"
     />
@@ -467,7 +467,7 @@ exports[`renders ./components/time-picker/demo/size.md correctly 1`] = `
       class="ant-time-picker-icon"
     >
       <i
-        aria-label="icon: clock-circle"
+        aria-label="图标: clock-circle"
         class="anticon anticon-clock-circle ant-time-picker-clock-icon"
       >
         <svg
@@ -490,7 +490,7 @@ exports[`renders ./components/time-picker/demo/size.md correctly 1`] = `
       </i>
     </span>
     <i
-      aria-label="icon: close-circle"
+      aria-label="图标: close-circle"
       class="anticon anticon-close-circle ant-time-picker-clear"
       tabindex="-1"
     >
@@ -520,7 +520,7 @@ exports[`renders ./components/time-picker/demo/suffix.md correctly 1`] = `
   <input
     class="ant-time-picker-input"
     id=""
-    placeholder="Select time"
+    placeholder="请选择时间"
     type="text"
     value=""
   />
@@ -528,7 +528,7 @@ exports[`renders ./components/time-picker/demo/suffix.md correctly 1`] = `
     class="ant-time-picker-icon"
   >
     <i
-      aria-label="icon: smile"
+      aria-label="图标: smile"
       class="anticon anticon-smile ant-time-picker-clock-icon"
     >
       <svg
@@ -557,7 +557,7 @@ exports[`renders ./components/time-picker/demo/value.md correctly 1`] = `
   <input
     class="ant-time-picker-input"
     id=""
-    placeholder="Select time"
+    placeholder="请选择时间"
     type="text"
     value=""
   />
@@ -565,7 +565,7 @@ exports[`renders ./components/time-picker/demo/value.md correctly 1`] = `
     class="ant-time-picker-icon"
   >
     <i
-      aria-label="icon: clock-circle"
+      aria-label="图标: clock-circle"
       class="anticon anticon-clock-circle ant-time-picker-clock-icon"
     >
       <svg

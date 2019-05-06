@@ -7,7 +7,7 @@ exports[`renders ./components/alert/demo/banner.md correctly 1`] = `
     data-show="true"
   >
     <i
-      aria-label="icon: exclamation-circle"
+      aria-label="图标: exclamation-circle"
       class="anticon anticon-exclamation-circle ant-alert-icon"
     >
       <svg
@@ -40,7 +40,7 @@ exports[`renders ./components/alert/demo/banner.md correctly 1`] = `
     data-show="true"
   >
     <i
-      aria-label="icon: exclamation-circle"
+      aria-label="图标: exclamation-circle"
       class="anticon anticon-exclamation-circle ant-alert-icon"
     >
       <svg
@@ -70,7 +70,7 @@ exports[`renders ./components/alert/demo/banner.md correctly 1`] = `
       class="ant-alert-close-icon"
     >
       <i
-        aria-label="icon: close"
+        aria-label="图标: close"
         class="anticon anticon-close"
       >
         <svg
@@ -110,7 +110,7 @@ exports[`renders ./components/alert/demo/banner.md correctly 1`] = `
     data-show="true"
   >
     <i
-      aria-label="icon: close-circle"
+      aria-label="图标: close-circle"
       class="anticon anticon-close-circle ant-alert-icon"
     >
       <svg
@@ -174,7 +174,7 @@ exports[`renders ./components/alert/demo/closable.md correctly 1`] = `
       class="ant-alert-close-icon"
     >
       <i
-        aria-label="icon: close"
+        aria-label="图标: close"
         class="anticon anticon-close"
       >
         <svg
@@ -212,7 +212,7 @@ exports[`renders ./components/alert/demo/closable.md correctly 1`] = `
       class="ant-alert-close-icon"
     >
       <i
-        aria-label="icon: close"
+        aria-label="图标: close"
         class="anticon anticon-close"
       >
         <svg
@@ -276,7 +276,7 @@ exports[`renders ./components/alert/demo/custom-icon.md correctly 1`] = `
     data-show="true"
   >
     <i
-      aria-label="icon: smile"
+      aria-label="图标: smile"
       class="anticon anticon-smile ant-alert-icon"
     >
       <svg
@@ -308,7 +308,7 @@ exports[`renders ./components/alert/demo/custom-icon.md correctly 1`] = `
     data-show="true"
   >
     <i
-      aria-label="icon: smile"
+      aria-label="图标: smile"
       class="anticon anticon-smile ant-alert-icon"
     >
       <svg
@@ -340,7 +340,7 @@ exports[`renders ./components/alert/demo/custom-icon.md correctly 1`] = `
     data-show="true"
   >
     <i
-      aria-label="icon: smile"
+      aria-label="图标: smile"
       class="anticon anticon-smile ant-alert-icon"
     >
       <svg
@@ -372,7 +372,7 @@ exports[`renders ./components/alert/demo/custom-icon.md correctly 1`] = `
     data-show="true"
   >
     <i
-      aria-label="icon: smile"
+      aria-label="图标: smile"
       class="anticon anticon-smile ant-alert-icon"
     >
       <svg
@@ -404,7 +404,7 @@ exports[`renders ./components/alert/demo/custom-icon.md correctly 1`] = `
     data-show="true"
   >
     <i
-      aria-label="icon: smile"
+      aria-label="图标: smile"
       class="anticon anticon-smile ant-alert-icon"
     >
       <svg
@@ -438,7 +438,7 @@ exports[`renders ./components/alert/demo/custom-icon.md correctly 1`] = `
     data-show="true"
   >
     <i
-      aria-label="icon: smile"
+      aria-label="图标: smile"
       class="anticon anticon-smile ant-alert-icon"
     >
       <svg
@@ -472,7 +472,7 @@ exports[`renders ./components/alert/demo/custom-icon.md correctly 1`] = `
     data-show="true"
   >
     <i
-      aria-label="icon: smile"
+      aria-label="图标: smile"
       class="anticon anticon-smile ant-alert-icon"
     >
       <svg
@@ -506,7 +506,7 @@ exports[`renders ./components/alert/demo/custom-icon.md correctly 1`] = `
     data-show="true"
   >
     <i
-      aria-label="icon: smile"
+      aria-label="图标: smile"
       class="anticon anticon-smile ant-alert-icon"
     >
       <svg
@@ -610,7 +610,7 @@ exports[`renders ./components/alert/demo/icon.md correctly 1`] = `
     data-show="true"
   >
     <i
-      aria-label="icon: check-circle"
+      aria-label="图标: check-circle"
       class="anticon anticon-check-circle ant-alert-icon"
     >
       <svg
@@ -642,7 +642,7 @@ exports[`renders ./components/alert/demo/icon.md correctly 1`] = `
     data-show="true"
   >
     <i
-      aria-label="icon: info-circle"
+      aria-label="图标: info-circle"
       class="anticon anticon-info-circle ant-alert-icon"
     >
       <svg
@@ -674,7 +674,7 @@ exports[`renders ./components/alert/demo/icon.md correctly 1`] = `
     data-show="true"
   >
     <i
-      aria-label="icon: exclamation-circle"
+      aria-label="图标: exclamation-circle"
       class="anticon anticon-exclamation-circle ant-alert-icon"
     >
       <svg
@@ -706,7 +706,7 @@ exports[`renders ./components/alert/demo/icon.md correctly 1`] = `
     data-show="true"
   >
     <i
-      aria-label="icon: close-circle"
+      aria-label="图标: close-circle"
       class="anticon anticon-close-circle ant-alert-icon"
     >
       <svg
@@ -738,7 +738,7 @@ exports[`renders ./components/alert/demo/icon.md correctly 1`] = `
     data-show="true"
   >
     <i
-      aria-label="icon: check-circle"
+      aria-label="图标: check-circle"
       class="anticon anticon-check-circle ant-alert-icon"
     >
       <svg
@@ -775,7 +775,7 @@ exports[`renders ./components/alert/demo/icon.md correctly 1`] = `
     data-show="true"
   >
     <i
-      aria-label="icon: info-circle"
+      aria-label="图标: info-circle"
       class="anticon anticon-info-circle ant-alert-icon"
     >
       <svg
@@ -812,7 +812,7 @@ exports[`renders ./components/alert/demo/icon.md correctly 1`] = `
     data-show="true"
   >
     <i
-      aria-label="icon: exclamation-circle"
+      aria-label="图标: exclamation-circle"
       class="anticon anticon-exclamation-circle ant-alert-icon"
     >
       <svg
@@ -849,7 +849,7 @@ exports[`renders ./components/alert/demo/icon.md correctly 1`] = `
     data-show="true"
   >
     <i
-      aria-label="icon: close-circle"
+      aria-label="图标: close-circle"
       class="anticon anticon-close-circle ant-alert-icon"
     >
       <svg
@@ -902,7 +902,7 @@ exports[`renders ./components/alert/demo/smooth-closed.md correctly 1`] = `
       class="ant-alert-close-icon"
     >
       <i
-        aria-label="icon: close"
+        aria-label="图标: close"
         class="anticon anticon-close"
       >
         <svg

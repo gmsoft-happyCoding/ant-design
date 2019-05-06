@@ -48,7 +48,7 @@ exports[`Table.filter renders custom filter icon correctly 1`] = `
 <span
   class="ant-table-filter-icon ant-table-filter-selected ant-dropdown-trigger"
   style=""
-  title="Filter menu"
+  title="筛选"
 >
   filtered
 </span>
@@ -58,7 +58,7 @@ exports[`Table.filter renders custom filter icon correctly 2`] = `
 <span
   class="ant-table-filter-icon ant-dropdown-trigger"
   style=""
-  title="Filter menu"
+  title="筛选"
 >
   unfiltered
 </span>
@@ -111,10 +111,10 @@ exports[`Table.filter renders filter correctly 1`] = `
                       </div>
                     </span>
                     <i
-                      aria-label="icon: filter"
+                      aria-label="图标: filter"
                       class="anticon anticon-filter ant-dropdown-trigger"
                       tabindex="-1"
-                      title="Filter menu"
+                      title="筛选"
                     >
                       <svg
                         aria-hidden="true"
@@ -285,12 +285,12 @@ exports[`Table.filter renders menu correctly 1`] = `
         <a
           class="ant-table-filter-dropdown-link confirm"
         >
-          OK
+          确定
         </a>
         <a
           class="ant-table-filter-dropdown-link clear"
         >
-          Reset
+          重置
         </a>
       </div>
     </div>
@@ -380,12 +380,12 @@ exports[`Table.filter renders radio filter correctly 1`] = `
         <a
           class="ant-table-filter-dropdown-link confirm"
         >
-          OK
+          确定
         </a>
         <a
           class="ant-table-filter-dropdown-link clear"
         >
-          Reset
+          重置
         </a>
       </div>
     </div>

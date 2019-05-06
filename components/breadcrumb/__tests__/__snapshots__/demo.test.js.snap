@@ -223,7 +223,7 @@ exports[`renders ./components/breadcrumb/demo/withIcon.md correctly 1`] = `
       href=""
     >
       <i
-        aria-label="icon: home"
+        aria-label="图标: home"
         class="anticon anticon-home"
       >
         <svg
@@ -254,7 +254,7 @@ exports[`renders ./components/breadcrumb/demo/withIcon.md correctly 1`] = `
       href=""
     >
       <i
-        aria-label="icon: user"
+        aria-label="图标: user"
         class="anticon anticon-user"
       >
         <svg

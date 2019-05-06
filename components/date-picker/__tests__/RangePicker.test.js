@@ -1,6 +1,7 @@
 import React from 'react';
 import { mount, render } from 'enzyme';
 import moment from 'moment';
+import 'moment/locale/zh-cn';
 import DatePicker from '..';
 import { setMockDate, resetMockDate } from '../../../tests/utils';
 import { selectDate, openPanel } from './utils';
@@ -12,6 +13,7 @@ describe('RangePicker', () => {
   focusTest(RangePicker);
 
   beforeEach(() => {
+    moment.locale('zh-cn');
     setMockDate();
   });
 
@@ -196,7 +198,7 @@ describe('RangePicker', () => {
     expect(
       wrapper
         .find('.ant-calendar-cell')
-        .at(23)
+        .at(22)
         .hasClass('ant-calendar-in-range-cell'),
     ).toBe(true);
   });
@@ -283,10 +285,10 @@ describe('RangePicker', () => {
     openPanel(wrapper);
     expect(
       wrapper
-        .find('.ant-calendar-my-select')
+        .find('.ant-calendar-ym-select')
         .first()
         .text(),
-    ).toBe('Jul2018');
+    ).toBe('2018年7月');
     wrapper
       .find('.ant-calendar-prev-year-btn')
       .first()
@@ -297,10 +299,10 @@ describe('RangePicker', () => {
       .simulate('click');
     expect(
       wrapper
-        .find('.ant-calendar-my-select')
+        .find('.ant-calendar-ym-select')
         .first()
         .text(),
-    ).toBe('Jun2017');
+    ).toBe('2017年6月');
   });
 
   // https://github.com/ant-design/ant-design/issues/11631

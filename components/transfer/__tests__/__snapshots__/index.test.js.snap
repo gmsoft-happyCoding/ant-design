@@ -30,7 +30,7 @@ exports[`Transfer should render correctly 1`] = `
         class="ant-transfer-list-header-selected"
       >
         <span>
-          1/2 items
+          1/2 项
         </span>
         <span
           class="ant-transfer-list-header-title"
@@ -96,7 +96,7 @@ exports[`Transfer should render correctly 1`] = `
       type="button"
     >
       <i
-        aria-label="icon: right"
+        aria-label="图标: right"
         class="anticon anticon-right"
       >
         <svg
@@ -121,7 +121,7 @@ exports[`Transfer should render correctly 1`] = `
       type="button"
     >
       <i
-        aria-label="icon: left"
+        aria-label="图标: left"
         class="anticon anticon-left"
       >
         <svg
@@ -166,7 +166,7 @@ exports[`Transfer should render correctly 1`] = `
         class="ant-transfer-list-header-selected"
       >
         <span>
-          1 item
+          1 项
         </span>
         <span
           class="ant-transfer-list-header-title"
@@ -234,7 +234,7 @@ exports[`Transfer should show sorted targetkey 1`] = `
         class="ant-transfer-list-header-selected"
       >
         <span>
-          1 item
+          1 项
         </span>
         <span
           class="ant-transfer-list-header-title"
@@ -282,7 +282,7 @@ exports[`Transfer should show sorted targetkey 1`] = `
       type="button"
     >
       <i
-        aria-label="icon: right"
+        aria-label="图标: right"
         class="anticon anticon-right"
       >
         <svg
@@ -307,7 +307,7 @@ exports[`Transfer should show sorted targetkey 1`] = `
       type="button"
     >
       <i
-        aria-label="icon: left"
+        aria-label="图标: left"
         class="anticon anticon-left"
       >
         <svg
@@ -352,7 +352,7 @@ exports[`Transfer should show sorted targetkey 1`] = `
         class="ant-transfer-list-header-selected"
       >
         <span>
-          2 items
+          2 项
         </span>
         <span
           class="ant-transfer-list-header-title"

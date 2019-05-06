@@ -76,7 +76,7 @@ describe('message', () => {
 
   it('should have the default duration when using the onClose arguments', done => {
     jest.useRealTimers();
-    const defaultDuration = 3;
+    const defaultDuration = 4;
     const now = Date.now();
     message.info('whatever', () => {
       // calculate the approximately duration value
@@ -88,7 +88,7 @@ describe('message', () => {
 
   it('should be called like promise', done => {
     jest.useRealTimers();
-    const defaultDuration = 3;
+    const defaultDuration = 4;
     const now = Date.now();
     message.info('whatever').then(() => {
       // calculate the approximately duration value

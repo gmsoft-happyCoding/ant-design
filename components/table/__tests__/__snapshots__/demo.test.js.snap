@@ -54,10 +54,10 @@ exports[`renders ./components/table/demo/ajax.md correctly 1`] = `
                         >
                           <div
                             class="ant-table-column-sorter-inner ant-table-column-sorter-inner-full"
-                            title="Sort"
+                            title="排序"
                           >
                             <i
-                              aria-label="icon: caret-up"
+                              aria-label="图标: caret-up"
                               class="anticon anticon-caret-up ant-table-column-sorter-up off"
                             >
                               <svg
@@ -76,7 +76,7 @@ exports[`renders ./components/table/demo/ajax.md correctly 1`] = `
                               </svg>
                             </i>
                             <i
-                              aria-label="icon: caret-down"
+                              aria-label="图标: caret-down"
                               class="anticon anticon-caret-down ant-table-column-sorter-down off"
                             >
                               <svg
@@ -117,10 +117,10 @@ exports[`renders ./components/table/demo/ajax.md correctly 1`] = `
                       </div>
                     </span>
                     <i
-                      aria-label="icon: filter"
+                      aria-label="图标: filter"
                       class="anticon anticon-filter ant-dropdown-trigger"
                       tabindex="-1"
-                      title="Filter menu"
+                      title="筛选"
                     >
                       <svg
                         aria-hidden="true"
@@ -173,14 +173,14 @@ exports[`renders ./components/table/demo/ajax.md correctly 1`] = `
                 class="ant-empty-image"
               >
                 <img
-                  alt="No Data"
+                  alt="暂无数据"
                   src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjQiIGhlaWdodD0iNDEiIHZpZXdCb3g9IjAgMCA2NCA0MSIgIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CiAgPGcgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMCAxKSIgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIj4KICAgIDxlbGxpcHNlIGZpbGw9IiNGNUY1RjUiIGN4PSIzMiIgY3k9IjMzIiByeD0iMzIiIHJ5PSI3Ii8+CiAgICA8ZyBmaWxsLXJ1bGU9Im5vbnplcm8iIHN0cm9rZT0iI0Q5RDlEOSI+CiAgICAgIDxwYXRoIGQ9Ik01NSAxMi43Nkw0NC44NTQgMS4yNThDNDQuMzY3LjQ3NCA0My42NTYgMCA0Mi45MDcgMEgyMS4wOTNjLS43NDkgMC0xLjQ2LjQ3NC0xLjk0NyAxLjI1N0w5IDEyLjc2MVYyMmg0NnYtOS4yNHoiLz4KICAgICAgPHBhdGggZD0iTTQxLjYxMyAxNS45MzFjMC0xLjYwNS45OTQtMi45MyAyLjIyNy0yLjkzMUg1NXYxOC4xMzdDNTUgMzMuMjYgNTMuNjggMzUgNTIuMDUgMzVoLTQwLjFDMTAuMzIgMzUgOSAzMy4yNTkgOSAzMS4xMzdWMTNoMTEuMTZjMS4yMzMgMCAyLjIyNyAxLjMyMyAyLjIyNyAyLjkyOHYuMDIyYzAgMS42MDUgMS4wMDUgMi45MDEgMi4yMzcgMi45MDFoMTQuNzUyYzEuMjMyIDAgMi4yMzctMS4zMDggMi4yMzctMi45MTN2LS4wMDd6IiBmaWxsPSIjRkFGQUZBIi8+CiAgICA8L2c+CiAgPC9nPgo8L3N2Zz4K"
                 />
               </div>
               <p
                 class="ant-empty-description"
               >
-                No Data
+                暂无数据
               </p>
             </div>
           </div>
@@ -515,13 +515,13 @@ exports[`renders ./components/table/demo/basic.md correctly 1`] = `
         <li
           aria-disabled="true"
           class="ant-pagination-disabled ant-pagination-prev"
-          title="Previous Page"
+          title="上一页"
         >
           <a
             class="ant-pagination-item-link"
           >
             <i
-              aria-label="icon: left"
+              aria-label="图标: left"
               class="anticon anticon-left"
             >
               <svg
@@ -553,13 +553,13 @@ exports[`renders ./components/table/demo/basic.md correctly 1`] = `
         <li
           aria-disabled="true"
           class="ant-pagination-disabled ant-pagination-next"
-          title="Next Page"
+          title="下一页"
         >
           <a
             class="ant-pagination-item-link"
           >
             <i
-              aria-label="icon: right"
+              aria-label="图标: right"
               class="anticon anticon-right"
             >
               <svg
@@ -781,13 +781,13 @@ exports[`renders ./components/table/demo/bordered.md correctly 1`] = `
         <li
           aria-disabled="true"
           class="ant-pagination-disabled ant-pagination-prev"
-          title="Previous Page"
+          title="上一页"
         >
           <a
             class="ant-pagination-item-link"
           >
             <i
-              aria-label="icon: left"
+              aria-label="图标: left"
               class="anticon anticon-left"
             >
               <svg
@@ -819,13 +819,13 @@ exports[`renders ./components/table/demo/bordered.md correctly 1`] = `
         <li
           aria-disabled="true"
           class="ant-pagination-disabled ant-pagination-next"
-          title="Next Page"
+          title="下一页"
         >
           <a
             class="ant-pagination-item-link"
           >
             <i
-              aria-label="icon: right"
+              aria-label="图标: right"
               class="anticon anticon-right"
             >
               <svg
@@ -1141,13 +1141,13 @@ exports[`renders ./components/table/demo/colspan-rowspan.md correctly 1`] = `
         <li
           aria-disabled="true"
           class="ant-pagination-disabled ant-pagination-prev"
-          title="Previous Page"
+          title="上一页"
         >
           <a
             class="ant-pagination-item-link"
           >
             <i
-              aria-label="icon: left"
+              aria-label="图标: left"
               class="anticon anticon-left"
             >
               <svg
@@ -1179,13 +1179,13 @@ exports[`renders ./components/table/demo/colspan-rowspan.md correctly 1`] = `
         <li
           aria-disabled="true"
           class="ant-pagination-disabled ant-pagination-next"
-          title="Next Page"
+          title="下一页"
         >
           <a
             class="ant-pagination-item-link"
           >
             <i
-              aria-label="icon: right"
+              aria-label="图标: right"
               class="anticon anticon-right"
             >
               <svg
@@ -1264,10 +1264,10 @@ exports[`renders ./components/table/demo/custom-filter-panel.md correctly 1`] = 
                       </div>
                     </span>
                     <i
-                      aria-label="icon: search"
+                      aria-label="图标: search"
                       class="anticon anticon-search ant-table-filter-icon ant-dropdown-trigger"
                       tabindex="-1"
-                      title="Filter menu"
+                      title="筛选"
                     >
                       <svg
                         aria-hidden="true"
@@ -1303,10 +1303,10 @@ exports[`renders ./components/table/demo/custom-filter-panel.md correctly 1`] = 
                       </div>
                     </span>
                     <i
-                      aria-label="icon: search"
+                      aria-label="图标: search"
                       class="anticon anticon-search ant-table-filter-icon ant-dropdown-trigger"
                       tabindex="-1"
-                      title="Filter menu"
+                      title="筛选"
                     >
                       <svg
                         aria-hidden="true"
@@ -1342,10 +1342,10 @@ exports[`renders ./components/table/demo/custom-filter-panel.md correctly 1`] = 
                       </div>
                     </span>
                     <i
-                      aria-label="icon: search"
+                      aria-label="图标: search"
                       class="anticon anticon-search ant-table-filter-icon ant-dropdown-trigger"
                       tabindex="-1"
-                      title="Filter menu"
+                      title="筛选"
                     >
                       <svg
                         aria-hidden="true"
@@ -1548,13 +1548,13 @@ exports[`renders ./components/table/demo/custom-filter-panel.md correctly 1`] = 
         <li
           aria-disabled="true"
           class="ant-pagination-disabled ant-pagination-prev"
-          title="Previous Page"
+          title="上一页"
         >
           <a
             class="ant-pagination-item-link"
           >
             <i
-              aria-label="icon: left"
+              aria-label="图标: left"
               class="anticon anticon-left"
             >
               <svg
@@ -1586,13 +1586,13 @@ exports[`renders ./components/table/demo/custom-filter-panel.md correctly 1`] = 
         <li
           aria-disabled="true"
           class="ant-pagination-disabled ant-pagination-next"
-          title="Next Page"
+          title="下一页"
         >
           <a
             class="ant-pagination-item-link"
           >
             <i
-              aria-label="icon: right"
+              aria-label="图标: right"
               class="anticon anticon-right"
             >
               <svg
@@ -1798,13 +1798,13 @@ exports[`renders ./components/table/demo/drag-sorting.md correctly 1`] = `
         <li
           aria-disabled="true"
           class="ant-pagination-disabled ant-pagination-prev"
-          title="Previous Page"
+          title="上一页"
         >
           <a
             class="ant-pagination-item-link"
           >
             <i
-              aria-label="icon: left"
+              aria-label="图标: left"
               class="anticon anticon-left"
             >
               <svg
@@ -1836,13 +1836,13 @@ exports[`renders ./components/table/demo/drag-sorting.md correctly 1`] = `
         <li
           aria-disabled="true"
           class="ant-pagination-disabled ant-pagination-next"
-          title="Next Page"
+          title="下一页"
         >
           <a
             class="ant-pagination-item-link"
           >
             <i
-              aria-label="icon: right"
+              aria-label="图标: right"
               class="anticon anticon-right"
             >
               <svg
@@ -2640,7 +2640,7 @@ exports[`renders ./components/table/demo/dynamic-settings.md correctly 1`] = `
                         >
                           More actions 
                           <i
-                            aria-label="icon: down"
+                            aria-label="图标: down"
                             class="anticon anticon-down"
                           >
                             <svg
@@ -2739,7 +2739,7 @@ exports[`renders ./components/table/demo/dynamic-settings.md correctly 1`] = `
                         >
                           More actions 
                           <i
-                            aria-label="icon: down"
+                            aria-label="图标: down"
                             class="anticon anticon-down"
                           >
                             <svg
@@ -2838,7 +2838,7 @@ exports[`renders ./components/table/demo/dynamic-settings.md correctly 1`] = `
                         >
                           More actions 
                           <i
-                            aria-label="icon: down"
+                            aria-label="图标: down"
                             class="anticon anticon-down"
                           >
                             <svg
@@ -2937,7 +2937,7 @@ exports[`renders ./components/table/demo/dynamic-settings.md correctly 1`] = `
                         >
                           More actions 
                           <i
-                            aria-label="icon: down"
+                            aria-label="图标: down"
                             class="anticon anticon-down"
                           >
                             <svg
@@ -3036,7 +3036,7 @@ exports[`renders ./components/table/demo/dynamic-settings.md correctly 1`] = `
                         >
                           More actions 
                           <i
-                            aria-label="icon: down"
+                            aria-label="图标: down"
                             class="anticon anticon-down"
                           >
                             <svg
@@ -3135,7 +3135,7 @@ exports[`renders ./components/table/demo/dynamic-settings.md correctly 1`] = `
                         >
                           More actions 
                           <i
-                            aria-label="icon: down"
+                            aria-label="图标: down"
                             class="anticon anticon-down"
                           >
                             <svg
@@ -3234,7 +3234,7 @@ exports[`renders ./components/table/demo/dynamic-settings.md correctly 1`] = `
                         >
                           More actions 
                           <i
-                            aria-label="icon: down"
+                            aria-label="图标: down"
                             class="anticon anticon-down"
                           >
                             <svg
@@ -3333,7 +3333,7 @@ exports[`renders ./components/table/demo/dynamic-settings.md correctly 1`] = `
                         >
                           More actions 
                           <i
-                            aria-label="icon: down"
+                            aria-label="图标: down"
                             class="anticon anticon-down"
                           >
                             <svg
@@ -3432,7 +3432,7 @@ exports[`renders ./components/table/demo/dynamic-settings.md correctly 1`] = `
                         >
                           More actions 
                           <i
-                            aria-label="icon: down"
+                            aria-label="图标: down"
                             class="anticon anticon-down"
                           >
                             <svg
@@ -3531,7 +3531,7 @@ exports[`renders ./components/table/demo/dynamic-settings.md correctly 1`] = `
                         >
                           More actions 
                           <i
-                            aria-label="icon: down"
+                            aria-label="图标: down"
                             class="anticon anticon-down"
                           >
                             <svg
@@ -3570,13 +3570,13 @@ exports[`renders ./components/table/demo/dynamic-settings.md correctly 1`] = `
           <li
             aria-disabled="true"
             class="ant-pagination-disabled ant-pagination-prev"
-            title="Previous Page"
+            title="上一页"
           >
             <a
               class="ant-pagination-item-link"
             >
               <i
-                aria-label="icon: left"
+                aria-label="图标: left"
                 class="anticon anticon-left"
               >
                 <svg
@@ -3608,13 +3608,13 @@ exports[`renders ./components/table/demo/dynamic-settings.md correctly 1`] = `
           <li
             aria-disabled="true"
             class="ant-pagination-disabled ant-pagination-next"
-            title="Next Page"
+            title="下一页"
           >
             <a
               class="ant-pagination-item-link"
             >
               <i
-                aria-label="icon: right"
+                aria-label="图标: right"
                 class="anticon anticon-right"
               >
                 <svg
@@ -3850,13 +3850,13 @@ exports[`renders ./components/table/demo/edit-cell.md correctly 1`] = `
           <li
             aria-disabled="true"
             class="ant-pagination-disabled ant-pagination-prev"
-            title="Previous Page"
+            title="上一页"
           >
             <a
               class="ant-pagination-item-link"
             >
               <i
-                aria-label="icon: left"
+                aria-label="图标: left"
                 class="anticon anticon-left"
               >
                 <svg
@@ -3888,13 +3888,13 @@ exports[`renders ./components/table/demo/edit-cell.md correctly 1`] = `
           <li
             aria-disabled="true"
             class="ant-pagination-disabled ant-pagination-next"
-            title="Next Page"
+            title="下一页"
           >
             <a
               class="ant-pagination-item-link"
             >
               <i
-                aria-label="icon: right"
+                aria-label="图标: right"
                 class="anticon anticon-right"
               >
                 <svg
@@ -4378,13 +4378,13 @@ exports[`renders ./components/table/demo/edit-row.md correctly 1`] = `
         <li
           aria-disabled="true"
           class="ant-pagination-disabled ant-pagination-prev"
-          title="Previous Page"
+          title="上一页"
         >
           <a
             class="ant-pagination-item-link"
           >
             <i
-              aria-label="icon: left"
+              aria-label="图标: left"
               class="anticon anticon-left"
             >
               <svg
@@ -4452,7 +4452,7 @@ exports[`renders ./components/table/demo/edit-row.md correctly 1`] = `
         <li
           class="ant-pagination-jump-next ant-pagination-jump-next-custom-icon"
           tabindex="0"
-          title="Next 5 Pages"
+          title="向后 5 页"
         >
           <a
             class="ant-pagination-item-link"
@@ -4461,7 +4461,7 @@ exports[`renders ./components/table/demo/edit-row.md correctly 1`] = `
               class="ant-pagination-item-container"
             >
               <i
-                aria-label="icon: double-right"
+                aria-label="图标: double-right"
                 class="anticon anticon-double-right ant-pagination-item-link-icon"
               >
                 <svg
@@ -4500,13 +4500,13 @@ exports[`renders ./components/table/demo/edit-row.md correctly 1`] = `
           aria-disabled="false"
           class=" ant-pagination-next"
           tabindex="0"
-          title="Next Page"
+          title="下一页"
         >
           <a
             class="ant-pagination-item-link"
           >
             <i
-              aria-label="icon: right"
+              aria-label="图标: right"
               class="anticon anticon-right"
             >
               <svg
@@ -4769,13 +4769,13 @@ exports[`renders ./components/table/demo/expand.md correctly 1`] = `
         <li
           aria-disabled="true"
           class="ant-pagination-disabled ant-pagination-prev"
-          title="Previous Page"
+          title="上一页"
         >
           <a
             class="ant-pagination-item-link"
           >
             <i
-              aria-label="icon: left"
+              aria-label="图标: left"
               class="anticon anticon-left"
             >
               <svg
@@ -4807,13 +4807,13 @@ exports[`renders ./components/table/demo/expand.md correctly 1`] = `
         <li
           aria-disabled="true"
           class="ant-pagination-disabled ant-pagination-next"
-          title="Next Page"
+          title="下一页"
         >
           <a
             class="ant-pagination-item-link"
           >
             <i
-              aria-label="icon: right"
+              aria-label="图标: right"
               class="anticon anticon-right"
             >
               <svg
@@ -5080,13 +5080,13 @@ exports[`renders ./components/table/demo/expand-children.md correctly 1`] = `
         <li
           aria-disabled="true"
           class="ant-pagination-disabled ant-pagination-prev"
-          title="Previous Page"
+          title="上一页"
         >
           <a
             class="ant-pagination-item-link"
           >
             <i
-              aria-label="icon: left"
+              aria-label="图标: left"
               class="anticon anticon-left"
             >
               <svg
@@ -5118,13 +5118,13 @@ exports[`renders ./components/table/demo/expand-children.md correctly 1`] = `
         <li
           aria-disabled="true"
           class="ant-pagination-disabled ant-pagination-next"
-          title="Next Page"
+          title="下一页"
         >
           <a
             class="ant-pagination-item-link"
           >
             <i
-              aria-label="icon: right"
+              aria-label="图标: right"
               class="anticon anticon-right"
             >
               <svg
@@ -5739,13 +5739,13 @@ exports[`renders ./components/table/demo/fixed-columns.md correctly 1`] = `
         <li
           aria-disabled="true"
           class="ant-pagination-disabled ant-pagination-prev"
-          title="Previous Page"
+          title="上一页"
         >
           <a
             class="ant-pagination-item-link"
           >
             <i
-              aria-label="icon: left"
+              aria-label="图标: left"
               class="anticon anticon-left"
             >
               <svg
@@ -5777,13 +5777,13 @@ exports[`renders ./components/table/demo/fixed-columns.md correctly 1`] = `
         <li
           aria-disabled="true"
           class="ant-pagination-disabled ant-pagination-next"
-          title="Next Page"
+          title="下一页"
         >
           <a
             class="ant-pagination-item-link"
           >
             <i
-              aria-label="icon: right"
+              aria-label="图标: right"
               class="anticon anticon-right"
             >
               <svg
@@ -7293,13 +7293,13 @@ exports[`renders ./components/table/demo/fixed-columns-header.md correctly 1`] =
         <li
           aria-disabled="true"
           class="ant-pagination-disabled ant-pagination-prev"
-          title="Previous Page"
+          title="上一页"
         >
           <a
             class="ant-pagination-item-link"
           >
             <i
-              aria-label="icon: left"
+              aria-label="图标: left"
               class="anticon anticon-left"
             >
               <svg
@@ -7367,7 +7367,7 @@ exports[`renders ./components/table/demo/fixed-columns-header.md correctly 1`] =
         <li
           class="ant-pagination-jump-next ant-pagination-jump-next-custom-icon"
           tabindex="0"
-          title="Next 5 Pages"
+          title="向后 5 页"
         >
           <a
             class="ant-pagination-item-link"
@@ -7376,7 +7376,7 @@ exports[`renders ./components/table/demo/fixed-columns-header.md correctly 1`] =
               class="ant-pagination-item-container"
             >
               <i
-                aria-label="icon: double-right"
+                aria-label="图标: double-right"
                 class="anticon anticon-double-right ant-pagination-item-link-icon"
               >
                 <svg
@@ -7415,13 +7415,13 @@ exports[`renders ./components/table/demo/fixed-columns-header.md correctly 1`] =
           aria-disabled="false"
           class=" ant-pagination-next"
           tabindex="0"
-          title="Next Page"
+          title="下一页"
         >
           <a
             class="ant-pagination-item-link"
           >
             <i
-              aria-label="icon: right"
+              aria-label="图标: right"
               class="anticon anticon-right"
             >
               <svg
@@ -8775,13 +8775,13 @@ exports[`renders ./components/table/demo/fixed-header.md correctly 1`] = `
         <li
           aria-disabled="true"
           class="ant-pagination-disabled ant-pagination-prev"
-          title="Previous Page"
+          title="上一页"
         >
           <a
             class="ant-pagination-item-link"
           >
             <i
-              aria-label="icon: left"
+              aria-label="图标: left"
               class="anticon anticon-left"
             >
               <svg
@@ -8823,13 +8823,13 @@ exports[`renders ./components/table/demo/fixed-header.md correctly 1`] = `
           aria-disabled="false"
           class=" ant-pagination-next"
           tabindex="0"
-          title="Next Page"
+          title="下一页"
         >
           <a
             class="ant-pagination-item-link"
           >
             <i
-              aria-label="icon: right"
+              aria-label="图标: right"
               class="anticon anticon-right"
             >
               <svg
@@ -8926,10 +8926,10 @@ exports[`renders ./components/table/demo/grouping-columns.md correctly 1`] = `
                         </div>
                       </span>
                       <i
-                        aria-label="icon: filter"
+                        aria-label="图标: filter"
                         class="anticon anticon-filter ant-dropdown-trigger"
                         tabindex="-1"
-                        title="Filter menu"
+                        title="筛选"
                       >
                         <svg
                           aria-hidden="true"
@@ -9026,10 +9026,10 @@ exports[`renders ./components/table/demo/grouping-columns.md correctly 1`] = `
                           >
                             <div
                               class="ant-table-column-sorter-inner ant-table-column-sorter-inner-full"
-                              title="Sort"
+                              title="排序"
                             >
                               <i
-                                aria-label="icon: caret-up"
+                                aria-label="图标: caret-up"
                                 class="anticon anticon-caret-up ant-table-column-sorter-up off"
                               >
                                 <svg
@@ -9048,7 +9048,7 @@ exports[`renders ./components/table/demo/grouping-columns.md correctly 1`] = `
                                 </svg>
                               </i>
                               <i
-                                aria-label="icon: caret-down"
+                                aria-label="图标: caret-down"
                                 class="anticon anticon-caret-down ant-table-column-sorter-down off"
                               >
                                 <svg
@@ -9774,10 +9774,10 @@ exports[`renders ./components/table/demo/grouping-columns.md correctly 1`] = `
                         </div>
                       </span>
                       <i
-                        aria-label="icon: filter"
+                        aria-label="图标: filter"
                         class="anticon anticon-filter ant-dropdown-trigger"
                         tabindex="-1"
-                        title="Filter menu"
+                        title="筛选"
                       >
                         <svg
                           aria-hidden="true"
@@ -10137,13 +10137,13 @@ exports[`renders ./components/table/demo/grouping-columns.md correctly 1`] = `
         <li
           aria-disabled="true"
           class="ant-pagination-disabled ant-pagination-prev"
-          title="Previous Page"
+          title="上一页"
         >
           <a
             class="ant-pagination-item-link"
           >
             <i
-              aria-label="icon: left"
+              aria-label="图标: left"
               class="anticon anticon-left"
             >
               <svg
@@ -10211,7 +10211,7 @@ exports[`renders ./components/table/demo/grouping-columns.md correctly 1`] = `
         <li
           class="ant-pagination-jump-next ant-pagination-jump-next-custom-icon"
           tabindex="0"
-          title="Next 5 Pages"
+          title="向后 5 页"
         >
           <a
             class="ant-pagination-item-link"
@@ -10220,7 +10220,7 @@ exports[`renders ./components/table/demo/grouping-columns.md correctly 1`] = `
               class="ant-pagination-item-container"
             >
               <i
-                aria-label="icon: double-right"
+                aria-label="图标: double-right"
                 class="anticon anticon-double-right ant-pagination-item-link-icon"
               >
                 <svg
@@ -10259,13 +10259,13 @@ exports[`renders ./components/table/demo/grouping-columns.md correctly 1`] = `
           aria-disabled="false"
           class=" ant-pagination-next"
           tabindex="0"
-          title="Next Page"
+          title="下一页"
         >
           <a
             class="ant-pagination-item-link"
           >
             <i
-              aria-label="icon: right"
+              aria-label="图标: right"
               class="anticon anticon-right"
             >
               <svg
@@ -10341,10 +10341,10 @@ exports[`renders ./components/table/demo/head.md correctly 1`] = `
                         >
                           <div
                             class="ant-table-column-sorter-inner"
-                            title="Sort"
+                            title="排序"
                           >
                             <i
-                              aria-label="icon: caret-down"
+                              aria-label="图标: caret-down"
                               class="anticon anticon-caret-down ant-table-column-sorter-down off"
                             >
                               <svg
@@ -10367,10 +10367,10 @@ exports[`renders ./components/table/demo/head.md correctly 1`] = `
                       </div>
                     </span>
                     <i
-                      aria-label="icon: filter"
+                      aria-label="图标: filter"
                       class="anticon anticon-filter ant-dropdown-trigger"
                       tabindex="-1"
-                      title="Filter menu"
+                      title="筛选"
                     >
                       <svg
                         aria-hidden="true"
@@ -10407,10 +10407,10 @@ exports[`renders ./components/table/demo/head.md correctly 1`] = `
                         >
                           <div
                             class="ant-table-column-sorter-inner ant-table-column-sorter-inner-full"
-                            title="Sort"
+                            title="排序"
                           >
                             <i
-                              aria-label="icon: caret-up"
+                              aria-label="图标: caret-up"
                               class="anticon anticon-caret-up ant-table-column-sorter-up off"
                             >
                               <svg
@@ -10429,7 +10429,7 @@ exports[`renders ./components/table/demo/head.md correctly 1`] = `
                               </svg>
                             </i>
                             <i
-                              aria-label="icon: caret-down"
+                              aria-label="图标: caret-down"
                               class="anticon anticon-caret-down ant-table-column-sorter-down on"
                             >
                               <svg
@@ -10471,10 +10471,10 @@ exports[`renders ./components/table/demo/head.md correctly 1`] = `
                         >
                           <div
                             class="ant-table-column-sorter-inner ant-table-column-sorter-inner-full"
-                            title="Sort"
+                            title="排序"
                           >
                             <i
-                              aria-label="icon: caret-up"
+                              aria-label="图标: caret-up"
                               class="anticon anticon-caret-up ant-table-column-sorter-up off"
                             >
                               <svg
@@ -10493,7 +10493,7 @@ exports[`renders ./components/table/demo/head.md correctly 1`] = `
                               </svg>
                             </i>
                             <i
-                              aria-label="icon: caret-down"
+                              aria-label="图标: caret-down"
                               class="anticon anticon-caret-down ant-table-column-sorter-down off"
                             >
                               <svg
@@ -10516,10 +10516,10 @@ exports[`renders ./components/table/demo/head.md correctly 1`] = `
                       </div>
                     </span>
                     <i
-                      aria-label="icon: filter"
+                      aria-label="图标: filter"
                       class="anticon anticon-filter ant-dropdown-trigger"
                       tabindex="-1"
-                      title="Filter menu"
+                      title="筛选"
                     >
                       <svg
                         aria-hidden="true"
@@ -10650,13 +10650,13 @@ exports[`renders ./components/table/demo/head.md correctly 1`] = `
         <li
           aria-disabled="true"
           class="ant-pagination-disabled ant-pagination-prev"
-          title="Previous Page"
+          title="上一页"
         >
           <a
             class="ant-pagination-item-link"
           >
             <i
-              aria-label="icon: left"
+              aria-label="图标: left"
               class="anticon anticon-left"
             >
               <svg
@@ -10688,13 +10688,13 @@ exports[`renders ./components/table/demo/head.md correctly 1`] = `
         <li
           aria-disabled="true"
           class="ant-pagination-disabled ant-pagination-next"
-          title="Next Page"
+          title="下一页"
         >
           <a
             class="ant-pagination-item-link"
           >
             <i
-              aria-label="icon: right"
+              aria-label="图标: right"
               class="anticon anticon-right"
             >
               <svg
@@ -11091,13 +11091,13 @@ exports[`renders ./components/table/demo/jsx.md correctly 1`] = `
         <li
           aria-disabled="true"
           class="ant-pagination-disabled ant-pagination-prev"
-          title="Previous Page"
+          title="上一页"
         >
           <a
             class="ant-pagination-item-link"
           >
             <i
-              aria-label="icon: left"
+              aria-label="图标: left"
               class="anticon anticon-left"
             >
               <svg
@@ -11129,13 +11129,13 @@ exports[`renders ./components/table/demo/jsx.md correctly 1`] = `
         <li
           aria-disabled="true"
           class="ant-pagination-disabled ant-pagination-next"
-          title="Next Page"
+          title="下一页"
         >
           <a
             class="ant-pagination-item-link"
           >
             <i
-              aria-label="icon: right"
+              aria-label="图标: right"
               class="anticon anticon-right"
             >
               <svg
@@ -11500,13 +11500,13 @@ exports[`renders ./components/table/demo/nested-table.md correctly 1`] = `
         <li
           aria-disabled="true"
           class="ant-pagination-disabled ant-pagination-prev"
-          title="Previous Page"
+          title="上一页"
         >
           <a
             class="ant-pagination-item-link"
           >
             <i
-              aria-label="icon: left"
+              aria-label="图标: left"
               class="anticon anticon-left"
             >
               <svg
@@ -11538,13 +11538,13 @@ exports[`renders ./components/table/demo/nested-table.md correctly 1`] = `
         <li
           aria-disabled="true"
           class="ant-pagination-disabled ant-pagination-next"
-          title="Next Page"
+          title="下一页"
         >
           <a
             class="ant-pagination-item-link"
           >
             <i
-              aria-label="icon: right"
+              aria-label="图标: right"
               class="anticon anticon-right"
             >
               <svg
@@ -11649,10 +11649,10 @@ exports[`renders ./components/table/demo/reset-filter.md correctly 1`] = `
                           >
                             <div
                               class="ant-table-column-sorter-inner ant-table-column-sorter-inner-full"
-                              title="Sort"
+                              title="排序"
                             >
                               <i
-                                aria-label="icon: caret-up"
+                                aria-label="图标: caret-up"
                                 class="anticon anticon-caret-up ant-table-column-sorter-up off"
                               >
                                 <svg
@@ -11671,7 +11671,7 @@ exports[`renders ./components/table/demo/reset-filter.md correctly 1`] = `
                                 </svg>
                               </i>
                               <i
-                                aria-label="icon: caret-down"
+                                aria-label="图标: caret-down"
                                 class="anticon anticon-caret-down ant-table-column-sorter-down off"
                               >
                                 <svg
@@ -11694,10 +11694,10 @@ exports[`renders ./components/table/demo/reset-filter.md correctly 1`] = `
                         </div>
                       </span>
                       <i
-                        aria-label="icon: filter"
+                        aria-label="图标: filter"
                         class="anticon anticon-filter ant-dropdown-trigger"
                         tabindex="-1"
-                        title="Filter menu"
+                        title="筛选"
                       >
                         <svg
                           aria-hidden="true"
@@ -11734,10 +11734,10 @@ exports[`renders ./components/table/demo/reset-filter.md correctly 1`] = `
                           >
                             <div
                               class="ant-table-column-sorter-inner ant-table-column-sorter-inner-full"
-                              title="Sort"
+                              title="排序"
                             >
                               <i
-                                aria-label="icon: caret-up"
+                                aria-label="图标: caret-up"
                                 class="anticon anticon-caret-up ant-table-column-sorter-up off"
                               >
                                 <svg
@@ -11756,7 +11756,7 @@ exports[`renders ./components/table/demo/reset-filter.md correctly 1`] = `
                                 </svg>
                               </i>
                               <i
-                                aria-label="icon: caret-down"
+                                aria-label="图标: caret-down"
                                 class="anticon anticon-caret-down ant-table-column-sorter-down off"
                               >
                                 <svg
@@ -11798,10 +11798,10 @@ exports[`renders ./components/table/demo/reset-filter.md correctly 1`] = `
                           >
                             <div
                               class="ant-table-column-sorter-inner ant-table-column-sorter-inner-full"
-                              title="Sort"
+                              title="排序"
                             >
                               <i
-                                aria-label="icon: caret-up"
+                                aria-label="图标: caret-up"
                                 class="anticon anticon-caret-up ant-table-column-sorter-up off"
                               >
                                 <svg
@@ -11820,7 +11820,7 @@ exports[`renders ./components/table/demo/reset-filter.md correctly 1`] = `
                                 </svg>
                               </i>
                               <i
-                                aria-label="icon: caret-down"
+                                aria-label="图标: caret-down"
                                 class="anticon anticon-caret-down ant-table-column-sorter-down off"
                               >
                                 <svg
@@ -11843,10 +11843,10 @@ exports[`renders ./components/table/demo/reset-filter.md correctly 1`] = `
                         </div>
                       </span>
                       <i
-                        aria-label="icon: filter"
+                        aria-label="图标: filter"
                         class="anticon anticon-filter ant-dropdown-trigger"
                         tabindex="-1"
-                        title="Filter menu"
+                        title="筛选"
                       >
                         <svg
                           aria-hidden="true"
@@ -11977,13 +11977,13 @@ exports[`renders ./components/table/demo/reset-filter.md correctly 1`] = `
           <li
             aria-disabled="true"
             class="ant-pagination-disabled ant-pagination-prev"
-            title="Previous Page"
+            title="上一页"
           >
             <a
               class="ant-pagination-item-link"
             >
               <i
-                aria-label="icon: left"
+                aria-label="图标: left"
                 class="anticon anticon-left"
               >
                 <svg
@@ -12015,13 +12015,13 @@ exports[`renders ./components/table/demo/reset-filter.md correctly 1`] = `
           <li
             aria-disabled="true"
             class="ant-pagination-disabled ant-pagination-next"
-            title="Next Page"
+            title="下一页"
           >
             <a
               class="ant-pagination-item-link"
             >
               <i
-                aria-label="icon: right"
+                aria-label="图标: right"
                 class="anticon anticon-right"
               >
                 <svg
@@ -12326,13 +12326,13 @@ exports[`renders ./components/table/demo/resizable-column.md correctly 1`] = `
         <li
           aria-disabled="true"
           class="ant-pagination-disabled ant-pagination-prev"
-          title="Previous Page"
+          title="上一页"
         >
           <a
             class="ant-pagination-item-link"
           >
             <i
-              aria-label="icon: left"
+              aria-label="图标: left"
               class="anticon anticon-left"
             >
               <svg
@@ -12364,13 +12364,13 @@ exports[`renders ./components/table/demo/resizable-column.md correctly 1`] = `
         <li
           aria-disabled="true"
           class="ant-pagination-disabled ant-pagination-next"
-          title="Next Page"
+          title="下一页"
         >
           <a
             class="ant-pagination-item-link"
           >
             <i
-              aria-label="icon: right"
+              aria-label="图标: right"
               class="anticon anticon-right"
             >
               <svg
@@ -12738,13 +12738,13 @@ exports[`renders ./components/table/demo/row-selection.md correctly 1`] = `
         <li
           aria-disabled="true"
           class="ant-pagination-disabled ant-pagination-prev"
-          title="Previous Page"
+          title="上一页"
         >
           <a
             class="ant-pagination-item-link"
           >
             <i
-              aria-label="icon: left"
+              aria-label="图标: left"
               class="anticon anticon-left"
             >
               <svg
@@ -12776,13 +12776,13 @@ exports[`renders ./components/table/demo/row-selection.md correctly 1`] = `
         <li
           aria-disabled="true"
           class="ant-pagination-disabled ant-pagination-next"
-          title="Next Page"
+          title="下一页"
         >
           <a
             class="ant-pagination-item-link"
           >
             <i
-              aria-label="icon: right"
+              aria-label="图标: right"
               class="anticon anticon-right"
             >
               <svg
@@ -13416,13 +13416,13 @@ exports[`renders ./components/table/demo/row-selection-and-operation.md correctl
           <li
             aria-disabled="true"
             class="ant-pagination-disabled ant-pagination-prev"
-            title="Previous Page"
+            title="上一页"
           >
             <a
               class="ant-pagination-item-link"
             >
               <i
-                aria-label="icon: left"
+                aria-label="图标: left"
                 class="anticon anticon-left"
               >
                 <svg
@@ -13491,13 +13491,13 @@ exports[`renders ./components/table/demo/row-selection-and-operation.md correctl
             aria-disabled="false"
             class=" ant-pagination-next"
             tabindex="0"
-            title="Next Page"
+            title="下一页"
           >
             <a
               class="ant-pagination-item-link"
             >
               <i
-                aria-label="icon: right"
+                aria-label="图标: right"
                 class="anticon anticon-right"
               >
                 <svg
@@ -13590,7 +13590,7 @@ exports[`renders ./components/table/demo/row-selection-custom.md correctly 1`] =
                               class="ant-table-selection-down ant-dropdown-trigger"
                             >
                               <i
-                                aria-label="icon: down"
+                                aria-label="图标: down"
                                 class="anticon anticon-down"
                               >
                                 <svg
@@ -14138,13 +14138,13 @@ exports[`renders ./components/table/demo/row-selection-custom.md correctly 1`] =
         <li
           aria-disabled="true"
           class="ant-pagination-disabled ant-pagination-prev"
-          title="Previous Page"
+          title="上一页"
         >
           <a
             class="ant-pagination-item-link"
           >
             <i
-              aria-label="icon: left"
+              aria-label="图标: left"
               class="anticon anticon-left"
             >
               <svg
@@ -14213,13 +14213,13 @@ exports[`renders ./components/table/demo/row-selection-custom.md correctly 1`] =
           aria-disabled="false"
           class=" ant-pagination-next"
           tabindex="0"
-          title="Next Page"
+          title="下一页"
         >
           <a
             class="ant-pagination-item-link"
           >
             <i
-              aria-label="icon: right"
+              aria-label="图标: right"
               class="anticon anticon-right"
             >
               <svg
@@ -14423,13 +14423,13 @@ exports[`renders ./components/table/demo/size.md correctly 1`] = `
           <li
             aria-disabled="true"
             class="ant-pagination-disabled ant-pagination-prev"
-            title="Previous Page"
+            title="上一页"
           >
             <a
               class="ant-pagination-item-link"
             >
               <i
-                aria-label="icon: left"
+                aria-label="图标: left"
                 class="anticon anticon-left"
               >
                 <svg
@@ -14461,13 +14461,13 @@ exports[`renders ./components/table/demo/size.md correctly 1`] = `
           <li
             aria-disabled="true"
             class="ant-pagination-disabled ant-pagination-next"
-            title="Next Page"
+            title="下一页"
           >
             <a
               class="ant-pagination-item-link"
             >
               <i
-                aria-label="icon: right"
+                aria-label="图标: right"
                 class="anticon anticon-right"
               >
                 <svg
@@ -14667,13 +14667,13 @@ exports[`renders ./components/table/demo/size.md correctly 1`] = `
           <li
             aria-disabled="true"
             class="ant-pagination-disabled ant-pagination-prev"
-            title="Previous Page"
+            title="上一页"
           >
             <a
               class="ant-pagination-item-link"
             >
               <i
-                aria-label="icon: left"
+                aria-label="图标: left"
                 class="anticon anticon-left"
               >
                 <svg
@@ -14705,13 +14705,13 @@ exports[`renders ./components/table/demo/size.md correctly 1`] = `
           <li
             aria-disabled="true"
             class="ant-pagination-disabled ant-pagination-next"
-            title="Next Page"
+            title="下一页"
           >
             <a
               class="ant-pagination-item-link"
             >
               <i
-                aria-label="icon: right"
+                aria-label="图标: right"
                 class="anticon anticon-right"
               >
                 <svg

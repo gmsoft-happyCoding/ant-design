@@ -93,7 +93,7 @@ exports[`renders ./components/dropdown/demo/dropdown-button.md correctly 1`] = `
       type="button"
     >
       <i
-        aria-label="icon: user"
+        aria-label="图标: user"
         class="anticon anticon-user"
       >
         <svg

@@ -892,7 +892,7 @@ exports[`renders ./components/list/demo/vertical.md correctly 1`] = `
               <li>
                 <span>
                   <i
-                    aria-label="icon: star-o"
+                    aria-label="图标: star-o"
                     class="anticon anticon-star-o"
                     style="margin-right:8px"
                   >
@@ -920,7 +920,7 @@ exports[`renders ./components/list/demo/vertical.md correctly 1`] = `
               <li>
                 <span>
                   <i
-                    aria-label="icon: like-o"
+                    aria-label="图标: like-o"
                     class="anticon anticon-like-o"
                     style="margin-right:8px"
                   >
@@ -948,7 +948,7 @@ exports[`renders ./components/list/demo/vertical.md correctly 1`] = `
               <li>
                 <span>
                   <i
-                    aria-label="icon: message"
+                    aria-label="图标: message"
                     class="anticon anticon-message"
                     style="margin-right:8px"
                   >
@@ -1028,7 +1028,7 @@ exports[`renders ./components/list/demo/vertical.md correctly 1`] = `
               <li>
                 <span>
                   <i
-                    aria-label="icon: star-o"
+                    aria-label="图标: star-o"
                     class="anticon anticon-star-o"
                     style="margin-right:8px"
                   >
@@ -1056,7 +1056,7 @@ exports[`renders ./components/list/demo/vertical.md correctly 1`] = `
               <li>
                 <span>
                   <i
-                    aria-label="icon: like-o"
+                    aria-label="图标: like-o"
                     class="anticon anticon-like-o"
                     style="margin-right:8px"
                   >
@@ -1084,7 +1084,7 @@ exports[`renders ./components/list/demo/vertical.md correctly 1`] = `
               <li>
                 <span>
                   <i
-                    aria-label="icon: message"
+                    aria-label="图标: message"
                     class="anticon anticon-message"
                     style="margin-right:8px"
                   >
@@ -1164,7 +1164,7 @@ exports[`renders ./components/list/demo/vertical.md correctly 1`] = `
               <li>
                 <span>
                   <i
-                    aria-label="icon: star-o"
+                    aria-label="图标: star-o"
                     class="anticon anticon-star-o"
                     style="margin-right:8px"
                   >
@@ -1192,7 +1192,7 @@ exports[`renders ./components/list/demo/vertical.md correctly 1`] = `
               <li>
                 <span>
                   <i
-                    aria-label="icon: like-o"
+                    aria-label="图标: like-o"
                     class="anticon anticon-like-o"
                     style="margin-right:8px"
                   >
@@ -1220,7 +1220,7 @@ exports[`renders ./components/list/demo/vertical.md correctly 1`] = `
               <li>
                 <span>
                   <i
-                    aria-label="icon: message"
+                    aria-label="图标: message"
                     class="anticon anticon-message"
                     style="margin-right:8px"
                   >

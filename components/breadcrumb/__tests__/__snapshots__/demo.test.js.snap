@@ -111,7 +111,7 @@ exports[`renders ./components/breadcrumb/demo/overlay.md correctly 1`] = `
       </a>
     </span>
     <i
-      aria-label="icon: down"
+      aria-label="图标: down"
       class="anticon anticon-down"
     >
       <svg

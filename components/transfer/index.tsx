@@ -1,3 +1,4 @@
+import { polyfill } from 'react-lifecycles-compat';
 import * as React from 'react';
 import * as PropTypes from 'prop-types';
 import classNames from 'classnames';
@@ -8,7 +9,6 @@ import warning from '../_util/warning';
 import LocaleReceiver from '../locale-provider/LocaleReceiver';
 import defaultLocale from '../locale-provider/default';
 import { ConfigConsumer, ConfigConsumerProps, RenderEmptyHandler } from '../config-provider';
-import { polyfill } from 'react-lifecycles-compat';
 
 export { TransferListProps } from './list';
 export { TransferOperationProps } from './operation';

@@ -31,6 +31,7 @@ export default {
     okText: '确定',
   },
   Transfer: {
+    titles: ['', ''],
     searchPlaceholder: '请输入搜索内容',
     itemUnit: '项',
     itemsUnit: '项',

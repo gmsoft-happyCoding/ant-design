@@ -17,7 +17,7 @@ Basic text writing, including headings, body text, lists, and more.
 ### Typography.Text
 
 | Property | Description | Type | Default |
-| -------- | ----------- | ---- | ------- |
+| --- | --- | --- | --- |
 | code | code style | boolean | false |
 | copyable | Config copy. Can set copy text and callback when is an object | boolean \| { text: string, onCopy: Function } | false |
 | delete | delete line style | boolean | false |
@@ -33,7 +33,7 @@ Basic text writing, including headings, body text, lists, and more.
 ### Typography.Title
 
 | Property | Description | Type | Default |
-| -------- | ----------- | ---- | ------- |
+| --- | --- | --- | --- |
 | code | code style | boolean | false |
 | copyable | Config copy. Can set copy text and callback when is an object | boolean \| { text: string, onCopy: Function } | false |
 | delete | delete line style | boolean | false |
@@ -46,21 +46,21 @@ Basic text writing, including headings, body text, lists, and more.
 | onChange | Trigger when user edit the content | Function(string) | - |
 | type | Content type | `secondary`, `warning`, `danger` | - |
 
-### Typography. GMTitle based on the ` Typography. The Title on ` 
+### Typography. GMTitle based on the `Typography. The Title on`
 
-#### ignore ` level `, through ` size ` control size
+#### ignore `level`, through `size` control size
 
 | Property | Description | Type | Default |
-| ------------ | ----------------------------------------------- | ------- | ---------------------------------------- |
-| size         | Set the title size, optional value of ` small ` ` large ` or not | string  | `default`  |
-| divider      | needs dividing line | boolean | `small` `large` : false, `default`: true |
-| marginTop    | margin top | number | 0 |
+| --- | --- | --- | --- |
+| size | Set the title size, optional value of `small` `large` or not | string | `default` |
+| divider | needs dividing line | boolean | `small` `large` : false, `default`: true |
+| marginTop | margin top | number | 0 |
 | marginBottom | margin bottom | number | `small`: 8 ,`default`: 16, `large`: 24 |
 
 ### Typography.Paragraph
 
 | Property | Description | Type | Default |
-| -------- | ----------- | ---- | ------- |
+| --- | --- | --- | --- |
 | code | code style | boolean | false |
 | copyable | Config copy. Can set copy text and callback when is an object | boolean \| { text: string, onCopy: Function } | false |
 | delete | delete line style | boolean | false |

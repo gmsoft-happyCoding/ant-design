@@ -1594,7 +1594,7 @@ exports[`renders ./components/form/demo/register.md correctly 1`] = `
               class="ant-input-suffix"
             >
               <i
-                aria-label="icon: eye-invisible"
+                aria-label="图标: eye-invisible"
                 class="anticon anticon-eye-invisible ant-input-password-icon"
                 tabindex="-1"
               >
@@ -1661,7 +1661,7 @@ exports[`renders ./components/form/demo/register.md correctly 1`] = `
               class="ant-input-suffix"
             >
               <i
-                aria-label="icon: eye-invisible"
+                aria-label="图标: eye-invisible"
                 class="anticon anticon-eye-invisible ant-input-password-icon"
                 tabindex="-1"
               >

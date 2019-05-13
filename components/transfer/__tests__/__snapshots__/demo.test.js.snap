@@ -1141,7 +1141,7 @@ exports[`renders ./components/transfer/demo/table-transfer.md correctly 1`] = `
           class="ant-transfer-list-header-selected"
         >
           <span>
-            14 items
+            14 项
           </span>
           <span
             class="ant-transfer-list-header-title"
@@ -1787,13 +1787,13 @@ exports[`renders ./components/transfer/demo/table-transfer.md correctly 1`] = `
                   <li
                     aria-disabled="true"
                     class="ant-pagination-disabled ant-pagination-prev"
-                    title="Previous Page"
+                    title="上一页"
                   >
                     <a
                       class="ant-pagination-item-link"
                     >
                       <i
-                        aria-label="icon: left"
+                        aria-label="图标: left"
                         class="anticon anticon-left"
                       >
                         <svg
@@ -1835,13 +1835,13 @@ exports[`renders ./components/transfer/demo/table-transfer.md correctly 1`] = `
                     aria-disabled="false"
                     class=" ant-pagination-next"
                     tabindex="0"
-                    title="Next Page"
+                    title="下一页"
                   >
                     <a
                       class="ant-pagination-item-link"
                     >
                       <i
-                        aria-label="icon: right"
+                        aria-label="图标: right"
                         class="anticon anticon-right"
                       >
                         <svg
@@ -1877,7 +1877,7 @@ exports[`renders ./components/transfer/demo/table-transfer.md correctly 1`] = `
         type="button"
       >
         <i
-          aria-label="icon: right"
+          aria-label="图标: right"
           class="anticon anticon-right"
         >
           <svg
@@ -1902,7 +1902,7 @@ exports[`renders ./components/transfer/demo/table-transfer.md correctly 1`] = `
         type="button"
       >
         <i
-          aria-label="icon: left"
+          aria-label="图标: left"
           class="anticon anticon-left"
         >
           <svg
@@ -1932,7 +1932,7 @@ exports[`renders ./components/transfer/demo/table-transfer.md correctly 1`] = `
           class="ant-transfer-list-header-selected"
         >
           <span>
-            6 items
+            6 项
           </span>
           <span
             class="ant-transfer-list-header-title"
@@ -2258,13 +2258,13 @@ exports[`renders ./components/transfer/demo/table-transfer.md correctly 1`] = `
                   <li
                     aria-disabled="true"
                     class="ant-pagination-disabled ant-pagination-prev"
-                    title="Previous Page"
+                    title="上一页"
                   >
                     <a
                       class="ant-pagination-item-link"
                     >
                       <i
-                        aria-label="icon: left"
+                        aria-label="图标: left"
                         class="anticon anticon-left"
                       >
                         <svg
@@ -2296,13 +2296,13 @@ exports[`renders ./components/transfer/demo/table-transfer.md correctly 1`] = `
                   <li
                     aria-disabled="true"
                     class="ant-pagination-disabled ant-pagination-next"
-                    title="Next Page"
+                    title="下一页"
                   >
                     <a
                       class="ant-pagination-item-link"
                     >
                       <i
-                        aria-label="icon: right"
+                        aria-label="图标: right"
                         class="anticon anticon-right"
                       >
                         <svg
@@ -2374,7 +2374,7 @@ exports[`renders ./components/transfer/demo/tree-transfer.md correctly 1`] = `
           class="ant-transfer-list-header-selected"
         >
           <span>
-            5 items
+            5 项
           </span>
           <span
             class="ant-transfer-list-header-title"
@@ -2425,7 +2425,7 @@ exports[`renders ./components/transfer/demo/tree-transfer.md correctly 1`] = `
                 class="ant-tree-switcher ant-tree-switcher_open"
               >
                 <i
-                  aria-label="icon: caret-down"
+                  aria-label="图标: caret-down"
                   class="anticon anticon-caret-down ant-tree-switcher-icon"
                 >
                   <svg
@@ -2556,7 +2556,7 @@ exports[`renders ./components/transfer/demo/tree-transfer.md correctly 1`] = `
         type="button"
       >
         <i
-          aria-label="icon: right"
+          aria-label="图标: right"
           class="anticon anticon-right"
         >
           <svg
@@ -2581,7 +2581,7 @@ exports[`renders ./components/transfer/demo/tree-transfer.md correctly 1`] = `
         type="button"
       >
         <i
-          aria-label="icon: left"
+          aria-label="图标: left"
           class="anticon anticon-left"
         >
           <svg
@@ -2611,7 +2611,7 @@ exports[`renders ./components/transfer/demo/tree-transfer.md correctly 1`] = `
           class="ant-transfer-list-header-selected"
         >
           <span>
-            0 item
+            0 项
           </span>
           <span
             class="ant-transfer-list-header-title"
@@ -2631,14 +2631,14 @@ exports[`renders ./components/transfer/demo/tree-transfer.md correctly 1`] = `
               class="ant-empty-image"
             >
               <img
-                alt="No Data"
+                alt="暂无数据"
                 src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjQiIGhlaWdodD0iNDEiIHZpZXdCb3g9IjAgMCA2NCA0MSIgIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CiAgPGcgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMCAxKSIgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIj4KICAgIDxlbGxpcHNlIGZpbGw9IiNGNUY1RjUiIGN4PSIzMiIgY3k9IjMzIiByeD0iMzIiIHJ5PSI3Ii8+CiAgICA8ZyBmaWxsLXJ1bGU9Im5vbnplcm8iIHN0cm9rZT0iI0Q5RDlEOSI+CiAgICAgIDxwYXRoIGQ9Ik01NSAxMi43Nkw0NC44NTQgMS4yNThDNDQuMzY3LjQ3NCA0My42NTYgMCA0Mi45MDcgMEgyMS4wOTNjLS43NDkgMC0xLjQ2LjQ3NC0xLjk0NyAxLjI1N0w5IDEyLjc2MVYyMmg0NnYtOS4yNHoiLz4KICAgICAgPHBhdGggZD0iTTQxLjYxMyAxNS45MzFjMC0xLjYwNS45OTQtMi45MyAyLjIyNy0yLjkzMUg1NXYxOC4xMzdDNTUgMzMuMjYgNTMuNjggMzUgNTIuMDUgMzVoLTQwLjFDMTAuMzIgMzUgOSAzMy4yNTkgOSAzMS4xMzdWMTNoMTEuMTZjMS4yMzMgMCAyLjIyNyAxLjMyMyAyLjIyNyAyLjkyOHYuMDIyYzAgMS42MDUgMS4wMDUgMi45MDEgMi4yMzcgMi45MDFoMTQuNzUyYzEuMjMyIDAgMi4yMzctMS4zMDggMi4yMzctMi45MTN2LS4wMDd6IiBmaWxsPSIjRkFGQUZBIi8+CiAgICA8L2c+CiAgPC9nPgo8L3N2Zz4K"
               />
             </div>
             <p
               class="ant-empty-description"
             >
-              No Data
+              暂无数据
             </p>
           </div>
         </div>

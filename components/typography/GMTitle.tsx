@@ -26,13 +26,14 @@ TitleDivider.defaultProps = {
 
 const GMTitleDefault = (props: GMTitleProps) => {
   const { divider, marginTop, marginBottom, ...restProps } = props;
+  const fontStyle = { fontWeight: 500 };
 
   return (
     <>
       <Title
         {...restProps}
         level={4}
-        style={{ marginTop, marginBottom: divider ? 8 : marginBottom }}
+        style={{ marginTop, marginBottom: divider ? 8 : marginBottom, ...fontStyle }}
       />
       <TitleDivider divider={divider} marginBottom={marginBottom} />
     </>
@@ -68,7 +69,7 @@ GMTitleLarge.defaultProps = {
 
 const GMTitleSmall = (props: GMTitleProps) => {
   const { divider, marginTop, marginBottom, ...restProps } = props;
-  const fontStyle = { fontSize: 16, color: 'rgba(0,0,0,0.45)' };
+  const fontStyle = { fontSize: 16, color: 'rgba(0,0,0,0.45)', fontWeight: 500 };
 
   return (
     <>

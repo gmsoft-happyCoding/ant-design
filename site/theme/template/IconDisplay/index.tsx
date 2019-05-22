@@ -63,7 +63,7 @@ class IconDisplay extends React.Component<IconDisplayProps, IconDisplayState> {
   };
 
   renderCategories(list: Array<{ category: CategoriesKeys; icons: string[] }>) {
-    const { searchKey } = this.state;
+    const { searchKey, theme } = this.state;
     const otherIcons = categories.all.filter(icon => {
       return list
         .filter(({ category }) => category !== 'all')
@@ -75,7 +75,9 @@ class IconDisplay extends React.Component<IconDisplayProps, IconDisplayState> {
       .concat({ category: 'other', icons: otherIcons })
       .map(({ category, icons }) => ({
         category,
-        icons: icons.filter(name => name.includes(searchKey)),
+        icons: icons
+          .filter(name => name.includes(searchKey))
+          .filter(name => manifest[IconDisplay.themeTypeMapper[theme]].includes(name)),
       }))
       .filter(({ icons }) => !!icons.length)
       .map(({ category, icons }) => (
@@ -97,7 +99,12 @@ class IconDisplay extends React.Component<IconDisplayProps, IconDisplayState> {
     return (
       <>
         <div style={{ display: 'flex', justifyContent: 'space-between' }}>
-          <Radio.Group value={this.state.theme} onChange={this.handleChangeTheme} size="large">
+          <Radio.Group
+            value={this.state.theme}
+            onChange={this.handleChangeTheme}
+            size="large"
+            buttonStyle="solid"
+          >
             <Radio.Button value="outlined">
               <Icon component={OutlinedIcon} /> {messages['app.docs.components.icon.outlined']}
             </Radio.Button>

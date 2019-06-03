@@ -4,7 +4,7 @@ import Title from './Title';
 import GMTitle from './GMTitle';
 import Paragraph from './Paragraph';
 
-type TypographyProps = typeof OriginTypography & {
+export type TypographyProps = typeof OriginTypography & {
   Text: typeof Text;
   GMTitle: typeof GMTitle;
   Title: typeof Title;

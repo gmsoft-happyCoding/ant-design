@@ -688,7 +688,7 @@ exports[`renders ./components/select/demo/option-label-prop.md correctly 1`] = `
             class="ant-select-selection__choice__remove"
           >
             <i
-              aria-label="icon: close"
+              aria-label="图标: close"
               class="anticon anticon-close ant-select-remove-icon"
             >
               <svg

@@ -2190,7 +2190,7 @@ exports[`renders ./components/calendar/demo/customize-header.md correctly 1`] = 
                 unselectable="on"
               >
                 <i
-                  aria-label="icon: down"
+                  aria-label="图标: down"
                   class="anticon anticon-down ant-select-arrow-icon"
                 >
                   <svg
@@ -2245,7 +2245,7 @@ exports[`renders ./components/calendar/demo/customize-header.md correctly 1`] = 
                 unselectable="on"
               >
                 <i
-                  aria-label="icon: down"
+                  aria-label="图标: down"
                   class="anticon anticon-down ant-select-arrow-icon"
                 >
                   <svg

@@ -57,10 +57,7 @@ export interface SelectProps<T = SelectValue> extends AbstractSelectProps {
   mode?: 'default' | 'multiple' | 'tags' | 'combobox' | string;
   optionLabelProp?: string;
   firstActiveValue?: string | string[];
-  onChange?: (
-    value: T,
-    option: React.ReactElement<any> | React.ReactElement<any>[],
-  ) => void;
+  onChange?: (value: T, option: React.ReactElement<any> | React.ReactElement<any>[]) => void;
   onSelect?: (value: T extends (infer I)[] ? I : T, option: React.ReactElement<any>) => void;
   onDeselect?: (value: T extends (infer I)[] ? I : T) => void;
   onBlur?: (value: T) => void;

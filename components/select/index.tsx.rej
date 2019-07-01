@@ -1,0 +1,7 @@
+diff a/components/select/index.tsx b/components/select/index.tsx	(rejected hunks)
+@@ -60,4 +60 @@ export interface SelectProps<T = SelectValue> extends AbstractSelectProps {
+-  onChange?: (
+-    value: T,
+-    option: React.ReactElement<any> | React.ReactElement<any>[],
+-  ) => void;
++  onChange?: (value: T, option: React.ReactElement<any> | React.ReactElement<any>[]) => void;

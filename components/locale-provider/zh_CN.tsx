@@ -52,6 +52,8 @@ export default {
     edit: '编辑',
     copy: '复制',
     copied: '复制成功',
+    delete: '删除',
+    deleted: '删除成功',
     expand: '展开',
   },
   PageHeader: {

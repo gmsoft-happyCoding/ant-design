@@ -12,10 +12,11 @@ import ResizeObserver from '../_util/resizeObserver';
 import raf from '../_util/raf';
 import isStyleSupport from '../_util/styleChecker';
 import Icon from '../icon';
-import Tooltip from '../tooltip';
+import Tooltip, { TooltipPlacement } from '../tooltip';
 import Typography, { TypographyProps } from './Typography';
 import Editable from './Editable';
 import { measure } from './util';
+import Popconfirm from '../popconfirm';
 
 export type BaseType = 'secondary' | 'danger' | 'warning';
 
@@ -39,9 +40,15 @@ interface EllipsisConfig {
   onExpand?: () => void;
 }
 
+interface DeleteConfig {
+  confirmation?: boolean | { title: string; placement: TooltipPlacement };
+  onDelete?: () => void;
+}
+
 export interface BlockProps extends TypographyProps {
   editable?: boolean | EditConfig;
   copyable?: boolean | CopyConfig;
+  deletable?: DeleteConfig;
   type?: BaseType;
   disabled?: boolean;
   ellipsis?: boolean | EllipsisConfig;
@@ -84,6 +91,7 @@ interface InternalBlockProps extends BlockProps {
 interface BaseState {
   edit: boolean;
   copied: boolean;
+  deleted: boolean;
   ellipsisText: string;
   ellipsisContent: React.ReactNode;
   isEllipsis: boolean;
@@ -95,6 +103,8 @@ interface Locale {
   edit?: string;
   copy?: string;
   copied?: string;
+  delete?: string;
+  deleted?: string;
   expand?: string;
 }
 
@@ -120,17 +130,21 @@ class Base extends React.Component<InternalBlockProps & ConfigConsumerProps, Bas
   editIcon?: TransButton;
   content?: HTMLElement;
   copyId?: number;
+  deleteId?: number;
   rafId?: number;
 
   // Locale
   expandStr?: string;
   copyStr?: string;
   copiedStr?: string;
+  deleteStr?: string;
+  deletedStr?: string;
   editStr?: string;
 
   state: BaseState = {
     edit: false,
     copied: false,
+    deleted: false,
     ellipsisText: '',
     ellipsisContent: null,
     isEllipsis: false,
@@ -153,6 +167,7 @@ class Base extends React.Component<InternalBlockProps & ConfigConsumerProps, Bas
 
   componentWillUnmount() {
     window.clearTimeout(this.copyId);
+    window.clearTimeout(this.deleteId);
     raf.cancel(this.rafId);
   }
 
@@ -203,6 +218,24 @@ class Base extends React.Component<InternalBlockProps & ConfigConsumerProps, Bas
 
       this.copyId = window.setTimeout(() => {
         this.setState({ copied: false });
+      }, 3000);
+    });
+  };
+
+  // ================ Delete ================
+  onDeleteClick = () => {
+    const { deletable } = this.props;
+    const deleteConfig: DeleteConfig = {
+      ...(typeof deletable === 'object' ? deletable : null),
+    };
+
+    this.setState({ deleted: true }, () => {
+      if (deleteConfig.onDelete) {
+        deleteConfig.onDelete();
+      }
+
+      this.copyId = window.setTimeout(() => {
+        this.setState({ deleted: false });
       }, 3000);
     });
   };
@@ -362,6 +395,45 @@ class Base extends React.Component<InternalBlockProps & ConfigConsumerProps, Bas
     );
   }
 
+  renderDelete() {
+    const { deleted } = this.state;
+    const { deletable, prefixCls } = this.props;
+    if (!deletable) return;
+
+    const title = deleted ? this.deletedStr : this.deleteStr;
+    const popconfirmTitle =
+      typeof deletable.confirmation === 'object' && deletable.confirmation.title
+        ? deletable.confirmation.title
+        : '确定删除?';
+    const popconfirmPlacement =
+      typeof deletable.confirmation === 'object' && deletable.confirmation.placement
+        ? deletable.confirmation.placement
+        : 'right';
+
+    return (
+      <Tooltip key="delete" title={title}>
+        {deletable.confirmation ? (
+          <Popconfirm
+            title={popconfirmTitle}
+            placement={popconfirmPlacement}
+            className={classNames(`${prefixCls}-delete`, deleted && `${prefixCls}-delete-success`)}
+            onConfirm={this.onDeleteClick}
+          >
+            <Icon role="button" type={deleted ? 'check' : 'delete'} />
+          </Popconfirm>
+        ) : (
+          <TransButton
+            className={classNames(`${prefixCls}-delete`, deleted && `${prefixCls}-delete-success`)}
+            onClick={this.onDeleteClick}
+            aria-label={title}
+          >
+            <Icon role="button" type={deleted ? 'check' : 'delete'} />
+          </TransButton>
+        )}
+      </Tooltip>
+    );
+  }
+
   renderEditInput() {
     const { children, prefixCls, className, style } = this.props;
     return (
@@ -377,9 +449,12 @@ class Base extends React.Component<InternalBlockProps & ConfigConsumerProps, Bas
   }
 
   renderOperations(forceRenderExpanded?: boolean) {
-    return [this.renderExpand(forceRenderExpanded), this.renderEdit(), this.renderCopy()].filter(
-      node => node,
-    );
+    return [
+      this.renderExpand(forceRenderExpanded),
+      this.renderEdit(),
+      this.renderCopy(),
+      this.renderDelete(),
+    ].filter(node => node);
   }
 
   renderContent() {
@@ -433,10 +508,12 @@ class Base extends React.Component<InternalBlockProps & ConfigConsumerProps, Bas
 
     return (
       <LocaleReceiver componentName="Text">
-        {({ edit, copy: copyStr, copied, expand }: Locale) => {
+        {({ edit, copy: copyStr, copied, delete: deleteStr, deleted, expand }: Locale) => {
           this.editStr = edit;
           this.copyStr = copyStr;
           this.copiedStr = copied;
+          this.deleteStr = deleteStr;
+          this.deletedStr = deleted;
           this.expandStr = expand;
 
           return (

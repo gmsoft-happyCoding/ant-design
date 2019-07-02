@@ -20,6 +20,7 @@ Basic text writing, including headings, body text, lists, and more.
 | --- | --- | --- | --- |
 | code | code style | boolean | false |
 | copyable | Config copy. Can set copy text and callback when is an object | boolean \| { text: string, onCopy: Function } | false |
+| deletable | Config delete. | { confirmation: boolean \| { title: string; placement: TooltipPlacement }, onDelete: Function } | {confirmation: false} |
 | delete | delete line style | boolean | false |
 | disabled | Disable content | boolean | false |
 | editable | Editable. Can control edit state when is object | boolean \| { editing: boolean, onStart: Function, onChange: Function(string) } | false |
@@ -36,6 +37,7 @@ Basic text writing, including headings, body text, lists, and more.
 | --- | --- | --- | --- |
 | code | code style | boolean | false |
 | copyable | Config copy. Can set copy text and callback when is an object | boolean \| { text: string, onCopy: Function } | false |
+| deletable | Config delete. | { confirmation: boolean \| { title: string; placement: TooltipPlacement }, onDelete: Function } | {confirmation: false} |
 | delete | delete line style | boolean | false |
 | disabled | Disable content | boolean | false |
 | editable | Editable. Can control edit state when is object | boolean \| { editing: boolean, onStart: Function, onChange: Function(string) } | false |
@@ -63,6 +65,7 @@ Basic text writing, including headings, body text, lists, and more.
 | --- | --- | --- | --- |
 | code | code style | boolean | false |
 | copyable | Config copy. Can set copy text and callback when is an object | boolean \| { text: string, onCopy: Function } | false |
+| deletable | Config delete. | { confirmation: boolean \| { title: string; placement: TooltipPlacement }, onDelete: Function } | {confirmation: false} |
 | delete | delete line style | boolean | false |
 | disabled | Disable content | boolean | false |
 | editable | Editable. Can control edit state when is object | boolean \| { editing: boolean, onStart: Function, onChange: Function(string) } | false |

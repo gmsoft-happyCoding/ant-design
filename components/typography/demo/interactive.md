@@ -28,12 +28,19 @@ class Demo extends React.Component {
     this.setState({ str });
   };
 
+  onDelete = str => {
+    console.log('delete success');
+  };
+
   render() {
     return (
       <div>
         <Paragraph editable={{ onChange: this.onChange }}>{this.state.str}</Paragraph>
         <Paragraph copyable>This is a copyable text.</Paragraph>
         <Paragraph copyable={{ text: 'Hello, Ant Design!' }}>Replace copy text.</Paragraph>
+        <Paragraph deletable={{ onDelete: this.onDelete, confirmation: true }}>
+          delete this item.
+        </Paragraph>
       </div>
     );
   }

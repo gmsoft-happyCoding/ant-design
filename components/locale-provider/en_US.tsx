@@ -51,6 +51,8 @@ export default {
     edit: 'edit',
     copy: 'copy',
     copied: 'copy success',
+    delete: 'delete',
+    deleted: 'delete success',
     expand: 'expand',
   },
   PageHeader: {

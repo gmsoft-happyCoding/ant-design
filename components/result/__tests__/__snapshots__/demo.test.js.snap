@@ -1030,7 +1030,7 @@ exports[`renders ./components/result/demo/customIcon.md correctly 1`] = `
     class="ant-result-icon"
   >
     <i
-      aria-label="icon: smile"
+      aria-label="图标: smile"
       class="anticon anticon-smile"
     >
       <svg
@@ -1086,7 +1086,7 @@ exports[`renders ./components/result/demo/error.md correctly 1`] = `
     class="ant-result-icon"
   >
     <i
-      aria-label="icon: close-circle"
+      aria-label="图标: close-circle"
       class="anticon anticon-close-circle"
     >
       <svg
@@ -1137,7 +1137,7 @@ exports[`renders ./components/result/demo/error.md correctly 1`] = `
         class="ant-typography"
       >
         <i
-          aria-label="icon: close-circle"
+          aria-label="图标: close-circle"
           class="anticon anticon-close-circle"
           style="color:red"
         >
@@ -1168,7 +1168,7 @@ exports[`renders ./components/result/demo/error.md correctly 1`] = `
         class="ant-typography"
       >
         <i
-          aria-label="icon: close-circle"
+          aria-label="图标: close-circle"
           class="anticon anticon-close-circle"
           style="color:red"
         >
@@ -1228,7 +1228,7 @@ exports[`renders ./components/result/demo/info.md correctly 1`] = `
     class="ant-result-icon"
   >
     <i
-      aria-label="icon: exclamation-circle"
+      aria-label="图标: exclamation-circle"
       class="anticon anticon-exclamation-circle"
     >
       <svg
@@ -1275,7 +1275,7 @@ exports[`renders ./components/result/demo/success.md correctly 1`] = `
     class="ant-result-icon"
   >
     <i
-      aria-label="icon: check-circle"
+      aria-label="图标: check-circle"
       class="anticon anticon-check-circle"
     >
       <svg
@@ -1335,7 +1335,7 @@ exports[`renders ./components/result/demo/warning.md correctly 1`] = `
     class="ant-result-icon"
   >
     <i
-      aria-label="icon: warning"
+      aria-label="图标: warning"
       class="anticon anticon-warning"
     >
       <svg

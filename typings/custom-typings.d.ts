@@ -1,6 +1,6 @@
 declare module '*.svg';
 
-declare module 'rc-calendar*';
+declare module 'rc-calendar-gmsoft*';
 
 declare module 'rc-time-picker*';
 
@@ -43,7 +43,7 @@ declare module 'rc-tree/lib/util';
 
 declare module 'rc-tooltip*';
 
-declare module 'rc-calendar';
+declare module 'rc-calendar-gmsoft';
 
 declare module 'rc-input-number';
 

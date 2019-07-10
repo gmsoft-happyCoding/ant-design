@@ -196,7 +196,7 @@ timeline: true
 
 - 🐞 修复 Button 组件中插入文本时空格丢失的问题。[#15342](https://github.com/ant-design/ant-design/issues/15342)
 - 🐞 修复 Carousel 组件的 `children` 数量变化时，面板指示点的选中状态不正常的问题。[#16583](https://github.com/ant-design/ant-design/issues/16583)
-- 🐞 升级 `rc-calendar` 依赖到 `9.13.3` 版本，以修复 DatePicker 组件在失去焦点时面板不会关闭的问题。[#16588](https://github.com/ant-design/ant-design/issues/16588)
+- 🐞 升级 `rc-calendar-gmsoft` 依赖到 `9.13.3` 版本，以修复 DatePicker 组件在失去焦点时面板不会关闭的问题。[#16588](https://github.com/ant-design/ant-design/issues/16588)
 - 🐞 修复 Form.Item 组件带有 `help` 信息，并且 `margin-bottom` 为负数时，导致之后的元素样式错乱的问题。[#16584](https://github.com/ant-design/ant-design/pull/16584) [@sbusch](https://github.com/sbusch)
 - 🐞 修复 Spin 组件在设置 `font-size` 样式时没有水平居中的问题。[#15206](https://github.com/ant-design/ant-design/issues/15206)
 - 🐞 修复 Table 组件指定 `childrenColumnName` 时，`selectedRows` 参数为空的问题。[#16614](https://github.com/ant-design/ant-design/issues/16614)
@@ -364,7 +364,7 @@ timeline: true
   - 🌟 Empty 支持通过 `Empty.PRESENTED_IMAGE_DEFAULT` 和 `Empty.PRESENTED_IMAGE_SIMPLE` 访问预置图片。[#15487](https://github.com/ant-design/ant-design/pull/15487)
 - 🌟 Progress.Line 支持渐变色。[#15524](https://github.com/ant-design/ant-design/pull/15524) [@zy410419243](https://github.com/zy410419243)
 - DatePicker
-  - 🌟 更新 `rc-calendar` 依赖，允许默认值可以是空。[#520](https://github.com/react-component/calendar/pull/520)
+  - 🌟 更新 `rc-calendar-gmsoft` 依赖，允许默认值可以是空。[#520](https://github.com/react-component/calendar/pull/520)
   - 🐞 修复 DatePicker 中 disabled 和 selected 日期单元的样式。[#15608](https://github.com/ant-design/ant-design/pull/15608)
   - 🐞 修复 RangePicker 不能选择同一个月的问题。[#15427](https://github.com/ant-design/ant-design/pull/15427)
 - ⚡️ 重构 Form 移动 `ant-form-item-no-colon` 样式到 Form.Item 中。[#15592](https://github.com/ant-design/ant-design/pull/15592) [@HsuanXyz](https://github.com/HsuanXyz)
@@ -880,7 +880,7 @@ timeline: true
   - 🌟 增加 `dropdownRender` 属性，用于自定义下拉框内容。[#10831](https://github.com/ant-design/ant-design/issues/10831)
   - 🌟 增加 `loading` 属性，用于展示加载中状态。[#11225](https://github.com/ant-design/ant-design/issues/11225)
 - 💄 Menu.Item 组件增加 `title` 属性，用于在收缩时展示的悬浮标题。[#12952](https://github.com/ant-design/ant-design/pull/12952)
-- Cascader 升级 `rc-calendar` 到 `9.8.0`
+- Cascader 升级 `rc-calendar-gmsoft` 到 `9.8.0`
   - 🌟 支持多种时间格式。[#437](https://github.com/react-component/calendar/pull/437) [@onlyann](https://github.com/onlyann)
   - 🌟 showSearch 方法增加 `limit` 参数，用于限制搜索结果展示数量。[#13206](https://github.com/ant-design/ant-design/pull/13206)
 - 🌟 增加匈牙利国际化文案。[#13026](https://github.com/ant-design/ant-design/pull/13026) [@ilanus](https://github.com/ilanus)

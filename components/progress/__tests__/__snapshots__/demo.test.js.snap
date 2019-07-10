@@ -816,7 +816,7 @@ exports[`renders ./components/progress/demo/gradient-line.md correctly 1`] = `
         class="ant-progress-text"
       >
         <i
-          aria-label="icon: check"
+          aria-label="图标: check"
           class="anticon anticon-check"
         >
           <svg

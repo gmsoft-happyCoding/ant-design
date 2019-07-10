@@ -196,7 +196,7 @@ timeline: true
 
 - 🐞 Fix space missing for Button with mixed content. [#15342](https://github.com/ant-design/ant-design/issues/15342)
 - 🐞 Fix active status missing for Carousel when `children` is changed. [#16583](https://github.com/ant-design/ant-design/issues/16583)
-- 🐞 Fix panel not close when DatePicker is `blur` by upgrading `rc-calendar` requirement to version `9.13.3`. [#16588](https://github.com/ant-design/ant-design/issues/16588)
+- 🐞 Fix panel not close when DatePicker is `blur` by upgrading `rc-calendar-gmsoft` requirement to version `9.13.3`. [#16588](https://github.com/ant-design/ant-design/issues/16588)
 - 🐞 Fix style disorder for Form.Item with `help` prop and `margin-bottom` is negative. [#16584](https://github.com/ant-design/ant-design/pull/16584) [@sbusch](https://github.com/sbusch)
 - 🐞 Fix Spin not align when set `font-size` style. [#15206](https://github.com/ant-design/ant-design/issues/15206)
 - 🐞 Fix `selectedRows` missing when there is `childrenColumnName` in Table. [#16614](https://github.com/ant-design/ant-design/issues/16614)
@@ -364,7 +364,7 @@ timeline: true
   - 🌟 Support `Empty.PRESENTED_IMAGE_DEFAULT` and `Empty.PRESENTED_IMAGE_SIMPLE` for default image. [#15487](https://github.com/ant-design/ant-design/pull/15487)
 - 🌟 Progress.Line support gradient line color. [#15524](https://github.com/ant-design/ant-design/pull/15524) [@zy410419243](https://github.com/zy410419243)
 - DatePicker
-  - 🌟 Update `rc-calendar` to support default value can be null. [#520](https://github.com/react-component/calendar/pull/520)
+  - 🌟 Update `rc-calendar-gmsoft` to support default value can be null. [#520](https://github.com/react-component/calendar/pull/520)
   - 🐞 Fix disabled and selected date cell style of DatePicker. [#15608](https://github.com/ant-design/ant-design/pull/15608)
   - 🐞 Fix RangePicker can not select same month. [#15427](https://github.com/ant-design/ant-design/pull/15427)
 - ⚡️ Refactor Form move `ant-form-item-no-colon` selector position in Form.Item. [#15592](https://github.com/ant-design/ant-design/pull/15592) [@HsuanXyz](https://github.com/HsuanXyz)
@@ -883,7 +883,7 @@ Component Fixes / Enhancements:
   - 🌟 Added `dropdownRender` prop that custom dropdown content. [#10831](https://github.com/ant-design/ant-design/issues/10831)
   - 🌟 Added `loading` prop that indicate loading state. [#11225](https://github.com/ant-design/ant-design/issues/11225)
 - 💄 Added `title` prop that Menu.Item support tooltip title when collapsed. [#12952](https://github.com/ant-design/ant-design/pull/12952)
-- Cascader upgrade `rc-calendar` to `9.8.0`
+- Cascader upgrade `rc-calendar-gmsoft` to `9.8.0`
   - 🌟 Support multiple date format. [#437](https://github.com/react-component/calendar/pull/437) [@onlyann](https://github.com/onlyann)
   - 🌟 showSearch added `limit` prop that support limit filtered item count. [#13206](https://github.com/ant-design/ant-design/pull/13206)
 - 🌟 Added Hungarian locale. [#13026](https://github.com/ant-design/ant-design/pull/13026) [@ilanus](https://github.com/ilanus)

@@ -1,6 +1,6 @@
 import * as React from 'react';
-import RcCalendar from 'rc-calendar';
-import MonthCalendar from 'rc-calendar/lib/MonthCalendar';
+import RcCalendar from 'rc-calendar-gmsoft';
+import MonthCalendar from 'rc-calendar-gmsoft/lib/MonthCalendar';
 import createPicker from './createPicker';
 import wrapPicker from './wrapPicker';
 import RangePicker from './RangePicker';

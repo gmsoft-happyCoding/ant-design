@@ -15,6 +15,8 @@ export interface CascaderOptionType {
   value?: string;
   label?: React.ReactNode;
   disabled?: boolean;
+  isLeaf?: boolean;
+  loading?: boolean;
   children?: Array<CascaderOptionType>;
   [key: string]: any;
 }
@@ -204,8 +206,8 @@ function flattenTree(
 
 const defaultDisplayRender = (label: string[]) => label.join(' / ');
 
-function warningValueNotExist(list: CascaderOptionType[] = [], fieldNames: FieldNamesType = {}) {
-  list.forEach(item => {
+function warningValueNotExist(list: CascaderOptionType[], fieldNames: FieldNamesType = {}) {
+  (list || []).forEach(item => {
     const valueFieldName = fieldNames.value || 'value';
     warning(valueFieldName in item, 'Cascader', 'Not found `value` in `options`.');
     warningValueNotExist(item[fieldNames.children || 'children'], fieldNames);

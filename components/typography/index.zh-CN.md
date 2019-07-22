@@ -21,6 +21,7 @@ cols: 1
 | --- | --- | --- | --- | --- |
 | copyable | 是否可拷贝，为对象时可设置复制文本以回调函数 | boolean \| { text: string, onCopy: Function } | false | 3.14.0 |
 | delete | 添加删除线样式 | boolean | false | 3.14.0 |
+| deletable | 是否可删除 | { confirmation: false \| { title: string; placement: TooltipPlacement }, onDelete: Function } | {confirmation: false} | 3.20.1 |
 | disabled | 禁用文本 | boolean | false | 3.14.0 |
 | editable | 是否可编辑，为对象时可对编辑进行控制 | boolean \| { editing: boolean, onStart: Function, onChange: Function(string) } | false | 3.14.0 |
 | ellipsis | 设置自动溢出省略 | boolean | false | 3.14.0 |
@@ -35,6 +36,7 @@ cols: 1
 | --- | --- | --- | --- | --- |
 | copyable | 是否可拷贝，为对象时可设置复制文本以回调函数 | boolean \| { text: string, onCopy: Function } | false | 3.14.0 |
 | delete | 添加删除线样式 | boolean | false | 3.14.0 |
+| deletable | 是否可删除 | { confirmation: false \| { title: string; placement: TooltipPlacement }, onDelete: Function } | {confirmation: false} | 3.20.1 |
 | disabled | 禁用文本 | boolean | false | 3.14.0 |
 | editable | 是否可编辑，为对象时可对编辑进行控制 | boolean \| { editing: boolean, onStart: Function, onChange: Function(string) } | false | 3.14.0 |
 | ellipsis | 自动溢出省略，为对象时可设置省略行数与是否可展开等 | boolean \| { rows: number, expandable: boolean, onExpand: Function } | false | 3.14.0 |
@@ -61,6 +63,7 @@ cols: 1
 | --- | --- | --- | --- | --- |
 | copyable | 是否可拷贝，为对象时可设置复制文本以回调函数 | boolean \| { text: string, onCopy: Function } | false | 3.14.1 |
 | delete | 添加删除线样式 | boolean | false | 3.14.0 |
+| deletable | 是否可删除 | { confirmation: false \| { title: string; placement: TooltipPlacement }, onDelete: Function } | {confirmation: false} | 3.20.1 |
 | disabled | 禁用文本 | boolean | false | 3.14.0 |
 | editable | 是否可编辑，为对象时可对编辑进行控制 | boolean \| { editing: boolean, onStart: Function, onChange: Function(string) } | false | 3.14.0 |
 | ellipsis | 自动溢出省略，为对象时可设置省略行数与是否可展开等 | boolean \| { rows: number, expandable: boolean, onExpand: Function } | false | 3.14.0 |

@@ -20,6 +20,7 @@ Basic text writing, including headings, body text, lists, and more.
 | --- | --- | --- | --- | --- |
 | code | code style | boolean | false | 3.15.1 |
 | copyable | Config copy. Can set copy text and callback when is an object | boolean \| { text: string, onCopy: Function } | false | 3.14.0 |
+| deletable | Config delete. | { confirmation: false \| { title: string; placement: TooltipPlacement }, onDelete: Function } | {confirmation: false} | 3.20.1 |
 | delete | delete line style | boolean | false | 3.14.0 |
 | disabled | Disable content | boolean | false | 3.14.0 |
 | editable | Editable. Can control edit state when is object | boolean \| { editing: boolean, onStart: Function, onChange: Function(string) } | false | 3.14.0 |
@@ -36,6 +37,7 @@ Basic text writing, including headings, body text, lists, and more.
 | --- | --- | --- | --- | --- |
 | code | code style | boolean | false | 3.15.1 |
 | copyable | Config copy. Can set copy text and callback when is an object | boolean \| { text: string, onCopy: Function } | false | 3.14.0 |
+| deletable | Config delete. | { confirmation: false \| { title: string; placement: TooltipPlacement }, onDelete: Function } | {confirmation: false} | 3.20.1 |
 | delete | delete line style | boolean | false | 3.14.0 |
 | disabled | Disable content | boolean | false | 3.14.0 |
 | editable | Editable. Can control edit state when is object | boolean \| { editing: boolean, onStart: Function, onChange: Function(string) } | false | 3.14.0 |
@@ -63,6 +65,7 @@ Basic text writing, including headings, body text, lists, and more.
 | --- | --- | --- | --- | --- |
 | code | code style | boolean | false | 3.15.1 |
 | copyable | Config copy. Can set copy text and callback when is an object | boolean \| { text: string, onCopy: Function } | false | 3.14.0 |
+| deletable | Config delete. | { confirmation: false \| { title: string; placement: TooltipPlacement }, onDelete: Function } | {confirmation: false} | 3.20.1 |
 | delete | delete line style | boolean | false | 3.14.0 |
 | disabled | Disable content | boolean | false | 3.14.0 |
 | editable | Editable. Can control edit state when is object | boolean \| { editing: boolean, onStart: Function, onChange: Function(string) } | false | 3.14.0 |

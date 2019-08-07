@@ -1,3 +1,3 @@
-import zhCN from './zh_CN';
+import locale from '../locale/default';
 
-export default zhCN;
+export default locale;

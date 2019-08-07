@@ -15,7 +15,7 @@ import Icon from '../icon';
 import Tooltip, { TooltipPlacement } from '../tooltip';
 import Typography, { TypographyProps } from './Typography';
 import Editable from './Editable';
-import { measure } from './util';
+import measure from './util';
 import Popconfirm from '../popconfirm';
 
 export type BaseType = 'secondary' | 'danger' | 'warning';
@@ -70,9 +70,7 @@ function wrapperDecorations(
   function wrap(needed: boolean | undefined, tag: string) {
     if (!needed) return;
 
-    currentContent = React.createElement(tag, {
-      children: currentContent,
-    });
+    currentContent = React.createElement(tag, {}, currentContent);
   }
 
   wrap(strong, 'strong');
@@ -128,14 +126,18 @@ class Base extends React.Component<InternalBlockProps & ConfigConsumerProps, Bas
   }
 
   editIcon?: TransButton;
+
   content?: HTMLElement;
+
   copyId?: number;
   deleteId?: number;
   rafId?: number;
 
   // Locale
   expandStr?: string;
+
   copyStr?: string;
+
   copiedStr?: string;
   deleteStr?: string;
   deletedStr?: string;
@@ -158,9 +160,10 @@ class Base extends React.Component<InternalBlockProps & ConfigConsumerProps, Bas
   }
 
   componentDidUpdate(prevProps: BlockProps) {
+    const { children } = this.props;
     const ellipsis = this.getEllipsis();
     const prevEllipsis = this.getEllipsis(prevProps);
-    if (this.props.children !== prevProps.children || ellipsis.rows !== prevEllipsis.rows) {
+    if (children !== prevProps.children || ellipsis.rows !== prevEllipsis.rows) {
       this.resizeOnNextFrame();
     }
   }
@@ -332,7 +335,11 @@ class Base extends React.Component<InternalBlockProps & ConfigConsumerProps, Bas
       ELLIPSIS_STR,
     );
     if (ellipsisText !== text || isEllipsis !== ellipsis) {
-      this.setState({ ellipsisText: text, ellipsisContent: content, isEllipsis: ellipsis });
+      this.setState({
+        ellipsisText: text,
+        ellipsisContent: content,
+        isEllipsis: ellipsis,
+      });
     }
   }
 

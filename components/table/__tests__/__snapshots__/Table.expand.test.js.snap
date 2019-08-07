@@ -64,7 +64,7 @@ exports[`Table.expand click to expand 1`] = `
                       style="padding-left: 0px;"
                     />
                     <div
-                      aria-label="Collapse row"
+                      aria-label="关闭行"
                       class="ant-table-row-expand-icon ant-table-row-expanded"
                       role="button"
                       tabindex="0"
@@ -99,13 +99,13 @@ exports[`Table.expand click to expand 1`] = `
         <li
           aria-disabled="true"
           class="ant-pagination-disabled ant-pagination-prev"
-          title="Previous Page"
+          title="上一页"
         >
           <a
             class="ant-pagination-item-link"
           >
             <i
-              aria-label="icon: left"
+              aria-label="图标: left"
               class="anticon anticon-left"
             >
               <svg
@@ -137,13 +137,13 @@ exports[`Table.expand click to expand 1`] = `
         <li
           aria-disabled="true"
           class="ant-pagination-disabled ant-pagination-next"
-          title="Next Page"
+          title="下一页"
         >
           <a
             class="ant-pagination-item-link"
           >
             <i
-              aria-label="icon: right"
+              aria-label="图标: right"
               class="anticon anticon-right"
             >
               <svg

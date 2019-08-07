@@ -1236,9 +1236,9 @@ exports[`ConfigProvider components Calendar configProvider 1`] = `
             <div
               class="config-select-selection-selected-value"
               style="display:block;opacity:1"
-              title="Sep"
+              title="9月"
             >
-              Sep
+              9月
             </div>
           </div>
           <span
@@ -1331,78 +1331,78 @@ exports[`ConfigProvider components Calendar configProvider 1`] = `
               <th
                 class="config-fullcalendar-column-header"
                 role="columnheader"
-                title="Sun"
+                title="周一"
               >
                 <span
                   class="config-fullcalendar-column-header-inner"
                 >
-                  Su
+                  一
                 </span>
               </th>
               <th
                 class="config-fullcalendar-column-header"
                 role="columnheader"
-                title="Mon"
+                title="周二"
               >
                 <span
                   class="config-fullcalendar-column-header-inner"
                 >
-                  Mo
+                  二
                 </span>
               </th>
               <th
                 class="config-fullcalendar-column-header"
                 role="columnheader"
-                title="Tue"
+                title="周三"
               >
                 <span
                   class="config-fullcalendar-column-header-inner"
                 >
-                  Tu
+                  三
                 </span>
               </th>
               <th
                 class="config-fullcalendar-column-header"
                 role="columnheader"
-                title="Wed"
+                title="周四"
               >
                 <span
                   class="config-fullcalendar-column-header-inner"
                 >
-                  We
+                  四
                 </span>
               </th>
               <th
                 class="config-fullcalendar-column-header"
                 role="columnheader"
-                title="Thu"
+                title="周五"
               >
                 <span
                   class="config-fullcalendar-column-header-inner"
                 >
-                  Th
+                  五
                 </span>
               </th>
               <th
                 class="config-fullcalendar-column-header"
                 role="columnheader"
-                title="Fri"
+                title="周六"
               >
                 <span
                   class="config-fullcalendar-column-header-inner"
                 >
-                  Fr
+                  六
                 </span>
               </th>
               <th
                 class="config-fullcalendar-column-header"
                 role="columnheader"
-                title="Sat"
+                title="周日"
               >
                 <span
                   class="config-fullcalendar-column-header-inner"
                 >
-                  Sa
+                  日
                 </span>
               </th>
             </tr>
@@ -1411,31 +1411,13 @@ exports[`ConfigProvider components Calendar configProvider 1`] = `
             class="config-fullcalendar-tbody"
           >
             <tr
-              class=""
+              class="config-fullcalendar-active-week"
               role="row"
             >
               <td
                 class="config-fullcalendar-cell config-fullcalendar-last-month-cell"
                 role="gridcell"
-                title="August 27, 2000"
-              >
-                <div
-                  class="config-fullcalendar-date"
-                >
-                  <div
-                    class="config-fullcalendar-value"
-                  >
-                    27
-                  </div>
-                  <div
-                    class="config-fullcalendar-content"
-                  />
-                </div>
-              </td>
-              <td
-                class="config-fullcalendar-cell config-fullcalendar-last-month-cell"
-                role="gridcell"
-                title="August 28, 2000"
+                title="2000年8月28日"
               >
                 <div
                   class="config-fullcalendar-date"
@@ -1453,7 +1435,7 @@ exports[`ConfigProvider components Calendar configProvider 1`] = `
               <td
                 class="config-fullcalendar-cell config-fullcalendar-last-month-cell"
                 role="gridcell"
-                title="August 29, 2000"
+                title="2000年8月29日"
               >
                 <div
                   class="config-fullcalendar-date"
@@ -1471,7 +1453,7 @@ exports[`ConfigProvider components Calendar configProvider 1`] = `
               <td
                 class="config-fullcalendar-cell config-fullcalendar-last-month-cell"
                 role="gridcell"
-                title="August 30, 2000"
+                title="2000年8月30日"
               >
                 <div
                   class="config-fullcalendar-date"
@@ -1489,7 +1471,7 @@ exports[`ConfigProvider components Calendar configProvider 1`] = `
               <td
                 class="config-fullcalendar-cell config-fullcalendar-last-month-cell config-fullcalendar-last-day-of-month"
                 role="gridcell"
-                title="August 31, 2000"
+                title="2000年8月31日"
               >
                 <div
                   class="config-fullcalendar-date"
@@ -1507,7 +1489,7 @@ exports[`ConfigProvider components Calendar configProvider 1`] = `
               <td
                 class="config-fullcalendar-cell"
                 role="gridcell"
-                title="September 1, 2000"
+                title="2000年9月1日"
               >
                 <div
                   class="config-fullcalendar-date"
@@ -1525,7 +1507,7 @@ exports[`ConfigProvider components Calendar configProvider 1`] = `
               <td
                 class="config-fullcalendar-cell"
                 role="gridcell"
-                title="September 2, 2000"
+                title="2000年9月2日"
               >
                 <div
                   class="config-fullcalendar-date"
@@ -1540,15 +1522,10 @@ exports[`ConfigProvider components Calendar configProvider 1`] = `
                   />
                 </div>
               </td>
-            </tr>
-            <tr
-              class="config-fullcalendar-active-week"
-              role="row"
-            >
               <td
                 class="config-fullcalendar-cell config-fullcalendar-selected-day"
                 role="gridcell"
-                title="September 3, 2000"
+                title="2000年9月3日"
               >
                 <div
                   class="config-fullcalendar-date"
@@ -1563,10 +1540,15 @@ exports[`ConfigProvider components Calendar configProvider 1`] = `
                   />
                 </div>
               </td>
+            </tr>
+            <tr
+              class=""
+              role="row"
+            >
               <td
                 class="config-fullcalendar-cell"
                 role="gridcell"
-                title="September 4, 2000"
+                title="2000年9月4日"
               >
                 <div
                   class="config-fullcalendar-date"
@@ -1584,7 +1566,7 @@ exports[`ConfigProvider components Calendar configProvider 1`] = `
               <td
                 class="config-fullcalendar-cell"
                 role="gridcell"
-                title="September 5, 2000"
+                title="2000年9月5日"
               >
                 <div
                   class="config-fullcalendar-date"
@@ -1602,7 +1584,7 @@ exports[`ConfigProvider components Calendar configProvider 1`] = `
               <td
                 class="config-fullcalendar-cell"
                 role="gridcell"
-                title="September 6, 2000"
+                title="2000年9月6日"
               >
                 <div
                   class="config-fullcalendar-date"
@@ -1620,7 +1602,7 @@ exports[`ConfigProvider components Calendar configProvider 1`] = `
               <td
                 class="config-fullcalendar-cell"
                 role="gridcell"
-                title="September 7, 2000"
+                title="2000年9月7日"
               >
                 <div
                   class="config-fullcalendar-date"
@@ -1638,7 +1620,7 @@ exports[`ConfigProvider components Calendar configProvider 1`] = `
               <td
                 class="config-fullcalendar-cell"
                 role="gridcell"
-                title="September 8, 2000"
+                title="2000年9月8日"
               >
                 <div
                   class="config-fullcalendar-date"
@@ -1656,7 +1638,7 @@ exports[`ConfigProvider components Calendar configProvider 1`] = `
               <td
                 class="config-fullcalendar-cell"
                 role="gridcell"
-                title="September 9, 2000"
+                title="2000年9月9日"
               >
                 <div
                   class="config-fullcalendar-date"
@@ -1671,15 +1653,10 @@ exports[`ConfigProvider components Calendar configProvider 1`] = `
                   />
                 </div>
               </td>
-            </tr>
-            <tr
-              class=""
-              role="row"
-            >
               <td
                 class="config-fullcalendar-cell"
                 role="gridcell"
-                title="September 10, 2000"
+                title="2000年9月10日"
               >
                 <div
                   class="config-fullcalendar-date"
@@ -1694,10 +1671,15 @@ exports[`ConfigProvider components Calendar configProvider 1`] = `
                   />
                 </div>
               </td>
+            </tr>
+            <tr
+              class=""
+              role="row"
+            >
               <td
                 class="config-fullcalendar-cell"
                 role="gridcell"
-                title="September 11, 2000"
+                title="2000年9月11日"
               >
                 <div
                   class="config-fullcalendar-date"
@@ -1715,7 +1697,7 @@ exports[`ConfigProvider components Calendar configProvider 1`] = `
               <td
                 class="config-fullcalendar-cell"
                 role="gridcell"
-                title="September 12, 2000"
+                title="2000年9月12日"
               >
                 <div
                   class="config-fullcalendar-date"
@@ -1733,7 +1715,7 @@ exports[`ConfigProvider components Calendar configProvider 1`] = `
               <td
                 class="config-fullcalendar-cell"
                 role="gridcell"
-                title="September 13, 2000"
+                title="2000年9月13日"
               >
                 <div
                   class="config-fullcalendar-date"
@@ -1751,7 +1733,7 @@ exports[`ConfigProvider components Calendar configProvider 1`] = `
               <td
                 class="config-fullcalendar-cell"
                 role="gridcell"
-                title="September 14, 2000"
+                title="2000年9月14日"
               >
                 <div
                   class="config-fullcalendar-date"
@@ -1769,7 +1751,7 @@ exports[`ConfigProvider components Calendar configProvider 1`] = `
               <td
                 class="config-fullcalendar-cell"
                 role="gridcell"
-                title="September 15, 2000"
+                title="2000年9月15日"
               >
                 <div
                   class="config-fullcalendar-date"
@@ -1787,7 +1769,7 @@ exports[`ConfigProvider components Calendar configProvider 1`] = `
               <td
                 class="config-fullcalendar-cell"
                 role="gridcell"
-                title="September 16, 2000"
+                title="2000年9月16日"
               >
                 <div
                   class="config-fullcalendar-date"
@@ -1802,15 +1784,10 @@ exports[`ConfigProvider components Calendar configProvider 1`] = `
                   />
                 </div>
               </td>
-            </tr>
-            <tr
-              class=""
-              role="row"
-            >
               <td
                 class="config-fullcalendar-cell"
                 role="gridcell"
-                title="September 17, 2000"
+                title="2000年9月17日"
               >
                 <div
                   class="config-fullcalendar-date"
@@ -1825,10 +1802,15 @@ exports[`ConfigProvider components Calendar configProvider 1`] = `
                   />
                 </div>
               </td>
+            </tr>
+            <tr
+              class=""
+              role="row"
+            >
               <td
                 class="config-fullcalendar-cell"
                 role="gridcell"
-                title="September 18, 2000"
+                title="2000年9月18日"
               >
                 <div
                   class="config-fullcalendar-date"
@@ -1846,7 +1828,7 @@ exports[`ConfigProvider components Calendar configProvider 1`] = `
               <td
                 class="config-fullcalendar-cell"
                 role="gridcell"
-                title="September 19, 2000"
+                title="2000年9月19日"
               >
                 <div
                   class="config-fullcalendar-date"
@@ -1864,7 +1846,7 @@ exports[`ConfigProvider components Calendar configProvider 1`] = `
               <td
                 class="config-fullcalendar-cell"
                 role="gridcell"
-                title="September 20, 2000"
+                title="2000年9月20日"
               >
                 <div
                   class="config-fullcalendar-date"
@@ -1882,7 +1864,7 @@ exports[`ConfigProvider components Calendar configProvider 1`] = `
               <td
                 class="config-fullcalendar-cell"
                 role="gridcell"
-                title="September 21, 2000"
+                title="2000年9月21日"
               >
                 <div
                   class="config-fullcalendar-date"
@@ -1900,7 +1882,7 @@ exports[`ConfigProvider components Calendar configProvider 1`] = `
               <td
                 class="config-fullcalendar-cell"
                 role="gridcell"
-                title="September 22, 2000"
+                title="2000年9月22日"
               >
                 <div
                   class="config-fullcalendar-date"
@@ -1918,7 +1900,7 @@ exports[`ConfigProvider components Calendar configProvider 1`] = `
               <td
                 class="config-fullcalendar-cell"
                 role="gridcell"
-                title="September 23, 2000"
+                title="2000年9月23日"
               >
                 <div
                   class="config-fullcalendar-date"
@@ -1933,15 +1915,10 @@ exports[`ConfigProvider components Calendar configProvider 1`] = `
                   />
                 </div>
               </td>
-            </tr>
-            <tr
-              class=""
-              role="row"
-            >
               <td
                 class="config-fullcalendar-cell"
                 role="gridcell"
-                title="September 24, 2000"
+                title="2000年9月24日"
               >
                 <div
                   class="config-fullcalendar-date"
@@ -1956,10 +1933,15 @@ exports[`ConfigProvider components Calendar configProvider 1`] = `
                   />
                 </div>
               </td>
+            </tr>
+            <tr
+              class=""
+              role="row"
+            >
               <td
                 class="config-fullcalendar-cell"
                 role="gridcell"
-                title="September 25, 2000"
+                title="2000年9月25日"
               >
                 <div
                   class="config-fullcalendar-date"
@@ -1977,7 +1959,7 @@ exports[`ConfigProvider components Calendar configProvider 1`] = `
               <td
                 class="config-fullcalendar-cell"
                 role="gridcell"
-                title="September 26, 2000"
+                title="2000年9月26日"
               >
                 <div
                   class="config-fullcalendar-date"
@@ -1995,7 +1977,7 @@ exports[`ConfigProvider components Calendar configProvider 1`] = `
               <td
                 class="config-fullcalendar-cell"
                 role="gridcell"
-                title="September 27, 2000"
+                title="2000年9月27日"
               >
                 <div
                   class="config-fullcalendar-date"
@@ -2013,7 +1995,7 @@ exports[`ConfigProvider components Calendar configProvider 1`] = `
               <td
                 class="config-fullcalendar-cell"
                 role="gridcell"
-                title="September 28, 2000"
+                title="2000年9月28日"
               >
                 <div
                   class="config-fullcalendar-date"
@@ -2031,7 +2013,7 @@ exports[`ConfigProvider components Calendar configProvider 1`] = `
               <td
                 class="config-fullcalendar-cell"
                 role="gridcell"
-                title="September 29, 2000"
+                title="2000年9月29日"
               >
                 <div
                   class="config-fullcalendar-date"
@@ -2049,7 +2031,7 @@ exports[`ConfigProvider components Calendar configProvider 1`] = `
               <td
                 class="config-fullcalendar-cell config-fullcalendar-last-day-of-month"
                 role="gridcell"
-                title="September 30, 2000"
+                title="2000年9月30日"
               >
                 <div
                   class="config-fullcalendar-date"
@@ -2064,15 +2046,10 @@ exports[`ConfigProvider components Calendar configProvider 1`] = `
                   />
                 </div>
               </td>
-            </tr>
-            <tr
-              class=""
-              role="row"
-            >
               <td
                 class="config-fullcalendar-cell config-fullcalendar-next-month-btn-day"
                 role="gridcell"
-                title="October 1, 2000"
+                title="2000年10月1日"
               >
                 <div
                   class="config-fullcalendar-date"
@@ -2087,10 +2064,15 @@ exports[`ConfigProvider components Calendar configProvider 1`] = `
                   />
                 </div>
               </td>
+            </tr>
+            <tr
+              class=""
+              role="row"
+            >
               <td
                 class="config-fullcalendar-cell config-fullcalendar-next-month-btn-day"
                 role="gridcell"
-                title="October 2, 2000"
+                title="2000年10月2日"
               >
                 <div
                   class="config-fullcalendar-date"
@@ -2108,7 +2090,7 @@ exports[`ConfigProvider components Calendar configProvider 1`] = `
               <td
                 class="config-fullcalendar-cell config-fullcalendar-next-month-btn-day"
                 role="gridcell"
-                title="October 3, 2000"
+                title="2000年10月3日"
               >
                 <div
                   class="config-fullcalendar-date"
@@ -2126,7 +2108,7 @@ exports[`ConfigProvider components Calendar configProvider 1`] = `
               <td
                 class="config-fullcalendar-cell config-fullcalendar-next-month-btn-day"
                 role="gridcell"
-                title="October 4, 2000"
+                title="2000年10月4日"
               >
                 <div
                   class="config-fullcalendar-date"
@@ -2144,7 +2126,7 @@ exports[`ConfigProvider components Calendar configProvider 1`] = `
               <td
                 class="config-fullcalendar-cell config-fullcalendar-next-month-btn-day"
                 role="gridcell"
-                title="October 5, 2000"
+                title="2000年10月5日"
               >
                 <div
                   class="config-fullcalendar-date"
@@ -2162,7 +2144,7 @@ exports[`ConfigProvider components Calendar configProvider 1`] = `
               <td
                 class="config-fullcalendar-cell config-fullcalendar-next-month-btn-day"
                 role="gridcell"
-                title="October 6, 2000"
+                title="2000年10月6日"
               >
                 <div
                   class="config-fullcalendar-date"
@@ -2180,7 +2162,7 @@ exports[`ConfigProvider components Calendar configProvider 1`] = `
               <td
                 class="config-fullcalendar-cell config-fullcalendar-next-month-btn-day"
                 role="gridcell"
-                title="October 7, 2000"
+                title="2000年10月7日"
               >
                 <div
                   class="config-fullcalendar-date"
@@ -2189,6 +2171,24 @@ exports[`ConfigProvider components Calendar configProvider 1`] = `
                     class="config-fullcalendar-value"
                   >
                     07
+                  </div>
+                  <div
+                    class="config-fullcalendar-content"
+                  />
+                </div>
+              </td>
+              <td
+                class="config-fullcalendar-cell config-fullcalendar-next-month-btn-day"
+                role="gridcell"
+                title="2000年10月8日"
+              >
+                <div
+                  class="config-fullcalendar-date"
+                >
+                  <div
+                    class="config-fullcalendar-value"
+                  >
+                    08
                   </div>
                   <div
                     class="config-fullcalendar-content"
@@ -2323,7 +2323,7 @@ exports[`ConfigProvider components Calendar configProvider 1`] = `
               <td
                 class="config-fullcalendar-month-panel-cell"
                 role="gridcell"
-                title="Jan"
+                title="一月"
               >
                 <div
                   class="config-fullcalendar-month"
@@ -2331,7 +2331,7 @@ exports[`ConfigProvider components Calendar configProvider 1`] = `
                   <div
                     class="config-fullcalendar-value"
                   >
-                    Jan
+                    1月
                   </div>
                   <div
                     class="config-fullcalendar-content"
@@ -2341,7 +2341,7 @@ exports[`ConfigProvider components Calendar configProvider 1`] = `
               <td
                 class="config-fullcalendar-month-panel-cell"
                 role="gridcell"
-                title="Feb"
+                title="二月"
               >
                 <div
                   class="config-fullcalendar-month"
@@ -2349,7 +2349,7 @@ exports[`ConfigProvider components Calendar configProvider 1`] = `
                   <div
                     class="config-fullcalendar-value"
                   >
-                    Feb
+                    2月
                   </div>
                   <div
                     class="config-fullcalendar-content"
@@ -2359,7 +2359,7 @@ exports[`ConfigProvider components Calendar configProvider 1`] = `
               <td
                 class="config-fullcalendar-month-panel-cell"
                 role="gridcell"
-                title="Mar"
+                title="三月"
               >
                 <div
                   class="config-fullcalendar-month"
@@ -2367,65 +2367,7 @@ exports[`ConfigProvider components Calendar configProvider 1`] = `
                   <div
                     class="config-fullcalendar-value"
                   >
-                    Mar
-                  </div>
-                  <div
-                    class="config-fullcalendar-content"
-                  />
-                </div>
-              </td>
-            </tr>
-            <tr
-              role="row"
-            >
-              <td
-                class="config-fullcalendar-month-panel-cell"
-                role="gridcell"
-                title="Apr"
-              >
-                <div
-                  class="config-fullcalendar-month"
-                >
-                  <div
-                    class="config-fullcalendar-value"
-                  >
-                    Apr
-                  </div>
-                  <div
-                    class="config-fullcalendar-content"
-                  />
-                </div>
-              </td>
-              <td
-                class="config-fullcalendar-month-panel-cell"
-                role="gridcell"
-                title="May"
-              >
-                <div
-                  class="config-fullcalendar-month"
-                >
-                  <div
-                    class="config-fullcalendar-value"
-                  >
-                    May
-                  </div>
-                  <div
-                    class="config-fullcalendar-content"
-                  />
-                </div>
-              </td>
-              <td
-                class="config-fullcalendar-month-panel-cell"
-                role="gridcell"
-                title="Jun"
-              >
-                <div
-                  class="config-fullcalendar-month"
-                >
-                  <div
-                    class="config-fullcalendar-value"
-                  >
-                    Jun
+                    3月
                   </div>
                   <div
                     class="config-fullcalendar-content"
@@ -2439,7 +2381,7 @@ exports[`ConfigProvider components Calendar configProvider 1`] = `
               <td
                 class="config-fullcalendar-month-panel-cell"
                 role="gridcell"
-                title="Jul"
+                title="四月"
               >
                 <div
                   class="config-fullcalendar-month"
@@ -2447,7 +2389,7 @@ exports[`ConfigProvider components Calendar configProvider 1`] = `
                   <div
                     class="config-fullcalendar-value"
                   >
-                    Jul
+                    4月
                   </div>
                   <div
                     class="config-fullcalendar-content"
@@ -2457,7 +2399,7 @@ exports[`ConfigProvider components Calendar configProvider 1`] = `
               <td
                 class="config-fullcalendar-month-panel-cell"
                 role="gridcell"
-                title="Aug"
+                title="五月"
               >
                 <div
                   class="config-fullcalendar-month"
@@ -2465,7 +2407,65 @@ exports[`ConfigProvider components Calendar configProvider 1`] = `
                   <div
                     class="config-fullcalendar-value"
                   >
-                    Aug
+                    5月
+                  </div>
+                  <div
+                    class="config-fullcalendar-content"
+                  />
+                </div>
+              </td>
+              <td
+                class="config-fullcalendar-month-panel-cell"
+                role="gridcell"
+                title="六月"
+              >
+                <div
+                  class="config-fullcalendar-month"
+                >
+                  <div
+                    class="config-fullcalendar-value"
+                  >
+                    6月
+                  </div>
+                  <div
+                    class="config-fullcalendar-content"
+                  />
+                </div>
+              </td>
+            </tr>
+            <tr
+              role="row"
+            >
+              <td
+                class="config-fullcalendar-month-panel-cell"
+                role="gridcell"
+                title="七月"
+              >
+                <div
+                  class="config-fullcalendar-month"
+                >
+                  <div
+                    class="config-fullcalendar-value"
+                  >
+                    7月
+                  </div>
+                  <div
+                    class="config-fullcalendar-content"
+                  />
+                </div>
+              </td>
+              <td
+                class="config-fullcalendar-month-panel-cell"
+                role="gridcell"
+                title="八月"
+              >
+                <div
+                  class="config-fullcalendar-month"
+                >
+                  <div
+                    class="config-fullcalendar-value"
+                  >
+                    8月
                   </div>
                   <div
                     class="config-fullcalendar-content"
@@ -2475,7 +2475,7 @@ exports[`ConfigProvider components Calendar configProvider 1`] = `
               <td
                 class="config-fullcalendar-month-panel-cell config-fullcalendar-month-panel-selected-cell"
                 role="gridcell"
-                title="Sep"
+                title="九月"
               >
                 <div
                   class="config-fullcalendar-month"
@@ -2483,7 +2483,7 @@ exports[`ConfigProvider components Calendar configProvider 1`] = `
                   <div
                     class="config-fullcalendar-value"
                   >
-                    Sep
+                    9月
                   </div>
                   <div
                     class="config-fullcalendar-content"
@@ -2497,7 +2497,7 @@ exports[`ConfigProvider components Calendar configProvider 1`] = `
               <td
                 class="config-fullcalendar-month-panel-cell"
                 role="gridcell"
-                title="Oct"
+                title="十月"
               >
                 <div
                   class="config-fullcalendar-month"
@@ -2505,7 +2505,7 @@ exports[`ConfigProvider components Calendar configProvider 1`] = `
                   <div
                     class="config-fullcalendar-value"
                   >
-                    Oct
+                    10月
                   </div>
                   <div
                     class="config-fullcalendar-content"
@@ -2515,7 +2515,7 @@ exports[`ConfigProvider components Calendar configProvider 1`] = `
               <td
                 class="config-fullcalendar-month-panel-cell"
                 role="gridcell"
-                title="Nov"
+                title="十一月"
               >
                 <div
                   class="config-fullcalendar-month"
@@ -2523,7 +2523,7 @@ exports[`ConfigProvider components Calendar configProvider 1`] = `
                   <div
                     class="config-fullcalendar-value"
                   >
-                    Nov
+                    11月
                   </div>
                   <div
                     class="config-fullcalendar-content"
@@ -2533,7 +2533,7 @@ exports[`ConfigProvider components Calendar configProvider 1`] = `
               <td
                 class="config-fullcalendar-month-panel-cell"
                 role="gridcell"
-                title="Dec"
+                title="十二月"
               >
                 <div
                   class="config-fullcalendar-month"
@@ -2541,7 +2541,7 @@ exports[`ConfigProvider components Calendar configProvider 1`] = `
                   <div
                     class="config-fullcalendar-value"
                   >
-                    Dec
+                    12月
                   </div>
                   <div
                     class="config-fullcalendar-content"

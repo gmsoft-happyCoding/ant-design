@@ -2527,7 +2527,7 @@ exports[`renders ./components/table/demo/dynamic-settings.md correctly 1`] = `
                       class="ant-table-row-expand-icon-cell"
                     >
                       <div
-                        aria-label="Expand row"
+                        aria-label="展开行"
                         class="ant-table-row-expand-icon ant-table-row-collapsed"
                         role="button"
                         tabindex="0"
@@ -2629,7 +2629,7 @@ exports[`renders ./components/table/demo/dynamic-settings.md correctly 1`] = `
                       class="ant-table-row-expand-icon-cell"
                     >
                       <div
-                        aria-label="Expand row"
+                        aria-label="展开行"
                         class="ant-table-row-expand-icon ant-table-row-collapsed"
                         role="button"
                         tabindex="0"
@@ -2731,7 +2731,7 @@ exports[`renders ./components/table/demo/dynamic-settings.md correctly 1`] = `
                       class="ant-table-row-expand-icon-cell"
                     >
                       <div
-                        aria-label="Expand row"
+                        aria-label="展开行"
                         class="ant-table-row-expand-icon ant-table-row-collapsed"
                         role="button"
                         tabindex="0"
@@ -2833,7 +2833,7 @@ exports[`renders ./components/table/demo/dynamic-settings.md correctly 1`] = `
                       class="ant-table-row-expand-icon-cell"
                     >
                       <div
-                        aria-label="Expand row"
+                        aria-label="展开行"
                         class="ant-table-row-expand-icon ant-table-row-collapsed"
                         role="button"
                         tabindex="0"
@@ -2935,7 +2935,7 @@ exports[`renders ./components/table/demo/dynamic-settings.md correctly 1`] = `
                       class="ant-table-row-expand-icon-cell"
                     >
                       <div
-                        aria-label="Expand row"
+                        aria-label="展开行"
                         class="ant-table-row-expand-icon ant-table-row-collapsed"
                         role="button"
                         tabindex="0"
@@ -3037,7 +3037,7 @@ exports[`renders ./components/table/demo/dynamic-settings.md correctly 1`] = `
                       class="ant-table-row-expand-icon-cell"
                     >
                       <div
-                        aria-label="Expand row"
+                        aria-label="展开行"
                         class="ant-table-row-expand-icon ant-table-row-collapsed"
                         role="button"
                         tabindex="0"
@@ -3139,7 +3139,7 @@ exports[`renders ./components/table/demo/dynamic-settings.md correctly 1`] = `
                       class="ant-table-row-expand-icon-cell"
                     >
                       <div
-                        aria-label="Expand row"
+                        aria-label="展开行"
                         class="ant-table-row-expand-icon ant-table-row-collapsed"
                         role="button"
                         tabindex="0"
@@ -3241,7 +3241,7 @@ exports[`renders ./components/table/demo/dynamic-settings.md correctly 1`] = `
                       class="ant-table-row-expand-icon-cell"
                     >
                       <div
-                        aria-label="Expand row"
+                        aria-label="展开行"
                         class="ant-table-row-expand-icon ant-table-row-collapsed"
                         role="button"
                         tabindex="0"
@@ -3343,7 +3343,7 @@ exports[`renders ./components/table/demo/dynamic-settings.md correctly 1`] = `
                       class="ant-table-row-expand-icon-cell"
                     >
                       <div
-                        aria-label="Expand row"
+                        aria-label="展开行"
                         class="ant-table-row-expand-icon ant-table-row-collapsed"
                         role="button"
                         tabindex="0"
@@ -3445,7 +3445,7 @@ exports[`renders ./components/table/demo/dynamic-settings.md correctly 1`] = `
                       class="ant-table-row-expand-icon-cell"
                     >
                       <div
-                        aria-label="Expand row"
+                        aria-label="展开行"
                         class="ant-table-row-expand-icon ant-table-row-collapsed"
                         role="button"
                         tabindex="0"
@@ -4575,7 +4575,7 @@ exports[`renders ./components/table/demo/expand.md correctly 1`] = `
                     class="ant-table-row-expand-icon-cell"
                   >
                     <div
-                      aria-label="Expand row"
+                      aria-label="展开行"
                       class="ant-table-row-expand-icon ant-table-row-collapsed"
                       role="button"
                       tabindex="0"
@@ -4614,7 +4614,7 @@ exports[`renders ./components/table/demo/expand.md correctly 1`] = `
                     class="ant-table-row-expand-icon-cell"
                   >
                     <div
-                      aria-label="Expand row"
+                      aria-label="展开行"
                       class="ant-table-row-expand-icon ant-table-row-collapsed"
                       role="button"
                       tabindex="0"
@@ -4653,7 +4653,7 @@ exports[`renders ./components/table/demo/expand.md correctly 1`] = `
                     class="ant-table-row-expand-icon-cell"
                   >
                     <div
-                      aria-label="Expand row"
+                      aria-label="展开行"
                       class="ant-table-row-expand-icon ant-table-row-collapsed"
                       role="button"
                       tabindex="0"
@@ -4932,7 +4932,7 @@ exports[`renders ./components/table/demo/expand-children.md correctly 1`] = `
                       style="padding-left:0px"
                     />
                     <div
-                      aria-label="Expand row"
+                      aria-label="展开行"
                       class="ant-table-row-expand-icon ant-table-row-collapsed"
                       role="button"
                       tabindex="0"
@@ -10877,7 +10877,7 @@ exports[`renders ./components/table/demo/nested-table.md correctly 1`] = `
                     class="ant-table-row-expand-icon-cell"
                   >
                     <div
-                      aria-label="Expand row"
+                      aria-label="展开行"
                       class="ant-table-row-expand-icon ant-table-row-collapsed"
                       role="button"
                       tabindex="0"
@@ -10931,7 +10931,7 @@ exports[`renders ./components/table/demo/nested-table.md correctly 1`] = `
                     class="ant-table-row-expand-icon-cell"
                   >
                     <div
-                      aria-label="Expand row"
+                      aria-label="展开行"
                       class="ant-table-row-expand-icon ant-table-row-collapsed"
                       role="button"
                       tabindex="0"
@@ -10985,7 +10985,7 @@ exports[`renders ./components/table/demo/nested-table.md correctly 1`] = `
                     class="ant-table-row-expand-icon-cell"
                   >
                     <div
-                      aria-label="Expand row"
+                      aria-label="展开行"
                       class="ant-table-row-expand-icon ant-table-row-collapsed"
                       role="button"
                       tabindex="0"

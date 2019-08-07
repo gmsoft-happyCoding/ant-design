@@ -991,7 +991,7 @@ exports[`renders ./components/input/demo/presuffix.md correctly 1`] = `
       class="ant-input-prefix"
     >
       <i
-        aria-label="icon: user"
+        aria-label="图标: user"
         class="anticon anticon-user"
         style="color:rgba(0,0,0,.25)"
       >
@@ -1021,7 +1021,7 @@ exports[`renders ./components/input/demo/presuffix.md correctly 1`] = `
       class="ant-input-suffix"
     >
       <i
-        aria-label="icon: info-circle"
+        aria-label="图标: info-circle"
         class="anticon anticon-info-circle"
         style="color:rgba(0,0,0,.45)"
       >

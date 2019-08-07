@@ -35,7 +35,7 @@ exports[`Modal render correctly 1`] = `
                   class="ant-modal-close-x"
                 >
                   <i
-                    aria-label="icon: close"
+                    aria-label="图标: close"
                     class="anticon anticon-close ant-modal-close-icon"
                   >
                     <svg
@@ -65,19 +65,19 @@ exports[`Modal render correctly 1`] = `
               >
                 <div>
                   <button
-                    class="ant-btn"
-                    type="button"
-                  >
-                    <span>
-                      Cancel
-                    </span>
-                  </button>
-                  <button
                     class="ant-btn ant-btn-primary"
                     type="button"
                   >
                     <span>
-                      OK
+                      确 定
+                    </span>
+                  </button>
+                  <button
+                    class="ant-btn"
+                    type="button"
+                  >
+                    <span>
+                      取 消
                     </span>
                   </button>
                 </div>
@@ -131,7 +131,7 @@ exports[`Modal render without footer 1`] = `
                   class="ant-modal-close-x"
                 >
                   <i
-                    aria-label="icon: close"
+                    aria-label="图标: close"
                     class="anticon anticon-close ant-modal-close-icon"
                   >
                     <svg

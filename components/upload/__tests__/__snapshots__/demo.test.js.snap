@@ -360,10 +360,10 @@ exports[`renders ./components/upload/demo/picture-card.md correctly 1`] = `
             href="https://zos.alipayobjects.com/rmsportal/jkjgkEfvpUPVyRjUImniVslZfWPnJuuZ.png"
             rel="noopener noreferrer"
             target="_blank"
-            title="Preview file"
+            title="预览文件"
           >
             <i
-              aria-label="icon: eye-o"
+              aria-label="图标: eye-o"
               class="anticon anticon-eye-o"
             >
               <svg
@@ -383,10 +383,10 @@ exports[`renders ./components/upload/demo/picture-card.md correctly 1`] = `
             </i>
           </a>
           <i
-            aria-label="icon: delete"
+            aria-label="图标: delete"
             class="anticon anticon-delete"
             tabindex="-1"
-            title="Remove file"
+            title="删除文件"
           >
             <svg
               aria-hidden="true"
@@ -442,10 +442,10 @@ exports[`renders ./components/upload/demo/picture-card.md correctly 1`] = `
             href="https://zos.alipayobjects.com/rmsportal/jkjgkEfvpUPVyRjUImniVslZfWPnJuuZ.png"
             rel="noopener noreferrer"
             target="_blank"
-            title="Preview file"
+            title="预览文件"
           >
             <i
-              aria-label="icon: eye-o"
+              aria-label="图标: eye-o"
               class="anticon anticon-eye-o"
             >
               <svg
@@ -465,10 +465,10 @@ exports[`renders ./components/upload/demo/picture-card.md correctly 1`] = `
             </i>
           </a>
           <i
-            aria-label="icon: delete"
+            aria-label="图标: delete"
             class="anticon anticon-delete"
             tabindex="-1"
-            title="Remove file"
+            title="删除文件"
           >
             <svg
               aria-hidden="true"
@@ -524,10 +524,10 @@ exports[`renders ./components/upload/demo/picture-card.md correctly 1`] = `
             href="https://zos.alipayobjects.com/rmsportal/jkjgkEfvpUPVyRjUImniVslZfWPnJuuZ.png"
             rel="noopener noreferrer"
             target="_blank"
-            title="Preview file"
+            title="预览文件"
           >
             <i
-              aria-label="icon: eye-o"
+              aria-label="图标: eye-o"
               class="anticon anticon-eye-o"
             >
               <svg
@@ -547,10 +547,10 @@ exports[`renders ./components/upload/demo/picture-card.md correctly 1`] = `
             </i>
           </a>
           <i
-            aria-label="icon: delete"
+            aria-label="图标: delete"
             class="anticon anticon-delete"
             tabindex="-1"
-            title="Remove file"
+            title="删除文件"
           >
             <svg
               aria-hidden="true"
@@ -606,10 +606,10 @@ exports[`renders ./components/upload/demo/picture-card.md correctly 1`] = `
             href="https://zos.alipayobjects.com/rmsportal/jkjgkEfvpUPVyRjUImniVslZfWPnJuuZ.png"
             rel="noopener noreferrer"
             target="_blank"
-            title="Preview file"
+            title="预览文件"
           >
             <i
-              aria-label="icon: eye-o"
+              aria-label="图标: eye-o"
               class="anticon anticon-eye-o"
             >
               <svg
@@ -629,10 +629,10 @@ exports[`renders ./components/upload/demo/picture-card.md correctly 1`] = `
             </i>
           </a>
           <i
-            aria-label="icon: delete"
+            aria-label="图标: delete"
             class="anticon anticon-delete"
             tabindex="-1"
-            title="Remove file"
+            title="删除文件"
           >
             <svg
               aria-hidden="true"

@@ -424,11 +424,11 @@ exports[`Table.filter should support getPopupContainer 1`] = `
                       </div>
                     </span>
                     <i
-                      aria-label="icon: filter"
+                      aria-label="图标: filter"
                       class="anticon anticon-filter ant-table-filter-open ant-dropdown-trigger ant-dropdown-open"
                       style=""
                       tabindex="-1"
-                      title="Filter menu"
+                      title="筛选"
                     >
                       <svg
                         aria-hidden="true"
@@ -529,12 +529,12 @@ exports[`Table.filter should support getPopupContainer 1`] = `
                             <a
                               class="ant-table-filter-dropdown-link confirm"
                             >
-                              OK
+                              确定
                             </a>
                             <a
                               class="ant-table-filter-dropdown-link clear"
                             >
-                              Reset
+                              重置
                             </a>
                           </div>
                         </div>
@@ -643,11 +643,11 @@ exports[`Table.filter should support getPopupContainer from ConfigProvider 1`] =
                       </div>
                     </span>
                     <i
-                      aria-label="icon: filter"
+                      aria-label="图标: filter"
                       class="anticon anticon-filter ant-table-filter-open ant-dropdown-trigger ant-dropdown-open"
                       style=""
                       tabindex="-1"
-                      title="Filter menu"
+                      title="筛选"
                     >
                       <svg
                         aria-hidden="true"
@@ -748,12 +748,12 @@ exports[`Table.filter should support getPopupContainer from ConfigProvider 1`] =
                             <a
                               class="ant-table-filter-dropdown-link confirm"
                             >
-                              OK
+                              确定
                             </a>
                             <a
                               class="ant-table-filter-dropdown-link clear"
                             >
-                              Reset
+                              重置
                             </a>
                           </div>
                         </div>

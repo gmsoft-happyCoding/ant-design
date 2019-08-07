@@ -29,6 +29,7 @@ import {
   Radio,
 } from 'antd';
 import zhCN from 'antd/es/locale/zh_CN';
+import enUS from 'antd/es/locale/en_US';
 import moment from 'moment';
 import 'moment/locale/zh-cn';
 
@@ -125,7 +126,7 @@ class App extends React.Component {
   constructor() {
     super();
     this.state = {
-      locale: null,
+      locale: enUS,
     };
   }
 
@@ -145,8 +146,8 @@ class App extends React.Component {
       <div>
         <div className="change-locale">
           <span style={{ marginRight: 16 }}>Change locale of components: </span>
-          <Radio.Group defaultValue={undefined} onChange={this.changeLocale}>
-            <Radio.Button key="en" value={undefined}>
+          <Radio.Group defaultValue={enUS} onChange={this.changeLocale}>
+            <Radio.Button key="en" value={enUS}>
               English
             </Radio.Button>
             <Radio.Button key="cn" value={zhCN}>

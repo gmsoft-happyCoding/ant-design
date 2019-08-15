@@ -141,6 +141,7 @@ class Button extends React.Component<ButtonProps, ButtonState> {
     className: PropTypes.string,
     icon: PropTypes.string,
     block: PropTypes.bool,
+    title: PropTypes.string,
   };
 
   static getDerivedStateFromProps(nextProps: ButtonProps, prevState: ButtonState) {
@@ -300,7 +301,7 @@ class Button extends React.Component<ButtonProps, ButtonState> {
 
     const buttonNode = (
       <button
-        {...(omit(otherProps, ['loading']) as NativeButtonProps)}
+        {...omit(otherProps, ['loading']) as NativeButtonProps}
         type={htmlType}
         className={classes}
         onClick={this.handleClick}

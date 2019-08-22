@@ -407,7 +407,7 @@ exports[`Cascader have a notFoundContent that fit trigger input width 1`] = `
             <p
               class="ant-empty-description"
             >
-              No Data
+              暂无数据
             </p>
           </div>
         </li>

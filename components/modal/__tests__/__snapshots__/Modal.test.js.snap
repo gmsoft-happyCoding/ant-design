@@ -214,19 +214,19 @@ exports[`Modal support closeIcon 1`] = `
         >
           <div>
             <button
-              class="ant-btn"
-              type="button"
-            >
-              <span>
-                Cancel
-              </span>
-            </button>
-            <button
               class="ant-btn ant-btn-primary"
               type="button"
             >
               <span>
-                OK
+                确 定
+              </span>
+            </button>
+            <button
+              class="ant-btn"
+              type="button"
+            >
+              <span>
+                取 消
               </span>
             </button>
           </div>

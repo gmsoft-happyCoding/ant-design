@@ -298,7 +298,7 @@ exports[`renders ./components/button/demo/button-group.md correctly 1`] = `
       type="button"
     >
       <i
-        aria-label="icon: cloud"
+        aria-label="图标: cloud"
         class="anticon anticon-cloud"
       >
         <svg
@@ -322,7 +322,7 @@ exports[`renders ./components/button/demo/button-group.md correctly 1`] = `
       type="button"
     >
       <i
-        aria-label="icon: cloud-download"
+        aria-label="图标: cloud-download"
         class="anticon anticon-cloud-download"
       >
         <svg
@@ -1089,7 +1089,7 @@ exports[`renders ./components/button/demo/loading.md correctly 1`] = `
     type="button"
   >
     <i
-      aria-label="icon: loading"
+      aria-label="图标: loading"
       class="anticon anticon-loading"
     >
       <svg
@@ -1319,7 +1319,7 @@ exports[`renders ./components/button/demo/size.md correctly 1`] = `
     type="button"
   >
     <i
-      aria-label="icon: download"
+      aria-label="图标: download"
       class="anticon anticon-download"
     >
       <svg
@@ -1367,7 +1367,7 @@ exports[`renders ./components/button/demo/size.md correctly 1`] = `
     type="button"
   >
     <i
-      aria-label="icon: download"
+      aria-label="图标: download"
       class="anticon anticon-download"
     >
       <svg

@@ -294,7 +294,7 @@ exports[`renders ./components/input/demo/algin.md correctly 1`] = `
         unselectable="unselectable"
       >
         <i
-          aria-label="icon: up"
+          aria-label="图标: up"
           class="anticon anticon-up ant-input-number-handler-up-inner"
         >
           <svg
@@ -321,7 +321,7 @@ exports[`renders ./components/input/demo/algin.md correctly 1`] = `
         unselectable="unselectable"
       >
         <i
-          aria-label="icon: down"
+          aria-label="图标: down"
           class="anticon anticon-down ant-input-number-handler-down-inner"
         >
           <svg
@@ -362,12 +362,12 @@ exports[`renders ./components/input/demo/algin.md correctly 1`] = `
     <div>
       <input
         class="ant-calendar-picker-input ant-input"
-        placeholder="Select date"
+        placeholder="请选择日期"
         readonly=""
         value=""
       />
       <i
-        aria-label="icon: calendar"
+        aria-label="图标: calendar"
         class="anticon anticon-calendar ant-calendar-picker-icon"
       >
         <svg
@@ -394,7 +394,7 @@ exports[`renders ./components/input/demo/algin.md correctly 1`] = `
     <input
       class="ant-time-picker-input"
       id=""
-      placeholder="Select time"
+      placeholder="请选择时间"
       type="text"
       value=""
     />
@@ -402,7 +402,7 @@ exports[`renders ./components/input/demo/algin.md correctly 1`] = `
       class="ant-time-picker-icon"
     >
       <i
-        aria-label="icon: clock-circle"
+        aria-label="图标: clock-circle"
         class="anticon anticon-clock-circle ant-time-picker-clock-icon"
       >
         <svg
@@ -456,7 +456,7 @@ exports[`renders ./components/input/demo/algin.md correctly 1`] = `
         unselectable="on"
       >
         <i
-          aria-label="icon: down"
+          aria-label="图标: down"
           class="anticon anticon-down ant-select-arrow-icon"
         >
           <svg
@@ -508,7 +508,7 @@ exports[`renders ./components/input/demo/algin.md correctly 1`] = `
         unselectable="on"
       >
         <i
-          aria-label="icon: down"
+          aria-label="图标: down"
           class="anticon anticon-down ant-select-arrow-icon"
         >
           <svg
@@ -551,7 +551,7 @@ exports[`renders ./components/input/demo/algin.md correctly 1`] = `
         style="outline:none"
       >
         <i
-          aria-label="icon: down"
+          aria-label="图标: down"
           class="anticon anticon-down ant-select-arrow-icon"
         >
           <svg
@@ -590,7 +590,7 @@ exports[`renders ./components/input/demo/algin.md correctly 1`] = `
       value=""
     />
     <i
-      aria-label="icon: close-circle"
+      aria-label="图标: close-circle"
       class="anticon anticon-close-circle ant-cascader-picker-clear"
       tabindex="-1"
     >
@@ -610,7 +610,7 @@ exports[`renders ./components/input/demo/algin.md correctly 1`] = `
       </svg>
     </i>
     <i
-      aria-label="icon: down"
+      aria-label="图标: down"
       class="anticon anticon-down ant-cascader-picker-arrow"
     >
       <svg
@@ -638,7 +638,7 @@ exports[`renders ./components/input/demo/algin.md correctly 1`] = `
     >
       <input
         class="ant-calendar-range-picker-input"
-        placeholder="Start date"
+        placeholder="开始日期"
         readonly=""
         tabindex="-1"
         value=""
@@ -650,13 +650,13 @@ exports[`renders ./components/input/demo/algin.md correctly 1`] = `
       </span>
       <input
         class="ant-calendar-range-picker-input"
-        placeholder="End date"
+        placeholder="结束日期"
         readonly=""
         tabindex="-1"
         value=""
       />
       <i
-        aria-label="icon: calendar"
+        aria-label="图标: calendar"
         class="anticon anticon-calendar ant-calendar-picker-icon"
       >
         <svg
@@ -682,12 +682,12 @@ exports[`renders ./components/input/demo/algin.md correctly 1`] = `
     <div>
       <input
         class="ant-calendar-picker-input ant-input"
-        placeholder="Select date"
+        placeholder="请选择日期"
         readonly=""
         value=""
       />
       <i
-        aria-label="icon: calendar"
+        aria-label="图标: calendar"
         class="anticon anticon-calendar ant-calendar-picker-icon"
       >
         <svg
@@ -800,7 +800,7 @@ exports[`renders ./components/input/demo/algin.md correctly 1`] = `
         unselectable="on"
       >
         <i
-          aria-label="icon: down"
+          aria-label="图标: down"
           class="anticon anticon-down ant-select-arrow-icon"
         >
           <svg

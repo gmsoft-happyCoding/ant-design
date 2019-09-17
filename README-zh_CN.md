@@ -8,7 +8,7 @@
 
 <div align="center">
 
-一套企业级的 UI 设计语言和 React 实现。
+一套企业级 UI 设计语言和 React 组件库。
 
 [自定义主题(gmsoft)](./components/style/themes/gmsoft.less)
 

@@ -8,7 +8,7 @@
 
 <div align="center">
 
-An enterprise-class UI design language and React implementation.
+An enterprise-class UI design language and React UI library.
 
 [custom theme(gmsoft)](./components/style/themes/gmsoft.less)
 

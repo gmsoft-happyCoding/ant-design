@@ -25,7 +25,7 @@ exports[`renders ./components/tree-select/demo/async.md correctly 1`] = `
       style="outline:none"
     >
       <i
-        aria-label="icon: down"
+        aria-label="图标: down"
         class="anticon anticon-down ant-select-arrow-icon"
       >
         <svg

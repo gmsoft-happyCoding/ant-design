@@ -447,9 +447,9 @@ exports[`Transfer should support render value and label in item 1`] = `
     componentName="Transfer"
     defaultLocale={
       Object {
-        "itemUnit": "item",
-        "itemsUnit": "items",
-        "searchPlaceholder": "Search here",
+        "itemUnit": "项",
+        "itemsUnit": "项",
+        "searchPlaceholder": "请输入搜索内容",
         "titles": Array [
           "",
           "",
@@ -475,8 +475,8 @@ exports[`Transfer should support render value and label in item 1`] = `
         handleFilter={[Function]}
         handleSelect={[Function]}
         handleSelectAll={[Function]}
-        itemUnit="item"
-        itemsUnit="items"
+        itemUnit="项"
+        itemsUnit="项"
         lazy={Object {}}
         notFoundContent={
           <Context.Consumer>
@@ -488,7 +488,7 @@ exports[`Transfer should support render value and label in item 1`] = `
         onScroll={[Function]}
         prefixCls="ant-transfer-list"
         render={[Function]}
-        searchPlaceholder="Search here"
+        searchPlaceholder="请输入搜索内容"
         showSearch={false}
         titleText=""
         titles={
@@ -548,7 +548,7 @@ exports[`Transfer should support render value and label in item 1`] = `
               <span>
                 1
                  
-                item
+                项
               </span>
               <span
                 className="ant-transfer-list-header-title"
@@ -588,8 +588,8 @@ exports[`Transfer should support render value and label in item 1`] = `
                   },
                 ]
               }
-              itemUnit="item"
-              itemsUnit="items"
+              itemUnit="项"
+              itemsUnit="项"
               lazy={Object {}}
               notFoundContent={
                 <Context.Consumer>
@@ -601,7 +601,7 @@ exports[`Transfer should support render value and label in item 1`] = `
               onScroll={[Function]}
               prefixCls="ant-transfer-list"
               render={[Function]}
-              searchPlaceholder="Search here"
+              searchPlaceholder="请输入搜索内容"
               selectedKeys={Array []}
               showSearch={false}
               titleText=""
@@ -723,7 +723,7 @@ exports[`Transfer should support render value and label in item 1`] = `
                     componentName="Icon"
                   >
                     <i
-                      aria-label="icon: right"
+                      aria-label="图标: right"
                       className="anticon anticon-right"
                     >
                       <IconReact
@@ -778,7 +778,7 @@ exports[`Transfer should support render value and label in item 1`] = `
                     componentName="Icon"
                   >
                     <i
-                      aria-label="icon: left"
+                      aria-label="图标: left"
                       className="anticon anticon-left"
                     >
                       <IconReact
@@ -818,8 +818,8 @@ exports[`Transfer should support render value and label in item 1`] = `
         handleFilter={[Function]}
         handleSelect={[Function]}
         handleSelectAll={[Function]}
-        itemUnit="item"
-        itemsUnit="items"
+        itemUnit="项"
+        itemsUnit="项"
         lazy={Object {}}
         notFoundContent={
           <Context.Consumer>
@@ -831,7 +831,7 @@ exports[`Transfer should support render value and label in item 1`] = `
         onScroll={[Function]}
         prefixCls="ant-transfer-list"
         render={[Function]}
-        searchPlaceholder="Search here"
+        searchPlaceholder="请输入搜索内容"
         showSearch={false}
         titleText=""
         titles={
@@ -891,7 +891,7 @@ exports[`Transfer should support render value and label in item 1`] = `
               <span>
                 0
                  
-                item
+                项
               </span>
               <span
                 className="ant-transfer-list-header-title"
@@ -955,7 +955,7 @@ exports[`Transfer should support render value and label in item 1`] = `
                     <p
                       className="ant-empty-description"
                     >
-                      No Data
+                      暂无数据
                     </p>
                   </div>
                 </LocaleReceiver>

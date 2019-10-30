@@ -494,7 +494,7 @@ describe('Cascader', () => {
 
   it('placeholder works correctly', () => {
     const wrapper = mount(<Cascader options={[]} />);
-    expect(wrapper.find('input').prop('placeholder')).toBe('Please select');
+    expect(wrapper.find('input').prop('placeholder')).toBe('请选择');
 
     const customPlaceholder = 'Custom placeholder';
     wrapper.setProps({

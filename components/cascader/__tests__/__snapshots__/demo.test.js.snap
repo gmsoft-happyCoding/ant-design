@@ -50,7 +50,7 @@ exports[`renders ./components/cascader/demo/change-on-select.md correctly 1`] = 
   <input
     autocomplete="off"
     class="ant-input ant-cascader-input "
-    placeholder="Please select"
+    placeholder="请选择"
     readonly=""
     tabindex="-1"
     type="text"
@@ -234,7 +234,7 @@ exports[`renders ./components/cascader/demo/disabled-option.md correctly 1`] = `
   <input
     autocomplete="off"
     class="ant-input ant-cascader-input "
-    placeholder="Please select"
+    placeholder="请选择"
     readonly=""
     tabindex="-1"
     type="text"
@@ -312,7 +312,7 @@ exports[`renders ./components/cascader/demo/hover.md correctly 1`] = `
   <input
     autocomplete="off"
     class="ant-input ant-cascader-input "
-    placeholder="Please select"
+    placeholder="请选择"
     readonly=""
     tabindex="-1"
     type="text"
@@ -351,7 +351,7 @@ exports[`renders ./components/cascader/demo/lazy.md correctly 1`] = `
   <input
     autocomplete="off"
     class="ant-input ant-cascader-input "
-    placeholder="Please select"
+    placeholder="请选择"
     readonly=""
     tabindex="-1"
     type="text"
@@ -429,7 +429,7 @@ exports[`renders ./components/cascader/demo/size.md correctly 1`] = `
     <input
       autocomplete="off"
       class="ant-input ant-cascader-input ant-input-lg"
-      placeholder="Please select"
+      placeholder="请选择"
       readonly=""
       tabindex="-1"
       type="text"
@@ -467,7 +467,7 @@ exports[`renders ./components/cascader/demo/size.md correctly 1`] = `
     <input
       autocomplete="off"
       class="ant-input ant-cascader-input "
-      placeholder="Please select"
+      placeholder="请选择"
       readonly=""
       tabindex="-1"
       type="text"
@@ -505,7 +505,7 @@ exports[`renders ./components/cascader/demo/size.md correctly 1`] = `
     <input
       autocomplete="off"
       class="ant-input ant-cascader-input ant-input-sm"
-      placeholder="Please select"
+      placeholder="请选择"
       readonly=""
       tabindex="-1"
       type="text"

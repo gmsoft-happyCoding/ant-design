@@ -244,7 +244,7 @@ exports[`renders ./components/dropdown/demo/menu-full.md correctly 1`] = `
 >
   Hover to check menu style 
   <i
-    aria-label="icon: down"
+    aria-label="图标: down"
     class="anticon anticon-down"
   >
     <svg

@@ -713,14 +713,14 @@ exports[`renders ./components/page-header/demo/ghost.md correctly 1`] = `
         class="ant-page-header-back"
       >
         <div
-          aria-label="Back"
+          aria-label="返回"
           class="ant-page-header-back-button"
           role="button"
           style="border:0;background:transparent;padding:0;line-height:inherit;display:inline-block"
           tabindex="0"
         >
           <i
-            aria-label="icon: arrow-left"
+            aria-label="图标: arrow-left"
             class="anticon anticon-arrow-left"
           >
             <svg

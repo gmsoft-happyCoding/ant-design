@@ -235,14 +235,14 @@ exports[`renders ./components/input/demo/align.md correctly 1`] = `
   >
     Ant Design
     <div
-      aria-label="Copy"
+      aria-label="复制"
       class="ant-typography-copy"
       role="button"
       style="border:0;background:transparent;padding:0;line-height:inherit;display:inline-block"
       tabindex="0"
     >
       <i
-        aria-label="icon: copy"
+        aria-label="图标: copy"
         class="anticon anticon-copy"
         role="button"
       >
@@ -370,14 +370,14 @@ exports[`renders ./components/input/demo/align.md correctly 1`] = `
       </span>
     </div>
     <div
+      aria-valuemin="-9007199254740991"
       class="ant-input-number-input-wrap"
+      role="spinbutton"
     >
       <input
-        aria-valuemin="-9007199254740991"
         autocomplete="off"
         class="ant-input-number-input"
         min="-9007199254740991"
-        role="spinbutton"
         step="1"
         value=""
       />
@@ -1133,14 +1133,14 @@ exports[`renders ./components/input/demo/group.md correctly 1`] = `
         </span>
       </div>
       <div
+        aria-valuemin="-9007199254740991"
         class="ant-input-number-input-wrap"
+        role="spinbutton"
       >
         <input
-          aria-valuemin="-9007199254740991"
           autocomplete="off"
           class="ant-input-number-input"
           min="-9007199254740991"
-          role="spinbutton"
           step="1"
           value=""
         />
@@ -1854,7 +1854,7 @@ exports[`renders ./components/input/demo/search-input-loading.md correctly 1`] =
       class="ant-input-suffix"
     >
       <i
-        aria-label="icon: loading"
+        aria-label="图标: loading"
         class="anticon anticon-loading ant-input-search-icon"
       >
         <svg
@@ -1896,7 +1896,7 @@ exports[`renders ./components/input/demo/search-input-loading.md correctly 1`] =
           type="button"
         >
           <i
-            aria-label="icon: loading"
+            aria-label="图标: loading"
             class="anticon anticon-loading"
           >
             <svg

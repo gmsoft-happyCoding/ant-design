@@ -380,7 +380,7 @@ exports[`Drawer style/drawerStyle/headerStyle/bodyStyle should work 1`] = `
               class="ant-drawer-close"
             >
               <i
-                aria-label="icon: close"
+                aria-label="图标: close"
                 class="anticon anticon-close"
               >
                 <svg

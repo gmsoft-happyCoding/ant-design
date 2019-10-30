@@ -14,7 +14,7 @@ exports[`Directory Tree DirectoryTree should expend all when use treeData and de
       class="ant-tree-switcher ant-tree-switcher_open"
     >
       <i
-        aria-label="icon: caret-down"
+        aria-label="图标: caret-down"
         class="anticon anticon-caret-down ant-tree-switcher-icon"
       >
         <svg
@@ -41,7 +41,7 @@ exports[`Directory Tree DirectoryTree should expend all when use treeData and de
         class="ant-tree-iconEle ant-tree-icon__customize"
       >
         <i
-          aria-label="icon: folder-open"
+          aria-label="图标: folder-open"
           class="anticon anticon-folder-open"
         >
           <svg
@@ -79,7 +79,7 @@ exports[`Directory Tree DirectoryTree should expend all when use treeData and de
           class="ant-tree-switcher ant-tree-switcher_open"
         >
           <i
-            aria-label="icon: caret-down"
+            aria-label="图标: caret-down"
             class="anticon anticon-caret-down ant-tree-switcher-icon"
           >
             <svg
@@ -106,7 +106,7 @@ exports[`Directory Tree DirectoryTree should expend all when use treeData and de
             class="ant-tree-iconEle ant-tree-icon__customize"
           >
             <i
-              aria-label="icon: folder-open"
+              aria-label="图标: folder-open"
               class="anticon anticon-folder-open"
             >
               <svg
@@ -151,7 +151,7 @@ exports[`Directory Tree DirectoryTree should expend all when use treeData and de
                 class="ant-tree-iconEle ant-tree-icon__customize"
               >
                 <i
-                  aria-label="icon: file"
+                  aria-label="图标: file"
                   class="anticon anticon-file"
                 >
                   <svg

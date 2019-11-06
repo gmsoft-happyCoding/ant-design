@@ -556,7 +556,7 @@ exports[`renders ./components/avatar/demo/type.md correctly 1`] = `
     class="ant-avatar ant-avatar-circle ant-avatar-icon"
   >
     <i
-      aria-label="icon: user"
+      aria-label="图标: user"
       class="anticon anticon-user"
     >
       <svg

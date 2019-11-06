@@ -121,10 +121,10 @@ exports[`Table.sorter should support defaultOrder in Column 1`] = `
                         >
                           <div
                             class="ant-table-column-sorter-inner ant-table-column-sorter-inner-full"
-                            title="Sort"
+                            title="排序"
                           >
                             <i
-                              aria-label="icon: caret-up"
+                              aria-label="图标: caret-up"
                               class="anticon anticon-caret-up ant-table-column-sorter-up on"
                             >
                               <svg
@@ -143,7 +143,7 @@ exports[`Table.sorter should support defaultOrder in Column 1`] = `
                               </svg>
                             </i>
                             <i
-                              aria-label="icon: caret-down"
+                              aria-label="图标: caret-down"
                               class="anticon anticon-caret-down ant-table-column-sorter-down off"
                             >
                               <svg
@@ -193,13 +193,13 @@ exports[`Table.sorter should support defaultOrder in Column 1`] = `
         <li
           aria-disabled="true"
           class="ant-pagination-disabled ant-pagination-prev"
-          title="Previous Page"
+          title="上一页"
         >
           <a
             class="ant-pagination-item-link"
           >
             <i
-              aria-label="icon: left"
+              aria-label="图标: left"
               class="anticon anticon-left"
             >
               <svg
@@ -231,13 +231,13 @@ exports[`Table.sorter should support defaultOrder in Column 1`] = `
         <li
           aria-disabled="true"
           class="ant-pagination-disabled ant-pagination-next"
-          title="Next Page"
+          title="下一页"
         >
           <a
             class="ant-pagination-item-link"
           >
             <i
-              aria-label="icon: right"
+              aria-label="图标: right"
               class="anticon anticon-right"
             >
               <svg

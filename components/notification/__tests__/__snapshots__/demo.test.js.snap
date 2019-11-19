@@ -51,7 +51,7 @@ exports[`renders ./components/notification/demo/placement.md correctly 1`] = `
     type="button"
   >
     <i
-      aria-label="icon: radius-upleft"
+      aria-label="图标: radius-upleft"
       class="anticon anticon-radius-upleft"
     >
       <svg
@@ -78,7 +78,7 @@ exports[`renders ./components/notification/demo/placement.md correctly 1`] = `
     type="button"
   >
     <i
-      aria-label="icon: radius-upright"
+      aria-label="图标: radius-upright"
       class="anticon anticon-radius-upright"
     >
       <svg
@@ -109,7 +109,7 @@ exports[`renders ./components/notification/demo/placement.md correctly 1`] = `
     type="button"
   >
     <i
-      aria-label="icon: radius-bottomleft"
+      aria-label="图标: radius-bottomleft"
       class="anticon anticon-radius-bottomleft"
     >
       <svg
@@ -136,7 +136,7 @@ exports[`renders ./components/notification/demo/placement.md correctly 1`] = `
     type="button"
   >
     <i
-      aria-label="icon: radius-bottomright"
+      aria-label="图标: radius-bottomright"
       class="anticon anticon-radius-bottomright"
     >
       <svg

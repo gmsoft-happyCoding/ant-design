@@ -39,7 +39,7 @@ exports[`Upload List handle error 1`] = `
           >
             <span>
               <i
-                aria-label="icon: paper-clip"
+                aria-label="图标: paper-clip"
                 class="anticon anticon-paper-clip"
               >
                 <svg
@@ -67,13 +67,13 @@ exports[`Upload List handle error 1`] = `
                 class="ant-upload-list-item-card-actions "
               >
                 <a
-                  title="Remove file"
+                  title="删除文件"
                 >
                   <i
-                    aria-label="icon: delete"
+                    aria-label="图标: delete"
                     class="anticon anticon-delete"
                     tabindex="-1"
-                    title="Remove file"
+                    title="删除文件"
                   >
                     <svg
                       aria-hidden="true"
@@ -141,7 +141,7 @@ exports[`Upload List should be uploading when upload a file 1`] = `
             >
               <span>
                 <i
-                  aria-label="icon: loading"
+                  aria-label="图标: loading"
                   class="anticon anticon-loading"
                 >
                   <svg
@@ -169,13 +169,13 @@ exports[`Upload List should be uploading when upload a file 1`] = `
                   class="ant-upload-list-item-card-actions "
                 >
                   <a
-                    title="Remove file"
+                    title="删除文件"
                   >
                     <i
-                      aria-label="icon: delete"
+                      aria-label="图标: delete"
                       class="anticon anticon-delete"
                       tabindex="-1"
-                      title="Remove file"
+                      title="删除文件"
                     >
                       <svg
                         aria-hidden="true"
@@ -266,7 +266,7 @@ exports[`Upload List should be uploading when upload a file 2`] = `
             >
               <span>
                 <i
-                  aria-label="icon: paper-clip"
+                  aria-label="图标: paper-clip"
                   class="anticon anticon-paper-clip"
                 >
                   <svg
@@ -294,13 +294,13 @@ exports[`Upload List should be uploading when upload a file 2`] = `
                   class="ant-upload-list-item-card-actions "
                 >
                   <a
-                    title="Download file"
+                    title="下载文件"
                   >
                     <i
-                      aria-label="icon: download"
+                      aria-label="图标: download"
                       class="anticon anticon-download"
                       tabindex="-1"
-                      title="Download file"
+                      title="下载文件"
                     >
                       <svg
                         aria-hidden="true"
@@ -319,13 +319,13 @@ exports[`Upload List should be uploading when upload a file 2`] = `
                     </i>
                   </a>
                   <a
-                    title="Remove file"
+                    title="删除文件"
                   >
                     <i
-                      aria-label="icon: delete"
+                      aria-label="图标: delete"
                       class="anticon anticon-delete"
                       tabindex="-1"
-                      title="Remove file"
+                      title="删除文件"
                     >
                       <svg
                         aria-hidden="true"
@@ -420,7 +420,7 @@ exports[`Upload List should non-image format file preview 1`] = `
                   target="_blank"
                 >
                   <i
-                    aria-label="icon: file"
+                    aria-label="图标: file"
                     class="anticon anticon-file ant-upload-list-item-icon"
                   >
                     <svg
@@ -457,13 +457,13 @@ exports[`Upload List should non-image format file preview 1`] = `
                   class="ant-upload-list-item-card-actions picture"
                 >
                   <a
-                    title="Download file"
+                    title="下载文件"
                   >
                     <i
-                      aria-label="icon: download"
+                      aria-label="图标: download"
                       class="anticon anticon-download"
                       tabindex="-1"
-                      title="Download file"
+                      title="下载文件"
                     >
                       <svg
                         aria-hidden="true"
@@ -482,13 +482,13 @@ exports[`Upload List should non-image format file preview 1`] = `
                     </i>
                   </a>
                   <a
-                    title="Remove file"
+                    title="删除文件"
                   >
                     <i
-                      aria-label="icon: delete"
+                      aria-label="图标: delete"
                       class="anticon anticon-delete"
                       tabindex="-1"
-                      title="Remove file"
+                      title="删除文件"
                     >
                       <svg
                         aria-hidden="true"
@@ -548,13 +548,13 @@ exports[`Upload List should non-image format file preview 1`] = `
                   class="ant-upload-list-item-card-actions picture"
                 >
                   <a
-                    title="Download file"
+                    title="下载文件"
                   >
                     <i
-                      aria-label="icon: download"
+                      aria-label="图标: download"
                       class="anticon anticon-download"
                       tabindex="-1"
-                      title="Download file"
+                      title="下载文件"
                     >
                       <svg
                         aria-hidden="true"
@@ -573,13 +573,13 @@ exports[`Upload List should non-image format file preview 1`] = `
                     </i>
                   </a>
                   <a
-                    title="Remove file"
+                    title="删除文件"
                   >
                     <i
-                      aria-label="icon: delete"
+                      aria-label="图标: delete"
                       class="anticon anticon-delete"
                       tabindex="-1"
-                      title="Remove file"
+                      title="删除文件"
                     >
                       <svg
                         aria-hidden="true"
@@ -621,7 +621,7 @@ exports[`Upload List should non-image format file preview 1`] = `
                   target="_blank"
                 >
                   <i
-                    aria-label="icon: file"
+                    aria-label="图标: file"
                     class="anticon anticon-file ant-upload-list-item-icon"
                   >
                     <svg
@@ -658,13 +658,13 @@ exports[`Upload List should non-image format file preview 1`] = `
                   class="ant-upload-list-item-card-actions picture"
                 >
                   <a
-                    title="Download file"
+                    title="下载文件"
                   >
                     <i
-                      aria-label="icon: download"
+                      aria-label="图标: download"
                       class="anticon anticon-download"
                       tabindex="-1"
-                      title="Download file"
+                      title="下载文件"
                     >
                       <svg
                         aria-hidden="true"
@@ -683,13 +683,13 @@ exports[`Upload List should non-image format file preview 1`] = `
                     </i>
                   </a>
                   <a
-                    title="Remove file"
+                    title="删除文件"
                   >
                     <i
-                      aria-label="icon: delete"
+                      aria-label="图标: delete"
                       class="anticon anticon-delete"
                       tabindex="-1"
-                      title="Remove file"
+                      title="删除文件"
                     >
                       <svg
                         aria-hidden="true"
@@ -731,7 +731,7 @@ exports[`Upload List should non-image format file preview 1`] = `
                   target="_blank"
                 >
                   <i
-                    aria-label="icon: file"
+                    aria-label="图标: file"
                     class="anticon anticon-file ant-upload-list-item-icon"
                   >
                     <svg
@@ -768,13 +768,13 @@ exports[`Upload List should non-image format file preview 1`] = `
                   class="ant-upload-list-item-card-actions picture"
                 >
                   <a
-                    title="Download file"
+                    title="下载文件"
                   >
                     <i
-                      aria-label="icon: download"
+                      aria-label="图标: download"
                       class="anticon anticon-download"
                       tabindex="-1"
-                      title="Download file"
+                      title="下载文件"
                     >
                       <svg
                         aria-hidden="true"
@@ -793,13 +793,13 @@ exports[`Upload List should non-image format file preview 1`] = `
                     </i>
                   </a>
                   <a
-                    title="Remove file"
+                    title="删除文件"
                   >
                     <i
-                      aria-label="icon: delete"
+                      aria-label="图标: delete"
                       class="anticon anticon-delete"
                       tabindex="-1"
-                      title="Remove file"
+                      title="删除文件"
                     >
                       <svg
                         aria-hidden="true"
@@ -859,13 +859,13 @@ exports[`Upload List should non-image format file preview 1`] = `
                   class="ant-upload-list-item-card-actions picture"
                 >
                   <a
-                    title="Download file"
+                    title="下载文件"
                   >
                     <i
-                      aria-label="icon: download"
+                      aria-label="图标: download"
                       class="anticon anticon-download"
                       tabindex="-1"
-                      title="Download file"
+                      title="下载文件"
                     >
                       <svg
                         aria-hidden="true"
@@ -884,13 +884,13 @@ exports[`Upload List should non-image format file preview 1`] = `
                     </i>
                   </a>
                   <a
-                    title="Remove file"
+                    title="删除文件"
                   >
                     <i
-                      aria-label="icon: delete"
+                      aria-label="图标: delete"
                       class="anticon anticon-delete"
                       tabindex="-1"
-                      title="Remove file"
+                      title="删除文件"
                     >
                       <svg
                         aria-hidden="true"
@@ -950,13 +950,13 @@ exports[`Upload List should non-image format file preview 1`] = `
                   class="ant-upload-list-item-card-actions picture"
                 >
                   <a
-                    title="Download file"
+                    title="下载文件"
                   >
                     <i
-                      aria-label="icon: download"
+                      aria-label="图标: download"
                       class="anticon anticon-download"
                       tabindex="-1"
-                      title="Download file"
+                      title="下载文件"
                     >
                       <svg
                         aria-hidden="true"
@@ -975,13 +975,13 @@ exports[`Upload List should non-image format file preview 1`] = `
                     </i>
                   </a>
                   <a
-                    title="Remove file"
+                    title="删除文件"
                   >
                     <i
-                      aria-label="icon: delete"
+                      aria-label="图标: delete"
                       class="anticon anticon-delete"
                       tabindex="-1"
-                      title="Remove file"
+                      title="删除文件"
                     >
                       <svg
                         aria-hidden="true"
@@ -1041,13 +1041,13 @@ exports[`Upload List should non-image format file preview 1`] = `
                   class="ant-upload-list-item-card-actions picture"
                 >
                   <a
-                    title="Download file"
+                    title="下载文件"
                   >
                     <i
-                      aria-label="icon: download"
+                      aria-label="图标: download"
                       class="anticon anticon-download"
                       tabindex="-1"
-                      title="Download file"
+                      title="下载文件"
                     >
                       <svg
                         aria-hidden="true"
@@ -1066,13 +1066,13 @@ exports[`Upload List should non-image format file preview 1`] = `
                     </i>
                   </a>
                   <a
-                    title="Remove file"
+                    title="删除文件"
                   >
                     <i
-                      aria-label="icon: delete"
+                      aria-label="图标: delete"
                       class="anticon anticon-delete"
                       tabindex="-1"
-                      title="Remove file"
+                      title="删除文件"
                     >
                       <svg
                         aria-hidden="true"
@@ -1132,13 +1132,13 @@ exports[`Upload List should non-image format file preview 1`] = `
                   class="ant-upload-list-item-card-actions picture"
                 >
                   <a
-                    title="Download file"
+                    title="下载文件"
                   >
                     <i
-                      aria-label="icon: download"
+                      aria-label="图标: download"
                       class="anticon anticon-download"
                       tabindex="-1"
-                      title="Download file"
+                      title="下载文件"
                     >
                       <svg
                         aria-hidden="true"
@@ -1157,13 +1157,13 @@ exports[`Upload List should non-image format file preview 1`] = `
                     </i>
                   </a>
                   <a
-                    title="Remove file"
+                    title="删除文件"
                   >
                     <i
-                      aria-label="icon: delete"
+                      aria-label="图标: delete"
                       class="anticon anticon-delete"
                       tabindex="-1"
-                      title="Remove file"
+                      title="删除文件"
                     >
                       <svg
                         aria-hidden="true"
@@ -1223,13 +1223,13 @@ exports[`Upload List should non-image format file preview 1`] = `
                   class="ant-upload-list-item-card-actions picture"
                 >
                   <a
-                    title="Download file"
+                    title="下载文件"
                   >
                     <i
-                      aria-label="icon: download"
+                      aria-label="图标: download"
                       class="anticon anticon-download"
                       tabindex="-1"
-                      title="Download file"
+                      title="下载文件"
                     >
                       <svg
                         aria-hidden="true"
@@ -1248,13 +1248,13 @@ exports[`Upload List should non-image format file preview 1`] = `
                     </i>
                   </a>
                   <a
-                    title="Remove file"
+                    title="删除文件"
                   >
                     <i
-                      aria-label="icon: delete"
+                      aria-label="图标: delete"
                       class="anticon anticon-delete"
                       tabindex="-1"
-                      title="Remove file"
+                      title="删除文件"
                     >
                       <svg
                         aria-hidden="true"
@@ -1314,13 +1314,13 @@ exports[`Upload List should non-image format file preview 1`] = `
                   class="ant-upload-list-item-card-actions picture"
                 >
                   <a
-                    title="Download file"
+                    title="下载文件"
                   >
                     <i
-                      aria-label="icon: download"
+                      aria-label="图标: download"
                       class="anticon anticon-download"
                       tabindex="-1"
-                      title="Download file"
+                      title="下载文件"
                     >
                       <svg
                         aria-hidden="true"
@@ -1339,13 +1339,13 @@ exports[`Upload List should non-image format file preview 1`] = `
                     </i>
                   </a>
                   <a
-                    title="Remove file"
+                    title="删除文件"
                   >
                     <i
-                      aria-label="icon: delete"
+                      aria-label="图标: delete"
                       class="anticon anticon-delete"
                       tabindex="-1"
-                      title="Remove file"
+                      title="删除文件"
                     >
                       <svg
                         aria-hidden="true"
@@ -1479,13 +1479,13 @@ exports[`Upload List should support showRemoveIcon and showPreviewIcon 1`] = `
                   class="ant-upload-list-item-card-actions picture"
                 >
                   <a
-                    title="Download file"
+                    title="下载文件"
                   >
                     <i
-                      aria-label="icon: download"
+                      aria-label="图标: download"
                       class="anticon anticon-download"
                       tabindex="-1"
-                      title="Download file"
+                      title="下载文件"
                     >
                       <svg
                         aria-hidden="true"

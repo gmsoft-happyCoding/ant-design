@@ -7407,14 +7407,14 @@ exports[`ConfigProvider components InputNumber configProvider 1`] = `
     </span>
   </div>
   <div
-    aria-valuemin="-9007199254740991"
     class="config-input-number-input-wrap"
-    role="spinbutton"
   >
     <input
+      aria-valuemin="-9007199254740991"
       autocomplete="off"
       class="config-input-number-input"
       min="-9007199254740991"
+      role="spinbutton"
       step="1"
       value=""
     />
@@ -7485,14 +7485,14 @@ exports[`ConfigProvider components InputNumber normal 1`] = `
     </span>
   </div>
   <div
-    aria-valuemin="-9007199254740991"
     class="ant-input-number-input-wrap"
-    role="spinbutton"
   >
     <input
+      aria-valuemin="-9007199254740991"
       autocomplete="off"
       class="ant-input-number-input"
       min="-9007199254740991"
+      role="spinbutton"
       step="1"
       value=""
     />
@@ -7563,14 +7563,14 @@ exports[`ConfigProvider components InputNumber prefixCls 1`] = `
     </span>
   </div>
   <div
-    aria-valuemin="-9007199254740991"
     class="prefix-InputNumber-input-wrap"
-    role="spinbutton"
   >
     <input
+      aria-valuemin="-9007199254740991"
       autocomplete="off"
       class="prefix-InputNumber-input"
       min="-9007199254740991"
+      role="spinbutton"
       step="1"
       value=""
     />
@@ -17379,7 +17379,7 @@ exports[`ConfigProvider components Upload configProvider 1`] = `
             >
               <span>
                 <i
-                  aria-label="icon: paper-clip"
+                  aria-label="图标: paper-clip"
                   class="anticon anticon-paper-clip"
                 >
                   <svg
@@ -17407,13 +17407,13 @@ exports[`ConfigProvider components Upload configProvider 1`] = `
                   class="config-upload-list-item-card-actions "
                 >
                   <a
-                    title="Download file"
+                    title="下载文件"
                   >
                     <i
-                      aria-label="icon: download"
+                      aria-label="图标: download"
                       class="anticon anticon-download"
                       tabindex="-1"
-                      title="Download file"
+                      title="下载文件"
                     >
                       <svg
                         aria-hidden="true"
@@ -17432,13 +17432,13 @@ exports[`ConfigProvider components Upload configProvider 1`] = `
                     </i>
                   </a>
                   <a
-                    title="Remove file"
+                    title="删除文件"
                   >
                     <i
-                      aria-label="icon: delete"
+                      aria-label="图标: delete"
                       class="anticon anticon-delete"
                       tabindex="-1"
-                      title="Remove file"
+                      title="删除文件"
                     >
                       <svg
                         aria-hidden="true"
@@ -17488,7 +17488,7 @@ exports[`ConfigProvider components Upload normal 1`] = `
             >
               <span>
                 <i
-                  aria-label="icon: paper-clip"
+                  aria-label="图标: paper-clip"
                   class="anticon anticon-paper-clip"
                 >
                   <svg
@@ -17516,13 +17516,13 @@ exports[`ConfigProvider components Upload normal 1`] = `
                   class="ant-upload-list-item-card-actions "
                 >
                   <a
-                    title="Download file"
+                    title="下载文件"
                   >
                     <i
-                      aria-label="icon: download"
+                      aria-label="图标: download"
                       class="anticon anticon-download"
                       tabindex="-1"
-                      title="Download file"
+                      title="下载文件"
                     >
                       <svg
                         aria-hidden="true"
@@ -17541,13 +17541,13 @@ exports[`ConfigProvider components Upload normal 1`] = `
                     </i>
                   </a>
                   <a
-                    title="Remove file"
+                    title="删除文件"
                   >
                     <i
-                      aria-label="icon: delete"
+                      aria-label="图标: delete"
                       class="anticon anticon-delete"
                       tabindex="-1"
-                      title="Remove file"
+                      title="删除文件"
                     >
                       <svg
                         aria-hidden="true"
@@ -17597,7 +17597,7 @@ exports[`ConfigProvider components Upload prefixCls 1`] = `
             >
               <span>
                 <i
-                  aria-label="icon: paper-clip"
+                  aria-label="图标: paper-clip"
                   class="anticon anticon-paper-clip"
                 >
                   <svg
@@ -17625,13 +17625,13 @@ exports[`ConfigProvider components Upload prefixCls 1`] = `
                   class="ant-upload-list-item-card-actions "
                 >
                   <a
-                    title="Download file"
+                    title="下载文件"
                   >
                     <i
-                      aria-label="icon: download"
+                      aria-label="图标: download"
                       class="anticon anticon-download"
                       tabindex="-1"
-                      title="Download file"
+                      title="下载文件"
                     >
                       <svg
                         aria-hidden="true"
@@ -17650,13 +17650,13 @@ exports[`ConfigProvider components Upload prefixCls 1`] = `
                     </i>
                   </a>
                   <a
-                    title="Remove file"
+                    title="删除文件"
                   >
                     <i
-                      aria-label="icon: delete"
+                      aria-label="图标: delete"
                       class="anticon anticon-delete"
                       tabindex="-1"
-                      title="Remove file"
+                      title="删除文件"
                     >
                       <svg
                         aria-hidden="true"

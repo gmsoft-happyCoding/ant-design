@@ -15,6 +15,38 @@ timeline: true
 
 ---
 
+## 3.25.2
+
+`2019-11-17`
+
+- 🐞 修复 Upload List 上传错误时没有鼠标悬浮提示的问题。[#19689](https://github.com/ant-design/ant-design/pull/19689) [@qq645381995](https://github.com/qq645381995)
+- 💄 修复 Transfer 输入框内容会与清除按钮重叠的问题。[#19693](https://github.com/ant-design/ant-design/pull/19693) [@Abdullah700](https://github.com/Abdullah700)
+- 🇳🇱 更新 `NL-nl` 国际化。[#19734](https://github.com/ant-design/ant-design/pull/19734) [@hoest](https://github.com/hoest)
+- TypeScript
+  - 🐞 修复 Table FilterDropdownProps 定义。[#19701](https://github.com/ant-design/ant-design/pull/19701) [@DeanVanNiekerk](https://github.com/DeanVanNiekerk)
+  - 🛠 Slider 添加 `reverse` 定义。[#19713](https://github.com/ant-design/ant-design/pull/19713) [@jacklee814](https://github.com/jacklee814)
+  - 🐞 更新 Table `filteredValue` 定义。[#19722](https://github.com/ant-design/ant-design/pull/19722) [@andelf](https://github.com/andelf)
+
+## 3.25.1
+
+`2019-11-10`
+
+- 🐞 修复定制 `@menu-icon-size` 和 `@menu-icon-size-lg` less 变量不生效的问题。[#19553](https://github.com/ant-design/ant-design/pull/19553) [@yoyo837](https://github.com/yoyo837)
+- 🐞 修复 DirectoryTree 中 `defaultExpandedAll` 在使用 `treeData` 时不生效的问题。[#19646](https://github.com/ant-design/ant-design/pull/19646)
+- 🐞 修复 Drawer 中 `placement` 属性为 top 或 bottom 时内容溢出的问题。[#19506](https://github.com/ant-design/ant-design/pull/19506) [@shaodahong](https://github.com/shaodahong)
+- 🐞 修复 Dropdown 下 Menu.ItemGroup 样式错乱的问题。 [#19578](https://github.com/ant-design/ant-design/pull/19578)
+- 🐞 修复 Dropdown 中菜单图标丢失右边距的问题。[#19635](https://github.com/ant-design/ant-design/pull/19635)
+- 🐞 修复 Form.Item 中自定义属性无法生效的问题。[#19599](https://github.com/ant-design/ant-design/pull/19599) [@yoyo837](https://github.com/yoyo837)
+- 🐞 修复 Icon 中 `extraCommonProps` 属性不生效的问题。 [#19572](https://github.com/ant-design/ant-design/pull/19572) [@yoyo837](https://github.com/yoyo837)
+- 🐞 修复 Modal.method() 中浏览器滚动条没有禁用的问题。[#19233](https://github.com/ant-design/ant-design/pull/19233) [@emersonlaurentino](https://github.com/emersonlaurentino)
+- Table
+  - 🐞 修复合并单元格和固定列同时使用时边框丢失的问题。[#19559](https://github.com/ant-design/ant-design/pull/19559)
+  - 🐞 修复 Column 设置了 `sortOrder` 属性导致死循环的问题。[#19558](https://github.com/ant-design/ant-design/pull/19558)
+  - 🐞 修复 Column 的 `defaultSortOrder` 属性不生效的问题。[#19558](https://github.com/ant-design/ant-design/pull/19558)
+- TypeScript
+  - 🐞 修复 Transfer 中 `ListStyle` 的类型定义。[#19568](https://github.com/ant-design/ant-design/pull/19568) [@lxnxbnq](https://github.com/lxnxbnq)
+  - 🐞 修复 RangePicker 中多个属性的类型定义缺失的问题。[#19421](https://github.com/ant-design/ant-design/pull/19421) [@JennieJi](https://github.com/JennieJi)
+
 ## 3.25.0
 
 `2019-11-04`

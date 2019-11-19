@@ -15,6 +15,38 @@ timeline: true
 
 ---
 
+## 3.25.2
+
+`2019-11-17`
+
+- 🐞 Fix Upload List do not have tooltip when upload failed. [#19689](https://github.com/ant-design/ant-design/pull/19689) [@qq645381995](https://github.com/qq645381995)
+- 💄 Fix Transfer search style to avoid text overlap with clear icon. [#19693](https://github.com/ant-design/ant-design/pull/19693) [@Abdullah700](https://github.com/Abdullah700)
+- 🇳🇱 Update `NL-nl` locales. [#19734](https://github.com/ant-design/ant-design/pull/19734) [@hoest](https://github.com/hoest)
+- TypeScript
+  - 🐞 Fix Table FilterDropdownProps definition. [#19701](https://github.com/ant-design/ant-design/pull/19701) [@DeanVanNiekerk](https://github.com/DeanVanNiekerk)
+  - 🛠 Slider add `reverse` definition. [#19713](https://github.com/ant-design/ant-design/pull/19713) [@jacklee814](https://github.com/jacklee814)
+  - 🐞 Update Table `filteredValue` definition. [#19722](https://github.com/ant-design/ant-design/pull/19722) [@andelf](https://github.com/andelf)
+
+## 3.25.1
+
+`2019-11-10`
+
+- 🐞 Fix less variables of `@menu-icon-size` and `@menu-icon-size-lg` not working. [#19553](https://github.com/ant-design/ant-design/pull/19553) [@yoyo837](https://github.com/yoyo837)
+- 🐞 Fix DirectoryTree `defaultExpandedAll` not working with `treeData`. [#19646](https://github.com/ant-design/ant-design/pull/19646)
+- 🐞 Fix Drawer content overflow when `placement` prop is top or bottom. [#19506](https://github.com/ant-design/ant-design/pull/19506) [@shaodahong](https://github.com/shaodahong)
+- 🐞 Fix broken Menu.ItemGroup style inside Dropdown again. [#19578](https://github.com/ant-design/ant-design/pull/19578)
+- 🐞 Fix Dropdown that menu icon `margin-right` style is missing. [#19635](https://github.com/ant-design/ant-design/pull/19635)
+- 🐞 Fix Form.Item custom props not working. [#19599](https://github.com/ant-design/ant-design/pull/19599) [@yoyo837](https://github.com/yoyo837)
+- 🐞 Fix Icon `extraCommonProps` not working properly. [#19572](https://github.com/ant-design/ant-design/pull/19572) [@yoyo837](https://github.com/yoyo837)
+- 🐞 Fix Modal.method() scrollbar not disabled. [#19233](https://github.com/ant-design/ant-design/pull/19233) [@emersonlaurentino](https://github.com/emersonlaurentino)
+- Table
+  - 🐞 Fix border missing in fixed columns. [#19559](https://github.com/ant-design/ant-design/pull/19559)
+  - 🐞 Fix Column with `sortOrder` throw error of inifinite loop. [#19558](https://github.com/ant-design/ant-design/pull/19558)
+  - 🐞 Fix Column `defaultSortOrder` not working. [#19558](https://github.com/ant-design/ant-design/pull/19558)
+- TypeScript
+  - 🐞 Fix type definition of `ListStyle` for Transfer. [#19568](https://github.com/ant-design/ant-design/pull/19568) [@lxnxbnq](https://github.com/lxnxbnq)
+  - 🐞 Fix type definition of multiple props for RangePicker. [#19421](https://github.com/ant-design/ant-design/pull/19421) [@JennieJi](https://github.com/JennieJi)
+
 ## 3.25.0
 
 `2019-11-04`

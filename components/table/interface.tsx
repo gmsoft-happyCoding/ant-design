@@ -23,7 +23,7 @@ export interface FilterDropdownProps {
   setSelectedKeys?: (selectedKeys: string[]) => void;
   selectedKeys?: React.Key[];
   confirm?: () => void;
-  clearFilters?: (selectedKeys: string[]) => void;
+  clearFilters?: () => void;
   filters?: ColumnFilterItem[];
   getPopupContainer?: (triggerNode: HTMLElement) => HTMLElement;
   visible?: boolean;
@@ -53,9 +53,9 @@ export interface ColumnProps<T> {
   colSpan?: number;
   width?: string | number;
   className?: string;
-  fixed?: boolean | (typeof ColumnFixedPlacements)[number];
+  fixed?: boolean | typeof ColumnFixedPlacements[number];
   filterIcon?: React.ReactNode | ((filtered: boolean) => React.ReactNode);
-  filteredValue?: any[];
+  filteredValue?: any[] | null;
   sortOrder?: SortOrder | boolean;
   children?: ColumnProps<T>[];
   onCellClick?: (record: T, event: Event) => void;

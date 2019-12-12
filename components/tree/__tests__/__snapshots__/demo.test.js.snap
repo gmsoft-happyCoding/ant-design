@@ -727,7 +727,7 @@ exports[`renders ./components/tree/demo/customized-icon.md correctly 1`] = `
           class="ant-tree-switcher ant-tree-switcher-noop"
         >
           <i
-            aria-label="icon: down"
+            aria-label="图标: down"
             class="anticon anticon-down ant-tree-switcher-icon"
           >
             <svg
@@ -788,7 +788,7 @@ exports[`renders ./components/tree/demo/customized-icon.md correctly 1`] = `
           class="ant-tree-switcher ant-tree-switcher-noop"
         >
           <i
-            aria-label="icon: down"
+            aria-label="图标: down"
             class="anticon anticon-down ant-tree-switcher-icon"
           >
             <svg
@@ -1550,32 +1550,18 @@ exports[`renders ./components/tree/demo/line.md correctly 1`] = `
       role="switch"
       type="button"
     >
-      <i
-        aria-label="图标: minus-square"
-        class="anticon anticon-minus-square ant-tree-switcher-line-icon"
-      >
-        <svg
-          aria-hidden="true"
-          class=""
-          data-icon="minus-square"
-          fill="currentColor"
-          focusable="false"
-          height="1em"
-          viewBox="64 64 896 896"
-          width="1em"
-        >
-          <path
-            d="M328 544h368c4.4 0 8-3.6 8-8v-48c0-4.4-3.6-8-8-8H328c-4.4 0-8 3.6-8 8v48c0 4.4 3.6 8 8 8z"
-          />
-          <path
-            d="M880 112H144c-17.7 0-32 14.3-32 32v736c0 17.7 14.3 32 32 32h736c17.7 0 32-14.3 32-32V144c0-17.7-14.3-32-32-32zm-40 728H184V184h656v656z"
-          />
-        </svg>
-      </i>
-    </span>
-    <span
-      class="ant-tree-node-content-wrapper ant-tree-node-content-wrapper-open"
-      title="parent 1"
+      <span
+        class="ant-switch-inner"
+      />
+    </button>
+    <br />
+    <br />
+    showIcon: 
+    <button
+      aria-checked="false"
+      class="ant-switch"
+      role="switch"
+      type="button"
     >
       <span
         class="ant-switch-inner"
@@ -1595,7 +1581,7 @@ exports[`renders ./components/tree/demo/line.md correctly 1`] = `
         class="ant-tree-switcher ant-tree-switcher_open"
       >
         <i
-          aria-label="icon: minus-square"
+          aria-label="图标: minus-square"
           class="anticon anticon-minus-square ant-tree-switcher-line-icon"
         >
           <svg
@@ -1624,28 +1610,7 @@ exports[`renders ./components/tree/demo/line.md correctly 1`] = `
         <span
           class="ant-tree-title"
         >
-          <i
-            aria-label="图标: minus-square"
-            class="anticon anticon-minus-square ant-tree-switcher-line-icon"
-          >
-            <svg
-              aria-hidden="true"
-              class=""
-              data-icon="minus-square"
-              fill="currentColor"
-              focusable="false"
-              height="1em"
-              viewBox="64 64 896 896"
-              width="1em"
-            >
-              <path
-                d="M328 544h368c4.4 0 8-3.6 8-8v-48c0-4.4-3.6-8-8-8H328c-4.4 0-8 3.6-8 8v48c0 4.4 3.6 8 8 8z"
-              />
-              <path
-                d="M880 112H144c-17.7 0-32 14.3-32 32v736c0 17.7 14.3 32 32 32h736c17.7 0 32-14.3 32-32V144c0-17.7-14.3-32-32-32zm-40 728H184V184h656v656z"
-              />
-            </svg>
-          </i>
+          parent 1
         </span>
       </span>
       <ul
@@ -1661,7 +1626,7 @@ exports[`renders ./components/tree/demo/line.md correctly 1`] = `
             class="ant-tree-switcher ant-tree-switcher_open"
           >
             <i
-              aria-label="icon: minus-square"
+              aria-label="图标: minus-square"
               class="anticon anticon-minus-square ant-tree-switcher-line-icon"
             >
               <svg
@@ -1690,25 +1655,7 @@ exports[`renders ./components/tree/demo/line.md correctly 1`] = `
             <span
               class="ant-tree-title"
             >
-              <i
-                aria-label="图标: file"
-                class="anticon anticon-file ant-tree-switcher-line-icon"
-              >
-                <svg
-                  aria-hidden="true"
-                  class=""
-                  data-icon="file"
-                  fill="currentColor"
-                  focusable="false"
-                  height="1em"
-                  viewBox="64 64 896 896"
-                  width="1em"
-                >
-                  <path
-                    d="M854.6 288.6L639.4 73.4c-6-6-14.1-9.4-22.6-9.4H192c-17.7 0-32 14.3-32 32v832c0 17.7 14.3 32 32 32h640c17.7 0 32-14.3 32-32V311.3c0-8.5-3.4-16.7-9.4-22.7zM790.2 326H602V137.8L790.2 326zm1.8 562H232V136h302v216a42 42 0 0 0 42 42h216v494z"
-                  />
-                </svg>
-              </i>
+              parent 1-0
             </span>
           </span>
           <ul
@@ -1724,7 +1671,7 @@ exports[`renders ./components/tree/demo/line.md correctly 1`] = `
                 class="ant-tree-switcher ant-tree-switcher-noop"
               >
                 <i
-                  aria-label="icon: file"
+                  aria-label="图标: file"
                   class="anticon anticon-file ant-tree-switcher-line-icon"
                 >
                   <svg
@@ -1743,18 +1690,9 @@ exports[`renders ./components/tree/demo/line.md correctly 1`] = `
                   </svg>
                 </i>
               </span>
-            </span>
-          </li>
-          <li
-            class="ant-tree-treenode-switcher-close"
-            role="treeitem"
-          >
-            <span
-              class="ant-tree-switcher ant-tree-switcher-noop"
-            >
-              <i
-                aria-label="图标: file"
-                class="anticon anticon-file ant-tree-switcher-line-icon"
+              <span
+                class="ant-tree-node-content-wrapper ant-tree-node-content-wrapper-normal"
+                title="leaf"
               >
                 <span
                   class="ant-tree-title"
@@ -1771,7 +1709,7 @@ exports[`renders ./components/tree/demo/line.md correctly 1`] = `
                 class="ant-tree-switcher ant-tree-switcher-noop"
               >
                 <i
-                  aria-label="icon: file"
+                  aria-label="图标: file"
                   class="anticon anticon-file ant-tree-switcher-line-icon"
                 >
                   <svg
@@ -1790,18 +1728,9 @@ exports[`renders ./components/tree/demo/line.md correctly 1`] = `
                   </svg>
                 </i>
               </span>
-            </span>
-          </li>
-          <li
-            class="ant-tree-treenode-switcher-close"
-            role="treeitem"
-          >
-            <span
-              class="ant-tree-switcher ant-tree-switcher-noop"
-            >
-              <i
-                aria-label="图标: file"
-                class="anticon anticon-file ant-tree-switcher-line-icon"
+              <span
+                class="ant-tree-node-content-wrapper ant-tree-node-content-wrapper-normal"
+                title="leaf"
               >
                 <span
                   class="ant-tree-title"
@@ -1818,7 +1747,7 @@ exports[`renders ./components/tree/demo/line.md correctly 1`] = `
                 class="ant-tree-switcher ant-tree-switcher-noop"
               >
                 <i
-                  aria-label="icon: file"
+                  aria-label="图标: file"
                   class="anticon anticon-file ant-tree-switcher-line-icon"
                 >
                   <svg
@@ -1854,12 +1783,11 @@ exports[`renders ./components/tree/demo/line.md correctly 1`] = `
           class="ant-tree-treenode-switcher-open"
           role="treeitem"
         >
-          <i
-            aria-label="图标: plus-square"
-            class="anticon anticon-plus-square ant-tree-switcher-line-icon"
+          <span
+            class="ant-tree-switcher ant-tree-switcher_open"
           >
             <i
-              aria-label="icon: minus-square"
+              aria-label="图标: minus-square"
               class="anticon anticon-minus-square ant-tree-switcher-line-icon"
             >
               <svg
@@ -1891,18 +1819,10 @@ exports[`renders ./components/tree/demo/line.md correctly 1`] = `
               parent 1-1
             </span>
           </span>
-        </span>
-      </li>
-      <li
-        class="ant-tree-treenode-switcher-close"
-        role="treeitem"
-      >
-        <span
-          class="ant-tree-switcher ant-tree-switcher_close"
-        >
-          <i
-            aria-label="图标: plus-square"
-            class="anticon anticon-plus-square ant-tree-switcher-line-icon"
+          <ul
+            class="ant-tree-child-tree ant-tree-child-tree-open"
+            data-expanded="true"
+            role="group"
           >
             <li
               class="ant-tree-treenode-switcher-close"
@@ -1912,7 +1832,7 @@ exports[`renders ./components/tree/demo/line.md correctly 1`] = `
                 class="ant-tree-switcher ant-tree-switcher-noop"
               >
                 <i
-                  aria-label="icon: file"
+                  aria-label="图标: file"
                   class="anticon anticon-file ant-tree-switcher-line-icon"
                 >
                   <svg
@@ -1952,7 +1872,7 @@ exports[`renders ./components/tree/demo/line.md correctly 1`] = `
             class="ant-tree-switcher ant-tree-switcher_open"
           >
             <i
-              aria-label="icon: minus-square"
+              aria-label="图标: minus-square"
               class="anticon anticon-minus-square ant-tree-switcher-line-icon"
             >
               <svg
@@ -1997,7 +1917,7 @@ exports[`renders ./components/tree/demo/line.md correctly 1`] = `
                 class="ant-tree-switcher ant-tree-switcher-noop"
               >
                 <i
-                  aria-label="icon: file"
+                  aria-label="图标: file"
                   class="anticon anticon-file ant-tree-switcher-line-icon"
                 >
                   <svg
@@ -2035,7 +1955,7 @@ exports[`renders ./components/tree/demo/line.md correctly 1`] = `
                 class="ant-tree-switcher ant-tree-switcher-noop"
               >
                 <i
-                  aria-label="icon: form"
+                  aria-label="图标: form"
                   class="anticon anticon-form"
                 >
                   <svg
@@ -2329,8 +2249,8 @@ exports[`renders ./components/tree/demo/switcher-icon.md correctly 1`] = `
               class="ant-tree-switcher ant-tree-switcher-noop"
             >
               <i
-                aria-label="图标: file"
-                class="anticon anticon-file ant-tree-switcher-line-icon"
+                aria-label="图标: down"
+                class="anticon anticon-down ant-tree-switcher-icon"
               >
                 <svg
                   aria-hidden="true"
@@ -2367,8 +2287,8 @@ exports[`renders ./components/tree/demo/switcher-icon.md correctly 1`] = `
               class="ant-tree-switcher ant-tree-switcher-noop"
             >
               <i
-                aria-label="图标: file"
-                class="anticon anticon-file ant-tree-switcher-line-icon"
+                aria-label="图标: down"
+                class="anticon anticon-down ant-tree-switcher-icon"
               >
                 <svg
                   aria-hidden="true"
@@ -2405,8 +2325,8 @@ exports[`renders ./components/tree/demo/switcher-icon.md correctly 1`] = `
               class="ant-tree-switcher ant-tree-switcher-noop"
             >
               <i
-                aria-label="图标: file"
-                class="anticon anticon-file ant-tree-switcher-line-icon"
+                aria-label="图标: down"
+                class="anticon anticon-down ant-tree-switcher-icon"
               >
                 <svg
                   aria-hidden="true"

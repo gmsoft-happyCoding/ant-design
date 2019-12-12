@@ -28,7 +28,7 @@ type TransferRender = (item: TransferItem) => RenderResult;
 
 export interface TransferItem {
   key: string;
-  title: string;
+  title?: string;
   description?: string;
   disabled?: boolean;
   [name: string]: any;
@@ -247,7 +247,11 @@ class Transfer extends React.Component<TransferProps, any> {
       'Transfer',
       '`handleSelectAll` will be removed, please use `onSelectAll` instead.',
     );
-    this.onItemSelectAll(direction, filteredDataSource.map(({ key }) => key), !checkAll);
+    this.onItemSelectAll(
+      direction,
+      filteredDataSource.map(({ key }) => key),
+      !checkAll,
+    );
   };
 
   // [Legacy] Old prop `body` pass origin check as arg. It's confusing.

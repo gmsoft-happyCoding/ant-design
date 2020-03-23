@@ -4608,7 +4608,8 @@ exports[`renders ./components/form/demo/validate-static.md correctly 1`] = `
           >
             <input
               class="ant-time-picker-input"
-              placeholder="Select time"
+              id=""
+              placeholder="请选择时间"
               type="text"
               value=""
             />
@@ -5172,7 +5173,7 @@ exports[`renders ./components/form/demo/validate-static.md correctly 1`] = `
             class="ant-form-item-children-icon"
           >
             <i
-              aria-label="icon: check-circle"
+              aria-label="图标: check-circle"
               class="anticon anticon-check-circle"
             >
               <svg
@@ -5231,7 +5232,7 @@ exports[`renders ./components/form/demo/validate-static.md correctly 1`] = `
               class="ant-input-suffix"
             >
               <i
-                aria-label="icon: eye-invisible"
+                aria-label="图标: eye-invisible"
                 class="anticon anticon-eye-invisible ant-input-password-icon"
                 tabindex="-1"
               >
@@ -5259,7 +5260,7 @@ exports[`renders ./components/form/demo/validate-static.md correctly 1`] = `
             class="ant-form-item-children-icon"
           >
             <i
-              aria-label="icon: exclamation-circle"
+              aria-label="图标: exclamation-circle"
               class="anticon anticon-exclamation-circle"
             >
               <svg
@@ -5318,7 +5319,7 @@ exports[`renders ./components/form/demo/validate-static.md correctly 1`] = `
               class="ant-input-suffix"
             >
               <i
-                aria-label="icon: eye-invisible"
+                aria-label="图标: eye-invisible"
                 class="anticon anticon-eye-invisible ant-input-password-icon"
                 tabindex="-1"
               >
@@ -5346,7 +5347,7 @@ exports[`renders ./components/form/demo/validate-static.md correctly 1`] = `
             class="ant-form-item-children-icon"
           >
             <i
-              aria-label="icon: close-circle"
+              aria-label="图标: close-circle"
               class="anticon anticon-close-circle"
             >
               <svg

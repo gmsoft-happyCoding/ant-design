@@ -2209,7 +2209,7 @@ exports[`renders ./components/tree/demo/switcher-icon.md correctly 1`] = `
               class="ant-tree-switcher ant-tree-switcher-noop"
             >
               <i
-                aria-label="icon: file"
+                aria-label="图标: file"
                 class="anticon anticon-file ant-tree-switcher-line-icon"
               >
                 <svg
@@ -2247,7 +2247,7 @@ exports[`renders ./components/tree/demo/switcher-icon.md correctly 1`] = `
               class="ant-tree-switcher ant-tree-switcher-noop"
             >
               <i
-                aria-label="icon: file"
+                aria-label="图标: file"
                 class="anticon anticon-file ant-tree-switcher-line-icon"
               >
                 <svg
@@ -2285,7 +2285,7 @@ exports[`renders ./components/tree/demo/switcher-icon.md correctly 1`] = `
               class="ant-tree-switcher ant-tree-switcher-noop"
             >
               <i
-                aria-label="icon: file"
+                aria-label="图标: file"
                 class="anticon anticon-file ant-tree-switcher-line-icon"
               >
                 <svg

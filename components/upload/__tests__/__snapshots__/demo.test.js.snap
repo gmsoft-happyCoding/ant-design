@@ -76,7 +76,7 @@ exports[`renders ./components/upload/demo/defaultFileList.md correctly 1`] = `
                 class="ant-upload-list-item-card-actions "
               >
                 <a
-                  title="Remove file"
+                  title="删除文件"
                 >
                   <i
                     aria-label="图标: delete"
@@ -149,7 +149,7 @@ exports[`renders ./components/upload/demo/defaultFileList.md correctly 1`] = `
                 class="ant-upload-list-item-card-actions "
               >
                 <a
-                  title="Remove file"
+                  title="删除文件"
                 >
                   <i
                     aria-label="图标: delete"
@@ -331,7 +331,7 @@ exports[`renders ./components/upload/demo/fileList.md correctly 1`] = `
                 class="ant-upload-list-item-card-actions "
               >
                 <a
-                  title="Remove file"
+                  title="删除文件"
                 >
                   <i
                     aria-label="图标: delete"
@@ -439,7 +439,7 @@ exports[`renders ./components/upload/demo/picture-card.md correctly 1`] = `
                 </i>
               </a>
               <i
-                aria-label="icon: delete"
+                aria-label="图标: delete"
                 class="anticon anticon-delete"
                 tabindex="-1"
                 title="删除文件"
@@ -527,7 +527,7 @@ exports[`renders ./components/upload/demo/picture-card.md correctly 1`] = `
                 </i>
               </a>
               <i
-                aria-label="icon: delete"
+                aria-label="图标: delete"
                 class="anticon anticon-delete"
                 tabindex="-1"
                 title="删除文件"
@@ -615,7 +615,7 @@ exports[`renders ./components/upload/demo/picture-card.md correctly 1`] = `
                 </i>
               </a>
               <i
-                aria-label="icon: delete"
+                aria-label="图标: delete"
                 class="anticon anticon-delete"
                 tabindex="-1"
                 title="删除文件"
@@ -703,7 +703,7 @@ exports[`renders ./components/upload/demo/picture-card.md correctly 1`] = `
                 </i>
               </a>
               <i
-                aria-label="icon: delete"
+                aria-label="图标: delete"
                 class="anticon anticon-delete"
                 tabindex="-1"
                 title="删除文件"
@@ -889,7 +889,7 @@ exports[`renders ./components/upload/demo/picture-style.md correctly 1`] = `
                   class="ant-upload-list-item-card-actions picture"
                 >
                   <a
-                    title="Remove file"
+                    title="删除文件"
                   >
                     <i
                       aria-label="图标: delete"
@@ -1053,7 +1053,7 @@ exports[`renders ./components/upload/demo/picture-style.md correctly 1`] = `
                   class="ant-upload-list-item-card-actions picture"
                 >
                   <a
-                    title="Remove file"
+                    title="删除文件"
                   >
                     <i
                       aria-label="图标: delete"

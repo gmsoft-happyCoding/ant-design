@@ -289,7 +289,7 @@ exports[`Upload List should be uploading when upload a file 2`] = `
                 class="ant-upload-list-item-card-actions "
               >
                 <a
-                  title="Remove file"
+                  title="删除文件"
                 >
                   <i
                     aria-label="图标: delete"
@@ -427,7 +427,7 @@ exports[`Upload List should non-image format file preview 1`] = `
                 class="ant-upload-list-item-card-actions picture"
               >
                 <a
-                  title="Remove file"
+                  title="删除文件"
                 >
                   <i
                     aria-label="图标: delete"
@@ -493,7 +493,7 @@ exports[`Upload List should non-image format file preview 1`] = `
                 class="ant-upload-list-item-card-actions picture"
               >
                 <a
-                  title="Remove file"
+                  title="删除文件"
                 >
                   <i
                     aria-label="图标: delete"
@@ -578,7 +578,7 @@ exports[`Upload List should non-image format file preview 1`] = `
                 class="ant-upload-list-item-card-actions picture"
               >
                 <a
-                  title="Remove file"
+                  title="删除文件"
                 >
                   <i
                     aria-label="图标: delete"
@@ -663,7 +663,7 @@ exports[`Upload List should non-image format file preview 1`] = `
                 class="ant-upload-list-item-card-actions picture"
               >
                 <a
-                  title="Remove file"
+                  title="删除文件"
                 >
                   <i
                     aria-label="图标: delete"
@@ -729,7 +729,7 @@ exports[`Upload List should non-image format file preview 1`] = `
                 class="ant-upload-list-item-card-actions picture"
               >
                 <a
-                  title="Remove file"
+                  title="删除文件"
                 >
                   <i
                     aria-label="图标: delete"
@@ -795,7 +795,7 @@ exports[`Upload List should non-image format file preview 1`] = `
                 class="ant-upload-list-item-card-actions picture"
               >
                 <a
-                  title="Remove file"
+                  title="删除文件"
                 >
                   <i
                     aria-label="图标: delete"
@@ -861,7 +861,7 @@ exports[`Upload List should non-image format file preview 1`] = `
                 class="ant-upload-list-item-card-actions picture"
               >
                 <a
-                  title="Remove file"
+                  title="删除文件"
                 >
                   <i
                     aria-label="图标: delete"
@@ -927,7 +927,7 @@ exports[`Upload List should non-image format file preview 1`] = `
                 class="ant-upload-list-item-card-actions picture"
               >
                 <a
-                  title="Remove file"
+                  title="删除文件"
                 >
                   <i
                     aria-label="图标: delete"
@@ -993,7 +993,7 @@ exports[`Upload List should non-image format file preview 1`] = `
                 class="ant-upload-list-item-card-actions picture"
               >
                 <a
-                  title="Remove file"
+                  title="删除文件"
                 >
                   <i
                     aria-label="图标: delete"
@@ -1059,7 +1059,7 @@ exports[`Upload List should non-image format file preview 1`] = `
                 class="ant-upload-list-item-card-actions picture"
               >
                 <a
-                  title="Remove file"
+                  title="删除文件"
                 >
                   <i
                     aria-label="图标: delete"

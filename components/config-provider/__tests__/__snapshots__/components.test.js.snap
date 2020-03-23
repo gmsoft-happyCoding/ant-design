@@ -445,152 +445,152 @@ exports[`ConfigProvider components Badge configProvider 1`] = `
         style="transition:none;-ms-transform:translateY(-1500%);-webkit-transform:translateY(-1500%);transform:translateY(-1500%)"
       >
         <p
-          class=""
+          class="config-scroll-number-only-unit"
         >
           0
         </p>
         <p
-          class=""
+          class="config-scroll-number-only-unit"
         >
           1
         </p>
         <p
-          class=""
+          class="config-scroll-number-only-unit"
         >
           2
         </p>
         <p
-          class=""
+          class="config-scroll-number-only-unit"
         >
           3
         </p>
         <p
-          class=""
+          class="config-scroll-number-only-unit"
         >
           4
         </p>
         <p
-          class=""
+          class="config-scroll-number-only-unit"
         >
           5
         </p>
         <p
-          class=""
+          class="config-scroll-number-only-unit"
         >
           6
         </p>
         <p
-          class=""
+          class="config-scroll-number-only-unit"
         >
           7
         </p>
         <p
-          class=""
+          class="config-scroll-number-only-unit"
         >
           8
         </p>
         <p
-          class=""
+          class="config-scroll-number-only-unit"
         >
           9
         </p>
         <p
-          class=""
+          class="config-scroll-number-only-unit"
         >
           0
         </p>
         <p
-          class=""
+          class="config-scroll-number-only-unit"
         >
           1
         </p>
         <p
-          class=""
+          class="config-scroll-number-only-unit"
         >
           2
         </p>
         <p
-          class=""
+          class="config-scroll-number-only-unit"
         >
           3
         </p>
         <p
-          class=""
+          class="config-scroll-number-only-unit"
         >
           4
         </p>
         <p
-          class="current"
+          class="config-scroll-number-only-unit current"
         >
           5
         </p>
         <p
-          class=""
+          class="config-scroll-number-only-unit"
         >
           6
         </p>
         <p
-          class=""
+          class="config-scroll-number-only-unit"
         >
           7
         </p>
         <p
-          class=""
+          class="config-scroll-number-only-unit"
         >
           8
         </p>
         <p
-          class=""
+          class="config-scroll-number-only-unit"
         >
           9
         </p>
         <p
-          class=""
+          class="config-scroll-number-only-unit"
         >
           0
         </p>
         <p
-          class=""
+          class="config-scroll-number-only-unit"
         >
           1
         </p>
         <p
-          class=""
+          class="config-scroll-number-only-unit"
         >
           2
         </p>
         <p
-          class=""
+          class="config-scroll-number-only-unit"
         >
           3
         </p>
         <p
-          class=""
+          class="config-scroll-number-only-unit"
         >
           4
         </p>
         <p
-          class=""
+          class="config-scroll-number-only-unit"
         >
           5
         </p>
         <p
-          class=""
+          class="config-scroll-number-only-unit"
         >
           6
         </p>
         <p
-          class=""
+          class="config-scroll-number-only-unit"
         >
           7
         </p>
         <p
-          class=""
+          class="config-scroll-number-only-unit"
         >
           8
         </p>
         <p
-          class=""
+          class="config-scroll-number-only-unit"
         >
           9
         </p>
@@ -625,152 +625,152 @@ exports[`ConfigProvider components Badge normal 1`] = `
         style="transition:none;-ms-transform:translateY(-1500%);-webkit-transform:translateY(-1500%);transform:translateY(-1500%)"
       >
         <p
-          class=""
+          class="ant-scroll-number-only-unit"
         >
           0
         </p>
         <p
-          class=""
+          class="ant-scroll-number-only-unit"
         >
           1
         </p>
         <p
-          class=""
+          class="ant-scroll-number-only-unit"
         >
           2
         </p>
         <p
-          class=""
+          class="ant-scroll-number-only-unit"
         >
           3
         </p>
         <p
-          class=""
+          class="ant-scroll-number-only-unit"
         >
           4
         </p>
         <p
-          class=""
+          class="ant-scroll-number-only-unit"
         >
           5
         </p>
         <p
-          class=""
+          class="ant-scroll-number-only-unit"
         >
           6
         </p>
         <p
-          class=""
+          class="ant-scroll-number-only-unit"
         >
           7
         </p>
         <p
-          class=""
+          class="ant-scroll-number-only-unit"
         >
           8
         </p>
         <p
-          class=""
+          class="ant-scroll-number-only-unit"
         >
           9
         </p>
         <p
-          class=""
+          class="ant-scroll-number-only-unit"
         >
           0
         </p>
         <p
-          class=""
+          class="ant-scroll-number-only-unit"
         >
           1
         </p>
         <p
-          class=""
+          class="ant-scroll-number-only-unit"
         >
           2
         </p>
         <p
-          class=""
+          class="ant-scroll-number-only-unit"
         >
           3
         </p>
         <p
-          class=""
+          class="ant-scroll-number-only-unit"
         >
           4
         </p>
         <p
-          class="current"
+          class="ant-scroll-number-only-unit current"
         >
           5
         </p>
         <p
-          class=""
+          class="ant-scroll-number-only-unit"
         >
           6
         </p>
         <p
-          class=""
+          class="ant-scroll-number-only-unit"
         >
           7
         </p>
         <p
-          class=""
+          class="ant-scroll-number-only-unit"
         >
           8
         </p>
         <p
-          class=""
+          class="ant-scroll-number-only-unit"
         >
           9
         </p>
         <p
-          class=""
+          class="ant-scroll-number-only-unit"
         >
           0
         </p>
         <p
-          class=""
+          class="ant-scroll-number-only-unit"
         >
           1
         </p>
         <p
-          class=""
+          class="ant-scroll-number-only-unit"
         >
           2
         </p>
         <p
-          class=""
+          class="ant-scroll-number-only-unit"
         >
           3
         </p>
         <p
-          class=""
+          class="ant-scroll-number-only-unit"
         >
           4
         </p>
         <p
-          class=""
+          class="ant-scroll-number-only-unit"
         >
           5
         </p>
         <p
-          class=""
+          class="ant-scroll-number-only-unit"
         >
           6
         </p>
         <p
-          class=""
+          class="ant-scroll-number-only-unit"
         >
           7
         </p>
         <p
-          class=""
+          class="ant-scroll-number-only-unit"
         >
           8
         </p>
         <p
-          class=""
+          class="ant-scroll-number-only-unit"
         >
           9
         </p>
@@ -805,152 +805,152 @@ exports[`ConfigProvider components Badge prefixCls 1`] = `
         style="transition:none;-ms-transform:translateY(-1500%);-webkit-transform:translateY(-1500%);transform:translateY(-1500%)"
       >
         <p
-          class=""
+          class="prefix-scroll-number-only-unit"
         >
           0
         </p>
         <p
-          class=""
+          class="prefix-scroll-number-only-unit"
         >
           1
         </p>
         <p
-          class=""
+          class="prefix-scroll-number-only-unit"
         >
           2
         </p>
         <p
-          class=""
+          class="prefix-scroll-number-only-unit"
         >
           3
         </p>
         <p
-          class=""
+          class="prefix-scroll-number-only-unit"
         >
           4
         </p>
         <p
-          class=""
+          class="prefix-scroll-number-only-unit"
         >
           5
         </p>
         <p
-          class=""
+          class="prefix-scroll-number-only-unit"
         >
           6
         </p>
         <p
-          class=""
+          class="prefix-scroll-number-only-unit"
         >
           7
         </p>
         <p
-          class=""
+          class="prefix-scroll-number-only-unit"
         >
           8
         </p>
         <p
-          class=""
+          class="prefix-scroll-number-only-unit"
         >
           9
         </p>
         <p
-          class=""
+          class="prefix-scroll-number-only-unit"
         >
           0
         </p>
         <p
-          class=""
+          class="prefix-scroll-number-only-unit"
         >
           1
         </p>
         <p
-          class=""
+          class="prefix-scroll-number-only-unit"
         >
           2
         </p>
         <p
-          class=""
+          class="prefix-scroll-number-only-unit"
         >
           3
         </p>
         <p
-          class=""
+          class="prefix-scroll-number-only-unit"
         >
           4
         </p>
         <p
-          class="current"
+          class="prefix-scroll-number-only-unit current"
         >
           5
         </p>
         <p
-          class=""
+          class="prefix-scroll-number-only-unit"
         >
           6
         </p>
         <p
-          class=""
+          class="prefix-scroll-number-only-unit"
         >
           7
         </p>
         <p
-          class=""
+          class="prefix-scroll-number-only-unit"
         >
           8
         </p>
         <p
-          class=""
+          class="prefix-scroll-number-only-unit"
         >
           9
         </p>
         <p
-          class=""
+          class="prefix-scroll-number-only-unit"
         >
           0
         </p>
         <p
-          class=""
+          class="prefix-scroll-number-only-unit"
         >
           1
         </p>
         <p
-          class=""
+          class="prefix-scroll-number-only-unit"
         >
           2
         </p>
         <p
-          class=""
+          class="prefix-scroll-number-only-unit"
         >
           3
         </p>
         <p
-          class=""
+          class="prefix-scroll-number-only-unit"
         >
           4
         </p>
         <p
-          class=""
+          class="prefix-scroll-number-only-unit"
         >
           5
         </p>
         <p
-          class=""
+          class="prefix-scroll-number-only-unit"
         >
           6
         </p>
         <p
-          class=""
+          class="prefix-scroll-number-only-unit"
         >
           7
         </p>
         <p
-          class=""
+          class="prefix-scroll-number-only-unit"
         >
           8
         </p>
         <p
-          class=""
+          class="prefix-scroll-number-only-unit"
         >
           9
         </p>
@@ -8169,7 +8169,7 @@ exports[`ConfigProvider components Modal configProvider 1`] = `
       >
         <div
           aria-hidden="true"
-          style="width:0;height:0;overflow:hidden"
+          style="width:0;height:0;overflow:hidden;outline:none"
           tabindex="0"
         />
         <div
@@ -8234,7 +8234,7 @@ exports[`ConfigProvider components Modal configProvider 1`] = `
         </div>
         <div
           aria-hidden="true"
-          style="width:0;height:0;overflow:hidden"
+          style="width:0;height:0;overflow:hidden;outline:none"
           tabindex="0"
         />
       </div>
@@ -8261,7 +8261,7 @@ exports[`ConfigProvider components Modal normal 1`] = `
       >
         <div
           aria-hidden="true"
-          style="width:0;height:0;overflow:hidden"
+          style="width:0;height:0;overflow:hidden;outline:none"
           tabindex="0"
         />
         <div
@@ -8326,7 +8326,7 @@ exports[`ConfigProvider components Modal normal 1`] = `
         </div>
         <div
           aria-hidden="true"
-          style="width:0;height:0;overflow:hidden"
+          style="width:0;height:0;overflow:hidden;outline:none"
           tabindex="0"
         />
       </div>
@@ -8353,7 +8353,7 @@ exports[`ConfigProvider components Modal prefixCls 1`] = `
       >
         <div
           aria-hidden="true"
-          style="width:0;height:0;overflow:hidden"
+          style="width:0;height:0;overflow:hidden;outline:none"
           tabindex="0"
         />
         <div
@@ -8418,7 +8418,7 @@ exports[`ConfigProvider components Modal prefixCls 1`] = `
         </div>
         <div
           aria-hidden="true"
-          style="width:0;height:0;overflow:hidden"
+          style="width:0;height:0;overflow:hidden;outline:none"
           tabindex="0"
         />
       </div>
@@ -8611,7 +8611,7 @@ exports[`ConfigProvider components Pagination configProvider 1`] = `
       <div
         class="config-pagination-options-quick-jumper"
       >
-        跳至
+        Go to
         <input
           type="text"
           value=""
@@ -8748,7 +8748,7 @@ exports[`ConfigProvider components Pagination configProvider 1`] = `
       <div
         class="config-pagination-options-quick-jumper"
       >
-        跳至
+        Go to
         <input
           type="text"
           value=""
@@ -8890,7 +8890,7 @@ exports[`ConfigProvider components Pagination normal 1`] = `
       <div
         class="ant-pagination-options-quick-jumper"
       >
-        跳至
+        Go to
         <input
           type="text"
           value=""
@@ -9027,7 +9027,7 @@ exports[`ConfigProvider components Pagination normal 1`] = `
       <div
         class="ant-pagination-options-quick-jumper"
       >
-        跳至
+        Go to
         <input
           type="text"
           value=""
@@ -9169,7 +9169,7 @@ exports[`ConfigProvider components Pagination prefixCls 1`] = `
       <div
         class="prefix-Pagination-options-quick-jumper"
       >
-        跳至
+        Go to
         <input
           type="text"
           value=""
@@ -9306,7 +9306,7 @@ exports[`ConfigProvider components Pagination prefixCls 1`] = `
       <div
         class="prefix-Pagination-options-quick-jumper"
       >
-        跳至
+        Go to
         <input
           type="text"
           value=""
@@ -12751,8 +12751,7 @@ Array [
   >
     <input
       class="config-time-picker-input"
-      id=""
-      placeholder="请选择时间"
+      placeholder="Select time"
       type="text"
       value=""
     />
@@ -13842,8 +13841,7 @@ Array [
   >
     <input
       class="ant-time-picker-input"
-      id=""
-      placeholder="请选择时间"
+      placeholder="Select time"
       type="text"
       value=""
     />
@@ -14933,8 +14931,7 @@ Array [
   >
     <input
       class="prefix-TimePicker-input"
-      id=""
-      placeholder="请选择时间"
+      placeholder="Select time"
       type="text"
       value=""
     />
@@ -17399,7 +17396,7 @@ exports[`ConfigProvider components Upload configProvider 1`] = `
                 </svg>
               </i>
               <span
-                class="config-upload-list-item-name config-upload-list-item-name-icon-count-2"
+                class="config-upload-list-item-name config-upload-list-item-name-icon-count-1"
                 title="xxx.png"
               >
                 xxx.png
@@ -17408,32 +17405,7 @@ exports[`ConfigProvider components Upload configProvider 1`] = `
                 class="config-upload-list-item-card-actions "
               >
                 <a
-                  title="下载文件"
-                >
-                  <i
-                    aria-label="图标: download"
-                    class="anticon anticon-download"
-                    tabindex="-1"
-                    title="下载文件"
-                  >
-                    <svg
-                      aria-hidden="true"
-                      class=""
-                      data-icon="download"
-                      fill="currentColor"
-                      focusable="false"
-                      height="1em"
-                      viewBox="64 64 896 896"
-                      width="1em"
-                    >
-                      <path
-                        d="M505.7 661a8 8 0 0 0 12.6 0l112-141.7c4.1-5.2.4-12.9-6.3-12.9h-74.1V168c0-4.4-3.6-8-8-8h-60c-4.4 0-8 3.6-8 8v338.3H400c-6.7 0-10.4 7.7-6.3 12.9l112 141.8zM878 626h-60c-4.4 0-8 3.6-8 8v154H214V634c0-4.4-3.6-8-8-8h-60c-4.4 0-8 3.6-8 8v198c0 17.7 14.3 32 32 32h684c17.7 0 32-14.3 32-32V634c0-4.4-3.6-8-8-8z"
-                      />
-                    </svg>
-                  </i>
-                </a>
-                <a
-                  title="删除文件"
+                  title="Remove file"
                 >
                   <i
                     aria-label="图标: delete"
@@ -17508,7 +17480,7 @@ exports[`ConfigProvider components Upload normal 1`] = `
                 </svg>
               </i>
               <span
-                class="ant-upload-list-item-name ant-upload-list-item-name-icon-count-2"
+                class="ant-upload-list-item-name ant-upload-list-item-name-icon-count-1"
                 title="xxx.png"
               >
                 xxx.png
@@ -17517,32 +17489,7 @@ exports[`ConfigProvider components Upload normal 1`] = `
                 class="ant-upload-list-item-card-actions "
               >
                 <a
-                  title="下载文件"
-                >
-                  <i
-                    aria-label="图标: download"
-                    class="anticon anticon-download"
-                    tabindex="-1"
-                    title="下载文件"
-                  >
-                    <svg
-                      aria-hidden="true"
-                      class=""
-                      data-icon="download"
-                      fill="currentColor"
-                      focusable="false"
-                      height="1em"
-                      viewBox="64 64 896 896"
-                      width="1em"
-                    >
-                      <path
-                        d="M505.7 661a8 8 0 0 0 12.6 0l112-141.7c4.1-5.2.4-12.9-6.3-12.9h-74.1V168c0-4.4-3.6-8-8-8h-60c-4.4 0-8 3.6-8 8v338.3H400c-6.7 0-10.4 7.7-6.3 12.9l112 141.8zM878 626h-60c-4.4 0-8 3.6-8 8v154H214V634c0-4.4-3.6-8-8-8h-60c-4.4 0-8 3.6-8 8v198c0 17.7 14.3 32 32 32h684c17.7 0 32-14.3 32-32V634c0-4.4-3.6-8-8-8z"
-                      />
-                    </svg>
-                  </i>
-                </a>
-                <a
-                  title="删除文件"
+                  title="Remove file"
                 >
                   <i
                     aria-label="图标: delete"
@@ -17617,7 +17564,7 @@ exports[`ConfigProvider components Upload prefixCls 1`] = `
                 </svg>
               </i>
               <span
-                class="ant-upload-list-item-name ant-upload-list-item-name-icon-count-2"
+                class="ant-upload-list-item-name ant-upload-list-item-name-icon-count-1"
                 title="xxx.png"
               >
                 xxx.png
@@ -17626,32 +17573,7 @@ exports[`ConfigProvider components Upload prefixCls 1`] = `
                 class="ant-upload-list-item-card-actions "
               >
                 <a
-                  title="下载文件"
-                >
-                  <i
-                    aria-label="图标: download"
-                    class="anticon anticon-download"
-                    tabindex="-1"
-                    title="下载文件"
-                  >
-                    <svg
-                      aria-hidden="true"
-                      class=""
-                      data-icon="download"
-                      fill="currentColor"
-                      focusable="false"
-                      height="1em"
-                      viewBox="64 64 896 896"
-                      width="1em"
-                    >
-                      <path
-                        d="M505.7 661a8 8 0 0 0 12.6 0l112-141.7c4.1-5.2.4-12.9-6.3-12.9h-74.1V168c0-4.4-3.6-8-8-8h-60c-4.4 0-8 3.6-8 8v338.3H400c-6.7 0-10.4 7.7-6.3 12.9l112 141.8zM878 626h-60c-4.4 0-8 3.6-8 8v154H214V634c0-4.4-3.6-8-8-8h-60c-4.4 0-8 3.6-8 8v198c0 17.7 14.3 32 32 32h684c17.7 0 32-14.3 32-32V634c0-4.4-3.6-8-8-8z"
-                      />
-                    </svg>
-                  </i>
-                </a>
-                <a
-                  title="删除文件"
+                  title="Remove file"
                 >
                   <i
                     aria-label="图标: delete"

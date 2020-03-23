@@ -15,6 +15,121 @@ timeline: true
 
 ---
 
+## 3.26.13
+
+`2020-03-07`
+
+- 🐞 Fix Result `status` cannot assigned to `string` or `number` type. [#21691](https://github.com/ant-design/ant-design/pull/21691)
+- 🐞 Fix Badge animation when switch between 10 and 11. [#21887](https://github.com/ant-design/ant-design/pull/21887) [@wendellhu95](https://github.com/wendellhu95)
+- 🐞 Fix DatePicker disabled icon cursor style. [#21655](https://github.com/ant-design/ant-design/pull/21655) [@jhoneybee](https://github.com/jhoneybee)
+- 🐞 Fix Grid multiple Rows `margin` overlapping. [#21518](https://github.com/ant-design/ant-design/pull/21518) [@felipeptcho](https://github.com/felipeptcho)
+- 🐞 Fix Table filter menu max height with many items. [#21602](https://github.com/ant-design/ant-design/pull/21602)
+
+## 3.26.12
+
+`2020-02-24`
+
+- 🐞 Fix Input with `readOnly` still clearable by `allowClear`. [#21492](https://github.com/ant-design/ant-design/pull/21492)
+- 🐞 Fix Upload won't showing download icon defaultly. [#21496](https://github.com/ant-design/ant-design/pull/21496)
+- ⚡️ Improve Button render performance. [#21217](https://github.com/ant-design/ant-design/pull/21217)
+
+## 3.26.11
+
+`2020-02-17`
+
+- 🐞 Rollback misc `clearfix` style to breaks flex layout (mainly affect Row, Form, Layout style). [#21406](https://github.com/ant-design/ant-design/pull/21406)
+
+## 3.26.10
+
+`2020-02-16`
+
+- 🐞 Fix Input.Group inside `<Form layout="vertical" >` 1px bug. [#20685](https://github.com/ant-design/ant-design/pull/20685)
+- 🐞 Fix Badge `color` not working when contains children. [#21333](https://github.com/ant-design/ant-design/pull/21333)
+- 🐞 Fix Alert close button extra `padding`. [#21325](https://github.com/ant-design/ant-design/pull/21325)
+- 🐞 Fix Affix throws `Cannot read property getBoundingClientRect in mobile device`. [#21350](https://github.com/ant-design/ant-design/pull/21350)
+- 💄 Tweak Steps 1px align issue. [#21306](https://github.com/ant-design/ant-design/pull/21306)
+- 💄 Fix Row component affect next element style issue. [#21310](https://github.com/ant-design/ant-design/pull/21310)
+- Typescript
+  - 🔷 Revert [#21250](https://github.com/ant-design/ant-design/pull/21250) Type Definition Update.[#21356](https://github.com/ant-design/ant-design/pull/21356)
+
+## 3.26.9
+
+`2020-02-08`
+
+- 🐞 Fix Badge that count is not align when wrapped by Typography. [#21237](https://github.com/ant-design/ant-design/pull/21237)
+- 🐞 Fix Steps that icon is not align when `size="small"` and `labelPlacement="vertical"`. [#21258](https://github.com/ant-design/ant-design/pull/21258)
+- 🐞 Fix Typography not focus at the end of textarea when `editable` is true. [#21268](https://github.com/ant-design/ant-design/pull/21268)
+- TypeScript
+  - 💄 Improve type definition of validation rule's type for Form. [#21250](https://github.com/ant-design/ant-design/pull/21250) [@hansololai](https://github.com/hansololai)
+  - 🐞 Fix type definition of `event` for Tree. [#21200](https://github.com/ant-design/ant-design/pull/21200) [@Jirka-Lhotka](https://github.com/Jirka-Lhotka)
+
+## 3.26.8
+
+`2020-02-03`
+
+- 🐞 Fix Tooltip hidden when `title` is `0`. [#20894](https://github.com/ant-design/ant-design/pull/20894)
+- 🐞 Fix List `actions` inconsistent position. [#20897](https://github.com/ant-design/ant-design/pull/20897)
+- 🐞 Fix Card `font-size` of `actions` not in less theme variables. [#21106](https://github.com/ant-design/ant-design/pull/21106)
+- 🐞 Fix Layout components `displayName`. [#21124](https://github.com/ant-design/ant-design/pull/21124)
+- 🐞 Fix Modal.confirm `okButtonProps` and `cancelButtonProps` interface. [#21165](https://github.com/ant-design/ant-design/pull/21165)
+
+## 3.26.7
+
+`2020-01-13`
+
+- 💄 Optimize Table fixed columns blank problem in some case. [#20821](https://github.com/ant-design/ant-design/pull/20821) [@AshoneA](https://github.com/AshoneA)
+- 🐞 Fix Tree `switcherIcon` shown in leaf node problem. [#20753](https://github.com/ant-design/ant-design/pull/20753)
+- 🐞 Fix Badge `z-index` higher than Table fixed columns. [#20751](https://github.com/ant-design/ant-design/pull/20751)
+- 🐞 Fix Cascader search bug when `fieldNames` is existed and label/value share same name. [#20720](https://github.com/ant-design/ant-design/pull/20720)
+- 🐞 Fix Collapse background color with wrong less variable. [#20718](https://github.com/ant-design/ant-design/pull/20718) [@kuitos](https://github.com/kuitos)
+- 🐞 Fix Input.Group inside `<Form layout="vertical" >` 1px bug. [#20685](https://github.com/ant-design/ant-design/pull/20685)
+
+## 3.26.6
+
+`2020-01-03`
+
+- 📢 v3 branch changes from `master` to `3.x-stable` and v4 merge into `master`.
+- 💄 Improve Steps `type="navigation"` UI in small screen. [#20545](https://github.com/ant-design/ant-design/pull/20545)
+- 🐞 Fix `message.xxx` pass `null` will failed. [#20546](https://github.com/ant-design/ant-design/pull/20546)
+- 🐞 Remove Input.Password `value` attribute from dom. [#20544](https://github.com/ant-design/ant-design/pull/20544)
+
+## 3.26.5
+
+`2019-12-29`
+
+- Table
+  - 🐞 Revert the logic of return fisrt page by default after sort. [#20507](https://github.com/ant-design/ant-design/pull/20507)
+  - 🐞 Fix header wrong text align when `colspan=1`. [#20463](https://github.com/ant-design/ant-design/pull/20463)
+- 🐞 Fix Tabs ink bar disappearing when `animated` prop is false. [#20417](https://github.com/ant-design/ant-design/pull/20417) [@xrkffgg](https://github.com/xrkffgg)
+- 🐞 Fix Tree wrong indent. [#20456](https://github.com/ant-design/ant-design/pull/20456)
+
+## 3.26.4
+
+`2019-12-22`
+
+- 💄 Optimize Steps `subTitle` UI when `labelPlacement="vertical"`. [#20325](https://github.com/ant-design/ant-design/pull/20325)
+- 🐞 Fix upload preview not support ico file type issue. [#20375](https://github.com/ant-design/ant-design/pull/20375) [@Rustin-Liu](https://github.com/Rustin-Liu)
+- 🐞 Fix Form feedback icon combine Input `suffix` display not correct. [#20363](https://github.com/ant-design/ant-design/pull/20363)
+- 🐞 Fix Tag `onClick` been triggered when close it. [#20355](https://github.com/ant-design/ant-design/pull/20355)
+- 🐞 Fix Cascader component form check color trigger issue. [#20347](https://github.com/ant-design/ant-design/pull/20347) [@xrkffgg](https://github.com/xrkffgg)
+- 🐞 Disallow auto focus input after triggering `onSearch` event in mobile and tablet devices. [#20332](https://github.com/ant-design/ant-design/pull/20332) [@YaoKaiLun](https://github.com/YaoKaiLun)
+- 🐞 Fix Tabs ink bar missing transition animation. [#20283](https://github.com/ant-design/ant-design/pull/20283)
+- 🐞 Fix TreeNode without `icon` show white block in `showIcon` mode. [#20274](https://github.com/ant-design/ant-design/pull/20274)
+- TypeScript
+  - ⚡️ Update filters define in Table `onChange`. [#20337](https://github.com/ant-design/ant-design/pull/20337) [@MrHeer](https://github.com/MrHeer)
+
+## 3.26.3
+
+`2019-12-14`
+
+- 🛠 support `unpkg` field in `package.json`. [#20193](https://github.com/ant-design/ant-design/pull/20193)
+- 🐞 Fix Tree `showLine` and `showIcon` missing icon. [#20196](https://github.com/ant-design/ant-design/pull/20196)
+- 🐞 Fix Modal combine Drawer cause invalid scroll problem. [#20242](https://github.com/ant-design/ant-design/pull/20242)
+- 🐞 Fix Drawer `switchScrollingEffect prop on a DOM element` warning. [#20175](https://github.com/ant-design/ant-design/pull/20175)
+- 🐞 Fix Select Option `label` definition. [#20190](https://github.com/ant-design/ant-design/pull/20190) [@ZhechenLi](https://github.com/ZhechenLi)
+- 💄 Optimize Form feedback icon padding. [#20164](https://github.com/ant-design/ant-design/pull/20164) [@Satloff](https://github.com/Satloff)
+- 💄 Add less variables for Select/Cascader to optimize dropdown padding and border radius. [#20156](https://github.com/ant-design/ant-design/pull/20156) [@Satloff](https://github.com/Satloff)
+
 ## 3.26.2
 
 `2019-12-10`

@@ -188,7 +188,7 @@ describe('Upload', () => {
     });
   });
 
-  it('should increase percent automaticly when call autoUpdateProgress in IE', done => {
+  it('should increase percent automatically when call autoUpdateProgress in IE', done => {
     let uploadInstance;
     let lastPercent = -1;
     const props = {
@@ -523,6 +523,9 @@ describe('Upload', () => {
     const mockRemove = jest.fn(() => false);
     const props = {
       onRemove: mockRemove,
+      showUploadList: {
+        showDownloadIcon: true,
+      },
       fileList: [
         {
           uid: '-1',

@@ -70,7 +70,7 @@ export interface AntTreeNodeExpandedEvent extends AntTreeNodeBaseEvent {
 
 export interface AntTreeNodeMouseEvent {
   node: AntTreeNode;
-  event: React.MouseEvent<HTMLElement>;
+  event: React.DragEvent<HTMLElement>;
 }
 
 export interface AntTreeNodeDragEnterEvent extends AntTreeNodeMouseEvent {
@@ -194,14 +194,14 @@ export default class Tree extends React.Component<TreeProps, any> {
     if (loading) {
       return <Icon type="loading" className={`${prefixCls}-switcher-loading-icon`} />;
     }
+    if (isLeaf) {
+      return showLine ? <Icon type="file" className={`${prefixCls}-switcher-line-icon`} /> : null;
+    }
     const switcherCls = `${prefixCls}-switcher-icon`;
     if (switcherIcon) {
       return React.cloneElement(switcherIcon, {
         className: classNames(switcherIcon.props.className || '', switcherCls),
       });
-    }
-    if (isLeaf) {
-      return showLine ? <Icon type="file" className={`${prefixCls}-switcher-line-icon`} /> : null;
     }
     return showLine ? (
       <Icon

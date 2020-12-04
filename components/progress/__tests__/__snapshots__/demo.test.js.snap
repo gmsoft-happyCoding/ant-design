@@ -30,7 +30,6 @@ exports[`renders ./components/progress/demo/circle.md correctly 1`] = `
    a 47,47 0 1 1 0,94
    a 47,47 0 1 1 0,-94"
           fill-opacity="0"
-          opacity="1"
           stroke=""
           stroke-linecap="round"
           stroke-width="6"
@@ -73,7 +72,6 @@ exports[`renders ./components/progress/demo/circle.md correctly 1`] = `
    a 47,47 0 1 1 0,94
    a 47,47 0 1 1 0,-94"
           fill-opacity="0"
-          opacity="1"
           stroke=""
           stroke-linecap="round"
           stroke-width="6"
@@ -133,7 +131,6 @@ exports[`renders ./components/progress/demo/circle.md correctly 1`] = `
    a 47,47 0 1 1 0,94
    a 47,47 0 1 1 0,-94"
           fill-opacity="0"
-          opacity="1"
           stroke=""
           stroke-linecap="round"
           stroke-width="6"
@@ -198,10 +195,9 @@ exports[`renders ./components/progress/demo/circle-dynamic.md correctly 1`] = `
    a 47,47 0 1 1 0,94
    a 47,47 0 1 1 0,-94"
           fill-opacity="0"
-          opacity="0"
           stroke=""
           stroke-linecap="round"
-          stroke-width="6"
+          stroke-width="0"
           style="stroke:#108ee9;stroke-dasharray:0px 295.3097094374406px;stroke-dashoffset:-0px;transition:stroke-dashoffset .3s ease 0s, stroke-dasharray .3s ease 0s, stroke .3s, stroke-width .06s ease .3s"
         />
       </svg>
@@ -301,7 +297,6 @@ exports[`renders ./components/progress/demo/circle-mini.md correctly 1`] = `
    a 47,47 0 1 1 0,94
    a 47,47 0 1 1 0,-94"
           fill-opacity="0"
-          opacity="1"
           stroke=""
           stroke-linecap="round"
           stroke-width="6"
@@ -344,7 +339,6 @@ exports[`renders ./components/progress/demo/circle-mini.md correctly 1`] = `
    a 47,47 0 1 1 0,94
    a 47,47 0 1 1 0,-94"
           fill-opacity="0"
-          opacity="1"
           stroke=""
           stroke-linecap="round"
           stroke-width="6"
@@ -404,7 +398,6 @@ exports[`renders ./components/progress/demo/circle-mini.md correctly 1`] = `
    a 47,47 0 1 1 0,94
    a 47,47 0 1 1 0,-94"
           fill-opacity="0"
-          opacity="1"
           stroke=""
           stroke-linecap="round"
           stroke-width="6"
@@ -468,7 +461,6 @@ exports[`renders ./components/progress/demo/dashboard.md correctly 1`] = `
    a 47,47 0 1 1 0,-94
    a 47,47 0 1 1 0,94"
         fill-opacity="0"
-        opacity="1"
         stroke=""
         stroke-linecap="round"
         stroke-width="6"
@@ -599,7 +591,6 @@ exports[`renders ./components/progress/demo/format.md correctly 1`] = `
    a 47,47 0 1 1 0,94
    a 47,47 0 1 1 0,-94"
           fill-opacity="0"
-          opacity="1"
           stroke=""
           stroke-linecap="round"
           stroke-width="6"
@@ -642,7 +633,6 @@ exports[`renders ./components/progress/demo/format.md correctly 1`] = `
    a 47,47 0 1 1 0,94
    a 47,47 0 1 1 0,-94"
           fill-opacity="0"
-          opacity="1"
           stroke=""
           stroke-linecap="round"
           stroke-width="6"
@@ -756,7 +746,6 @@ exports[`renders ./components/progress/demo/gradient-line.md correctly 1`] = `
    a 47,47 0 1 1 0,94
    a 47,47 0 1 1 0,-94"
           fill-opacity="0"
-          opacity="1"
           stroke="url(#ant-progress-gradient-10)"
           stroke-linecap="round"
           stroke-width="6"
@@ -817,7 +806,6 @@ exports[`renders ./components/progress/demo/gradient-line.md correctly 1`] = `
    a 47,47 0 1 1 0,94
    a 47,47 0 1 1 0,-94"
           fill-opacity="0"
-          opacity="1"
           stroke="url(#ant-progress-gradient-11)"
           stroke-linecap="round"
           stroke-width="6"
@@ -1196,7 +1184,6 @@ exports[`renders ./components/progress/demo/linecap.md correctly 1`] = `
    a 47,47 0 1 1 0,94
    a 47,47 0 1 1 0,-94"
           fill-opacity="0"
-          opacity="1"
           stroke=""
           stroke-linecap="square"
           stroke-width="6"
@@ -1239,7 +1226,6 @@ exports[`renders ./components/progress/demo/linecap.md correctly 1`] = `
    a 47,47 0 1 1 0,-94
    a 47,47 0 1 1 0,94"
           fill-opacity="0"
-          opacity="1"
           stroke=""
           stroke-linecap="square"
           stroke-width="6"
@@ -1315,7 +1301,6 @@ exports[`renders ./components/progress/demo/segment.md correctly 1`] = `
    a 47,47 0 1 1 0,94
    a 47,47 0 1 1 0,-94"
           fill-opacity="0"
-          opacity="1"
           stroke=""
           stroke-linecap="round"
           stroke-width="6"
@@ -1327,7 +1312,6 @@ exports[`renders ./components/progress/demo/segment.md correctly 1`] = `
    a 47,47 0 1 1 0,94
    a 47,47 0 1 1 0,-94"
           fill-opacity="0"
-          opacity="1"
           stroke=""
           stroke-linecap="round"
           stroke-width="6"
@@ -1370,7 +1354,6 @@ exports[`renders ./components/progress/demo/segment.md correctly 1`] = `
    a 47,47 0 1 1 0,-94
    a 47,47 0 1 1 0,94"
           fill-opacity="0"
-          opacity="1"
           stroke=""
           stroke-linecap="round"
           stroke-width="6"
@@ -1382,7 +1365,6 @@ exports[`renders ./components/progress/demo/segment.md correctly 1`] = `
    a 47,47 0 1 1 0,-94
    a 47,47 0 1 1 0,94"
           fill-opacity="0"
-          opacity="1"
           stroke=""
           stroke-linecap="round"
           stroke-width="6"

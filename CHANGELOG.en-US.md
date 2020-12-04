@@ -15,6 +15,59 @@ timeline: true
 
 ---
 
+## 3.26.20
+
+`2020-10-27`
+
+- 🐞 Fix Typescript definition issue with related Typescript version.
+
+## 3.26.19
+
+`2020-10-25`
+
+- 🐞 Fix webpack 5 compatibility issue. [#27314](https://github.com/ant-design/ant-design/pull/27314) [@vnguyen94](https://github.com/vnguyen94)
+
+## 3.26.18
+
+`2020-06-14`
+
+- 🐞 Fix Tree `AntTreeNodeProps.children` type. [#24429](https://github.com/ant-design/ant-design/pull/24429) [@fireairforce](https://github.com/fireairforce)
+- 🇮🇪 Add Irish(ga_IE) locale. [#24849](https://github.com/ant-design/ant-design/pull/24849) [@AbhijeetGaware](https://github.com/AbhijeetGaware)
+
+## 3.26.17
+
+`2020-05-16`
+
+- 🐞 Avoid disabled Upload.Dragger being triggered by clicking Form `label`. [#24202](https://github.com/ant-design/ant-design/pull/24202)
+- 🐞 Fix Tabs cannot be displayed in Safair. [#23151](https://github.com/ant-design/ant-design/pull/23151)
+- 🐞 Fix Form.Item control icon shaking when `hasFeedback` is not set. [#23924](https://github.com/ant-design/ant-design/pull/23924)
+- 🐞 Fix `loading` Button using Badge style. [#23691](https://github.com/ant-design/ant-design/pull/23691)
+
+## 3.26.16
+
+`2020-04-26`
+
+- 🐞 Fix Carousel tabbed Radio/Checkbox to non-active slide. [#23380](https://github.com/ant-design/ant-design/pull/23380)
+- 🐞 Fix Table filter menu no height when less version is `2.x`. [#23272](https://github.com/ant-design/ant-design/pull/23272)
+
+## 3.26.15
+
+`2020-04-03`
+
+- 🐞 Fix Affix throws `React warning of state update on unmounted component`. [#22790](https://github.com/ant-design/ant-design/pull/22790)
+- 🐞 Fix Table `column.filtered` not working. [#22597](https://github.com/ant-design/ant-design/pull/22597)
+- 🐞 Fix Select Input style with `multiple` mode in Safari. [#22586](https://github.com/ant-design/ant-design/pull/22586) [@iicdii](https://github.com/iicdii)
+
+## 3.26.14
+
+`2020-03-23`
+
+- 🐞 Fix Descriptions cannot fit to small container width. [#22407](https://github.com/ant-design/ant-design/pull/22407)
+- 🐞 Fix TextArea `autoSize` don't scroll bottom in Firefox. [#22014](https://github.com/ant-design/ant-design/pull/22014)
+- 🐞 Fix TextArea style get warning in `react@16.13`. [#21703](https://github.com/ant-design/ant-design/pull/21703)
+- Typescript
+  - Adjust Popconfirm `onConfirm` `onCancel` event definition. [#22438](https://github.com/ant-design/ant-design/pull/22438) [@nicu-chiciuc](https://github.com/nicu-chiciuc)
+
 ## 3.26.13
 
 `2020-03-07`
@@ -2543,7 +2596,7 @@ Learn more in the [Ant Design 3.0 announcement post](https://medium.com/ant-desi
 
 We provide a [migration tool](https://github.com/ant-design/antd-migration-helper) to help you find deprecated usages in your codebase.
 
-- Card's `noHovering` has been renamed to `hoverable`, and its default value now is `true`.
+- Card's `noHovering` has been renamed to `hoverable`, and its default value now is `false`.
 - Added new Grid breakpoints. [#7230](https://github.com/ant-design/ant-design/pull/7230)
 - Form `getFieldDecorator`'s `exclusive` option has been removed.
 - Added `Form.createFormField`, and you must use it to wrap field data returned in `option.mapPropsToFields`:

@@ -16,7 +16,7 @@ By using custom components, we can integrate table with react-dnd to implement d
 ```jsx
 import { Table } from 'antd';
 import { DndProvider, DragSource, DropTarget } from 'react-dnd';
-import HTML5Backend from 'react-dnd-html5-backend';
+import { HTML5Backend } from 'react-dnd-html5-backend';
 import update from 'immutability-helper';
 
 let dragingIndex = -1;
@@ -136,7 +136,10 @@ class DragSortingTable extends React.Component {
     this.setState(
       update(this.state, {
         data: {
-          $splice: [[dragIndex, 1], [hoverIndex, 0, dragRow]],
+          $splice: [
+            [dragIndex, 1],
+            [hoverIndex, 0, dragRow],
+          ],
         },
       }),
     );

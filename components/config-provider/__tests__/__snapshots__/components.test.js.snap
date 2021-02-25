@@ -12757,7 +12757,6 @@ Array [
   >
     <input
       class="config-time-picker-input"
-      id=""
       placeholder="请选择时间"
       type="text"
       value=""
@@ -13848,7 +13847,6 @@ Array [
   >
     <input
       class="ant-time-picker-input"
-      id=""
       placeholder="请选择时间"
       type="text"
       value=""
@@ -14939,7 +14937,6 @@ Array [
   >
     <input
       class="prefix-TimePicker-input"
-      id=""
       placeholder="请选择时间"
       type="text"
       value=""

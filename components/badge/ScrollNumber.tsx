@@ -10,7 +10,7 @@ function getNumberArray(num: string | number | undefined | null) {
         .toString()
         .split('')
         .reverse()
-        .map(i => {
+        .map((i) => {
           const current = Number(i);
           return isNaN(current) ? i : current;
         })
@@ -88,7 +88,7 @@ class ScrollNumber extends React.Component<ScrollNumberProps, ScrollNumberState>
       this.clearTimeout();
       // Let browser has time to reset the scroller before actually
       // performing the transition.
-      this.timeout = setTimeout(() => {
+      this.timeout = window.setTimeout(() => {
         // eslint-disable-next-line react/no-did-update-set-state
         this.setState(
           (__, props) => ({

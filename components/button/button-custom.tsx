@@ -3,6 +3,8 @@ import Button, { NativeButtonProps } from './button';
 
 export type CustomButtonProps = Omit<NativeButtonProps, 'type' | 'icon'>;
 
+export type CustomButton = React.FunctionComponent<CustomButtonProps>;
+
 const Save = ({ children, ...restProps }: CustomButtonProps) => (
   <Button icon="save" type="primary" {...restProps}>
     {children || '保存'}

@@ -22,7 +22,7 @@ Select component to select value from options.
 ### Select props
 
 | Property | Description | Type | Default | Version |
-| --- | --- | --- | --- | --- |
+| --- | --- | --- | --- | --- | --- |
 | allowClear | Show clear button. | boolean | false |  |
 | autoClearSearchValue | Whether the current search will be cleared on selecting an item. Only applies when `mode` is set to `multiple` or `tags`. | boolean | true | 3.10.0 |
 | autoFocus | Get focus by default | boolean | false |  |
@@ -48,6 +48,8 @@ Select component to select value from options.
 | placeholder | Placeholder of select | string\|ReactNode | - |  |
 | showArrow | Whether to show the drop-down arrow | boolean | true | 3.2.1 |
 | showSearch | Whether show search input in single mode. | boolean | false |  |
+| showSearchTips | Display the search prompt information (when this condition is met, according to showSearchTips = = = 'force' \|\| (showSearchTips === true &&!dropdownRender && (onSearch \|\| showSearch | \|\| filterOption)) | Boolean | true | 3.26.20-custom.2 |
+| showSearchTipsText | showSearchTips display text | string | view more option, please search | 3.26.20-custom.2 |
 | size | Size of Select input. `default` `large` `small` | string | default |  |
 | suffixIcon | The custom suffix icon | ReactNode | - | 3.10.0 |
 | removeIcon | The custom remove icon | ReactNode | - | 3.11.0 |

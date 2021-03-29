@@ -19,7 +19,7 @@ const dataSource = ['12345', '23456', '34567'];
 ```
 
 | Property | Description | Type | Default | Version |
-| --- | --- | --- | --- | --- |
+| --- | --- | --- | --- | --- | --- |
 | allowClear | Show clear button, effective in multiple mode only. | boolean | false |  |
 | autoFocus | get focus when component mounted | boolean | false |  |
 | backfill | backfill selected item the input when using keyboard | boolean | false |  |
@@ -42,6 +42,8 @@ const dataSource = ['12345', '23456', '34567'];
 | defaultOpen | Initial open state of dropdown | boolean | - | 3.9.3 |
 | open | Controlled open state of dropdown | boolean | - | 3.9.3 |
 | onDropdownVisibleChange | Call when dropdown open | function(open) | - | 3.9.3 |
+| showSearchTips | Display the search prompt information (when this condition is met, according to showSearchTips = = = 'force' \|\| (showSearchTips === true &&!dropdownRender && (onSearch \|\| showSearch | \|\| filterOption)) | Boolean | true | 3.26.20-custom.2 |
+| showSearchTipsText | showSearchTips display text | string | view more option, please search | 3.26.20-custom.2 |
 
 ## Methods
 

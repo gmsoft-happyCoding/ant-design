@@ -5,8 +5,10 @@ import classNames from 'classnames';
 import omit from 'omit.js';
 import { ConfigConsumer, ConfigConsumerProps, RenderEmptyHandler } from '../config-provider';
 import warning from '../_util/warning';
-import Icon from '../icon';
 import { tuple } from '../_util/type';
+import Icon from '../icon';
+import Divider from '../divider';
+import Typography from '../typography';
 
 const SelectSizes = tuple('default', 'large', 'small');
 
@@ -19,6 +21,8 @@ export interface AbstractSelectProps {
   transitionName?: string;
   choiceTransitionName?: string;
   showSearch?: boolean;
+  showSearchTips?: boolean | 'force';
+  showSearchTipsText?: string;
   allowClear?: boolean;
   disabled?: boolean;
   showArrow?: boolean;
@@ -129,6 +133,8 @@ export default class Select<T = SelectValue> extends React.Component<SelectProps
     showSearch: false,
     transitionName: 'slide-up',
     choiceTransitionName: 'zoom',
+    showSearchTips: true,
+    showSearchTipsText: '请搜索, 查看更多选项',
   };
 
   static propTypes = SelectPropTypes;
@@ -192,6 +198,38 @@ export default class Select<T = SelectValue> extends React.Component<SelectProps
     return <Icon type="down" className={`${prefixCls}-arrow-icon`} />;
   }
 
+  createShowSearchTipsDropdownRender() {
+    const {
+      onSearch,
+      dropdownRender,
+      showSearch,
+      filterOption,
+      showSearchTips,
+      showSearchTipsText,
+    } = this.props;
+
+    if (
+      showSearchTips === 'force' ||
+      (showSearchTips === true && !dropdownRender && (onSearch || showSearch || filterOption))
+    ) {
+      return (menu: React.ReactNode, props: any) => {
+        return props.options && props.options.length > 0 ? (
+          <div>
+            {dropdownRender ? dropdownRender(menu, props) : menu}
+            <Divider type="horizontal" style={{ margin: '4px 0' }} />
+            <div style={{ paddingBottom: '4px', textAlign: 'center' }}>
+              <Typography.Text disabled>{showSearchTipsText}</Typography.Text>
+            </div>
+          </div>
+        ) : dropdownRender ? (
+          dropdownRender(menu, props)
+        ) : (
+          menu
+        );
+      };
+    }
+  }
+
   renderSelect = ({
     getPopupContainer: getContextPopupContainer,
     getPrefixCls,
@@ -207,9 +245,16 @@ export default class Select<T = SelectValue> extends React.Component<SelectProps
       clearIcon,
       menuItemSelectedIcon,
       showArrow,
+      dropdownRender,
+      showSearchTips,
+      showSearchTipsText,
       ...restProps
     } = this.props;
+
     const rest = omit(restProps, ['inputIcon']);
+
+    const showSearchTipsDropdownRender =
+      this.createShowSearchTipsDropdownRender() || dropdownRender;
 
     const prefixCls = getPrefixCls('select', customizePrefixCls);
     const cls = classNames(
@@ -268,6 +313,7 @@ export default class Select<T = SelectValue> extends React.Component<SelectProps
         showArrow={showArrow}
         {...rest}
         {...modeConfig}
+        dropdownRender={showSearchTipsDropdownRender}
         prefixCls={prefixCls}
         className={cls}
         optionLabelProp={optionLabelProp || 'children'}

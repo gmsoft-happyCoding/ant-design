@@ -49,6 +49,8 @@ title: Select
 | placeholder | 选择框默认文字 | string | - |  |
 | showArrow | 是否显示下拉小箭头 | boolean | true | 3.2.1 |
 | showSearch | 使单选模式可搜索 | boolean | false |  |
+| showSearchTips | 显示搜索提示信息(当此条件满足时显示: showSearchTips === 'force' \|\| (showSearchTips === true && !dropdownRender && (onSearch \|\| showSearch \|\| filterOption)) | boolean \| 'force' | true | 3.26.20-custom.2 |
+| showSearchTipsText | 显示搜索提示信息的文本 | string | 请搜索, 查看更多选项 | 3.26.20-custom.2 |
 | size | 选择框大小，可选 `large` `small` | string | default |  |
 | suffixIcon | 自定义的选择框后缀图标 | ReactNode | - | 3.10.0 |
 | removeIcon | 自定义的多选框清除图标 | ReactNode | - | 3.11.0 |
@@ -69,7 +71,7 @@ title: Select
 | defaultOpen | 是否默认展开下拉菜单 | boolean | - | 3.9.3 |
 | open | 是否展开下拉菜单 | boolean | - | 3.9.0 |
 | onDropdownVisibleChange | 展开下拉菜单的回调 (3.9.0 后支持) | function(open) | - | 3.9.0 |
-| loading | 加载中状态 | Boolean | false | 3.11.0 |
+| loading | 加载中状态 | boolean | false | 3.11.0 |
 
 > 注意，如果发现下拉菜单跟随页面滚动，或者需要在其他弹层中触发 Select，请尝试使用 `getPopupContainer={triggerNode => triggerNode.parentElement}` 将下拉弹层渲染节点固定在触发器的父元素中。
 

@@ -44,6 +44,8 @@ const dataSource = ['12345', '23456', '34567'];
 | defaultOpen | 是否默认展开下拉菜单 | boolean | - | 3.9.3 |
 | open | 是否展开下拉菜单 | boolean | - | 3.9.3 |
 | onDropdownVisibleChange | 展开下拉菜单的回调 | function(open) | - | 3.9.3 |
+| showSearchTips | 显示搜索提示信息(当此条件满足时显示: showSearchTips === 'force' \|\| (showSearchTips === true && !dropdownRender && (onSearch \|\| showSearch \|\| filterOption)) | boolean \| 'force' | true | 3.26.20-custom.2 |
+| showSearchTipsText | 显示搜索提示信息的文本 | string | 请搜索, 查看更多选项 | 3.26.20-custom.2 |
 
 ## 方法
 

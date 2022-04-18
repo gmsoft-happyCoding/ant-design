@@ -30,8 +30,6 @@ declare module 'rc-checkbox';
 
 declare module 'rc-dropdown';
 
-declare module 'rc-editor-mention';
-
 declare module 'rc-tabs*';
 
 declare module 'rc-tree';

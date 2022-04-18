@@ -20,7 +20,7 @@ ReactDOM.render(
   <div>
     <PageHeader
       style={{
-        border: '1px solid rgb(235, 237, 240)',
+        border: '1px solid var(--borderColorBase, rgb(235, 237, 240))',
       }}
       onBack={() => window.history.back()}
       title="Title"

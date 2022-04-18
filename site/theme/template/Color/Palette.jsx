@@ -13,6 +13,19 @@ const rgbToHex = rgbString => {
   return `#${r}${g}${b}`;
 };
 
+const getTextColor = (reverse) => {
+  try {
+     if (reverse) {
+      return document.documentElement.style.getPropertyValue("--colorScheme") === 'dark' ? 'rgba(0, 0, 0, 0.85)' : '#fff';
+     } else {
+      return document.documentElement.style.getPropertyValue("--colorScheme") === 'dark' ? '#fff' : 'rgba(0, 0, 0, 0.85)';
+    }
+  } catch {
+    reverse ? '#fff' : 'rgba(0, 0, 0, 0.85)';
+  }
+ 
+} 
+
 export default class Palette extends React.Component {
   componentDidMount() {
     this.hexColors = {};
@@ -52,7 +65,7 @@ export default class Palette extends React.Component {
             }}
             className={`main-color-item palette-${name}-${i}`}
             style={{
-              color: (name === 'yellow' ? i > 6 : i > 5) ? '#fff' : 'unset',
+              color: getTextColor((name === 'yellow' ? i > 6 : i > 5)),
               fontWeight: i === 6 ? 'bold' : 'normal',
             }}
             title="click to copy color"

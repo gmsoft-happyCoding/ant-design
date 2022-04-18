@@ -3,7 +3,7 @@ body {
   font-size: 14px;
   font-family: @font-family;
   line-height: 1.5;
-  background: #fff;
+  background: var(--pageBgColor, #fff);
   transition: background 1s cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
@@ -14,7 +14,7 @@ a {
 .main-wrapper {
   position: relative;
   padding: 40px 0 0;
-  background: #fff;
+  background: transparent;
 }
 
 .main-container {
@@ -22,7 +22,7 @@ a {
   min-height: 500px;
   padding: 0 170px 32px 64px;
   overflow: hidden;
-  background: #fff;
+  background: transparent;
 }
 
 .main-menu {
@@ -93,22 +93,22 @@ a {
 }
 
 // reset menu text color
-.menu-site {
-  .ant-menu-item > a {
-    color: @site-text-color;
-  }
+// .menu-site {
+//   // .ant-menu-item > a {
+//   //   // color: @site-text-color;
+//   // }
 
-  .ant-menu-item-selected > a,
-  .ant-menu-item > a:hover {
-    color: @primary-color;
-  }
+//   // .ant-menu-item-selected > a,
+//   // .ant-menu-item > a:hover {
+//   //   color: @primary-color;
+//   // }
 
-  .menu-antd-components-count {
-    margin-left: 0.5em;
-    color: @disabled-color;
-    font-size: 12px;
-  }
-}
+//   // .menu-antd-components-count {
+//   //   margin-left: 0.5em;
+//   //   color: @disabled-color;
+//   //   font-size: 12px;
+//   // }
+// }
 
 #react-content {
   height: 100%;

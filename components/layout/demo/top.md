@@ -45,7 +45,7 @@ ReactDOM.render(
         <Breadcrumb.Item>List</Breadcrumb.Item>
         <Breadcrumb.Item>App</Breadcrumb.Item>
       </Breadcrumb>
-      <div style={{ background: '#fff', padding: 24, minHeight: 280 }}>Content</div>
+      <div style={{ background: 'var(--pageBgColor, #fff)', border: '1px solid var(--borderColorBase)', padding: 24, minHeight: 280 }}>Content</div>
     </Content>
     <Footer style={{ textAlign: 'center' }}>Ant Design ©2018 Created by Ant UED</Footer>
   </Layout>,

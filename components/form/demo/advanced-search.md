@@ -100,8 +100,8 @@ ReactDOM.render(
 ```css
 .ant-advanced-search-form {
   padding: 24px;
-  background: #fbfbfb;
-  border: 1px solid #d9d9d9;
+  background: var(--bgColorLight, #fbfbfb);
+  border: 1px solid var(--borderColorBase, #d9d9d9);
   border-radius: 6px;
 }
 
@@ -120,9 +120,9 @@ ReactDOM.render(
 }
 #components-form-demo-advanced-search .search-result-list {
   margin-top: 16px;
-  border: 1px dashed #e9e9e9;
+  border: 1px dashed var(--borderColorBase, #e9e9e9);
   border-radius: 6px;
-  background-color: #fafafa;
+  background-color: var(--bgColorLight, #fafafa);
   min-height: 200px;
   text-align: center;
   padding-top: 80px;

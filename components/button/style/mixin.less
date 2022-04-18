@@ -25,7 +25,7 @@
   }
 }
 
-.button-variant-primary(@color; @background) {
+.button-variant-primary(@color; @background; @backgroundHover: yellow; @backgroundActive: yellow) {
   .button-color(@color; @background; @background);
 
   text-shadow: @btn-text-shadow;
@@ -33,16 +33,18 @@
 
   &:hover,
   &:focus {
-    .button-color(
-      @color; ~`colorPalette('@{background}', 5) `; ~`colorPalette('@{background}', 5) `
-    );
+    // .button-color(
+    //   @color; ~`colorPalette('@{background}', 5) `; ~`colorPalette('@{background}', 5) `
+    // );
+    .button-color(@color; @backgroundHover; @backgroundHover);
   }
 
   &:active,
   &.active {
-    .button-color(
-      @color; ~`colorPalette('@{background}', 7) `; ~`colorPalette('@{background}', 7) `
-    );
+    // .button-color(
+    //   @color; ~`colorPalette('@{background}', 7) `; ~`colorPalette('@{background}', 7) `
+    // );
+    .button-color(@color; @backgroundActive; @backgroundActive);
   }
 
   .button-disabled();
@@ -53,39 +55,37 @@
 
   &:hover,
   &:focus {
-    .button-color(
-      ~`colorPalette('@{btn-primary-bg}', 5) `; @background; ~`colorPalette('@{btn-primary-bg}', 5)
-        `
-    );
+    .button-color(@primary-color-hover; @background; @primary-color-hover);
   }
   &:active,
   &.active {
-    .button-color(
-      ~`colorPalette('@{btn-primary-bg}', 7) `; @background; ~`colorPalette('@{btn-primary-bg}', 7)
-        `
-    );
+    .button-color(@primary-color-active; @background; @primary-color-active);
   }
   .button-disabled();
 }
-.button-variant-ghost(@color; @border: @color) {
+.button-variant-ghost(@color; @border; @borderHover: yellow; @borderActive: yellow) {
   .button-color(@color; transparent; @border);
   text-shadow: none;
   &:hover,
   &:focus {
     & when (@border = transparent) {
-      .button-color(~`colorPalette('@{color}', 5) `; transparent; transparent);
+      // .button-color(~`colorPalette('@{color}', 5) `; transparent; transparent);
+      .button-color(@borderActive; transparent; transparent);
     }
     & when not(@border = transparent) {
-      .button-color(~`colorPalette('@{color}', 5) `; transparent; ~`colorPalette('@{color}', 5) `);
+      // .button-color(~`colorPalette('@{color}', 5) `; transparent; ~`colorPalette('@{color}', 5) `);
+      .button-color(@borderHover; transparent; @borderHover);
     }
   }
   &:active,
   &.active {
     & when (@border = transparent) {
-      .button-color(~`colorPalette('@{color}', 7) `; transparent; transparent);
+      // .button-color(~`colorPalette('@{color}', 7) `; transparent; transparent);
+      .button-color(@borderActive; transparent; transparent);
     }
     & when not(@border = transparent) {
-      .button-color(~`colorPalette('@{color}', 7) `; transparent; ~`colorPalette('@{color}', 7) `);
+      // .button-color(~`colorPalette('@{color}', 7) `; transparent; ~`colorPalette('@{color}', 7) `);
+      .button-color(@borderActive; transparent; @borderActive);
     }
   }
   .button-disabled();
@@ -202,7 +202,8 @@
 }
 // primary button style
 .btn-primary() {
-  .button-variant-primary(@btn-primary-color; @btn-primary-bg);
+  // .button-variant-primary(@btn-primary-color; @btn-primary-bg);
+  .button-variant-primary(@btn-primary-color; @btn-primary-bg; @primary-color-hover; @primary-color-active);
 }
 // default button style
 .btn-default() {
@@ -226,7 +227,8 @@
 }
 // danger button style
 .btn-danger() {
-  .button-variant-primary(@btn-danger-color, @btn-danger-bg);
+  // .button-variant-primary(@btn-danger-color, @btn-danger-bg);
+  .button-variant-primary(@btn-danger-color, @btn-danger-bg, @error-color-hover, @error-color-active);
 }
 // link button style
 .btn-link() {

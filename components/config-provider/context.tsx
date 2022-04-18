@@ -2,6 +2,7 @@ import * as React from 'react';
 import createReactContext from '@ant-design/create-react-context';
 import defaultRenderEmpty, { RenderEmptyHandler } from './renderEmpty';
 import { Locale } from '../locale-provider';
+import { SizeType } from './SizeContext';
 
 export interface CSPConfig {
   nonce?: string;
@@ -17,6 +18,9 @@ export interface ConfigConsumerProps {
   locale?: Locale;
   pageHeader?: {
     ghost: boolean;
+  };
+  space?: {
+    size?: SizeType | number;
   };
 }
 

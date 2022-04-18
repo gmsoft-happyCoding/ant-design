@@ -6,8 +6,6 @@
 @skeleton-title-prefix-cls: ~'@{skeleton-prefix-cls}-title';
 @skeleton-paragraph-prefix-cls: ~'@{skeleton-prefix-cls}-paragraph';
 
-@skeleton-to-color: shade(@skeleton-color, 5%);
-
 .@{skeleton-prefix-cls} {
   display: table;
   width: 100%;
@@ -46,6 +44,7 @@
       height: 16px;
       margin-top: 16px;
       background: @skeleton-color;
+      border-radius: @border-radius-base;
 
       + .@{skeleton-paragraph-prefix-cls} {
         margin-top: 24px;
@@ -61,6 +60,7 @@
         height: 16px;
         list-style: none;
         background: @skeleton-color;
+        border-radius: @border-radius-base;
 
         &:last-child:not(:first-child):not(:nth-child(2)) {
           width: 61%;

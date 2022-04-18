@@ -170,23 +170,24 @@
   }
 
   &-background-ghost {
-    color: @component-background;
+    color: @btn-default-ghost-color;
     background: transparent !important;
-    border-color: @component-background;
+    border-color: @btn-default-ghost-border;
   }
 
   &-background-ghost&-primary {
-    .button-variant-ghost(@btn-primary-bg);
+    // .button-variant-ghost(@btn-primary-bg);
+    .button-variant-ghost(@btn-primary-bg, @btn-primary-bg, @primary-color-hover, @primary-color-active);
   }
 
   &-background-ghost&-danger {
-    .button-variant-ghost(@btn-danger-border);
+    // .button-variant-ghost(@btn-danger-border);
+    .button-variant-ghost(@btn-danger-border, @btn-danger-border, @error-color-hover, @error-color-active);
   }
 
   &-background-ghost&-link {
-    .button-variant-ghost(@link-color; transparent);
-
-    color: @component-background;
+    // .button-variant-ghost(@link-color; transparent);
+    .button-variant-ghost(@btn-danger-border, transparent, @error-color-hover, @error-color-active);
   }
 
   &-two-chinese-chars::first-letter {

@@ -51,7 +51,7 @@ export default class ColorPaletteTool extends Component {
         </div>
         <div className="color-palette-picker">
           <span style={{ display: 'inline-block', verticalAlign: 'middle' }}>
-            <ColorPicker type="chrome" color={primaryColor} onChange={this.handleChangeColor} />
+            <ColorPicker type="chrome" color={primaryColor} onChangeComplete={this.handleChangeColor} />
           </span>
           <span className="color-palette-picker-value">{primaryColor}</span>
           {this.renderColorValidation()}

@@ -40,8 +40,8 @@ ReactDOM.render(
         <Breadcrumb.Item>List</Breadcrumb.Item>
         <Breadcrumb.Item>App</Breadcrumb.Item>
       </Breadcrumb>
-      <Layout style={{ padding: '24px 0', background: '#fff' }}>
-        <Sider width={200} style={{ background: '#fff' }}>
+      <Layout style={{ padding: '24px 0', background: 'var(--pageBgColor, #fff)' }}>
+        <Sider width={200} style={{ background: 'var(--pageBgColor, #fff)' }}>
           <Menu
             mode="inline"
             defaultSelectedKeys={['1']}
@@ -92,7 +92,7 @@ ReactDOM.render(
             </SubMenu>
           </Menu>
         </Sider>
-        <Content style={{ padding: '0 24px', minHeight: 280 }}>Content</Content>
+        <Content style={{ padding: '0 24px', background: 'var(--pageBgColor, #fff)', minHeight: 280 }}>Content</Content>
       </Layout>
     </Content>
     <Footer style={{ textAlign: 'center' }}>Ant Design ©2018 Created by Ant UED</Footer>

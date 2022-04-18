@@ -42,11 +42,11 @@ ReactDOM.render(
         </Text>
       </Paragraph>
       <Paragraph>
-        <Icon style={{ color: 'red' }} type="close-circle" /> Your account has been frozen
+        <Icon style={{ color: 'var(--errorColor)' }} type="close-circle" /> Your account has been frozen
         <a>Thaw immediately &gt;</a>
       </Paragraph>
       <Paragraph>
-        <Icon style={{ color: 'red' }} type="close-circle" /> Your account is not yet eligible to
+        <Icon style={{ color: 'var(--errorColor)' }} type="close-circle" /> Your account is not yet eligible to
         apply <a>Apply Unlock &gt;</a>
       </Paragraph>
     </div>

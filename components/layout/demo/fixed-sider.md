@@ -66,9 +66,9 @@ ReactDOM.render(
       </Menu>
     </Sider>
     <Layout style={{ marginLeft: 200 }}>
-      <Header style={{ background: '#fff', padding: 0 }} />
-      <Content style={{ margin: '24px 16px 0', overflow: 'initial' }}>
-        <div style={{ padding: 24, background: '#fff', textAlign: 'center' }}>
+      <Header style={{ background: 'var(--pageBgColor, #fff)', padding: 0 }} />
+      <Content style={{ margin: '24px 16px 0', overflow: 'initial', border: '1px solid var(--borderColorBase)', }}>
+        <div style={{ padding: 24, background: 'var(--pageBgColor, #fff)', textAlign: 'center' }}>
           ...
           <br />
           Really

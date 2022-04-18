@@ -22,7 +22,7 @@ const { TabPane } = Tabs;
 const renderTabBar = (props, DefaultTabBar) => (
   <Sticky bottomOffset={80}>
     {({ style }) => (
-      <DefaultTabBar {...props} style={{ ...style, zIndex: 1, background: '#fff' }} />
+      <DefaultTabBar {...props} style={{ ...style, zIndex: 1, background: 'var(--pageBgColor, #fff)' }} />
     )}
   </Sticky>
 );

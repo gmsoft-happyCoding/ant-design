@@ -28,7 +28,7 @@ class App extends React.Component {
     checkAll: false,
   };
 
-  onChange = checkedList => {
+  onChange = (checkedList) => {
     this.setState({
       checkedList,
       indeterminate: !!checkedList.length && checkedList.length < plainOptions.length,
@@ -36,7 +36,7 @@ class App extends React.Component {
     });
   };
 
-  onCheckAllChange = e => {
+  onCheckAllChange = (e) => {
     this.setState({
       checkedList: e.target.checked ? plainOptions : [],
       indeterminate: false,
@@ -47,7 +47,7 @@ class App extends React.Component {
   render() {
     return (
       <div>
-        <div style={{ borderBottom: '1px solid #E9E9E9' }}>
+        <div style={{ borderBottom: '1px solid var(--borderColorBase,#E9E9E9)' }}>
           <Checkbox
             indeterminate={this.state.indeterminate}
             onChange={this.onCheckAllChange}

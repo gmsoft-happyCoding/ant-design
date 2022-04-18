@@ -135,7 +135,6 @@ class CompactDemo extends React.Component {
               width: 30,
               borderLeft: 0,
               pointerEvents: 'none',
-              backgroundColor: '#fff',
             }}
             placeholder="~"
             disabled

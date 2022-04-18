@@ -35,7 +35,7 @@ ReactDOM.render(
       </Menu>
     </Header>
     <Layout>
-      <Sider width={200} style={{ background: '#fff' }}>
+      <Sider width={200} style={{ background: 'var(--pageBgColor, #fff)' }}>
         <Menu
           mode="inline"
           defaultSelectedKeys={['1']}
@@ -94,7 +94,8 @@ ReactDOM.render(
         </Breadcrumb>
         <Content
           style={{
-            background: '#fff',
+            background: 'var(--pageBgColor, #fff)',
+            border: '1px solid var(--borderColorBase)',
             padding: 24,
             margin: 0,
             minHeight: 280,

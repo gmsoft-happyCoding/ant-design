@@ -15,6 +15,12 @@ timeline: true
 
 ---
 
+## 3.26.20-custom.3
+
+`2022-04-18`
+
+- 💄 Support for theme adaptation, use with @gmsoft/tt-sdk(Compatible ie11)
+
 ## 3.26.20
 
 `2020-10-27`
@@ -2714,7 +2720,7 @@ We provide a [migration tool](https://github.com/ant-design/antd-migration-helpe
   - 🙅 Deprecated `onRowClick`, `onRowDoubleClick`, `onRowContextMenu`, `onRowMouseEnter`, `onRowMouseLeave`, please use `onRow` instead.
     ```javascript
     <Table
-      onRow={record => ({
+      onRow={(record) => ({
         onClick: () => {},
         onDoubleClick: () => {},
         onContextMenu: () => {},

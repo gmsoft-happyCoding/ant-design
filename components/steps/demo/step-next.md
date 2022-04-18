@@ -91,7 +91,7 @@ ReactDOM.render(<App />, mountNode);
   margin-top: 16px;
   border: 1px dashed #e9e9e9;
   border-radius: 6px;
-  background-color: #fafafa;
+  background-color: var(--componentBgColor, #fafafa);
   min-height: 200px;
   text-align: center;
   padding-top: 80px;

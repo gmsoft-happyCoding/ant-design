@@ -18,17 +18,16 @@ import { Input } from 'antd';
 
 ReactDOM.render(
   <div className="example-input">
-    <Input size="large" placeholder="large size" />
-    <Input placeholder="default size" />
-    <Input size="small" placeholder="small size" />
+    <Input size="large" placeholder="large size" allowClear />
+    <Input placeholder="default size" allowClear />
+    <Input size="small" placeholder="small size" allowClear />
   </div>,
   mountNode,
 );
 ```
 
 ```css
-.example-input .ant-input {
-  width: 200px;
+.example-input .ant-input-affix-wrapper {
   margin: 0 8px 8px 0;
 }
 ```

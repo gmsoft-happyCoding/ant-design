@@ -4,6 +4,7 @@ import { Link } from 'bisheng/router';
 import { FormattedMessage, injectIntl } from 'react-intl';
 import classNames from 'classnames';
 import { Select, Menu, Row, Col, Icon, Popover, Input, Button, Badge } from 'antd';
+import { Inspector } from '../Themeable';
 import Santa from './Santa';
 import * as utils from '../utils';
 import { version as antdVersion } from '../../../../package.json';
@@ -139,6 +140,7 @@ class Header extends React.Component {
     });
 
     const menu = [
+      <Inspector key="themeable-inspector" />,
       <Button
         ghost
         size="small"
@@ -261,10 +263,7 @@ class Header extends React.Component {
                 alt="logo"
                 src="https://gw.alipayobjects.com/zos/rmsportal/KDpgvguMpGfqaHPjicRK.svg"
               />
-              <img
-                alt="Ant Design"
-                src="https://gw.alipayobjects.com/zos/rmsportal/DkKNubTaaVsKURhcVGkh.svg"
-              />
+              Ant Design
               <Santa />
             </Link>
           </Col>

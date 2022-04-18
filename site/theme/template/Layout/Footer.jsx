@@ -304,12 +304,12 @@ class Footer extends React.Component {
             url: 'https://xtech.antfin.com/',
             openExternal: true,
           },
-          {
-            title: this.renderThemeChanger(),
-            style: {
-              marginTop: 20,
-            },
-          },
+          // {
+          //   title: this.renderThemeChanger(),
+          //   style: {
+          //     marginTop: 20,
+          //   },
+          // },
         ],
       },
     ];

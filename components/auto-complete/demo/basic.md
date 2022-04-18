@@ -26,13 +26,13 @@ class Complete extends React.Component {
     dataSource: [],
   };
 
-  onSearch = searchText => {
+  onSearch = (searchText) => {
     this.setState({
       dataSource: !searchText ? [] : [searchText, searchText.repeat(2), searchText.repeat(3)],
     });
   };
 
-  onChange = value => {
+  onChange = (value) => {
     this.setState({ value });
   };
 
@@ -41,6 +41,7 @@ class Complete extends React.Component {
     return (
       <div>
         <AutoComplete
+          allowClear
           dataSource={dataSource}
           style={{ width: 200 }}
           onSelect={onSelect}

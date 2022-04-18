@@ -19,7 +19,7 @@ import { Popconfirm, Icon } from 'antd';
 ReactDOM.render(
   <Popconfirm
     title="Are you sure？"
-    icon={<Icon type="question-circle-o" style={{ color: 'red' }} />}
+    icon={<Icon type="question-circle-o" style={{ color: 'var(--errorColor)' }} />}
   >
     <a href="#">Delete</a>
   </Popconfirm>,

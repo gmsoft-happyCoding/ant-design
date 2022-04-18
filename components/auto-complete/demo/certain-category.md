@@ -73,9 +73,9 @@ function renderTitle(title) {
 }
 
 const options = dataSource
-  .map(group => (
+  .map((group) => (
     <OptGroup key={group.title} label={renderTitle(group.title)}>
-      {group.children.map(opt => (
+      {group.children.map((opt) => (
         <Option key={opt.title} value={opt.title}>
           {opt.title}
           <span className="certain-search-item-count">{opt.count} people</span>
@@ -143,17 +143,17 @@ ReactDOM.render(<Complete />, mountNode);
 
 .certain-search-item-count {
   position: absolute;
-  color: #999;
   right: 16px;
+  color: #999;
 }
 
 .certain-category-search.ant-select-focused .certain-category-icon {
-  color: #108ee9;
+  color: #1890ff;
 }
 
 .certain-category-icon {
   color: #6e6e6e;
-  transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
   font-size: 16px;
+  transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
 }
 ```

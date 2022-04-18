@@ -78,7 +78,7 @@ class App extends React.Component {
       </div>
     ),
     filterIcon: filtered => (
-      <Icon type="search" style={{ color: filtered ? '#1890ff' : undefined }} />
+      <Icon type="search" style={{ color: filtered ? 'var(--primaryColor, #1890ff)' : undefined }} />
     ),
     onFilter: (value, record) =>
       record[dataIndex]

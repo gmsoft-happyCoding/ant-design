@@ -45,6 +45,7 @@ return (
 | locale | 语言包配置，语言包可到 [antd/es/locale](http://unpkg.com/antd/es/locale/) 目录下寻找 | object | - | 3.21.0 |
 | prefixCls | 设置统一样式前缀 | string | ant | 3.12.0 |
 | pageHeader | 统一设置 pageHeader 的 ghost，参考 [pageHeader](<(/components/page-header)>) | { ghost: boolean } | 'true' | 3.24.0 |
+| space | 设置 Space 的 `size`，参考 [Space](/components/space) | { size: `small` \| `middle` \| `large` \| `number` } | - | 3.26.20-custom.3 |
 
 ## FAQ
 

@@ -29,8 +29,8 @@ class IconSlider extends React.Component {
     const { max, min } = this.props;
     const { value } = this.state;
     const mid = ((max - min) / 2).toFixed(5);
-    const preColor = value >= mid ? '' : 'rgba(0, 0, 0, .45)';
-    const nextColor = value >= mid ? 'rgba(0, 0, 0, .45)' : '';
+    const preColor = value >= mid ? '' : 'var(--primaryColor, rgba(0, 0, 0, 0.45))';
+    const nextColor = value >= mid ? 'var(--primaryColor, rgba(0, 0, 0, 0.45))' : '';
     return (
       <div className="icon-wrapper">
         <Icon style={{ color: preColor }} type="frown-o" />
@@ -57,7 +57,7 @@ ReactDOM.render(<IconSlider min={0} max={20} />, mountNode);
   height: 16px;
   line-height: 1;
   font-size: 16px;
-  color: rgba(0, 0, 0, 0.25);
+  color: var(--textColor, rgba(0, 0, 0, 0.25));
 }
 
 .icon-wrapper .anticon:first-child {

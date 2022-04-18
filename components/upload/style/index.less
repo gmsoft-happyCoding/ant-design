@@ -74,7 +74,7 @@
     transition: border-color 0.3s;
 
     .@{upload-prefix-cls} {
-      padding: 16px 0;
+      padding: 16px 2px;
     }
 
     &.@{upload-prefix-cls}-drag-hover:not(.@{upload-prefix-cls}-disabled) {
@@ -179,7 +179,10 @@
       }
       .anticon {
         padding-right: 6px;
-        color: rgba(0, 0, 0, 0.45);
+        color: @text-color-secondary;
+        &:hover {
+          color: @text-color;
+        }
       }
     }
 
@@ -382,7 +385,7 @@
         z-index: 1;
         width: 100%;
         height: 100%;
-        background-color: fade(@black, 50%);
+        background-color: @blackFade50;
         opacity: 0;
         transition: all 0.3s;
         content: ' ';

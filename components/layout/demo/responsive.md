@@ -55,9 +55,9 @@ ReactDOM.render(
       </Menu>
     </Sider>
     <Layout>
-      <Header style={{ background: '#fff', padding: 0 }} />
+      <Header style={{ background: 'var(--pageBgColor, #fff)', padding: 0 }} />
       <Content style={{ margin: '24px 16px 0' }}>
-        <div style={{ padding: 24, background: '#fff', minHeight: 360 }}>content</div>
+        <div style={{ padding: 24, background: 'var(--pageBgColor, #fff)', border: '1px solid var(--borderColorBase)', minHeight: 360 }}>content</div>
       </Content>
       <Footer style={{ textAlign: 'center' }}>Ant Design ©2018 Created by Ant UED</Footer>
     </Layout>

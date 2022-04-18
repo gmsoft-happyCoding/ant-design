@@ -127,7 +127,7 @@ ReactDOM.render(<App />, mountNode);
   font-size: 13px;
 }
 #components-grid-demo-playground pre {
-  background: #f9f9f9;
+  background: var(--bgColorBase, #f9f9f9);
   border-radius: 6px;
   font-size: 13px;
   padding: 8px 16px;

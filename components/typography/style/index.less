@@ -103,7 +103,7 @@
 
   mark {
     padding: 0;
-    background-color: @gold-3;
+    background-color: var(--textMarkBgColor, @gold-3);
   }
 
   u,
@@ -198,9 +198,9 @@
 
   &-ellipsis-multiple-line {
     display: -webkit-box;
+    overflow: hidden;
     -webkit-line-clamp: 3;
     /*! autoprefixer: ignore next */
     -webkit-box-orient: vertical;
-    overflow: hidden;
   }
 }

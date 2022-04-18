@@ -21,7 +21,7 @@ ReactDOM.render(
     <p
       style={{
         fontSize: 14,
-        color: 'rgba(0, 0, 0, 0.85)',
+        color: 'var(--textColor, rgba(0, 0, 0, 0.85))',
         marginBottom: 16,
         fontWeight: 500,
       }}

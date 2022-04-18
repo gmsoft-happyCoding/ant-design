@@ -3,8 +3,6 @@
 
 @table-prefix-cls: ~'@{ant-prefix}-table';
 @table-header-icon-color: #bfbfbf;
-@table-header-sort-active-bg: darken(@table-header-bg, 3%);
-@table-header-filter-active-bg: darken(@table-header-sort-active-bg, 5%);
 @table-selection-column-width: 60px;
 
 .@{table-prefix-cls}-wrapper {
@@ -16,6 +14,7 @@
 
   position: relative;
   clear: both;
+  background: @table-bg;
 
   &-body {
     transition: opacity 0.3s;
@@ -539,7 +538,7 @@
       line-height: 1;
       cursor: pointer;
       &:hover .@{iconfont-css-prefix}-down {
-        color: fade(@black, 60%);
+        color: @blackFade50;
       }
     }
   }
@@ -660,11 +659,11 @@
   }
 
   &-hide-scrollbar {
+    min-width: unset;
     // https://github.com/ant-design/ant-design/issues/4637
     // https://stackoverflow.com/a/54101063
     // https://github.com/react-component/table/pull/333
     scrollbar-color: transparent transparent;
-    min-width: unset;
 
     &::-webkit-scrollbar {
       // set min width to window chrome scrollbar

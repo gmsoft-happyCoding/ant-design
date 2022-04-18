@@ -28,11 +28,11 @@
 
     position: relative;
     display: inline-block;
-    background-color: @component-background;
+    background-color: transparent;
     border-radius: @border-radius-base;
     outline: 0;
     cursor: pointer;
-    transition: color 0.3s;
+    transition: color 0.3s; // @component-background;
 
     &-with-value &-label {
       color: transparent;
@@ -74,13 +74,13 @@
       top: 50%;
       right: @control-padding-horizontal;
       z-index: 2;
-      width: 12px;
-      height: 12px;
+      width: 14px;
+      height: 14px;
       margin-top: -6px;
       color: @disabled-color;
-      font-size: @font-size-sm;
-      line-height: 12px;
-      background: @component-background;
+      font-size: @font-size-base;
+      line-height: 14px;
+      background: @body-background;
       cursor: pointer;
       opacity: 0;
       transition: color 0.3s ease, opacity 0.15s ease;
@@ -127,7 +127,7 @@
     z-index: @zindex-dropdown;
     font-size: @cascader-dropdown-font-size;
     white-space: nowrap;
-    background: @component-background;
+    background: @popover-background;
     border-radius: @border-radius-base;
     box-shadow: @box-shadow-base;
 
@@ -203,7 +203,7 @@
       &,
       &:hover {
         font-weight: @select-item-selected-font-weight;
-        background-color: @background-color-light;
+        background-color: @cascader-item-selected-bg;
       }
     }
     &-expand {

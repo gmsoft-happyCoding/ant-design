@@ -14,6 +14,7 @@ import Header from './Header';
 import enLocale from '../../en-US';
 import cnLocale from '../../zh-CN';
 import * as utils from '../utils';
+import Themeable from '../Themeable';
 
 if (typeof window !== 'undefined' && navigator.serviceWorker) {
   navigator.serviceWorker.getRegistrations().then(registrations => {
@@ -140,7 +141,9 @@ export default class Layout extends React.Component {
           <ConfigProvider locale={appLocale.locale === 'zh-CN' ? zhCN : null}>
             <div className="page-wrapper">
               <Header {...restProps} />
-              {children}
+              <Themeable>
+                {children}
+              </Themeable>
             </div>
           </ConfigProvider>
         </IntlProvider>

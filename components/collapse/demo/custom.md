@@ -25,7 +25,7 @@ const text = `
 `;
 
 const customPanelStyle = {
-  background: '#f7f7f7',
+  background: 'var(--bgColorLight, #f7f7f7)',
   borderRadius: 4,
   marginBottom: 24,
   border: 0,

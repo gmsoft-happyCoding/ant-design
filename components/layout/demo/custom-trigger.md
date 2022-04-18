@@ -50,7 +50,7 @@ class SiderDemo extends React.Component {
           </Menu>
         </Sider>
         <Layout>
-          <Header style={{ background: '#fff', padding: 0 }}>
+          <Header style={{ background: 'var(--pageBgColor, #fff)', padding: 0 }}>
             <Icon
               className="trigger"
               type={this.state.collapsed ? 'menu-unfold' : 'menu-fold'}
@@ -61,7 +61,8 @@ class SiderDemo extends React.Component {
             style={{
               margin: '24px 16px',
               padding: 24,
-              background: '#fff',
+              background: 'var(--pageBgColor, #fff)',
+              border: '1px solid var(--borderColorBase)',
               minHeight: 280,
             }}
           >

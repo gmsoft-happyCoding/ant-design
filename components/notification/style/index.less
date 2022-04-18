@@ -39,9 +39,10 @@
     padding: @notification-padding;
     overflow: hidden;
     line-height: 1.5;
-    background: @component-background;
+    word-wrap: break-word;
+    background: @popover-background;
     border-radius: @border-radius-base;
-    box-shadow: @shadow-2;
+    box-shadow: @box-shadow-base;
 
     &-message {
       display: inline-block;
@@ -116,7 +117,7 @@
       outline: none;
 
       &:hover {
-        color: shade(@text-color-secondary, 40%);
+        color: @icon-color-hover; // shade(@text-color-secondary, 40%);;
       }
     }
 
@@ -135,9 +136,9 @@
   &-fade-enter,
   &-fade-appear {
     opacity: 0;
-    .notification-fade-effect();
 
     animation-play-state: paused;
+    .notification-fade-effect();
   }
 
   &-fade-leave {

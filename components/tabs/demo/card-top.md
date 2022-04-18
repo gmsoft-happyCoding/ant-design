@@ -49,12 +49,12 @@ ReactDOM.render(
 }
 
 .card-container > .ant-tabs-card > .ant-tabs-content > .ant-tabs-tabpane {
-  background: #fff;
+  background: var(--popoverBgColor, #fff);
   padding: 16px;
 }
 
 .card-container > .ant-tabs-card > .ant-tabs-bar {
-  border-color: #fff;
+  border-color: var(--popoverBgColor, #fff);
 }
 
 .card-container > .ant-tabs-card > .ant-tabs-bar .ant-tabs-tab {
@@ -63,14 +63,14 @@ ReactDOM.render(
 }
 
 .card-container > .ant-tabs-card > .ant-tabs-bar .ant-tabs-tab-active {
-  border-color: #fff;
-  background: #fff;
+  border-color: var(--popoverBgColor, #fff);
+  background: var(--popoverBgColor, #fff);
 }
 ```
 
 <style>
 #components-tabs-demo-card-top .code-box-demo {
-  background: #F5F5F5;
+  background: var(--bgColorBase, #F5F5F5);
   overflow: hidden;
   padding: 24px;
 }

@@ -17,7 +17,7 @@ A borderless card on a gray background.
 import { Card } from 'antd';
 
 ReactDOM.render(
-  <div style={{ background: '#ECECEC', padding: '30px' }}>
+  <div style={{ background: 'var(--bgColorBase, #ECECEC)', padding: '30px' }}>
     <Card title="Card title" bordered={false} style={{ width: 300 }}>
       <p>Card content</p>
       <p>Card content</p>

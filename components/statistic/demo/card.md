@@ -17,7 +17,7 @@ Display statistic data in Card.
 import { Statistic, Card, Row, Col, Icon } from 'antd';
 
 ReactDOM.render(
-  <div style={{ background: '#ECECEC', padding: '30px' }}>
+  <div style={{ background: 'var(--bgColorBase,#ECECEC)', padding: '30px' }}>
     <Row gutter={16}>
       <Col span={12}>
         <Card>

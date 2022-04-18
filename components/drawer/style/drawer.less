@@ -141,7 +141,7 @@
     position: relative;
     z-index: 1;
     overflow: auto;
-    background-color: @component-background;
+    background-color: @popover-background;
     background-clip: padding-box;
     border: 0;
   }
@@ -181,14 +181,14 @@
     position: relative;
     padding: @drawer-header-padding;
     color: @text-color;
-    background: @component-background;
+    background: @popover-background;
     border-bottom: @border-width-base @border-style-base @border-color-split;
     border-radius: @border-radius-base @border-radius-base 0 0;
   }
 
   &-header-no-title {
     color: @text-color;
-    background: @component-background;
+    background: @popover-background;
   }
 
   &-body {
@@ -215,7 +215,7 @@
   }
   &-open {
     &-content {
-      box-shadow: @shadow-2;
+      box-shadow: @box-shadow-base;
     }
   }
 }

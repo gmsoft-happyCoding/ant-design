@@ -16,8 +16,9 @@ import LocaleReceiver from '../locale-provider/LocaleReceiver';
 import { getTwoToneColor, setTwoToneColor } from './twoTonePrimaryColor';
 
 // Initial setting
-ReactIcon.add(...Object.keys(allIcons).map(key => (allIcons as any)[key]));
+ReactIcon.add(...Object.keys(allIcons).map((key) => (allIcons as any)[key]));
 setTwoToneColor('#1890ff');
+
 let defaultTheme: ThemeType = 'outlined';
 let dangerousTheme: ThemeType | undefined;
 
@@ -85,7 +86,7 @@ export interface IconComponent<P> extends React.SFC<P> {
   unstable_ChangeDefaultThemeOfIcons?: typeof unstable_ChangeDefaultThemeOfIcons;
 }
 
-const Icon: IconComponent<IconProps> = props => {
+const Icon: IconComponent<IconProps> = (props) => {
   const {
     // affect outter <i>...</i>
     className,
@@ -109,6 +110,12 @@ const Icon: IconComponent<IconProps> = props => {
 
     ...restProps
   } = props;
+
+  let _twoToneColor = twoToneColor;
+  try {
+    if (theme && !twoToneColor)
+      _twoToneColor = document.documentElement.style.getPropertyValue('--primaryColor');
+  } catch (e) {}
 
   warning(
     Boolean(type || Component || children),
@@ -188,7 +195,7 @@ const Icon: IconComponent<IconProps> = props => {
         <ReactIcon
           className={svgClassString}
           type={computedType}
-          primaryColor={twoToneColor}
+          primaryColor={_twoToneColor}
           style={svgStyle}
         />
       );

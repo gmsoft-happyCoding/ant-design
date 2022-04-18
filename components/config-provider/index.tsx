@@ -7,8 +7,9 @@ import { RenderEmptyHandler } from './renderEmpty';
 import LocaleProvider, { Locale, ANT_MARK } from '../locale-provider';
 import LocaleReceiver from '../locale-provider/LocaleReceiver';
 import { ConfigConsumer, ConfigContext, CSPConfig, ConfigConsumerProps } from './context';
+import { SizeType } from './SizeContext';
 
-export { RenderEmptyHandler, ConfigConsumer, CSPConfig, ConfigConsumerProps };
+export { RenderEmptyHandler, ConfigContext, ConfigConsumer, CSPConfig, ConfigConsumerProps };
 
 export const configConsumerProps = [
   'getPopupContainer',
@@ -32,6 +33,9 @@ export interface ConfigProviderProps {
   pageHeader?: {
     ghost: boolean;
   };
+  space?: {
+    size?: SizeType | number;
+  };
 }
 
 class ConfigProvider extends React.Component<ConfigProviderProps> {
@@ -52,6 +56,7 @@ class ConfigProvider extends React.Component<ConfigProviderProps> {
       autoInsertSpaceInButton,
       locale,
       pageHeader,
+      space,
     } = this.props;
 
     const config: ConfigConsumerProps = {
@@ -59,6 +64,7 @@ class ConfigProvider extends React.Component<ConfigProviderProps> {
       getPrefixCls: this.getPrefixCls,
       csp,
       autoInsertSpaceInButton,
+      space,
     };
 
     if (getPopupContainer) {
@@ -87,7 +93,7 @@ class ConfigProvider extends React.Component<ConfigProviderProps> {
       <LocaleReceiver>
         {(_, __, legacyLocale) => (
           <ConfigConsumer>
-            {context => this.renderProvider(context, legacyLocale as Locale)}
+            {(context) => this.renderProvider(context, legacyLocale as Locale)}
           </ConfigConsumer>
         )}
       </LocaleReceiver>

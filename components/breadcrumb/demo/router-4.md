@@ -37,9 +37,9 @@ const breadcrumbNameMap = {
   '/apps/1/detail': 'Detail',
   '/apps/2/detail': 'Detail',
 };
-const Home = withRouter(props => {
+const Home = withRouter((props) => {
   const { location } = props;
-  const pathSnippets = location.pathname.split('/').filter(i => i);
+  const pathSnippets = location.pathname.split('/').filter((i) => i);
   const extraBreadcrumbItems = pathSnippets.map((_, index) => {
     const url = `/${pathSnippets.slice(0, index + 1).join('/')}`;
     return (
@@ -83,13 +83,13 @@ ReactDOM.render(
 }
 .demo-nav {
   height: 30px;
-  line-height: 30px;
   margin-bottom: 16px;
-  background: #f8f8f8;
+  line-height: 30px;
+  background: var(--bgColorBase, #f8f8f8);
 }
 .demo-nav a {
-  line-height: 30px;
   padding: 0 8px;
+  line-height: 30px;
 }
 .app-list {
   margin-top: 16px;

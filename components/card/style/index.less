@@ -3,11 +3,11 @@
 
 @card-prefix-cls: ~'@{ant-prefix}-card';
 @card-head-height: 48px;
-@card-hover-border: fade(@black, 9%);
+@card-hover-border: @blackFade8;
 @card-action-icon-size: 16px;
 
-@gradient-min: fade(@card-skeleton-bg, 20%);
-@gradient-max: fade(@card-skeleton-bg, 40%);
+@gradient-min: @skeleton-color;
+@gradient-max: @skeleton-to-color;
 
 .@{card-prefix-cls} {
   .reset-component;
@@ -83,6 +83,10 @@
     .clearfix;
   }
 
+  &-contain-grid {
+    overflow: hidden;
+  }
+
   &-contain-grid:not(&-loading) &-body {
     margin: -1px 0 0 -1px;
     padding: 0;
@@ -97,7 +101,7 @@
     box-shadow: 1px 0 0 0 @border-color-split, 0 1px 0 0 @border-color-split,
       1px 1px 0 0 @border-color-split, 1px 0 0 0 @border-color-split inset,
       0 1px 0 0 @border-color-split inset;
-    transition: all 0.3s;
+    transition: all 0.03s;
     &-hoverable {
       &:hover {
         position: relative;
@@ -132,6 +136,8 @@
     list-style: none;
     background: @card-actions-background;
     border-top: @border-width-base @border-style-base @border-color-split;
+    border-bottom-right-radius: @border-radius-base;
+    border-bottom-left-radius: @border-radius-base;
     .clearfix;
 
     & > li {

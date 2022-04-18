@@ -38,11 +38,11 @@ class App extends React.Component {
           height: 200,
           overflow: 'hidden',
           position: 'relative',
-          border: '1px solid #ebedf0',
+          border: '1px solid var(--borderColorBase, #ebedf0)',
           borderRadius: 2,
           padding: 48,
           textAlign: 'center',
-          background: '#fafafa',
+          background: 'var(--pageBgColor, #fafafa)',
         }}
       >
         Render in this

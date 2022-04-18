@@ -15,6 +15,12 @@ timeline: true
 
 ---
 
+## 3.26.20-custom.3
+
+`2022-04-18`
+
+- 💄 支持主题适配, 请和 @gmsoft/tt-sdk 一起使用(以兼容 ie11)
+
 ## 3.26.20
 
 `2020-10-27`
@@ -2731,7 +2737,7 @@ timeline: true
   - 🙅 废弃以下属性 `onRowClick`，`onRowDoubleClick`、`onRowContextMenu`、`onRowMouseEnter`、`onRowMouseLeave`，请使用 `onRow` 代替。
     ```javascript
     <Table
-      onRow={record => ({
+      onRow={(record) => ({
         onClick: () => {},
         onDoubleClick: () => {},
         onContextMenu: () => {},

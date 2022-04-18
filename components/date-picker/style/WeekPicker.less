@@ -6,16 +6,22 @@
     cursor: pointer;
     transition: all 0.3s;
     &:hover {
-      background: @primary-1;
+      background: @item-active-bg;
     }
     &.@{calendar-prefix-cls}-active-week {
-      font-weight: bold;
-      background: @primary-2;
+      // font-weight: bold;
+      // background: @primary-2;
+      color: @text-color-inverse;
+      background: @primary-color;
+      .@{calendar-prefix-cls}-date{
+        color: @text-color-inverse;
+      }
     }
     .@{calendar-prefix-cls}-selected-day .@{calendar-prefix-cls}-date,
     .@{calendar-prefix-cls}-selected-day:hover .@{calendar-prefix-cls}-date {
-      color: @text-color;
-      background: transparent;
+      // color: @text-color;
+      // background: transparent;
+      color: @text-color-inverse;
     }
   }
 }

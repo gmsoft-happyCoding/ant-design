@@ -20,10 +20,10 @@ ReactDOM.render(
   <div>
     <Input
       placeholder="Enter your username"
-      prefix={<Icon type="user" style={{ color: 'rgba(0,0,0,.25)' }} />}
+      prefix={<Icon type="user"  />}
       suffix={
         <Tooltip title="Extra information">
-          <Icon type="info-circle" style={{ color: 'rgba(0,0,0,.45)' }} />
+          <Icon type="info-circle"  />
         </Tooltip>
       }
     />
@@ -31,7 +31,7 @@ ReactDOM.render(
     <br />
     <br />
 
-    <Input prefix="￥" suffix="RMB" />
+    <Input prefix="￥" suffix="RMB" size="small" />
   </div>,
   mountNode,
 );

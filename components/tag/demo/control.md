@@ -85,7 +85,7 @@ class EditableTagGroup extends React.Component {
           />
         )}
         {!inputVisible && (
-          <Tag onClick={this.showInput} style={{ background: '#fff', borderStyle: 'dashed' }}>
+          <Tag onClick={this.showInput} style={{ borderStyle: 'dashed' }}>
             <Icon type="plus" /> New Tag
           </Tag>
         )}

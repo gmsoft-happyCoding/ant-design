@@ -8,9 +8,9 @@
     position: relative;
     display: block;
     box-sizing: border-box;
-    -webkit-touch-callout: none;
     -ms-touch-action: pan-y;
     touch-action: pan-y;
+    -webkit-touch-callout: none;
     -webkit-tap-highlight-color: transparent;
   }
   .slick-list {
@@ -184,7 +184,7 @@
         padding: 0;
         color: transparent;
         font-size: 0;
-        background: @component-background;
+        background: var(--primaryColorLighten35, #fff);
         border: 0;
         border-radius: 1px;
         outline: none;
@@ -198,7 +198,7 @@
       }
       &.slick-active button {
         width: @carousel-dot-active-width;
-        background: @component-background;
+        background: var(--primaryColorLighten35, #fff);
         opacity: 1;
         &:hover,
         &:focus {

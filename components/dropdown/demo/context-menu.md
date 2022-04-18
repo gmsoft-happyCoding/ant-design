@@ -29,7 +29,7 @@ ReactDOM.render(
     <div
       style={{
         textAlign: 'center',
-        background: '#f7f7f7',
+        background: 'var(--bgColorBase, #f7f7f7)',
         height: 200,
         lineHeight: '200px',
         color: '#777',

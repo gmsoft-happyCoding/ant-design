@@ -69,11 +69,12 @@ GMTitleLarge.defaultProps = {
 
 const GMTitleSmall = (props: GMTitleProps) => {
   const { divider, marginTop, marginBottom, style, ...restProps } = props;
-  const fontStyle = { fontSize: 16, color: 'rgba(0,0,0,0.45)', fontWeight: 500, ...style };
+  const fontStyle = { fontSize: 16, fontWeight: 500, ...style };
 
   return (
     <>
       <Title
+        type="secondary"
         {...restProps}
         style={{ marginTop, marginBottom: divider ? 8 : marginBottom, ...fontStyle }}
       />

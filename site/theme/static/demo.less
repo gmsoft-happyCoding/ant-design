@@ -38,8 +38,8 @@
     top: -14px;
     margin-left: 16px;
     padding: 1px 8px;
-    color: #777;
-    background: #fff;
+    color: var(--textSecondaryColor, #777);
+    background: var(--pageBgColor, #fff);
     border-radius: @border-radius-sm @border-radius-sm 0 0;
     transition: background-color 0.4s;
 
@@ -62,13 +62,13 @@
     padding-right: 6px;
     font-size: 12px;
     text-decoration: none;
-    background: #fff;
+    background: var(--pageBgColor, #fff);
     transform: scale(0.9);
   }
 
   &-demo {
     padding: 42px 24px 50px;
-    color: rgba(0, 0, 0, 0.65);
+    color: var(--textSecondaryColor, rgba(0, 0, 0, 0.65) ;);
     border-bottom: 1px solid @site-border-color-split;
   }
 
@@ -110,6 +110,7 @@
   }
 
   .code-expand-icon {
+    color: #697b8c;
     cursor: pointer;
   }
 
@@ -213,7 +214,7 @@
     font-size: 14px;
     line-height: 20px;
     text-align: center;
-    background: #fff;
+    background: var(--pageBgColor, #fff);
     border-radius: 20px;
     cursor: pointer;
     transition: all 0.24s;
@@ -277,19 +278,20 @@
 
   pre {
     width: auto;
-    margin: 0;
+    margin: 12px 0;
     code {
-      background: #fff;
+      color: var(--textColor, #314659);
+      background: var(--pageBgColor, #fff);
       border: none;
     }
   }
 
   &-debug {
-    border-color: @purple-3;
+    border-color: @volcano-6;
   }
 
   &-debug &-title a {
-    color: @purple-6;
+    color: @volcano-6;
   }
 }
 

@@ -35,7 +35,7 @@ ReactDOM.render(
     <Button type="link" disabled>
       Link(disabled)
     </Button>
-    <div style={{ padding: '8px 8px 0 8px', background: 'rgb(190, 200, 200)' }}>
+    <div style={{ padding: '8px 8px 0 8px', background: 'var(--blackFade20, rgb(190, 200, 200))' }}>
       <Button ghost>Ghost</Button>
       <Button ghost disabled>
         Ghost(disabled)

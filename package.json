@@ -43,7 +43,7 @@
   "scripts": {
     "api-collection": "antd-tools run api-collection",
     "authors": "git log --format='%aN <%aE>' | sort -u | grep -v 'users.noreply.github.com' | grep -v 'gitter.im' | grep -v '.local>' | grep -v 'alibaba-inc.com' | grep -v 'alipay.com' | grep -v 'taobao.com' > AUTHORS.txt",
-    "build": "npm run compile && npm run dist",
+    "build": "rm -rf ./dist ./es ./lib && npm run compile && npm run dist",
     "bundlesize": "bundlesize",
     "check-commit": "node ./scripts/check-commit.js",
     "compile": "antd-tools run compile",
@@ -67,7 +67,7 @@
     "prettier": "prettier -c --write '**/*'",
     "pretty-quick": "pretty-quick",
     "pub": "antd-tools run pub",
-    "pub:local": "rm -rf ./dist ./es ./lib && yarn run compile && yarn run dist && npm publish",
+    "pub:local": "rm -rf ./dist ./es ./lib && yarn run compile && yarn run dist && yarn publish",
     "site": "cross-env NODE_ICU_DATA=node_modules/full-icu bisheng build -c ./site/bisheng.config.js",
     "sort": "npx sort-package-json",
     "sort-api": "antd-tools run sort-api-table",

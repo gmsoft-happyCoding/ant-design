@@ -9,10 +9,6 @@
   position: relative;
 }
 
-html {
-  --antd-wave-shadow-color: @primary-color;
-}
-
 [ant-click-animating-without-extra-node='true']::after,
 .ant-click-animating-node {
   position: absolute;
@@ -23,7 +19,7 @@ html {
   display: block;
   border-radius: inherit;
   box-shadow: 0 0 0 0 @primary-color;
-  box-shadow: 0 0 0 0 var(--antd-wave-shadow-color);
+  box-shadow: 0 0 0 0 var(--waveShadowColor, var(--primaryColor));
   opacity: 0.2;
   animation: fadeEffect 2s @ease-out-circ, waveEffect 0.4s @ease-out-circ;
   animation-fill-mode: forwards;
@@ -34,7 +30,7 @@ html {
 @keyframes waveEffect {
   100% {
     box-shadow: 0 0 0 @primary-color;
-    box-shadow: 0 0 0 @wave-animation-width var(--antd-wave-shadow-color);
+    box-shadow: 0 0 0 @wave-animation-width var(--waveShadowColor, var(--primaryColor));
   }
 }
 

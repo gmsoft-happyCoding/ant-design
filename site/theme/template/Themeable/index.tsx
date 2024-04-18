@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useMemo } from 'react';
 import { Inspector as RetoggleInspector } from 'retoggle';
 import useTheme from './theme';
 import { Themeable } from '@gmsoft/tt-sdk';
@@ -18,9 +18,16 @@ export default ({ children }: Props) => {
 
   const theme = useTheme(colorScheme);
 
+  const extraTheme = useMemo(
+    () => ({
+      base: theme,
+    }),
+    [theme],
+  );
+
   return (
     <Provider store={store}>
-      <Themeable colorScheme={colorScheme} djcGatewayBaseUrl="" extraTheme={theme as any}>
+      <Themeable colorScheme={colorScheme} djcGatewayBaseUrl="" extraTheme={extraTheme}>
         {children}
       </Themeable>
     </Provider>
